@@ -165,17 +165,17 @@
     &-2 {
       text-align: right;
 
-      @media #{$lg} {
-        display: none;
-      }
+      // @media #{$lg} {
+      //   display: none;
+      // }
 
-      @media #{$md} {
-        display: none;
-      }
+      // @media #{$md} {
+      //   display: none;
+      // }
 
-      @media #{$sm} {
-        display: none;
-      }
+      // @media #{$sm} {
+      //   display: none;
+      // }
     }
 
     &-icon {
@@ -442,5 +442,32 @@
 .dark {
   .menu-icon img {
     filter: invert(1);
+  }
+}
+
+.ascqewad {
+  padding: 0 40px !important;
+  @media(max-width: 700px) {
+    padding: 0 20px !important;
+  }
+  @media(max-width: 460px) {
+    padding: 0 10px !important;
+  }
+}
+
+.egwbefvwdca {
+  display: block;
+}
+
+.uphead {
+  @media(max-width: 700px) {
+    font-size: 10px !important;
+  }
+  @media(max-width: 550px) {
+    text-transform: lowercase !important;
+    font-size: 12px !important;
+  }
+  @media(max-width: 420px) {
+    font-size: 11px !important;
   }
 }

@@ -70,22 +70,22 @@ const Header = ({ option }) => {
             option == "black"
               ? "main-menu-3 menu-anim woocomerce-menu"
               : "main-menu-3 menu-anim"
-          }`}
+          } egwbefvwdca`}
           ref={menuAnim}
         >
           {/* <li>
             <Link className='uphead' href={"/goods-category"}>каталог</Link>
           </li> */}
-          <li>
+          <li className="ascqewad">
             <Link className='uphead' href={"/About-us"}>компания</Link>
           </li>
-          <li>
+          <li className="ascqewad">
             <Link className='uphead' href={"/Contacts"}>Контакты</Link>
           </li>
-          <li>
+          <li className="ascqewad">
             <Link className='uphead' href={"/delivery"}>доставка</Link>
           </li>
-          <li>
+          <li className="ascqewad">
             <Link className='uphead' href={"/flowers-by-color"}>#Цветы по цветам</Link>
           </li>
 

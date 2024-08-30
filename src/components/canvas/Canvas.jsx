@@ -119,13 +119,8 @@ const Canvas = ({ ofCanvasArea }) => {
               <nav className="offcanvas__menu">
                 <ul className="menu-anim title" ref={headerTitle}>
                   <li>
-                    <div className="header_title">
-                      <Link href={"/"}>HOME</Link>
-                    </div>
-                  </li>
-                  <li>
                     <div className="header_title d-flex">
-                      <Link href={"#"}>Shop</Link>
+                      <Link href={"#"}>Цветы</Link>
                       <div className="accordian-btn">
                         {accordion === 2 ? (
                           <a onClick={() => openData(0)}>-</a>
@@ -141,16 +136,22 @@ const Canvas = ({ ofCanvasArea }) => {
                       }
                     >
                       <li>
-                        <Link href={"/shop/full"}>Full Width</Link>
+                        <Link href={"/category/Цветы"}>Все цветы</Link>
                       </li>
                       <li>
-                        <Link href={"/shop/side-bar"}>Side Bar</Link>
+                        <Link href={"/bouquets/букеты"}>Все букеты</Link>
+                      </li>
+                      <li>
+                        <Link href={"/feature/superbouquets"}>Супер букеты</Link>
+                      </li>
+                      <li>
+                        <Link href={"/feature/featured"}>Популярные цветы</Link>
                       </li>
                     </ul>
                   </li>
                   <li>
                     <div className="header_title d-flex">
-                      <Link href={"/shop/full"}>Product</Link>
+                      <Link href={"/shop/full"}>Экспресс-доставка</Link>
                       <div className="accordian-btn">
                         {accordion === 3 ? (
                           <a onClick={() => openData(0)}>-</a>
@@ -166,14 +167,39 @@ const Canvas = ({ ofCanvasArea }) => {
                       }
                     >
                       <li>
-                        <Link href={"/shop/202"}>Product Details</Link>
+                        <Link href={"/delivery/доставим%20сегодня"}>Доставим&nbsp;сегодня</Link>
                       </li>
                       <li>
-                        <Link href={"/category"}>Product Category</Link>
+                        <Link href={"/доставим%20завтра"}>Доставим&nbsp;завтра</Link>
                       </li>
                     </ul>
                   </li>
                   <li>
+                    <div className="header_title">
+                      <Link href={"/vazi/Денежные%20букеты"}>Денежные&nbsp;букеты</Link>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="header_title">
+                      <Link href={"/flowers-by-category"}>Цветочное&nbsp;разнообразие</Link>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="header_title">
+                      <Link href={"/flowers-by-color"}>Цветы&nbsp;по&nbsp;цветам</Link>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="header_title">
+                      <Link href={"/bouquets/букеты"}>Все&nbsp;букеты</Link>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="header_title">
+                      <Link href={"/shop/side-bar"}>Все&nbsp;товары</Link>
+                    </div>
+                  </li>
+                  {/* <li>
                     <div className="header_title d-flex">
                       <Link href={"#"}>PAGES</Link>
                       <div className="accordian-btn">
@@ -292,12 +318,12 @@ const Canvas = ({ ofCanvasArea }) => {
                         </ul>
                       </li>
                     </ul>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <div className="header_title">
                       <Link href={"/contact"}>CONTACT</Link>
                     </div>
-                  </li>
+                  </li> */}
                 </ul>
               </nav>
             </div>
@@ -306,7 +332,7 @@ const Canvas = ({ ofCanvasArea }) => {
             <div className="offcanvas__search">
               <OffCanvasSearch allData={allData} />
             </div>
-            <div className="offcanvas__contact">
+            {/* <div className="offcanvas__contact">
               <h3>Get in touch</h3>
               <ul>
                 <li>
@@ -317,7 +343,7 @@ const Canvas = ({ ofCanvasArea }) => {
                 </li>
                 <li>230 Norman Street New York, QC (USA) H8R 1A1</li>
               </ul>
-            </div>
+            </div> */}
             <Image
               priority
               style={{ width: "auto", height: "auto" }}
