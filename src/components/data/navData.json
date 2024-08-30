@@ -1,0 +1,49 @@
+{
+  "nav": [
+    {
+      "nav_name": "Главная",
+      "link": "/digital-marketing",
+      "type": "",
+      "sub_nav": []
+    },
+    {
+      "nav_name": "Коллекции",
+      "link": "/about",
+      "type": "",
+      "sub_nav": []
+    },
+    {
+      "nav_name": "Каталог",
+      "link": "/about",
+      "type": "",
+      "sub_nav": []
+    },
+    {
+      "nav_name": "О нас",
+      "link": "/about",
+      "type": "",
+      "sub_nav": []
+    },
+    {
+      "nav_name": "Сотрудничество",
+      "link": "/collaboration",
+      "type": "dropdown",
+      "sub_nav": [
+        {
+          "name": "Сотрудничество с дизайнеами",
+          "link": "/for-designers"
+        },
+        {
+          "name": "Сотрудничество с дилерами",
+          "link": "/for-retails"
+        }
+      ]
+    },
+    {
+      "nav_name": "Контакты",
+      "link": "/Contacts",
+      "type": "",
+      "sub_nav": []
+    }
+  ]
+}

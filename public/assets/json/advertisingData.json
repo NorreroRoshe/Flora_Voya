@@ -1,0 +1,61 @@
+{
+  "hero_advertising": [
+    {
+      "id": "101",
+      "title": "Express your natural beauty",
+      "description": "View the full case study of our recent featured and awesome global branding agency that powers",
+      "sub_title": "Starts from",
+      "img": "woocomerce/exclusive/Group29.jpg",
+      "imgMob": "woocomerce/exclusive/Group36.jpg",
+      "price": "65.89"
+    },
+    {
+      "id": "102",
+      "title": "Express your natural beauty",
+      "description": "View the full case study of our recent featured and awesome global branding agency that powers",
+      "sub_title": "Starts from",
+      "img": "woocomerce/exclusive/Group27.jpg",
+      "imgMob": "woocomerce/exclusive/Group35.png",
+      "price": "65.89"
+    },
+    {
+      "id": "103",
+      "title": "Express your natural beauty",
+      "description": "View the full case study of our recent featured and awesome global branding agency that powers",
+      "sub_title": "Starts from",
+      "img": "woocomerce/exclusive/Group28.jpg",
+      "imgMob": "woocomerce/exclusive/Group37.jpg",
+      "price": "65.89"
+    }
+  ],
+  "body_advertising": [
+    {
+      "id": "401",
+      "title": "Аксессуары, Игрушки, Картины",
+      "sub_title": "Современные",
+      "section": "1",
+      "img": "catImg/4.jpg"
+    },
+    { 
+      "id": "402",
+      "title": "Растения для помещений",
+      "sub_title": "Натуральные и искусственные",
+      "section": "1",
+      "img": "catImg/3.jpg"
+    },
+    {
+      "id": "403",
+      "title": "Премиальные цветы",
+      "sub_title": "Ексклюзивные",
+      "section": "2",
+      "img": "catImg/1.jpg"
+    },
+    {
+      "id": "404",
+      "title": "Денежные букеты",
+      "sub_title": "Незабываемые",
+      "section": "2",
+      "img": "catImg/2.jpg"
+    }
+  ]
+}

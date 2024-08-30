@@ -1,0 +1,108 @@
+{
+  "collections": [
+    {
+      "id": "201",
+      "img": "woocomerce/products/p1.png",
+      "hover_img": "woocomerce/products/p2.png",
+      "collections": "Nature",
+      "title": "Nature",
+      "coll_desc": "Данный светильник уникален всякими светящими ништяками и бла бла бла..... А еще он очень уникальный и всякое такое"
+    },
+    {
+      "id": "202",
+      "img": "woocomerce/products/p12.png",
+      "hover_img": "woocomerce/products/p4.png",
+      "collections": "Vine",
+      "title": "Vine",
+      "coll_desc": "Данный светильник уникален всякими светящими ништяками и бла бла бла..... А еще он очень уникальный и всякое такое"
+    },
+    {
+      "id": "203",
+      "img": "woocomerce/products/p3.png",
+      "hover_img": "woocomerce/products/p6.png",
+      "collections": "Ice",
+      "title": "Ice",
+      "coll_desc": "Данный светильник уникален всякими светящими ништяками и бла бла бла..... А еще он очень уникальный и всякое такое"
+    },
+    {
+      "id": "204",
+      "img": "woocomerce/products/p4.png",
+      "hover_img": "woocomerce/products/p12.png",
+      "collections": "Flower",
+      "title": "Flower",
+      "coll_desc": "Данный светильник уникален всякими светящими ништяками и бла бла бла..... А еще он очень уникальный и всякое такое"
+    },
+    {
+      "id": "205",
+      "img": "woocomerce/products/p5.png",
+      "hover_img": "woocomerce/products/p10.png",
+      "collections": "Lusina",
+      "title": "Lusina",
+      "coll_desc": "Данный светильник уникален всякими светящими ништяками и бла бла бла..... А еще он очень уникальный и всякое такое"
+    },
+    {
+      "id": "206",
+      "img": "woocomerce/products/p6.png",
+      "hover_img": "woocomerce/products/p12.png",
+      "collections": "Safari",
+      "title": "Safari",
+      "coll_desc": "Данный светильник уникален всякими светящими ништяками и бла бла бла..... А еще он очень уникальный и всякое такое"
+    },
+    {
+      "id": "207",
+      "img": "woocomerce/products/p7.png",
+      "hover_img": "woocomerce/products/p14.png",
+      "collections": "Da Vinci",
+      "title": "Da Vinci",
+      "coll_desc": "Данный светильник уникален всякими светящими ништяками и бла бла бла..... А еще он очень уникальный и всякое такое"
+    },
+    {
+      "id": "208",
+      "img": "woocomerce/products/p8.png",
+      "hover_img": "woocomerce/products/p15.png",
+      "collections": "Provence",
+      "title": "Provence",
+      "coll_desc": "Данный светильник уникален всякими светящими ништяками и бла бла бла..... А еще он очень уникальный и всякое такое"
+    },
+    {
+      "id": "209",
+      "img": "woocomerce/products/p9.png",
+      "hover_img": "woocomerce/products/p18.png",
+      "collections": "Wish",
+      "title": "Wish",
+      "coll_desc": "Данный светильник уникален всякими светящими ништяками и бла бла бла..... А еще он очень уникальный и всякое такое"
+    },
+    {
+      "id": "210",
+      "img": "woocomerce/products/p10.png",
+      "hover_img": "woocomerce/products/p20.png",
+      "collections": "Crystal",
+      "title": "Crystal",
+      "coll_desc": "Данный светильник уникален всякими светящими ништяками и бла бла бла..... А еще он очень уникальный и всякое такое"
+    },
+    {
+      "id": "211",
+      "img": "woocomerce/products/p11.png",
+      "hover_img": "woocomerce/products/p22.png",
+      "collections": "Niagara",
+      "title": "Niagara",
+      "coll_desc": "Данный светильник уникален всякими светящими ништяками и бла бла бла..... А еще он очень уникальный и всякое такое"
+    },
+    {
+      "id": "212",
+      "img": "woocomerce/products/p12.png",
+      "hover_img": "woocomerce/products/p24.png",
+      "collections": "Geometry",
+      "title": "Geometry",
+      "coll_desc": "Данный светильник уникален всякими светящими ништяками и бла бла бла..... А еще он очень уникальный и всякое такое"
+    },
+    {
+      "id": "213",
+      "img": "woocomerce/products/p13.png",
+      "hover_img": "woocomerce/products/p1.png",
+      "collections": "Malena",
+      "title": "Malena",
+      "coll_desc": "Данный светильник уникален всякими светящими ништяками и бла бла бла..... А еще он очень уникальный и всякое такое"
+    }
+  ]
+}
