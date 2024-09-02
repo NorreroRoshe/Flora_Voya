@@ -48,6 +48,8 @@ export default function ProductModal({ setModalShow, product }) {
 
   const priceSize = Number(selectedSize[0]?.replace(/\D/g, ''));
 
+  const [isWideScreen, setIsWideScreen] = useState(false);
+
   const warningTost = (data) => {
     toast.warn(data, {
       position: "top-center",
@@ -89,6 +91,7 @@ export default function ProductModal({ setModalShow, product }) {
   //     });
   //   }
   // };
+
   const sizeSelect = (data) => {
     let realData = data.toLowerCase();
     if (selectedSize.includes(realData)) {
@@ -209,6 +212,19 @@ export default function ProductModal({ setModalShow, product }) {
     // ,product.size
     ]);
 
+    useEffect(() => {
+      const checkScreenWidth = () => {
+        setIsWideScreen(window.innerWidth > 767);
+      };
+  
+      checkScreenWidth(); // Initial check
+      window.addEventListener("resize", checkScreenWidth);
+  
+      return () => {
+        window.removeEventListener("resize", checkScreenWidth);
+      };
+    }, []);
+
   return (
     <>
       <Modal
@@ -224,41 +240,61 @@ export default function ProductModal({ setModalShow, product }) {
           <section className="woocomerce__single woocomerce_single2 sec-plr-50">
             <div className="woocomerce__single-wrapper2">
               <div className="woocomerce__single-left" style={{ order: "1" }}>
-                <div className="img-box">
-                  <Image
-                    priority
-                    width={400}
-                    height={560}
-                    style={{
-                      height: "auto",
-                      width: "100%",
-                      objectFit: "cover",
-                    }}
-                    className="image-box__item efgwrbetf"
-                    src={`/assets/imgs/${product.hover_img}`}
-                    alt="Blog Thumbnail"
-                  />
-                  <Image
-                    priority
-                    width={400}
-                    height={560}
-                    style={{
-                      height: "auto",
-                      width: "100%",
-                      objectFit: "cover",
-                    }}
-                    className="woocomerce__feature-mainImg"
-                    src={`/assets/imgs/${product.img}`}
-                    alt="product-img"
-                  />
-                </div>
+                {isWideScreen ? (
+                  <div className="img-box">
+                    <Image
+                      priority
+                      width={400}
+                      height={560}
+                      style={{
+                        height: "auto",
+                        width: "100%",
+                        objectFit: "cover",
+                      }}
+                      className="image-box__item efgwrbetf"
+                      src={`/assets/imgs/${product.hover_img}`}
+                      alt="Blog Thumbnail"
+                    />
+                    <Image
+                      priority
+                      width={400}
+                      height={560}
+                      style={{
+                        height: "auto",
+                        width: "100%",
+                        objectFit: "cover",
+                      }}
+                      className="woocomerce__feature-mainImg"
+                      src={`/assets/imgs/${product.img}`}
+                      alt="product-img"
+                    />
+                  </div>
+                ) : (
+                  <div className="img-box">
+                    <Image
+                      priority
+                      width={400}
+                      height={560}
+                      style={{
+                        height: "auto",
+                        width: "100%",
+                        objectFit: "cover",
+                      }}
+                      className="woocomerce__feature-mainImg"
+                      src={`/assets/imgs/${product.img}`}
+                      alt="product-img"
+                    />
+                  </div>
+                )}
               </div>
               <div
                 className="woocomerce__single-right wc_slide_btm"
                 style={{ order: "1" }}
               >
                 <div className="woocomerce__single-content">
-                  <h2 className="woocomerce__single-title2">{product.title}</h2>
+                  <Link href={`/shop/${product.id}`}>
+                    <h2 className="woocomerce__single-title2">{product.title}</h2>
+                  </Link>
                   <div className="woocomerce__single-pricelist">
                     {product.dis_price ? (
                       <>

@@ -207,7 +207,7 @@
 //                 className="woocomerce__filtering-filtericon"
 //                 onClick={() => setOpenMobile(!openMobile)}
 //               >
-//                 <i className="fa-solid fa-filter"></i> filtering{" "}
+//                 <i className="fa-solid fa-filter"></i> Все фильтры{" "}
 //               </span>
 //             </div>
 
@@ -538,7 +538,7 @@ export default function SingleCategory({ allData, allFilter }) {
                 className="woocomerce__filtering-filtericon"
                 onClick={() => setOpenMobile(!openMobile)}
               >
-                <i className="fa-solid fa-filter"></i> filtering{" "}
+                <i className="fa-solid fa-filter"></i> Все фильтры{" "}
               </span>
             </div>
 

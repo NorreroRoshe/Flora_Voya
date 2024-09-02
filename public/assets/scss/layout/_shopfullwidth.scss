@@ -465,7 +465,8 @@
     &-breadcrumb {
       display: flex;
       gap: 8px;
-
+      flex-wrap: wrap;
+      
       li {
         a {
           font-family: $font_primary;

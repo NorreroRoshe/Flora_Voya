@@ -83,7 +83,7 @@ const SideFilter = ({ allData, allFilter }) => {
   }, [allData]);
 
 
-  console.log(productFilter,'productFilter')
+  console.log(productFilter, 'productFilter')
 
   return (
     <>
@@ -99,7 +99,7 @@ const SideFilter = ({ allData, allFilter }) => {
                 }
               >
                 <Accordion className="accordion short-by">
-                  
+
                   <h3 className="woocomerce__shopsidebar-title">
                     Фильтры :
                   </h3>
@@ -108,7 +108,7 @@ const SideFilter = ({ allData, allFilter }) => {
 
 
 
-                  
+
                   {/* <Accordion.Item eventKey="1" className="accordion-item">
                     <Accordion.Header className="accordion-header">
                       <p style={{textTransform: 'uppercase', fontSize: '15px' }}>Повод</p>
@@ -129,7 +129,7 @@ const SideFilter = ({ allData, allFilter }) => {
 
                   <Accordion.Item eventKey="4" className="accordion-item">
                     <Accordion.Header className="accordion-header">
-                      <p style={{textTransform: 'uppercase', fontSize: '15px' }}>Цветочное разнообразие</p>
+                      <p style={{ textTransform: 'uppercase', fontSize: '15px' }}>Цветочное разнообразие</p>
                     </Accordion.Header>
                     <Accordion.Body className="accordion-collapse collapse show">
                       <CollectionsFilter2
@@ -144,7 +144,7 @@ const SideFilter = ({ allData, allFilter }) => {
 
                   <Accordion.Item eventKey="3" className="accordion-item">
                     <Accordion.Header className="accordion-header">
-                      <p style={{textTransform: 'uppercase', fontSize: '15px'}}>по Цене</p>
+                      <p style={{ textTransform: 'uppercase', fontSize: '15px' }}>по Цене</p>
                     </Accordion.Header>
                     <Accordion.Body className="accordion-collapse collapse show">
                       <PriceFilter2
@@ -158,7 +158,7 @@ const SideFilter = ({ allData, allFilter }) => {
                   <h3 className="woocomerce__shopsidebar-title title-pt">Сортировка :</h3>
                   <Accordion.Item eventKey="0" className="accordion-item">
                     <Accordion.Header className="accordion-header">
-                    <p style={{textTransform: 'uppercase', fontSize: '15px'}}>Выберите значение :</p>
+                      <p style={{ textTransform: 'uppercase', fontSize: '15px' }}>Выберите значение :</p>
                     </Accordion.Header>
                     <Accordion.Body className="accordion-collapse collapse show">
                       <SortFilter2
@@ -177,7 +177,7 @@ const SideFilter = ({ allData, allFilter }) => {
                   className="woocomerce__filtering-filtericon"
                   onClick={() => setOpenMobile(!openMobile)}
                 >
-                  <i className="fa-solid fa-filter"></i> filtering{" "}
+                  <i className="fa-solid fa-filter"></i> Все фильтры{" "}
                 </span>
               </div>
             </div>
@@ -192,7 +192,7 @@ const SideFilter = ({ allData, allFilter }) => {
                 {showData && showData.length ? (
                   showData.map((el) => <ProductCard el={el} key={el.id} />)
                 ) : (
-                  <p style={{textTransform: 'uppercase', fontSize: '15px'}}>No Product Found</p>
+                  <p style={{ textTransform: 'uppercase', fontSize: '15px' }}>No Product Found</p>
                 )}
               </div>
             </div>

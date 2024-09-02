@@ -279,22 +279,24 @@ const ProductDetails = ({ details }) => {
                     </Link>
                   </li>
                   <li>
-                    <Link href={"/shop/full"}>
+                    <Link href={"/shop/side-bar"}>
                       Магазин <i className="fa-solid fa-chevron-right"></i>
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href={"#"}>
                       {details.category}{" "}
                       <i className="fa-solid fa-chevron-right"></i>
                     </Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link href={"#"}>{details.title}</Link>
-                  </li>
+                  </li> */}
                 </ul>
                 <div className="woocomerce__single-content">
-                  <h2 className="woocomerce__single-title">{details.title}</h2>
+                  <h2 className="woocomerce__single-title"
+                  // style={{marginTop: '20px'}}
+                  >{details.title}</h2>
                   <div className="woocomerce__single-pricelist">
                   {/* <span className="woocomerce__single-discountprice">
                     {details.dis_price ? Math.floor(details.dis_price) : Math.floor(details.price)} ₽
