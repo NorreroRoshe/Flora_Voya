@@ -486,7 +486,8 @@
     &-title {
       font-family: $font_primary;
       font-weight: 400;
-      font-size: 60px;
+      // font-size: 60px;
+      font-size: 33px;
       line-height: 1.1;
       color: var(--black-2);
       padding-top: 18px;
@@ -501,14 +502,15 @@
       }
 
       @media #{$sm} {
-        font-size: 40px;
+        font-size: 25px;
       }
     }
     // update v0.3
     &-title2 {
       font-family: $font_primary;
       font-weight: 400;
-      font-size: 50px;
+      // font-size: 50px;
+      font-size: 28px;
       line-height: 1.1;
       color: var(--black-2);
       padding-top: 18px;
@@ -605,6 +607,9 @@
 
     &-varitions {
       padding-top: 40px;
+      @media(max-width: 680px) {
+        padding-top: 10px;
+      }
     }
 
     &-stitle {
@@ -618,10 +623,12 @@
     &-sizelist {
       display: flex;
       gap: 10px;
+      flex-wrap: wrap;
       // update v0.3
       li {
-        background: #f1f1f1;
-        border-radius: 12.5px;
+        // background: #f1f1f1;
+        // border-radius: 12.5px;
+        border-radius: 50%;
         font-weight: 400;
         font-size: 12px;
         line-height: 12px;
@@ -630,7 +637,8 @@
         align-items: center;
         justify-content: center;
         text-transform: uppercase;
-        padding: 5px 10px;
+        // padding: 5px 10px;
+        padding: 8px;
         cursor: pointer;
         transition: all 0.3s;
 
@@ -639,6 +647,12 @@
           background-color: var(--black-2);
         }
       }
+        .sizewwsews {
+          background: #f1f1f1;
+          border-radius: 12.5px !important;
+          padding: 5px 10px;
+          color: #000;
+        }
     }
 
     &-sku {
@@ -980,7 +994,8 @@
 
     &-wrapper {
       display: grid;
-      grid-template-columns: 500px 1fr;
+      grid-template-columns: 385px 1fr;
+      // grid-template-columns: 500px 1fr;
       gap: 110px;
 
       @media #{$xxl} {
@@ -1225,7 +1240,8 @@
 
     &-menuitems {
       display: grid;
-      grid-template-columns: 1.7fr 0.5fr 0.7fr 0.5fr auto;
+      // grid-template-columns: 1.7fr 0.5fr 0.7fr 0.5fr auto;
+      grid-template-columns: 1.7fr 0.5fr 0.7fr 0.1fr;
       padding-bottom: 10px;
 
       @media #{$sm} {
@@ -1243,8 +1259,9 @@
 
     &-productlist {
       display: grid;
-      grid-template-columns: 1.7fr 0.5fr 0.7fr 0.5fr auto;
-      margin-bottom: 40px;
+      // grid-template-columns: 1.7fr 0.5fr 0.7fr 0.5fr auto;
+      grid-template-columns: 1.7fr 0.5fr 0.7fr 0.1fr;
+      margin-bottom: 40px;  
       border-top: 1px solid var(--white-3);
       padding-top: 30px;
 
@@ -2090,5 +2107,22 @@
 .woc__sfw_mobile {
   @media (max-width: 991px) {
     display: block;
+  }
+}
+
+
+.caWDXQ {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.wfegbrwafscvqecwqs {
+  width: 100%;
+}
+
+.ebrentbrwve {
+  @media(max-width: 767px){
+    padding-top: 10px;
   }
 }

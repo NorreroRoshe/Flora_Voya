@@ -126,7 +126,11 @@ console.log(productFilter,'productFilter')
 
 
                   
-                  <Accordion.Item eventKey="5" className="accordion-item">
+
+
+
+                  
+                  {/* <Accordion.Item eventKey="5" className="accordion-item">
                     <Accordion.Header className="accordion-header">
                       <p style={{textTransform: 'uppercase', fontSize: '15px' }}>Повод</p>
                     </Accordion.Header>
@@ -139,7 +143,11 @@ console.log(productFilter,'productFilter')
                         filterAll={filterAll}
                       />
                     </Accordion.Body>
-                  </Accordion.Item>
+                  </Accordion.Item> */}
+
+
+
+
                   <Accordion.Item eventKey="1" className="accordion-item">
                     <Accordion.Header className="accordion-header">
                       <p style={{textTransform: 'uppercase', fontSize: '15px'}}>Категория товара</p>

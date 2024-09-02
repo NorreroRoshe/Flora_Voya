@@ -120,7 +120,7 @@ const Canvas = ({ ofCanvasArea }) => {
                 <ul className="menu-anim title" ref={headerTitle}>
                   <li>
                     <div className="header_title d-flex">
-                      <Link href={"#"}>Цветы</Link>
+                      <Link href={"/category/Цветы"}>Цветы</Link>
                       <div className="accordian-btn">
                         {accordion === 2 ? (
                           <a onClick={() => openData(0)}>-</a>

@@ -32,10 +32,18 @@ const Contact2 = () => {
 
   const context = useContext(AppContext);
   const { rootState } = context;
-  // console.log(rootState.cartData, 'context.rootState.cartData')
 
-const cart = rootState.cartData;
+  // rootState.cartData;
+const cart = JSON.parse(localStorage.getItem('cart'))
 // console.log(cart, 'context.rootState.cartData')
+
+const totalPrice = cart?.reduce((sum, item) => {
+  return sum + parseFloat(item.price) * item.quantity;
+}, 0);
+
+const totalCount = cart?.reduce((sum, item) => {
+  return sum + item.quantity;
+}, 0);
 
   // Я реализовал грамотную и удобную работу с формами, советую проанализировать и почитать про неподконтрольные инпуты
   const onFormChange = (e) => {
@@ -90,12 +98,30 @@ const cart = rootState.cartData;
       return;
     }
 
-    // Если же валидация успешна - отправляем запрос
-    await sendWithTg(formData, cart)
-    .then(() => setSent(true)) // Устанавливаем флаг "Sent" при успешной отправке
-    .catch(() => alert("Что-то пошло не так, попробуйте отправить позже"))
-    .finally(() => setLoad(false));
-  };
+  //   // Если же валидация успешна - отправляем запрос
+  //   await sendWithTg(formData, cart, totalPrice, totalCount)
+  //   .then(() => setSent(true)) // Устанавливаем флаг "Sent" при успешной отправке
+  //   .catch(() => alert("Что-то пошло не так, попробуйте отправить позже"))
+  //   .finally(() => setLoad(false));
+  // };
+
+  try {
+    await sendWithTg(formData, cart, totalPrice, totalCount);
+    setSent(true);
+    localStorage.removeItem('cart'); // Очистка localStorage после успешной отправки
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      company: "",
+      message: ""
+    }); // Очистка формы после отправки
+  } catch (error) {
+    alert("Что-то пошло не так, попробуйте отправить позже");
+  } finally {
+    setLoad(false);
+  }
+};
 
   return (
     <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7">

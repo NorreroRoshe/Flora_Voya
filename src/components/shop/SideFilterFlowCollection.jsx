@@ -119,7 +119,9 @@ const SideFilter = ({ allData, allFilter }) => {
                       />
                     </Accordion.Body>
                   </Accordion.Item> */}
-                {collections !== 'боксы' && 
+
+
+                {/* {collections !== 'боксы' && 
                 collections !== 'дизайнерские букеты'&&
                 collections !== 'букеты с розами' &&
                 collections !== 'премиум' &&
@@ -141,7 +143,11 @@ const SideFilter = ({ allData, allFilter }) => {
                       />
                     </Accordion.Body>
                   </Accordion.Item>
-                )}
+                )} */}
+
+
+
+                
                   <Accordion.Item eventKey="2" className="accordion-item">
                     <Accordion.Header className="accordion-header">
                       <p style={{textTransform: 'uppercase', fontSize: '15px'}}>по цвету</p>

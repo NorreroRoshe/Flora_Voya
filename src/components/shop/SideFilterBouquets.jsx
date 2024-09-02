@@ -100,6 +100,10 @@ console.log(productFilter,'productFilter')
                   <h3 className="woocomerce__shopsidebar-title">
                     Фильтры :
                   </h3>
+
+
+
+
                   {/* <Accordion.Item eventKey="1" className="accordion-item">
                     <Accordion.Header className="accordion-header">
                       <p style={{textTransform: 'uppercase', fontSize: '15px' }}>Повод</p>
@@ -114,6 +118,10 @@ console.log(productFilter,'productFilter')
                       />
                     </Accordion.Body>
                   </Accordion.Item> */}
+
+
+
+                  
                   
                   {/* <Accordion.Item eventKey="4" className="accordion-item">
                     <Accordion.Header className="accordion-header">

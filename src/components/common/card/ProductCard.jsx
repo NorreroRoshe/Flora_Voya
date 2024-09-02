@@ -121,8 +121,8 @@ const ProductCard = ({ el }) => {
               onClick={() => setModalShow(true)}
             >
               <Image
-                width={25}
-                height={22}
+                width={18}
+                height={15}
                 src="/assets/imgs/woocomerce/cart.png"
                 alt="cart"
               />

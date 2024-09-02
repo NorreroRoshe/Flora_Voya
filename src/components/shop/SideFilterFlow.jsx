@@ -123,7 +123,17 @@ console.log(productFilter,'productFilter')
                     </Accordion.Body>
                   </Accordion.Item> */}
 
-                  <Accordion.Item eventKey="1" className="accordion-item">
+
+
+
+
+
+
+
+
+
+
+                  {/* <Accordion.Item eventKey="1" className="accordion-item">
                     <Accordion.Header className="accordion-header">
                       <p style={{textTransform: 'uppercase', fontSize: '15px' }}>Повод</p>
                     </Accordion.Header>
@@ -136,7 +146,11 @@ console.log(productFilter,'productFilter')
                         filterAll={filterAll}
                       />
                     </Accordion.Body>
-                  </Accordion.Item>
+                  </Accordion.Item> */}
+
+
+
+                  
                   
                   <Accordion.Item eventKey="4" className="accordion-item">
                     <Accordion.Header className="accordion-header">
@@ -232,7 +246,7 @@ console.log(productFilter,'productFilter')
                   className="woocomerce__filtering-filtericon"
                   onClick={() => setOpenMobile(!openMobile)}
                 >
-                  <i className="fa-solid fa-filter"></i> filtering{" "}
+                  <i className="fa-solid fa-filter"></i> Все фильтры{" "}
                 </span>
               </div>
             </div>

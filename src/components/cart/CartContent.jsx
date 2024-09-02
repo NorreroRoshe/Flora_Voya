@@ -5,8 +5,6 @@ import { toast } from "react-toastify";
 export default function CartContent({ el, context }) {
   const router = useRouter();
 
-  console.log(context.rootState.cartData, 'context.rootState.cartData')
-
   const updateCount = (data, selector) => {
     let updateCart = [];
     JSON.parse(localStorage.getItem('cart')).map((el) => {
@@ -83,6 +81,8 @@ export default function CartContent({ el, context }) {
       theme: "light",
     });
   };
+
+// console.log(el,'elel..')  
   
   return (
     <>
@@ -114,9 +114,10 @@ export default function CartContent({ el, context }) {
             </ul>
           </div>
         </div>
-        {/* <div className="woocomerce__cart-price">
-          £{el.dis_price ?? el.price}
-        </div> */}
+        <div className="woocomerce__cart-price">
+          {Math.round(el.price)} ₽
+        </div>
+
         <div className="woocomerce__cart-quantity">
           <div className="woocomerce__single-counter counter2">
             <p

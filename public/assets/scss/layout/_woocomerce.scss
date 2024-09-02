@@ -891,7 +891,8 @@
     &-carttext {
       display: flex;
       gap: 10px;
-      padding: 19px 0;
+      // padding: 19px 0;
+      padding: 8px 0;
       justify-content: center;
       align-items: center;
       // margin-left: -60px;
@@ -901,7 +902,8 @@
       p {
         font-family: $font_primary;
         font-weight: 500;
-        font-size: 16px;
+        // font-size: 16px;
+        font-size: 11px;
         line-height: 16px;
         text-align: center;
         text-transform: uppercase;
@@ -983,7 +985,8 @@
     }
 
     &-content {
-      padding-top: 20px;
+      // padding-top: 20px;
+      padding-top: 10px;
     }
 
     &-category {
@@ -1015,7 +1018,8 @@
 
     &-producttitle {
       font-weight: 500;
-      font-size: 24px;
+      // font-size: 24px;
+      font-size: 17px;
       line-height: 30px;
       color: var(--black-2);
       transition: all 0.3s;

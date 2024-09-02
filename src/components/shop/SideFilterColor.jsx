@@ -103,7 +103,13 @@ const SideFilter = ({ allData, allFilter }) => {
                   <h3 className="woocomerce__shopsidebar-title">
                     Фильтры :
                   </h3>
-                  <Accordion.Item eventKey="1" className="accordion-item">
+
+
+
+
+
+                  
+                  {/* <Accordion.Item eventKey="1" className="accordion-item">
                     <Accordion.Header className="accordion-header">
                       <p style={{textTransform: 'uppercase', fontSize: '15px' }}>Повод</p>
                     </Accordion.Header>
@@ -116,7 +122,11 @@ const SideFilter = ({ allData, allFilter }) => {
                         filterAll={filterAll}
                       />
                     </Accordion.Body>
-                  </Accordion.Item>
+                  </Accordion.Item> */}
+
+
+
+
                   <Accordion.Item eventKey="4" className="accordion-item">
                     <Accordion.Header className="accordion-header">
                       <p style={{textTransform: 'uppercase', fontSize: '15px' }}>Цветочное разнообразие</p>

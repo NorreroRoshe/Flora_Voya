@@ -319,15 +319,10 @@ const Index = () => {
 
                 
               <ShopCollections />
-              <div className="about__area-8 woocomerce-padding col-xxl-12 col-xl-12 col-lg-12 col-md-12 pb-0">
-                <h2 className="sec-sub-title qual-text-head title-anim">категории &nbsp; &nbsp; магазина</h2>
-              </div>
-              <div style={{marginBottom: '25px'}}>
-                <Banner2 banner={banner2Add} />
-              </div>
-              {/* <Banner1 banner={banner1Add} /> */}
-                
-              <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12 pb-0" style={{marginTop: '100px'}}>
+
+              <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12 pb-0" 
+              // style={{marginTop: '100px'}}
+              >
                 <Image
                   className='dny'
                   priority
@@ -343,8 +338,20 @@ const Index = () => {
                   alt="Image"
                   />
               </div>
-              <Category categories={categories} />
-              <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12 pb-0" style={{marginTop: '25px'}}>
+
+
+              <div className="about__area-8 woocomerce-padding col-xxl-12 col-xl-12 col-lg-12 col-md-12 pb-0">
+                <h2 className="sec-sub-title qual-text-head title-anim">категории &nbsp; &nbsp; магазина</h2>
+              </div>
+              <div style={{marginBottom: '100px'}}>
+                <Banner2 banner={banner2Add} />
+              </div>
+              {/* <Banner1 banner={banner1Add} /> */}
+
+              {/* <Category categories={categories} /> */}
+              <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12 pb-0" 
+              style={{marginTop: '25px'}}
+              >
                 <Image
                   className='dny'
                   priority

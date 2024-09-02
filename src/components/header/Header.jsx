@@ -1,4 +1,4 @@
-import { useContext, useEffect, useRef } from "react";
+import { useContext, useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Canvas from "../canvas/Canvas";
@@ -17,6 +17,7 @@ const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 const Header = ({ option }) => {
   const context = useContext(AppContext);
+  const [totalCount, setTotalCount] = useState(0);
 
   const ofCanvasArea = useRef();
   const menuAnim = useRef();
@@ -31,6 +32,30 @@ const Header = ({ option }) => {
     }
   }, []);
 
+  const calculateTotalPrice = () => {
+    if (typeof window !== "undefined") { // Проверяем, что код выполняется на клиенте
+      const cartData = JSON.parse(localStorage.getItem('cart')) || [];
+      if (cartData.length > 0) {
+        const totalCountQ = cartData.reduce((sum, item) => {
+          return sum + item.quantity;
+        }, 0);
+        setTotalCount(totalCountQ);
+      } else {
+        setTotalCount(0);
+      }
+    }
+  };
+  
+  useEffect(() => {
+    calculateTotalPrice(); // Initial calculation
+
+    const intervalId = setInterval(() => {
+      calculateTotalPrice(); // Periodically check for changes
+    }, 1000); // Adjust the interval as needed
+
+    return () => clearInterval(intervalId); // Cleanup interval on component unmount
+  }, []);
+  
   const menuAnimation = () => {
     let rootParent = menuAnim.current?.children;
     for (let i = 0; i < rootParent?.length; i++) {
@@ -299,7 +324,10 @@ const Header = ({ option }) => {
                 <Link href={"/cart"}>
                   <i className="fa-solid fa-cart-shopping"></i>
                   {/* <p>Cart</p> */}
-                  <span>({context.rootState.cartData.length})</span>
+                  <span>
+                    {/* ({context.rootState.cartData.length}) */}
+                    ({totalCount})
+                    </span>
                 </Link>
               </div>
               {/* <div className="woocomerce__header-user">

@@ -70,8 +70,8 @@ const ShopCollections = () => {
 
   return (
     <>
-      <section className="shopify-section index-section">
-        <div className="page-width">
+      <section className="shopify-section index-section VEQRBEFG">
+        <div className="page-width">  
           <div className="section-header">
             <h2 className="section-header__title">Коллекции магазина</h2>
           </div>

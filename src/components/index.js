@@ -57,6 +57,8 @@ export { default as Error1 } from "./error/Error1";
 // Contact Page
 
 export { default as Contact1 } from "./contact/Contact1";
+export { default as Contact1Zakaz } from "./contact/Contact1Zakaz";
+
 export { default as ContactMain } from "./contact/ContactMain";
 export { default as Contact31 } from "./contact/Contact31";
 
