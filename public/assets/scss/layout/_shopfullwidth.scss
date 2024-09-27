@@ -517,6 +517,9 @@
       padding-top: 18px;
       padding-bottom: 10px;
 
+      @media(max-width: 767px) {
+        padding-bottom: 30px;
+      }
       @media #{$lg} {
         font-size: 40px;
       }
@@ -534,6 +537,11 @@
       display: flex;
       align-items: center;
       gap: 10px;
+      justify-content: space-between;
+      // @media(max-width: 767px) {
+      //   display: flex;
+      //   align-items: center;
+      // }
     }
 
     &-discountprice {
@@ -607,9 +615,13 @@
     }
 
     &-varitions {
-      padding-top: 40px;
+      // padding-top: 40px;
+      padding-top: 20px;
+      @media(max-width: 1200px) {
+        padding-top: 15px;
+      }
       @media(max-width: 680px) {
-        padding-top: 10px;
+        padding-top: 30px;
       }
     }
 
@@ -2126,4 +2138,25 @@
   @media(max-width: 767px){
     padding-top: 10px;
   }
+}
+
+.dfdsdas {
+    display: none;
+    @media(max-width: 767px) {
+    display: block;
+  }
+}
+
+.dfdsdsceqvwas {
+  display: block;
+  @media(max-width: 767px) {
+      display: none;
+    }
+}
+
+.swqevwfbe {
+  margin-top: 30px;
+  // @media (max-width: 1200px) {
+  //   margin-top: 20px;
+  // }
 }

@@ -103,10 +103,10 @@ const SideFilter = ({ allData, allFilter }) => {
                 }
               >
                 <Accordion className="accordion short-by">
-                  <h3 className="woocomerce__shopsidebar-title title-pt">Сортировка :</h3>
+                  {/* <h3 className="woocomerce__shopsidebar-title title-pt">Сортировка :</h3> */}
                   <Accordion.Item eventKey="0" className="accordion-item">
                     <Accordion.Header className="accordion-header">
-                      <p style={{ textTransform: 'uppercase', fontSize: '15px' }}>Выберите значение :</p>
+                      <p style={{ textTransform: 'uppercase', fontSize: '15px' }}>Цена</p>
                     </Accordion.Header>
                     <Accordion.Body className="accordion-collapse collapse show">
                       <SortFilter2

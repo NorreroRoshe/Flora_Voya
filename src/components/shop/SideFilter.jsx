@@ -193,7 +193,7 @@ console.log(productFilter,'productFilter')
                     </Accordion.Body>
                   </Accordion.Item> */}
 
-                  <Accordion.Item eventKey="3" className="accordion-item">
+                  {/* <Accordion.Item eventKey="3" className="accordion-item">
                     <Accordion.Header className="accordion-header">
                       <p style={{textTransform: 'uppercase', fontSize: '15px'}}>по цене</p>
                     </Accordion.Header>
@@ -205,7 +205,7 @@ console.log(productFilter,'productFilter')
                         filterAll={filterAll}
                       />
                     </Accordion.Body>
-                  </Accordion.Item>
+                  </Accordion.Item> */}
 
                   {/* <Accordion.Item eventKey="5" className="accordion-item">
                     <Accordion.Header className="accordion-header">
@@ -220,10 +220,10 @@ console.log(productFilter,'productFilter')
                       />
                     </Accordion.Body>
                   </Accordion.Item> */}
-                  <h3 className="woocomerce__shopsidebar-title title-pt">Сортировка :</h3>
+                  {/* <h3 className="woocomerce__shopsidebar-title title-pt">Сортировка :</h3> */}
                   <Accordion.Item eventKey="0" className="accordion-item">
                     <Accordion.Header className="accordion-header">
-                    <p style={{textTransform: 'uppercase', fontSize: '15px'}}>Выберите значение :</p>
+                    <p style={{textTransform: 'uppercase', fontSize: '15px'}}>Цена</p>
                     </Accordion.Header>
                     <Accordion.Body className="accordion-collapse collapse show">
                       <SortFilter2

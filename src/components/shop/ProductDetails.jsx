@@ -256,6 +256,22 @@ const ProductDetails = ({ details }) => {
                     details.imgs?.length === 1 ? "wfegbrwafsc" : "woocomerce__single-productview"
                   }`}
                 >
+                  {details.imgs
+                  ?.slice() // Создаем копию массива
+                  .reverse() // Инвертируем порядок элементов
+                  .map((el, i) => (
+                    <Image
+                      key={i + "details"}
+                      width={520}
+                      height={685}
+                      style={{ height: "auto" }}
+                      src={`/assets/imgs/${el}`}
+                      alt="single-1"
+                      className={`dfdsdas ${
+                        details.imgs?.length === 1 ? "wfegbrwafscvqecwqs" : ""
+                      }`}
+                    />
+                  ))}
                   {details.imgs?.map((el, i) => (
                     <Image
                       key={i + "details"}
@@ -264,7 +280,7 @@ const ProductDetails = ({ details }) => {
                       style={{ height: "auto" }}
                       src={`/assets/imgs/${el}`}
                       alt="single-1"
-                      className={`${
+                      className={`dfdsdsceqvwas ${
                         details.imgs?.length === 1 ? "wfegbrwafscvqecwqs" : ""
                       }`}
                     />
@@ -348,7 +364,17 @@ const ProductDetails = ({ details }) => {
                       </ul>
                     </div>
                   )}
-
+                    <Image
+                      // key={i + "details"}
+                      width={520}
+                      height={685}
+                      style={{ height: "auto", width: '100%', marginBottom: '15px' }}
+                      src={`/assets/imgs/${details.imgs?.[0]}`}
+                      alt="single-1"
+                      className={`dfdsdas ${
+                        details.imgs?.length === 1 ? "wfegbrwafscvqecwqs" : ""
+                      }`}
+                    />
                   <span className="woocomerce__single-discountprice">
                     {details.dis_price 
                       ? Math.floor(details.dis_price) * (priceSize > 0 ? priceSize : 1)

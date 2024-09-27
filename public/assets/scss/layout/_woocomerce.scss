@@ -1003,7 +1003,8 @@
       font-weight: 400;
       font-size: 14px;
       color: var(--black-2);
-      background: rgba(255, 255, 255, 0.3);
+      // background: rgba(255, 255, 255, 0.3);
+      background: #fff;
       transition: 0.5s;
 
       &:hover {
@@ -2283,4 +2284,55 @@ ul.mega-menu-2.woocomerce-megamenu {
   @media (max-width: 500px) {
     font-size: 25px;
   }
+}
+
+.wqfevrf {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.qewrtfeg {
+  position: unset;
+  // padding-top: 18px;
+  padding-top: 10px;
+  @media(max-width: 1200px) {
+    padding-top: 5px;
+    padding-bottom: 15px;
+  }
+  @media(max-width: 767px) {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+.ewrfe {
+  @media(max-width: 1200px) {
+    display: none;
+  }
+}
+
+.ewweq {
+  display: none;
+  @media(max-width: 1200px) {
+    display: block;
+  }
+  @media(max-width: 767px) {
+    display: none;
+  }
+}
+
+.ewweqsa {
+  display: block;
+  @media(max-width: 1200px) {
+    display: none;
+  }
+  @media(max-width: 767px) {
+    display: block;
+  }
+}
+
+.drfeg {
+  color: var(--white);
+  background-color: var(--black-2);
 }

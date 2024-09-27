@@ -292,9 +292,30 @@ export default function ProductModal({ setModalShow, product }) {
                 style={{ order: "1" }}
               >
                 <div className="woocomerce__single-content">
-                  <Link href={`/shop/${product.id}`}>
-                    <h2 className="woocomerce__single-title2">{product.title}</h2>
-                  </Link>
+                  <div className="wqfevrf">
+                    <Link href={`/shop/${product.id}`}>
+                      <h2 className="woocomerce__single-title2">{product.title}</h2>
+                    </Link>
+                    {/* <Link href={`/delivery/${product.delivery}`}>
+                      <h2 className="woocomerce__single-title2">{product?.delivery}</h2>
+                    </Link> */}
+                    {/* <div className="woocomerce__feature-category qewrtfeg ewrfe">
+                      <Link
+                        className="woocomerce__feature-categorytitle drfeg"
+                        href={`/delivery/${product.delivery}`}
+                      >
+                        {product.delivery}
+                      </Link>
+                    </div> */}
+                  </div>
+                  <div className="woocomerce__feature-category qewrtfeg ewweq">
+                    <Link
+                      className="woocomerce__feature-categorytitle drfeg"
+                      href={`/delivery/${product.delivery}`}
+                    >
+                      {product.delivery}
+                    </Link>
+                  </div>
                   <div className="woocomerce__single-pricelist">
                     {product.dis_price ? (
                       <>
@@ -313,8 +334,16 @@ export default function ProductModal({ setModalShow, product }) {
                         {Math.floor(product.price) * (priceSize > 0 ? priceSize : 1)} ₽
                       </span>
                     )}
+                    
+                    <div className="woocomerce__feature-category qewrtfeg ewweqsa">
+                      <Link
+                        className="woocomerce__feature-categorytitle drfeg"
+                        href={`/delivery/${product.delivery}`}
+                      >
+                        {product.delivery}
+                      </Link>
+                    </div>
                   </div>
-
                   <div className="woocomerce__single-varitions">
                     {product.size?.[0] !== "1 комплект" && (
                       <>
@@ -349,7 +378,7 @@ export default function ProductModal({ setModalShow, product }) {
                       </>
                     )}
                     {product.colors?.[0].name !== "0" && (
-                      <div style={{ marginTop: "30px" }}>
+                      <div className='swqevwfbe'>
                         <div className="woocomerce__single-stitle">
                           Доступные цвета*
                         </div>

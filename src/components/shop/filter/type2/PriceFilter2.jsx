@@ -53,7 +53,7 @@ export default function PriceFilter2({
       <div className="woocomerce__filtering-brand shop-left">
         <div className="price-range-slider">
           <p className="range-value">
-            <span>${rangeValue1}</span> - <span>${rangeValue2}</span>
+            <span>₽ {rangeValue1}</span> - <span>₽ {rangeValue2}</span>
           </p>
           <div style={{ marginTop: "10px" }}>
             <div className="custom_slider">

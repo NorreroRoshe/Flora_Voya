@@ -147,12 +147,26 @@ const ProductCard = ({ el }) => {
         </div>
         <div className="woocomerce__feature-content">
           {el.collections && (
-            <div className="woocomerce__feature-category">
+            <div className="woocomerce__feature-category"
+             style={{top: '42px'}}
+            >
               <Link
                 className="woocomerce__feature-categorytitle"
                 href={`/collections/${el.collections}`}
               >
                 {el.collections}
+              </Link>
+            </div>
+          )}
+          {el.delivery && (
+            <div className="woocomerce__feature-category"
+            //  style={{left: '10px'}}
+             >
+              <Link
+                className="woocomerce__feature-categorytitle"
+                href={`/delivery/${el.delivery}`}
+              >
+                {el.delivery}
               </Link>
             </div>
           )}
