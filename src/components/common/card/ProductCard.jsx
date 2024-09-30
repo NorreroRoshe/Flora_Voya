@@ -115,7 +115,7 @@ const ProductCard = ({ el }) => {
             </div>
           </Link>
 
-          <div className="woocomerce__feature-hover">
+          <div className="woocomerce__feature-hover cwsfegr">
             <div
               className="woocomerce__feature-carttext pointer_cursor"
               onClick={() => setModalShow(true)}
@@ -143,13 +143,27 @@ const ProductCard = ({ el }) => {
                 }}
               ></i>
             </p> */}
+            
           </div>
+          
+          <div className="woocomerce__feature-category">
+            <div
+              className="woocomerce__feature-categorytitle wqefrfb"
+              onClick={() => setModalShow(true)}
+            >
+              <Image
+                width={18}
+                height={15}
+                src="/assets/imgs/woocomerce/plusicon.svg"
+                alt="cart"
+              />
+            </div>
+          </div>
+          
         </div>
         <div className="woocomerce__feature-content">
           {el.collections && (
-            <div className="woocomerce__feature-category"
-             style={{top: '42px'}}
-            >
+            <div className="woocomerce__feature-category wfewve">
               <Link
                 className="woocomerce__feature-categorytitle"
                 href={`/collections/${el.collections}`}
@@ -160,7 +174,6 @@ const ProductCard = ({ el }) => {
           )}
           {el.delivery && (
             <div className="woocomerce__feature-category"
-            //  style={{left: '10px'}}
              >
               <Link
                 className="woocomerce__feature-categorytitle"

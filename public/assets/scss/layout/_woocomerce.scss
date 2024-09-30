@@ -846,6 +846,11 @@
         grid-gap: 40px;
         grid-template-columns: 1fr;
       }
+
+      @media (max-width: 500px) {
+        grid-gap: 35px 10px;
+        grid-template-columns: repeat(2, 1fr);
+      }
     }
 
     &-product {
@@ -972,6 +977,10 @@
           height: 360px;
         }
 
+        @media (max-width: 500px) {
+          height: 197px;
+        }
+
         img {
           width: 100%;
           height: 100%;
@@ -994,6 +1003,10 @@
       top: 10px;
       right: 10px;
       z-index: 2;
+      @media(max-width: 500px) {
+        top: 3px;
+        right: 3px;
+      }
     }
 
     &-categorytitle {
@@ -1011,6 +1024,10 @@
         color: var(--white);
         background-color: var(--black-2);
       }
+
+      @media(max-width: 500px) {
+        font-size: 11px;
+      }
     }
 
     &-titlewraper {
@@ -1027,6 +1044,12 @@
 
       @media #{$lg} {
         font-size: 22px;
+      }
+      @media(max-width: 500px) {
+        display: block;
+        line-height: 0px;
+        font-size: 12px;
+        margin-top: 7px;
       }
     }
 
@@ -2335,4 +2358,31 @@ ul.mega-menu-2.woocomerce-megamenu {
 .drfeg {
   color: var(--white);
   background-color: var(--black-2);
+}
+
+.wfewve {
+  top: 42px;
+  @media(max-width: 500px) {
+    display: none;
+  }
+}
+
+.cwsfegr {
+  @media(max-width: 500px) {
+    display: none;
+  }
+}
+
+.wqefrfb {
+  display: none;
+  @media(max-width: 500px) {
+    position: relative;
+    display: block;
+    padding: 7px;
+    top: 160px;
+    cursor: pointer;
+    &:hover {
+      background-color: white;
+    }
+  }
 }
