@@ -82,7 +82,7 @@ export default function CartContent({ el, context }) {
     });
   };
 
-// console.log(el,'elel..')  
+console.log(el,'elel..')  
   
   return (
     <>
@@ -90,7 +90,7 @@ export default function CartContent({ el, context }) {
         <div className="woocomerce__cart-product">
           <div
             className="woocomerce__cart-thumb pointer_cursor"
-            onClick={() => router.push(`/shop/${el.parent_id}`)}
+            onClick={() => router.push(`/shop/${el.id}`)}
           >
             <Image
               width={150}
@@ -102,7 +102,7 @@ export default function CartContent({ el, context }) {
           </div>
           <div
             className="woocomerce__cart-rcontent pointer_cursor"
-            onClick={() => router.push(`/shop/${el.parent_id}`)}
+            onClick={() => router.push(`/shop/${el.id}`)}
           >
             <span className="woocomerce__cart-rtitle">
               <p>{el.title}</p>

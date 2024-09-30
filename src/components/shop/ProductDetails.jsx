@@ -147,10 +147,10 @@ const ProductDetails = ({ details }) => {
   
   const FullProduct = (data) => {
     let fullData = {
-      parent_id: data.parent_id,
+      id: data.id,
       title: data.title,
       img: data.img,
-      price: data.price,
+      price: calculatedPrice,
       dis_price: data.dis_price,
       color: selectedColor,
       pro_code: data.pro_code,
@@ -160,7 +160,7 @@ const ProductDetails = ({ details }) => {
   
     const isProductInCart = rootState.cartData.some(
       (item) =>
-        item.parent_id === fullData.parent_id &&
+        item.id === fullData.id &&
         JSON.stringify(item.color) === JSON.stringify(fullData.color) &&
         JSON.stringify(item.size) === JSON.stringify(fullData.size)
     );
@@ -243,7 +243,11 @@ const ProductDetails = ({ details }) => {
     // ,details.size
     ]);
 
-    console.log(details.colors?.[0].name === "0", 'details,details')
+    const calculatedPrice = details.dis_price 
+    ? Math.floor(details.dis_price) * (priceSize > 0 ? priceSize : 1)
+    : Math.floor(details.price) * (priceSize > 0 ? priceSize : 1);
+
+    console.log(details?.colors?.[0].name === "0", 'details,details')
   return (
     <>
       {details && Object.keys(details).length ? (
@@ -256,22 +260,22 @@ const ProductDetails = ({ details }) => {
                     details.imgs?.length === 1 ? "wfegbrwafsc" : "woocomerce__single-productview"
                   }`}
                 >
-                  {details.imgs
-                  ?.slice() // Создаем копию массива
-                  .reverse() // Инвертируем порядок элементов
-                  .map((el, i) => (
-                    <Image
-                      key={i + "details"}
-                      width={520}
-                      height={685}
-                      style={{ height: "auto" }}
-                      src={`/assets/imgs/${el}`}
-                      alt="single-1"
-                      className={`dfdsdas ${
-                        details.imgs?.length === 1 ? "wfegbrwafscvqecwqs" : ""
-                      }`}
-                    />
-                  ))}
+                  {details.imgs?.length >= 2 && 
+                    details.imgs
+                    ?.slice() // Создаем копию массива
+                    .reverse() // Инвертируем порядок элементов
+                    .map((el, i) => (
+                      <Image
+                        key={i + "details"}
+                        width={520}
+                        height={685}
+                        style={{ height: "auto" }}
+                        src={`/assets/imgs/${el}`}
+                        alt="single-1"
+                        className={`dfdsdas ${details.imgs?.length === 1 ? "wfegbrwafscvqecwqs" : ""}`}
+                      />
+                    ))
+                  }
                   {details.imgs?.map((el, i) => (
                     <Image
                       key={i + "details"}
@@ -340,7 +344,17 @@ const ProductDetails = ({ details }) => {
                   ) : (
                     ""
                   )}
-
+                  <Image
+                    // key={i + "details"}
+                    width={520}
+                    height={685}
+                    style={{ height: "auto", width: '100%', marginBottom: '15px', marginTop : '15px' }}
+                    src={`/assets/imgs/${details.imgs?.[0]}`}
+                    alt="single-1"
+                    className={`dfdsdas ${
+                      details.imgs?.length === 1 ? "wfegbrwafscvqecwqs" : ""
+                    }`}
+                  />
                   {details.description && (
                     <div>
                       <p className="woocomerce__single-discription">
@@ -364,22 +378,9 @@ const ProductDetails = ({ details }) => {
                       </ul>
                     </div>
                   )}
-                    <Image
-                      // key={i + "details"}
-                      width={520}
-                      height={685}
-                      style={{ height: "auto", width: '100%', marginBottom: '15px' }}
-                      src={`/assets/imgs/${details.imgs?.[0]}`}
-                      alt="single-1"
-                      className={`dfdsdas ${
-                        details.imgs?.length === 1 ? "wfegbrwafscvqecwqs" : ""
-                      }`}
-                    />
+                    
                   <span className="woocomerce__single-discountprice">
-                    {details.dis_price 
-                      ? Math.floor(details.dis_price) * (priceSize > 0 ? priceSize : 1)
-                      : Math.floor(details.price) * (priceSize > 0 ? priceSize : 1)
-                    } ₽
+                    {calculatedPrice} ₽
                     {selectedSize.length === 0 && (
                       <span className="woocomerce__single-discountprice">
                         &nbsp;за шт.

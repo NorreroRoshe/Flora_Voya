@@ -151,8 +151,8 @@ const Header = ({ option }) => {
             <div className="woocomerce__header-cartwrapper dndb">
                 <Link href={"/cart"}>
                   <i className="fa-solid fa-cart-shopping"></i>
-                  <p>Cart</p>
-                  <span>({context.rootState.cartData.length})</span>
+                  {/* <p>Cart</p> */}
+                  <span>({totalCount})</span>
                 </Link>
               </div>
           </div>

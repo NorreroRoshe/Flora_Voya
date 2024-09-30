@@ -39,8 +39,8 @@ const reducer = (state, action) => {
     case "setSelectedRating":
       return { ...state, selectedRating: action.value };
     case "setSelectedDelivery":
-    //   return { ...state, selectedDelivery: action.value };
-    // case "setSelectedSort":
+      //   return { ...state, selectedDelivery: action.value };
+      // case "setSelectedSort":
       return { ...state, selectedSort: action.value };
     case "setShowData":
       return { ...state, showData: action.value };
@@ -65,7 +65,7 @@ const SideFilter = ({ allData, allFilter }) => {
     selectedCategory,
   } = productFilter;
 
-console.log(productFilter,'productFilter')
+  console.log(productFilter, 'productFilter')
 
   const filterAll = () => {
     dispatch({
@@ -103,11 +103,21 @@ console.log(productFilter,'productFilter')
                 }
               >
                 <Accordion className="accordion short-by">
-                  
-                  <h3 className="woocomerce__shopsidebar-title">
-                    Фильтры :
-                  </h3>
 
+                  <div className="wqfegrbfs">
+                    <h3 className="woocomerce__shopsidebar-title">
+                      Фильтры :
+                    </h3>
+                    <h3
+                      onClick={() => setOpenMobile(false)}
+                      className="woocomerce__shopsidebar-title cwev"
+                    >
+                      <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="30" rx="15" fill="white" />
+                        <path d="M7 7.00031L23 23M7 22.9997L23 7" stroke="#404040" stroke-miterlimit="10" />
+                      </svg>
+                    </h3>
+                  </div>
                   {/* <Accordion.Item eventKey="9" className="accordion-item">
                     <Accordion.Header className="accordion-header">
                       <p style={{textTransform: 'uppercase', fontSize: '15px' }}>Доставка</p>
@@ -150,11 +160,11 @@ console.log(productFilter,'productFilter')
 
 
 
-                  
-                  
+
+
                   <Accordion.Item eventKey="4" className="accordion-item">
                     <Accordion.Header className="accordion-header">
-                      <p style={{textTransform: 'uppercase', fontSize: '15px' }}>Цветочное разнообразие</p>
+                      <p style={{ textTransform: 'uppercase', fontSize: '15px' }}>Цветочное разнообразие</p>
                     </Accordion.Header>
                     <Accordion.Body className="accordion-collapse collapse show">
                       <CollectionsFilter2
@@ -185,7 +195,7 @@ console.log(productFilter,'productFilter')
 
                   <Accordion.Item eventKey="2" className="accordion-item">
                     <Accordion.Header className="accordion-header">
-                      <p style={{textTransform: 'uppercase', fontSize: '15px'}}>по цвету</p>
+                      <p style={{ textTransform: 'uppercase', fontSize: '15px' }}>по цвету</p>
                     </Accordion.Header>
                     <Accordion.Body className="accordion-collapse collapse show">
                       <ColorFilter2
@@ -228,7 +238,7 @@ console.log(productFilter,'productFilter')
                   {/* <h3 className="woocomerce__shopsidebar-title title-pt">Сортировка :</h3> */}
                   <Accordion.Item eventKey="0" className="accordion-item">
                     <Accordion.Header className="accordion-header">
-                    <p style={{textTransform: 'uppercase', fontSize: '15px'}}>Цена</p>
+                      <p style={{ textTransform: 'uppercase', fontSize: '15px' }}>Цена</p>
                     </Accordion.Header>
                     <Accordion.Body className="accordion-collapse collapse show">
                       <SortFilter2
@@ -262,7 +272,7 @@ console.log(productFilter,'productFilter')
                 {showData && showData.length ? (
                   showData.map((el) => <ProductCard el={el} key={el.id} />)
                 ) : (
-                  <p style={{textTransform: 'uppercase', fontSize: '15px'}}>No Product Found</p>
+                  <p style={{ textTransform: 'uppercase', fontSize: '15px' }}>No Product Found</p>
                 )}
               </div>
             </div>

@@ -132,10 +132,10 @@ export default function ProductModal({ setModalShow, product }) {
 
   const FullProduct = (data) => {
     let fullData = {
-      parent_id: data.parent_id,
+      id: data.id,
       title: data.title,
       img: data.img,
-      price: data.price,
+      price: calculatedPrice,
       dis_price: data.dis_price,
       color: selectedColor,
       pro_code: data.pro_code,
@@ -145,7 +145,7 @@ export default function ProductModal({ setModalShow, product }) {
   
     const isProductInCart = rootState.cartData.some(
       (item) =>
-        item.parent_id === fullData.parent_id &&
+        item.id === fullData.id &&
         JSON.stringify(item.color) === JSON.stringify(fullData.color) &&
         JSON.stringify(item.size) === JSON.stringify(fullData.size)
     );
@@ -224,6 +224,11 @@ export default function ProductModal({ setModalShow, product }) {
         window.removeEventListener("resize", checkScreenWidth);
       };
     }, []);
+    
+    const calculatedPrice = product.dis_price 
+    ? Math.floor(product.dis_price) * (priceSize > 0 ? priceSize : 1)
+    : Math.floor(product.price) * (priceSize > 0 ? priceSize : 1);
+
 
   return (
     <>
@@ -317,7 +322,7 @@ export default function ProductModal({ setModalShow, product }) {
                     </Link>
                   </div>
                   <div className="woocomerce__single-pricelist">
-                    {product.dis_price ? (
+                    {/* {product.dis_price ? (
                       <>
                         <span className="woocomerce__single-discountprice">
                           £{Math.floor(product.dis_price) * (priceSize > 0 ? priceSize : 1)} ₽
@@ -333,8 +338,17 @@ export default function ProductModal({ setModalShow, product }) {
                       <span className="woocomerce__single-discountprice">
                         {Math.floor(product.price) * (priceSize > 0 ? priceSize : 1)} ₽
                       </span>
-                    )}
+                    )} */}
                     
+                    <span className="woocomerce__single-discountprice">
+                      {calculatedPrice} ₽
+                      {selectedSize.length === 0 && (
+                        <span className="woocomerce__single-discountprice">
+                          &nbsp;за шт.
+                        </span>
+                      )}
+                    </span>
+
                     <div className="woocomerce__feature-category qewrtfeg ewweqsa">
                       <Link
                         className="woocomerce__feature-categorytitle drfeg"
@@ -509,7 +523,7 @@ export default function ProductModal({ setModalShow, product }) {
 
   // const FullProduct = (data) => {
   //   let fullData = {
-  //     parent_id: data.parent_id,
+  //     id: data.id,
   //     title: data.title,
   //     img: data.img,
   //     price: data.price,
@@ -522,7 +536,7 @@ export default function ProductModal({ setModalShow, product }) {
   //   console.log(localStorage.getItem('cart'), 'locCart')
   //   if (rootState.cartData && rootState.cartData.length) {
   //     let result = rootState.cartData.find(
-  //       (el) => el.parent_id === fullData.parent_id
+  //       (el) => el.id === fullData.id
   //     );
   //     if (result) {
   //       if (

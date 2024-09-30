@@ -100,9 +100,20 @@ const SideFilter = ({ allData, allFilter }) => {
                 <Accordion className="accordion short-by">
 
 
-                  <h3 className="woocomerce__shopsidebar-title">
-                    Фильтры :
-                  </h3>
+                  <div className="wqfegrbfs">
+                    <h3 className="woocomerce__shopsidebar-title">
+                      Фильтры :
+                    </h3>
+                    <h3
+                      onClick={() => setOpenMobile(false)}
+                      className="woocomerce__shopsidebar-title"
+                    >
+                      <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="30" rx="15" fill="white" />
+                        <path d="M7 7.00031L23 23M7 22.9997L23 7" stroke="#404040" stroke-miterlimit="10" />
+                      </svg>
+                    </h3>
+                  </div>
 
 
                   {/* <Accordion.Item eventKey="1" className="accordion-item">

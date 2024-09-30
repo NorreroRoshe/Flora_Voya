@@ -215,6 +215,7 @@
 
     &.showed {
       left: 0;
+      top: 145px;
     }
 
     .accordion:last-child {
@@ -2159,4 +2160,17 @@
   // @media (max-width: 1200px) {
   //   margin-top: 20px;
   // }
+}
+
+.wqfegrbfs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cwev {
+  display: none;
+    @media (max-width: 991px) {
+    display: block;
+    cursor: pointer;
+  }
 }
