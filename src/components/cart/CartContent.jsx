@@ -108,8 +108,12 @@ console.log(el,'elel..')
               <p>{el.title}</p>
             </span>
             <ul className="woocomerce__cart-pinfo">
-              <li>Цвет: {el.color.join(", ")}</li>
-              <li>Размер: {el.size.join(", ")}</li>
+              {!el.color.includes("0") && !el.size.includes("111") && (
+                <li>Цвет: {el.color.join(", ")}</li>
+              )}
+              {!el.size.includes("1 комплект") && !el.size.includes("6 Комплектов") && (
+                <li>Размер: {el.size.join(", ")}</li>
+              )}
               <li>Артикул: {el.pro_code}</li>
             </ul>
           </div>

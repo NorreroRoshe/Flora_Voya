@@ -140,9 +140,14 @@ export default function Cart() {
                 </div>
               </div>
               <div className="woocomerce__cart-right cart-right1">
-                <div className="woocomerce__cart-cartdata">
-                  <span className="woocomerce__cart-title">Позиции</span>
-                </div>
+                {JSON.parse(localStorage.getItem('cart')) && JSON.parse(localStorage.getItem('cart')).length ? (
+                  <div className="woocomerce__cart-cartdata">
+                    <span className="woocomerce__cart-title">Позиции</span>
+                  </div>
+                ) : (
+                  <div>
+                  </div>
+                )}
                 <div>
                   {JSON.parse(localStorage.getItem('cart')) && JSON.parse(localStorage.getItem('cart')).length ? (
                     <ul className="woocomerce__cart-menuitems">

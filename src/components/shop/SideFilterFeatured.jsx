@@ -103,7 +103,7 @@ const SideFilter = ({ allData, allFilter }) => {
                     </h3>
                     <h3
                       onClick={() => setOpenMobile(false)}
-                      className="woocomerce__shopsidebar-title"
+                      className="woocomerce__shopsidebar-title cwev"
                     >
                       <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="30" height="30" rx="15" fill="white" />
