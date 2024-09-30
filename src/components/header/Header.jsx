@@ -148,13 +148,19 @@ const Header = ({ option }) => {
                 />
               </Link>
             </div>
-            <div className="woocomerce__header-cartwrapper dndb">
+            <div className="woocomerce__header-cart">
+            
+              <div className="woocomerce__header-search dndb">
+                <HeaderSearch allData={allData} />
+              </div>
+              <div className="woocomerce__header-cartwrapper dndb">
                 <Link href={"/cart"}>
                   <i className="fa-solid fa-cart-shopping"></i>
                   {/* <p>Cart</p> */}
                   <span>({totalCount})</span>
                 </Link>
               </div>
+            </div>
           </div>
         <div className="woocomerce__header-inner shopfull">
           <div className="woocomerce__header-left">
@@ -319,7 +325,11 @@ const Header = ({ option }) => {
                 : "woocomerce__header-right home"
             }`}
           >
+            
             <div className="woocomerce__header-cart dfdn">
+              <div className="woocomerce__header-search">
+                <HeaderSearch allData={allData} />
+              </div>
               <div className="woocomerce__header-cartwrapper">
                 <Link href={"/cart"}>
                   <i className="fa-solid fa-cart-shopping"></i>
@@ -334,9 +344,6 @@ const Header = ({ option }) => {
                 <Link href={"/profile"}>
                   <i className="fa-regular fa-user"></i>
                 </Link>
-              </div>
-              <div className="woocomerce__header-search">
-                <HeaderSearch allData={allData} />
               </div> */}
               <div onClick={openCanvas} className="woocomerce__header-search dn">
                 <Image

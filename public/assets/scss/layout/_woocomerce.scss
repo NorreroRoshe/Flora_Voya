@@ -1032,6 +1032,9 @@
 
     &-titlewraper {
       margin-bottom: 10px;
+      @media(max-width: 500px) {
+        margin-bottom: 0px;
+      }
     }
 
     &-producttitle {
@@ -1060,6 +1063,9 @@
       line-height: 16px;
       color: var(--black-2);
       padding-right: 12px;
+      @media(max-width: 500px) {
+      font-size: 12px;
+      }
     }
 
     &-oldprice {

@@ -83,7 +83,7 @@ export default function HeaderSearch({ allData }) {
             name="s"
             autoComplete="off"
             ref={inputData}
-            placeholder="Search.."
+            placeholder="Поиск.."
             onChange={(event) => setSearchValue(event.target.value)}
           />
           <div id="search-value">

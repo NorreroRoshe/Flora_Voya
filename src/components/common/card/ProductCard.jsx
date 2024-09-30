@@ -191,10 +191,11 @@ const ProductCard = ({ el }) => {
               {el.title}
             </Link>
           </div>
-          {/* <span className="woocomerce__feature-newprice">
-            {el.dis_price ? el.dis_price : el.price}
+          <span className="woocomerce__feature-newprice">
+            {/* от  */}
+            {Math.floor(el.dis_price ? el.dis_price : el.price)} ₽
           </span>
-          <span className="woocomerce__feature-oldprice">
+          {/* <span className="woocomerce__feature-oldprice">
             {el.dis_price ? el.price : ""}
           </span> */}
         </div>
