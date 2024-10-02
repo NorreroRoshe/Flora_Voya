@@ -103,7 +103,7 @@ const Header = ({ option }) => {
             <Link className='uphead' href={"/goods-category"}>каталог</Link>
           </li> */}
           <li className="ascqewad">
-            <Link className='uphead' href={"/About-us"}>компания</Link>
+            <Link className='uphead' href={"/About-us"}>компаниsя</Link>
           </li>
           <li className="ascqewad">
             <Link className='uphead' href={"/Contacts"}>Контакты</Link>

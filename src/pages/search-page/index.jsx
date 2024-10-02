@@ -43,13 +43,13 @@ const SideBar = () => {
     // if (router.pathname === "/search-page") {
       const timer = setTimeout(() => {
         inputData.current.focus();
-      }, 100); // Задержка в 1 секунду (1000 миллисекунд)
+      }, 1000); // Задержка в 1 секунду (1000 миллисекунд)
 
       return () => clearTimeout(timer); // Очистка таймера при размонтировании компонента
     // }
   }, [
     // router.pathname,
-     searchParams
+    //  searchParams
   ]);
 
   useEffect(() => {
