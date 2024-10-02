@@ -9,6 +9,7 @@ import CollectionsFilter2 from "./filter/type2/CollectionsFilter2";
 import PovodFilter2 from "./filter/type2/PovodFilter2";
 import RatingFilter2 from "./filter/type2/RatingFilter2";
 import filterFunction from "@/lib/utils/filterFunction";
+import Pagination from '@/components/pagination/pagination';
 
 const initialState = {
   selectedCategory: [],
@@ -47,6 +48,10 @@ const reducer = (state, action) => {
 const SideFilter = ({ allData, allFilter }) => {
   const [openMobile, setOpenMobile] = useState(false);
   const [productFilter, dispatch] = useReducer(reducer, initialState);
+  const [isLoading, setIsLoading] = useState(true); // Добавляем состояние загрузки
+  const [currentPage, setCurrentPage] = useState(1);
+  const [value, setValue] = useState('');
+  const countPerPage = 21;
 
   const {
     selectedColor,
@@ -62,6 +67,7 @@ const SideFilter = ({ allData, allFilter }) => {
   console.log(productFilter, 'productFilter')
 
   const filterAll = () => {
+    setCurrentPage(1);
     dispatch({
       type: "setShowData",
       value: filterFunction(
@@ -76,6 +82,27 @@ const SideFilter = ({ allData, allFilter }) => {
       ),
     });
   };
+
+  let [filterData, setDataValue] = useState([]);
+
+  // Обновляем filterData и выключаем isLoading, когда изменяется showData
+  useEffect(() => {
+    setIsLoading(true);
+    const to = countPerPage * currentPage;
+    const from = to - countPerPage;
+    setDataValue(showData.slice(from, to));
+    setIsLoading(false);
+  }, [showData, currentPage]);
+
+  const updatePage = (p) => {
+    setCurrentPage(p);
+
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
   useEffect(() => {
     dispatch({
       type: "setShowData",
@@ -243,16 +270,32 @@ const SideFilter = ({ allData, allFilter }) => {
           )}
 
           <div className="col-lg-8">
-            {/* shop inner   */}
+            {/* shop inner */}
             <div className="woocomerce__shopsidemain wc_feature_products">
               <div className="woocomerce__feature-wrapper filteringwrapper shopsidebar">
-                {showData && showData.length ? (
-                  showData.map((el) => <ProductCard el={el} key={el.id} />)
+                {isLoading ? (
+                  <p>Loading...</p> // Показываем индикатор загрузки, пока данные не готовы
+                ) : filterData && filterData.length ? (
+                  filterData.map((el) => <ProductCard el={el} key={el.id} />)
                 ) : (
                   <p style={{ textTransform: 'uppercase', fontSize: '15px' }}>No Product Found</p>
                 )}
               </div>
             </div>
+
+            {showData.length > countPerPage && !value.trim() && (
+              <div className="text-end mt-5">
+                <Pagination
+                  current={currentPage}
+                  onChange={updatePage}
+                  pageSize={countPerPage}
+                  total={showData?.length}
+                  prevIcon="<"
+                  nextIcon=">"
+                  className="order-table-pagination"
+                />
+              </div>
+            )}
           </div>
         </div>
       </div>

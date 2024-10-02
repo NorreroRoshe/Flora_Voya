@@ -11,12 +11,13 @@ import BarBlack from "../../../public/assets/imgs/woocomerce/bar-b.png";
 import AppContext from "../AppContext";
 import HeaderSearch from "../search/HeaderSearch";
 import useSWR from "swr";
-import { Preloader } from "..";
+import { useRouter } from "next/router";
 
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 const Header = ({ option }) => {
   const context = useContext(AppContext);
+  const router = useRouter();
   const [totalCount, setTotalCount] = useState(0);
 
   const ofCanvasArea = useRef();
@@ -80,7 +81,7 @@ const Header = ({ option }) => {
   if (!allProducts)
     return (
       <div>
-        <Preloader />
+        {/* <Preloader /> */}
       </div>
     );
 
@@ -148,10 +149,12 @@ const Header = ({ option }) => {
                 />
               </Link>
             </div>
-            <div className="woocomerce__header-cart">
+            <div className="woocomerce__header-cart ebrf">
             
-              <div className="woocomerce__header-search dndb">
-                <HeaderSearch allData={allData} />
+              <div className="woocomerce__header-search dfbdgf dndb">
+                {router.pathname !== "/search-page" && (
+                  <HeaderSearch allData={allData} />
+                )}
               </div>
               <div className="woocomerce__header-cartwrapper dndb">
                 <Link href={"/cart"}>
@@ -328,7 +331,9 @@ const Header = ({ option }) => {
             
             <div className="woocomerce__header-cart dfdn">
               <div className="woocomerce__header-search">
-                <HeaderSearch allData={allData} />
+                {router.pathname !== "/search-page" && (
+                  <HeaderSearch allData={allData} />
+                )}
               </div>
               <div className="woocomerce__header-cartwrapper">
                 <Link href={"/cart"}>

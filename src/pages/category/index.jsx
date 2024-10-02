@@ -18,7 +18,7 @@ export default function Category() {
   if (!allCategories)
     return (
       <div>
-        <Preloader />
+        {/* <Preloader /> */}
       </div>
     );
 

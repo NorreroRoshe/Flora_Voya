@@ -8,6 +8,7 @@
       "hover_img": "colshoper/basket/THEREDJUNGLE/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "красный"
@@ -88,6 +89,7 @@
       "hover_img": "colshoper/basket/BLOOMINGBLUEBASKET/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -129,6 +131,7 @@
       "hover_img": "colshoper/basket/FLUFFYBASKET/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -169,6 +172,7 @@
       "hover_img": "colshoper/basket/SUNBASKET/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "желтый"
@@ -211,6 +215,7 @@
       "hover_img": "colshoper/basket/DREAMBASKET/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -253,6 +258,7 @@
       "hover_img": "colshoper/CORSAGE/PINKCORSAGE/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "розовый"
@@ -294,6 +300,7 @@
       "hover_img": "colshoper/roses/PINKBOXWITHREDROSESILOVEYOU/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "красный"
@@ -339,6 +346,7 @@
       "hover_img": "colshoper/roses/BLACKHEARTBOXWITHREDROSES/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "красный"
@@ -397,6 +405,7 @@
       ],
       "price": "10599.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -445,6 +454,7 @@
       ],
       "price": "10599.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -493,6 +503,7 @@
       ],
       "price": "9699.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -536,6 +547,7 @@
       ],
       "price": "10990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -577,6 +589,7 @@
       ],
       "price": "11999.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -617,6 +630,7 @@
       ],
       "price": "8399.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -658,6 +672,7 @@
       ],
       "price": "14599.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -700,6 +715,7 @@
       ],
       "price": "8399.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -741,6 +757,7 @@
       ],
       "price": "11199.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -782,6 +799,7 @@
       ],
       "price": "8399.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -823,6 +841,7 @@
       ],
       "price": "5699.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -864,6 +883,7 @@
       ],
       "price": "32990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -913,6 +933,7 @@
       ],
       "price": "10499.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -959,6 +980,7 @@
       ],
       "price": "6699.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1000,6 +1022,7 @@
       ],
       "price": "10999.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1042,6 +1065,7 @@
       ],
       "price": "6199.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1082,6 +1106,7 @@
       ],
       "price": "10199.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1128,6 +1153,7 @@
       ],
       "price": "44499.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1174,6 +1200,7 @@
       ],
       "price": "14199.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1225,6 +1252,7 @@
       ],
       "price": "7899.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1266,6 +1294,7 @@
       ],
       "price": "7499.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1306,6 +1335,7 @@
       ],
       "price": "11999.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1346,6 +1376,7 @@
       ],
       "price": "9299.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1387,6 +1418,7 @@
       ],
       "price": "13199.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1427,6 +1459,7 @@
       ],
       "price": "13199.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1468,6 +1501,7 @@
       ],
       "price": "8399.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1509,6 +1543,7 @@
       ],
       "price": "7990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1549,6 +1584,7 @@
       ],
       "price": "10199.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1590,6 +1626,7 @@
       ],
       "price": "10199.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1630,6 +1667,7 @@
       ],
       "price": "7499.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1671,6 +1709,7 @@
       ],
       "price": "8399.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1715,6 +1754,7 @@
       ],
       "price": "10199.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1755,6 +1795,7 @@
       ],
       "price": "12699.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1801,6 +1842,7 @@
       ],
       "price": "12699.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1849,6 +1891,7 @@
       ],
       "price": "10199.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1897,6 +1940,7 @@
       ],
       "price": "11399.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1944,6 +1988,7 @@
       ],
       "price": "11399.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1991,6 +2036,7 @@
       ],
       "price": "11399.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -2027,6 +2073,7 @@
       "hover_img": "colshoper/BOUQUETS/CLEARBAGWITHWHITEROSESANDPANDATOY/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "белый"
@@ -2070,6 +2117,7 @@
       "hover_img": "colshoper/box/50shades/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -2113,6 +2161,7 @@
       "hover_img": "colshoper/box/ALICEINWONDERLAND/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -2156,6 +2205,7 @@
       "hover_img": "colshoper/box/LAVENDERFIELD/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -2197,6 +2247,7 @@
       "hover_img": "colshoper/box/WHITEMIX/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -2240,6 +2291,7 @@
       "hover_img": "colshoper/box/LOVEBLOSSOMS/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -2283,6 +2335,7 @@
       "hover_img": "colshoper/box/MAGICBOX/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -2324,6 +2377,7 @@
       "hover_img": "colshoper/box/WONDERLAND/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -2366,6 +2420,7 @@
       "hover_img": "colshoper/box/PARADISEBOX/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -2407,6 +2462,7 @@
       "hover_img": "colshoper/box/BLACKVELVETBOX/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -2447,6 +2503,7 @@
       "hover_img": "colshoper/box/TITANICBOX/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -2488,6 +2545,7 @@
       "hover_img": "colshoper/box/SWEETLIFE/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -2533,6 +2591,7 @@
       "hover_img": "colshoper/box/BUSINESSWOMAN/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -2580,6 +2639,7 @@
       "hover_img": "colshoper/box/PRETTYINPINK/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "розовый"
@@ -2621,6 +2681,7 @@
       "hover_img": "colshoper/box/WELCOMEBABYBOYFLOWERS/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -2664,6 +2725,7 @@
       "hover_img": "colshoper/box/SWEETLOVE/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -2706,6 +2768,7 @@
       "hover_img": "colshoper/box/BARBIEBOUQUET/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -2750,6 +2813,7 @@
       "hover_img": "colshoper/box/LOVELYPINK/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "розовый"
@@ -2791,6 +2855,7 @@
       "hover_img": "colshoper/box/PURPLEICECREAM/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -2832,6 +2897,7 @@
       "hover_img": "colshoper/box/CUTEBEARBOX/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -2873,6 +2939,7 @@
       "hover_img": "colshoper/box/EXOTICBOX/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -2915,6 +2982,7 @@
       "hover_img": "colshoper/box/ARIELLE/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "красный"
@@ -2959,6 +3027,7 @@
       "hover_img": "colshoper/box/MARSHMALLOW/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -3000,6 +3069,7 @@
       "hover_img": "colshoper/box/BOXFORMOM/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -3042,6 +3112,7 @@
       "hover_img": "colshoper/box/RAFFAELLO/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "белый"
@@ -3083,6 +3154,7 @@
       "hover_img": "colshoper/box/CASUALBAG/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -3126,6 +3198,7 @@
       "hover_img": "colshoper/box/STYLISHHEART/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -3167,6 +3240,7 @@
       "hover_img": "colshoper/box/NORTHERNLIGHTS/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -3207,6 +3281,7 @@
       "hover_img": "colshoper/box/JELLYBOX/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -3247,6 +3322,7 @@
       "hover_img": "colshoper/box/CUPID/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "красный"
@@ -3292,6 +3368,7 @@
       "hover_img": "colshoper/box/NEON/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -3333,6 +3410,7 @@
       "hover_img": "colshoper/box/FLOWERFAIRY/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -3374,6 +3452,7 @@
       "hover_img": "colshoper/box/LANDOFDREAMS/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "синий"
@@ -3416,6 +3495,7 @@
       "hover_img": "colshoper/box/PEACHTREE/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -3459,6 +3539,7 @@
       "hover_img": "colshoper/box/LARGEREDBAGHEARTWITHREDROSES/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "красный"
@@ -3504,6 +3585,7 @@
       "hover_img": "colshoper/box/LARGEPINKBAGHEARTWITHPINKADNWHITEROSES/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -3549,6 +3631,7 @@
       "hover_img": "colshoper/box/BLACKBOXWITHBLUEROSESILOVEYOU/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "синий"
@@ -3594,6 +3677,7 @@
       "hover_img": "colshoper/box/PINKBOXWITHPINKROSESILOVEYOU/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "розовый"
@@ -3639,6 +3723,7 @@
       "hover_img": "colshoper/box/BLACKBOXWITHREDROSESILOVEYOU/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "красный"
@@ -3684,6 +3769,7 @@
       "hover_img": "colshoper/box/LARGEBLACKBAGHEARTWITHBLUEANDWHITEROSES/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -3729,6 +3815,7 @@
       "hover_img": "colshoper/box/PURPLESECRETFLOWERBOXWITHPURPLEROSESANDCANDY/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "фиолетовый"
@@ -3774,6 +3861,7 @@
       "hover_img": "colshoper/box/WHITEHEARTFLOWBOXWITHWHITEROSESGREENERYANDMACAROONS/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -3819,6 +3907,7 @@
       "hover_img": "colshoper/box/REDSECRETFLOWERBOXWITHREDROSESANDCANDY/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "красный"
@@ -3864,6 +3953,7 @@
       "hover_img": "colshoper/box/PINKSECRETFLOWERBOXWITHPINKROSESANDCANDY/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "розовый"
@@ -4712,6 +4802,7 @@
       ],
       "price": "9950.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "diameter": "30 см",
       "rating": "1",
@@ -5046,6 +5137,7 @@
       ],
       "price": "19370.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "superbouquets": true,
       "mostPopular": "самые популярные",
       "diameter": "43,18 см",
@@ -5159,6 +5251,7 @@
       ],
       "price": "10799.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "поднять настроение",
       "diameter": "30 см",
       "rating": "1",
@@ -6081,6 +6174,7 @@
       ],
       "price": "17300.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "superbouquets": true,
       "mostPopular": "самые популярные",
       "diameter": "43 см",
@@ -6141,6 +6235,7 @@
       ],
       "price": "9950.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "diameter": "30 см",
       "rating": "1",
       "popularity": true,
@@ -6922,6 +7017,7 @@
       ],
       "price": "373.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "rating": "5",
       "height": "26 см",
       "popularity": false,
@@ -7027,6 +7123,7 @@
       ],
       "price": "373.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "rating": "5",
       "height": "26 см",
       "popularity": false,
@@ -7134,6 +7231,7 @@
       ],
       "price": "11990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "rating": "5",
       "diameter": "30 см",
       "popularity": false,
@@ -7515,6 +7613,7 @@
       ],
       "price": "373.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "rating": "5",
       "popularity": false,
       "diameter": "8 см.",
@@ -7588,6 +7687,7 @@
       ],
       "price": "19990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "height": "65 см.",
       "rating": "5",
       "popularity": false,
@@ -8187,6 +8287,7 @@
       ],
       "price": "12790.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "diameter": "30 см",
       "rating": "5",
       "popularity": false,
@@ -8434,6 +8535,7 @@
       ],
       "price": "11990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "diameter": "30 см",
       "rating": "5",
       "popularity": false,
@@ -8540,6 +8642,7 @@
       ],
       "price": "373.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "rating": "5",
       "popularity": false,
       "featured": false,
@@ -8916,6 +9019,7 @@
       ],
       "price": "42900.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "height": "65 см.",
       "rating": "5",
       "popularity": false,
@@ -8976,6 +9080,7 @@
       ],
       "price": "18500.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "superbouquets": true,
       "mostPopular": "самые популярные",
       "diameter": "43,18 см",
@@ -9279,6 +9384,7 @@
       ],
       "price": "11990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "diameter": "30 см",
       "rating": "5",
       "popularity": false,
@@ -9354,6 +9460,7 @@
       ],
       "price": "11990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "diameter": "30 см",
       "rating": "5",
       "popularity": false,
@@ -10076,6 +10183,7 @@
       ],
       "price": "11990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "diameter": "30 см",
       "rating": "5",
       "popularity": false,
@@ -10801,6 +10909,7 @@
       ],
       "price": "17259.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "superbouquets": true,
       "mostPopular": "самые популярные",
       "diameter": "43 см.",
@@ -11176,6 +11285,7 @@
       ],
       "price": "11990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "diameter": "30 см",
       "rating": "5",
       "popularity": false,
@@ -11539,6 +11649,7 @@
       ],
       "price": "318000.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "height": "26 см.",
       "rating": "5",
       "popularity": false,
@@ -13339,6 +13450,7 @@
       ],
       "price": "309000.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "height": "26 см.",
       "rating": "5",
       "popularity": false,
@@ -14679,6 +14791,7 @@
       ],
       "price": "373.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "rating": "5",
       "popularity": false,
       "featured": false,
@@ -14733,6 +14846,7 @@
       ],
       "price": "355750.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "height": "26 см.",
       "rating": "5",
       "popularity": false,
@@ -15400,6 +15514,7 @@
       ],
       "price": "19990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "height": "65 см.",
       "rating": "5",
       "popularity": false,
@@ -15459,6 +15574,7 @@
       ],
       "price": "25370.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "superbouquets": true,
       "mostPopular": "самые популярные",
       "diameter": "43,18 см",
@@ -15520,6 +15636,7 @@
       ],
       "price": "22795.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "superbouquets": true,
       "mostPopular": "самые популярные",
       "diameter": "43 см.",
@@ -15579,6 +15696,7 @@
       ],
       "price": "22800.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "superbouquets": true,
       "mostPopular": "самые популярные",
       "diameter": "43 см",
@@ -15640,6 +15758,7 @@
       ],
       "price": "24500.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "superbouquets": true,
       "mostPopular": "самые популярные",
       "diameter": "43,18 см",
@@ -15695,6 +15814,7 @@
       ],
       "price": "15990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "поднять настроение",
       "diameter": "30 см",
       "rating": "1",
@@ -15751,6 +15871,7 @@
       ],
       "price": "14690.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "diameter": "30 см",
       "rating": "1",
@@ -15827,6 +15948,7 @@
       ],
       "price": "16650.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "diameter": "30 см",
       "rating": "1",
       "popularity": true,
@@ -15865,6 +15987,7 @@
       ],
       "price": "980.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "rating": "5",
       "height": "17-22 см",
       "popularity": false,
@@ -15919,6 +16042,7 @@
       ],
       "price": "17199.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "rating": "5",
       "diameter": "30 см",
       "popularity": false,
@@ -15957,6 +16081,7 @@
       ],
       "price": "980.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "rating": "5",
       "height": "17-22 см",
       "popularity": false,
@@ -16007,6 +16132,7 @@
       ],
       "price": "46700.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "rating": "5",
       "popularity": false,
       "diameter": "8 см.",
@@ -16057,6 +16183,7 @@
       ],
       "price": "46700.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "rating": "5",
       "popularity": false,
       "diameter": "8 см.",
@@ -16128,6 +16255,7 @@
       ],
       "price": "19990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "height": "65 см.",
       "rating": "5",
       "popularity": false,
@@ -16200,6 +16328,7 @@
       ],
       "price": "42900.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "height": "65 см.",
       "rating": "5",
       "popularity": false,
@@ -16271,6 +16400,7 @@
       ],
       "price": "42900.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "height": "65 см.",
       "rating": "5",
       "popularity": false,
@@ -17475,6 +17605,7 @@
       "hover_img": "colshoper/CORSAGE/WHITECORSAGE/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "белый"
@@ -17516,6 +17647,7 @@
       "hover_img": "colshoper/CORSAGE/THE80SCORSAGE/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
@@ -17556,6 +17688,7 @@
       "hover_img": "colshoper/CORSAGE/ELEGANTCORSAGE/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "белый"

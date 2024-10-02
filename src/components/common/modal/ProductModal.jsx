@@ -246,7 +246,7 @@ export default function ProductModal({ setModalShow, product }) {
             <div className="woocomerce__single-wrapper2">
               <div className="woocomerce__single-left" style={{ order: "1" }}>
                 {isWideScreen ? (
-                  <div className="img-box">
+                  <Link href={`/shop/${product.id}`} style={{display: 'block'}} className="img-box">
                     <Image
                       priority
                       width={400}
@@ -273,9 +273,9 @@ export default function ProductModal({ setModalShow, product }) {
                       src={`/assets/imgs/${product.img}`}
                       alt="product-img"
                     />
-                  </div>
+                  </Link>
                 ) : (
-                  <div className="img-box">
+                  <Link href={`/shop/${product.id}`} style={{display: 'block'}} className="img-box">
                     <Image
                       priority
                       width={400}
@@ -289,7 +289,7 @@ export default function ProductModal({ setModalShow, product }) {
                       src={`/assets/imgs/${product.img}`}
                       alt="product-img"
                     />
-                  </div>
+                  </Link>
                 )}
               </div>
               <div

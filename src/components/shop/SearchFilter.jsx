@@ -6,32 +6,35 @@ import CategoryFilter2 from "./filter/type2/CategoryFilter2";
 import ColorFilter2 from "./filter/type2/ColorFilter2";
 import PriceFilter2 from "./filter/type2/PriceFilter2";
 import CollectionsFilter2 from "./filter/type2/CollectionsFilter2";
-import PovodFilter2 from "./filter/type2/PovodFilter2";
 import RatingFilter2 from "./filter/type2/RatingFilter2";
 import filterFunction from "@/lib/utils/filterFunction";
+import PovodFilter2 from "./filter/type2/PovodFilter2";
+import DeliveryFilter2 from "./filter/type2/DeliveryFilter2";
 import Pagination from '@/components/pagination/pagination';
 
 const initialState = {
   selectedCategory: [],
   selectedColor: [],
   selectedPovod: [],
+  // selectedDelivery: [],
   selectedPrice: [],
   selectedCollections: [],
   selectedRating: [],
   selectedSort: [],
   showData: [],
 };
-
 const reducer = (state, action) => {
   switch (action.type) {
     case "setSelectedCategory":
       return { ...state, selectedCategory: action.value };
+    case "setSelectedPovod":
+      return { ...state, selectedPovod: action.value };
+    // case "setSelectedDelivery":
+    //   return { ...state, selectedDelivery: action.value };
     case "setSelectedColor":
       return { ...state, selectedColor: action.value };
     case "setSelectedPrice":
       return { ...state, selectedPrice: action.value };
-    case "setSelectedPovod":
-      return { ...state, selectedPovod: action.value };
     case "setSelectedCollections":
       return { ...state, selectedCollections: action.value };
     case "setSelectedRating":
@@ -45,26 +48,25 @@ const reducer = (state, action) => {
   }
 };
 
-const SideFilter = ({ allData, allFilter }) => {
+const SearchFilter = ({ allData, searchValue, allFilter }) => {
   const [openMobile, setOpenMobile] = useState(false);
   const [productFilter, dispatch] = useReducer(reducer, initialState);
   const [isLoading, setIsLoading] = useState(true); // Добавляем состояние загрузки
   const [currentPage, setCurrentPage] = useState(1);
   const [value, setValue] = useState('');
-  const countPerPage = 21;
+  const countPerPage = 3;
 
   const {
     selectedColor,
+    selectedPovod,
+    // selectedDelivery,
     selectedPrice,
     selectedCollections,
-    selectedPovod,
     selectedRating,
     selectedSort,
     showData,
     selectedCategory,
   } = productFilter;
-
-  console.log(productFilter, 'productFilter')
 
   const filterAll = () => {
     setCurrentPage(1);
@@ -74,6 +76,7 @@ const SideFilter = ({ allData, allFilter }) => {
         allData,
         selectedColor,
         selectedCollections,
+        // selectedDelivery,
         selectedPovod,
         selectedRating,
         selectedSort,
@@ -85,7 +88,10 @@ const SideFilter = ({ allData, allFilter }) => {
 
   let [filterData, setDataValue] = useState([]);
 
-  // Обновляем filterData и выключаем isLoading, когда изменяется showData
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchValue]);
+
   useEffect(() => {
     setIsLoading(true);
     const to = countPerPage * currentPage;
@@ -110,11 +116,14 @@ const SideFilter = ({ allData, allFilter }) => {
     });
   }, [allData]);
 
+  console.log(productFilter, 'productFilter')
+
   return (
     <>
       <div className="woocomerce__filtering woocomerce-paddingss">
         <div className="row gapapap">
-          {allFilter && Object.keys(allFilter).length ? (
+
+        {allFilter && Object.keys(allFilter).length ? (
             <div className="col-lg-3 asdgqw">
               <div
                 className={
@@ -124,6 +133,7 @@ const SideFilter = ({ allData, allFilter }) => {
                 }
               >
                 <Accordion className="accordion short-by">
+
 
                   <div className="wqfegrbfs">
                     <h3 className="woocomerce__shopsidebar-title">
@@ -139,11 +149,30 @@ const SideFilter = ({ allData, allFilter }) => {
                       </svg>
                     </h3>
                   </div>
+                  {/* <Accordion.Item eventKey="9" className="accordion-item">
+                    <Accordion.Header className="accordion-header">
+                      <p style={{textTransform: 'uppercase', fontSize: '15px' }}>Доставка</p>
+                    </Accordion.Header>
+                    <Accordion.Body className="accordion-collapse collapse show">
+                      <DeliveryFilter2
+                        delivery={allFilter.delivery}
+                        setOpenMobile={setOpenMobile}
+                        selectedDelivery={selectedDelivery}
+                        dispatch={dispatch}
+                        filterAll={filterAll}
+                      />
+                    </Accordion.Body>
+                  </Accordion.Item> */}
 
 
 
 
-                  {/* <Accordion.Item eventKey="1" className="accordion-item">
+
+
+
+
+
+                  {/* <Accordion.Item eventKey="5" className="accordion-item">
                     <Accordion.Header className="accordion-header">
                       <p style={{textTransform: 'uppercase', fontSize: '15px' }}>Повод</p>
                     </Accordion.Header>
@@ -161,10 +190,24 @@ const SideFilter = ({ allData, allFilter }) => {
 
 
 
+                  <Accordion.Item eventKey="1" className="accordion-item">
+                    <Accordion.Header className="accordion-header">
+                      <p style={{ textTransform: 'uppercase', fontSize: '15px' }}>Категория товара</p>
+                    </Accordion.Header>
+                    <Accordion.Body className="accordion-collapse collapse show">
+                      <CategoryFilter2
+                        category={allFilter.category}
+                        setOpenMobile={setOpenMobile}
+                        selectedCategory={selectedCategory}
+                        dispatch={dispatch}
+                        filterAll={filterAll}
+                      />
+                    </Accordion.Body>
+                  </Accordion.Item>
 
                   {/* <Accordion.Item eventKey="4" className="accordion-item">
                     <Accordion.Header className="accordion-header">
-                      <p style={{textTransform: 'uppercase', fontSize: '15px' }}>Цветочное разнообразие</p>
+                      <p style={{textTransform: 'uppercase', fontSize: '15px'}}>Цветочное разнообразие</p>
                     </Accordion.Header>
                     <Accordion.Body className="accordion-collapse collapse show">
                       <CollectionsFilter2
@@ -175,13 +218,11 @@ const SideFilter = ({ allData, allFilter }) => {
                         filterAll={filterAll}
                       />
                     </Accordion.Body>
-                  </Accordion.Item> */}
-
-
+                  </Accordion.Item>
 
                   <Accordion.Item eventKey="2" className="accordion-item">
                     <Accordion.Header className="accordion-header">
-                      <p style={{ textTransform: 'uppercase', fontSize: '15px' }}>по цвету</p>
+                      <p style={{textTransform: 'uppercase', fontSize: '15px'}}>по цвету</p>
                     </Accordion.Header>
                     <Accordion.Body className="accordion-collapse collapse show">
                       <ColorFilter2
@@ -192,11 +233,11 @@ const SideFilter = ({ allData, allFilter }) => {
                         filterAll={filterAll}
                       />
                     </Accordion.Body>
-                  </Accordion.Item>
+                  </Accordion.Item> */}
 
                   {/* <Accordion.Item eventKey="3" className="accordion-item">
                     <Accordion.Header className="accordion-header">
-                      <p style={{ textTransform: 'uppercase', fontSize: '15px' }}>по Цене</p>
+                      <p style={{textTransform: 'uppercase', fontSize: '15px'}}>по цене</p>
                     </Accordion.Header>
                     <Accordion.Body className="accordion-collapse collapse show">
                       <PriceFilter2
@@ -210,7 +251,7 @@ const SideFilter = ({ allData, allFilter }) => {
 
                   {/* <Accordion.Item eventKey="5" className="accordion-item">
                     <Accordion.Header className="accordion-header">
-                      <p style={{textTransform: 'uppercase', fontSize: '15px'}}>Rating</p>
+                      <p>Rating</p>
                     </Accordion.Header>
                     <Accordion.Body className="accordion-collapse collapse show">
                       <RatingFilter2
@@ -250,7 +291,6 @@ const SideFilter = ({ allData, allFilter }) => {
           ) : (
             ""
           )}
-
           <div className="col-lg-8">
             {/* shop inner */}
             <div className="woocomerce__shopsidemain wc_feature_products">
@@ -285,4 +325,4 @@ const SideFilter = ({ allData, allFilter }) => {
   );
 };
 
-export default SideFilter;
+export default SearchFilter;

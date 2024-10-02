@@ -28,7 +28,7 @@ const filterFunction = (
     let filter = [];
     updateData.filter((el) => {
       selectedCollections.map((el2) => {
-        if (el.collections.toLowerCase() === el2) {
+        if (el.collections?.toLowerCase() === el2) {
           if (!filter.includes(el)) {
             filter.push(el);
           }
@@ -41,7 +41,7 @@ const filterFunction = (
     let filter = [];
     updateData.filter((el) => {
       selectedCategory.map((el2) => {
-        if (el.category.toLowerCase() === el2) {
+        if (el.category?.toLowerCase() === el2) {
           if (!filter.includes(el)) {
             filter.push(el);
           }

@@ -12,7 +12,7 @@ const Contact = () => {
   if (!data)
     return (
       <div>
-        <Preloader />
+        {/* <Preloader /> */}
       </div>
     );
 

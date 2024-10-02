@@ -20,7 +20,7 @@ const SideBar = () => {
   if (!allProducts || !filters)
     return (
       <div>
-        <Preloader />
+        {/* <Preloader /> */}
       </div>
     );
 

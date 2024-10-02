@@ -19,7 +19,7 @@ const Full = () => {
   if (!allCollections || !filters)
     return (
       <div>
-        <Preloader />
+        {/* <Preloader /> */}
       </div>
     );
 

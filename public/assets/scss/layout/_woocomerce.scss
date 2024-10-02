@@ -2073,9 +2073,12 @@
   }
   // update v0.3
   &__shopsidemain {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     // position: relative;
     // z-index: -2;
+    @media (max-width: 550px) {
+      padding-bottom: 10px;
+    }
   }
 }
 
@@ -2390,5 +2393,35 @@ ul.mega-menu-2.woocomerce-megamenu {
     &:hover {
       background-color: white;
     }
+  }
+}
+
+.ebrf {
+  position: relative;
+}
+
+.dfbdgf {
+  position: absolute;
+  left: -46px;
+  top: -6px;
+  @media (max-width: 767px) {
+    left: -27px;
+  }
+}
+
+.fevdrfbg {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 300px;
+  @media (max-width: 1450px) {
+    max-width: 250px;
+  }
+  @media (max-width: 440px) {
+    max-width: 200px;
+  }
+  @media (max-width: 430px) {
+    max-width: 150px;
   }
 }

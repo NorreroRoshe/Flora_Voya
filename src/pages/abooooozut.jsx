@@ -180,7 +180,7 @@ const [mode, setMode] = React.useState("");
   if (!data)
     return (
       <div>
-        <Preloader />
+        {/* <Preloader /> */}
       </div>
     );
 

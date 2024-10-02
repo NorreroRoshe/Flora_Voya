@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 export default function HeaderSearch({ allData }) {
@@ -56,6 +57,17 @@ export default function HeaderSearch({ allData }) {
     router.push("/shop/" + data);
   };
 
+  console.log(searchSlug,'searchSlug')
+
+  const onButtonClick = () => {
+    router.push(`/search-page?SearchQuery=${searchValue.replace('+', '%2B')}`);
+    // handleGetSearchProducts();
+
+    // setInputFocus(false);
+    // closeMobileSearch();
+    // closeSearch();
+  }
+
   return (
     <>
       <div>
@@ -88,19 +100,32 @@ export default function HeaderSearch({ allData }) {
           />
           <div id="search-value">
             {searchSlug && searchSlug.length
-              ? searchSlug.map((el, i) => (
-                  <p
+              ? searchSlug.slice(0, 3).map((el, i) => (
+                  <div
+                    className="sacvrbdg pointer_cursor"
                     key={i + "search"}
-                    className="search-name pointer_cursor"
                     onClick={() => {
                       navigate(el.id);
                       closeSearch();
                     }}
                   >
-                    {el.title}
-                  </p>
+                    <img
+                      src={`/assets/imgs/${el.img}`}
+                      className="efwrget"
+                      alt={el.title}
+                    />
+                    <div className="sacvrbdgwe">
+                      <p className="search-name qevdf">{el.title}</p>
+                      <p className="search-name qevdf">{Math.round(el.price)} ₽</p>
+                    </div>
+                  </div>
                 ))
               : ""}
+          </div>
+          <div id="search-value" className='vedbf'>
+            {searchValue && searchSlug.length > 0 && (
+              <Link href='/' className='fwebg'>все результаты</Link>
+            )}
           </div>
         </form>
       </div>

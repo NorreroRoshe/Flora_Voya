@@ -195,7 +195,8 @@ export default function Cart() {
           </div>
         </ProductLayout>
       ) : (
-        <Preloader />
+        // <Preloader />
+        <></>
       )}
     </>
   );

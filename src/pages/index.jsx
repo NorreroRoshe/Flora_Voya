@@ -238,7 +238,7 @@ const Index = () => {
   )
     return (
       <div>
-        <Preloader />
+        {/* <Preloader /> */}
       </div>
     );
   const allData = allProduct.products;

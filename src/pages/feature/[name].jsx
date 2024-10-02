@@ -52,7 +52,7 @@ export default function AllFeature() {
   if (!allProducts || !filters)
     return (
       <div>
-        <Preloader />
+        {/* <Preloader /> */}
       </div>
     );
 

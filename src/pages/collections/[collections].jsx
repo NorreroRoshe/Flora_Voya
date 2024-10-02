@@ -28,7 +28,7 @@ export default function CategoryProduct() {
   if (!allProducts || !filters || !allCollections)
     return (
       <div>
-        <Preloader />
+        {/* <Preloader /> */}
       </div>
     );
   const allData = allProducts.products.filter(

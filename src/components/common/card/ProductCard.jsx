@@ -186,7 +186,7 @@ const ProductCard = ({ el }) => {
           <div className="woocomerce__feature-titlewraper">
             <Link
               href={`/shop/${el.id}`}
-              className="woocomerce__feature-producttitle"
+              className="woocomerce__feature-producttitle fevdrfbg"
             >
               {el.title}
             </Link>
