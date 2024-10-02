@@ -49,9 +49,10 @@ export default function HeaderSearch({ allData }) {
 
   const searchItem = (event) => {
     event.preventDefault();
-    if (searchSlug && searchSlug.length) {
-      router.push("/shop/" + searchSlug[0].id);
-    }
+    // if (searchSlug && searchSlug.length) {
+    //   router.push("/shop/" + searchSlug[0].id);
+    // }
+    router.push(`/search-page?SearchQuery=${searchValue.replace('+', '%2B')}`);
   };
   const navigate = (data) => {
     router.push("/shop/" + data);
@@ -124,7 +125,7 @@ export default function HeaderSearch({ allData }) {
           </div>
           <div id="search-value" className='vedbf'>
             {searchValue && searchSlug.length > 0 && (
-              <Link href='/' className='fwebg'>все результаты</Link>
+              <button type="submit" onClick={() => onButtonClick()} className='fwebg'>все результаты</button>
             )}
           </div>
         </form>

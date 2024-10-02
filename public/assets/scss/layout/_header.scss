@@ -310,8 +310,11 @@
         top: 105px;
       }
 
-      @media (max-width: 450px) {
-        right: 50px;
+      @media (max-width: 405px) {
+        right: 5px;
+      }
+      @media (max-width: 391px) {
+        right: 0px;
       }
 
       // @media #{$md} {

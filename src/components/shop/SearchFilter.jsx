@@ -54,7 +54,7 @@ const SearchFilter = ({ allData, searchValue, allFilter }) => {
   const [isLoading, setIsLoading] = useState(true); // Добавляем состояние загрузки
   const [currentPage, setCurrentPage] = useState(1);
   const [value, setValue] = useState('');
-  const countPerPage = 3;
+  const countPerPage = 20;
 
   const {
     selectedColor,

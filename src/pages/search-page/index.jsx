@@ -1,3 +1,4 @@
+"useState"
 import { Preloader } from "@/components";
 import ProductLayout from "@/components/common/layout/ProductLayout";
 import Head from "next/head";
@@ -5,6 +6,7 @@ import SearchFilter from "@/components/shop/SearchFilter";
 import useSWR from "swr";
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
+import { useSearchParams } from "next/navigation";
 
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
@@ -18,6 +20,7 @@ const SideBar = () => {
   const searchOpen = useRef();
   const searchClose = useRef();
   const inputData = useRef();
+  const searchParams = useSearchParams();
 
   const { data: allProducts, error } = useSWR(
     "../assets/json/allProducts.json",
@@ -27,6 +30,24 @@ const SideBar = () => {
     "../assets/json/filter.json",
     fetcher
   );
+
+  useEffect(() => {
+    const ssearchQuery = searchParams.get('SearchQuery');
+    console.log(ssearchQuery,'SearchQuerySearchQuery')
+    if (ssearchQuery) {
+      setSearchValue(ssearchQuery);
+    }
+  }, [searchParams]);  
+  
+  useEffect(() => {
+    if (router.pathname === "/search-page" && inputData.current) {
+      const timer = setTimeout(() => {
+        inputData.current.focus();
+      }, 100); // Задержка в 1 секунду (1000 миллисекунд)
+
+      return () => clearTimeout(timer); // Очистка таймера при размонтировании компонента
+    }
+  }, [router.pathname, searchParams]);
 
   useEffect(() => {
     if (searchData && searchData.length) {
@@ -47,6 +68,9 @@ const SideBar = () => {
       }
     }
   }, [searchValue, searchData]);
+
+
+
 
   if (error || error2) return <div>Failed to load</div>;
   if (!allProducts || !filters)
@@ -70,9 +94,11 @@ const SideBar = () => {
 
   const searchItem = (event) => {
     event.preventDefault();
-    if (searchSlug && searchSlug.length) {
-      router.push("/shop/" + searchSlug[0].id);
-    }
+    // if (searchSlug && searchSlug.length) {
+    //   router.push("/shop/" + searchSlug[0].id);
+    // }
+    router.push(`/search-page?SearchQuery=${searchValue.replace('+', '%2B')}`);
+
   };
 
   return (
@@ -92,6 +118,7 @@ const SideBar = () => {
                   name="s"
                   autoComplete="off"
                   ref={inputData}
+                  value={searchValue}
                   placeholder="Я ищу саму прекрасную.."
                   onChange={(event) => setSearchValue(event.target.value)}
                   onFocus={openSearch}
