@@ -79,7 +79,7 @@ export default function HeaderSearch({ allData }) {
           onClick={openSearch}
           id="search_icon"
         >
-          <i className="fa-solid fa-magnifying-glass"></i>
+          <i className="fa-solid fa-magnifying-glass" style={{color: '#000'}}></i>
         </button>
         <button
           className="search-icon"
