@@ -40,14 +40,16 @@ const SideBar = () => {
   }, [searchParams]);  
   
   useEffect(() => {
-    if (router.pathname === "/search-page") {
+    // if (router.pathname === "/search-page") {
       const timer = setTimeout(() => {
         inputData.current.focus();
       }, 100); // Задержка в 1 секунду (1000 миллисекунд)
 
       return () => clearTimeout(timer); // Очистка таймера при размонтировании компонента
-    }
-  }, [router.pathname, searchParams]);
+    // }
+  }, [
+    // router.pathname, searchParams
+  ]);
 
   useEffect(() => {
     if (searchData && searchData.length) {
