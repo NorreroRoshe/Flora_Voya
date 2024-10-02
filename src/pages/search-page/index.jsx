@@ -40,7 +40,7 @@ const SideBar = () => {
   }, [searchParams]);  
   
   useEffect(() => {
-    if (router.pathname === "/search-page" && inputData.current) {
+    if (router.pathname === "/search-page" || inputData.current) {
       const timer = setTimeout(() => {
         inputData.current.focus();
       }, 100); // Задержка в 1 секунду (1000 миллисекунд)

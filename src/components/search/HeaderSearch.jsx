@@ -53,6 +53,7 @@ export default function HeaderSearch({ allData }) {
     //   router.push("/shop/" + searchSlug[0].id);
     // }
     router.push(`/search-page?SearchQuery=${searchValue.replace('+', '%2B')}`);
+    closeSearch();
   };
   const navigate = (data) => {
     router.push("/shop/" + data);
@@ -66,7 +67,7 @@ export default function HeaderSearch({ allData }) {
 
     // setInputFocus(false);
     // closeMobileSearch();
-    // closeSearch();
+    closeSearch();
   }
 
   return (

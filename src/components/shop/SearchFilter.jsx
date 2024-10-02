@@ -128,7 +128,7 @@ const SearchFilter = ({ allData, searchValue, allFilter }) => {
               <div
                 className={
                   openMobile
-                    ? "woocomerce__shopsidebar wc_slide_btm showed"
+                    ? "woocomerce__shopsidebar wc_slide_btm showed fegrf"
                     : "woocomerce__shopsidebar wc_slide_btm"
                 }
               >
