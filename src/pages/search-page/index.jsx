@@ -48,7 +48,8 @@ const SideBar = () => {
       return () => clearTimeout(timer); // Очистка таймера при размонтировании компонента
     // }
   }, [
-    // router.pathname, searchParams
+    // router.pathname,
+     searchParams
   ]);
 
   useEffect(() => {
