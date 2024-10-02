@@ -87,7 +87,7 @@ export default function HeaderSearch({ allData }) {
           onClick={closeSearch}
           id="search_close"
         >
-          <i className="fa-solid fa-xmark"></i>
+          <i className="fa-solid fa-xmark" style={{color: '#000'}}></i>
         </button>
       </div>
       <div className="header__search" ref={searchHeader}>
