@@ -123,7 +123,7 @@ const SearchFilter = ({ allData, searchValue, allFilter }) => {
       <div className="woocomerce__filtering woocomerce-paddingss">
         <div className="row gapapap">
 
-        {allFilter && Object.keys(allFilter).length ? (
+        {allFilter && Object.keys(allFilter).length && searchValue ? (
             <div className="col-lg-3 asdgqw">
               <div
                 className={
@@ -291,18 +291,15 @@ const SearchFilter = ({ allData, searchValue, allFilter }) => {
           ) : (
             ""
           )}
-          <div className="col-lg-8">
-            {/* shop inner */}
+          {/* <div className="col-lg-8">
             <div className="woocomerce__shopsidemain wc_feature_products">
-              <div className="woocomerce__feature-wrapper filteringwrapper shopsidebar">
                 {isLoading ? (
                   <p>Loading...</p> // Показываем индикатор загрузки, пока данные не готовы
                 ) : filterData && filterData.length ? (
-                  filterData.map((el) => <ProductCard el={el} key={el.id} />)
-                ) : (
-                  <p style={{ textTransform: 'uppercase', fontSize: '15px' }}>No Product Found</p>
-                )}
-              </div>
+                  <div className="woocomerce__feature-wrapper filteringwrapper shopsidebar">
+                    {filterData.map((el) => <ProductCard el={el} key={el.id} />)}
+                  </div>
+               
             </div>
 
             {showData.length > countPerPage && !value.trim() && (
@@ -319,6 +316,40 @@ const SearchFilter = ({ allData, searchValue, allFilter }) => {
               </div>
             )}
           </div>
+          ) : (
+            <p style={{ textTransform: 'uppercase', fontSize: '15px' }}>Ничего не найдено, пожалуйста введите новый  запрос!</p>
+          )} */}
+          {isLoading ? (
+            <p>Loading...</p> // Показываем индикатор загрузки, пока данные не готовы
+          ) : filterData && filterData.length ? (
+            <div className="col-lg-8">
+              <div className="woocomerce__shopsidemain wc_feature_products">
+                <div className="woocomerce__feature-wrapper filteringwrapper shopsidebar">
+                  {filterData.map((el) => (
+                    <ProductCard el={el} key={el.id} />
+                  ))}
+                </div>
+
+                {showData.length > countPerPage && !value.trim() && (
+                  <div className="text-end mt-5">
+                    <Pagination
+                      current={currentPage}
+                      onChange={updatePage}
+                      pageSize={countPerPage}
+                      total={showData?.length}
+                      prevIcon="<"
+                      nextIcon=">"
+                      className="order-table-pagination"
+                    />
+                  </div>
+                )}
+              </div>
+            </div>
+          ) : (
+            <p style={{ textTransform: 'uppercase', fontSize: '15px', textAlign: 'center' }}>
+              Ничего не найдено, пожалуйста введите новый запрос!
+            </p>
+          )}
         </div>
       </div>
     </>

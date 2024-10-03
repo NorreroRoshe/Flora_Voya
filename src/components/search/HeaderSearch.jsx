@@ -12,26 +12,27 @@ export default function HeaderSearch({ allData }) {
   const searchOpen = useRef();
   const searchClose = useRef();
   const inputData = useRef();
-
+  
   useEffect(() => {
     if (searchData && searchData.length) {
       if (searchValue) {
         const allSlug = [];
         searchData.map((el) => {
-          let result = el.title
-            .toLowerCase()
-            .includes(searchValue.toLowerCase());
+          const result =
+            el.title.toLowerCase().includes(searchValue.toLowerCase()) ||
+            el.pro_code?.toLowerCase().includes(searchValue.toLowerCase()); // Проверка pro_code (если он есть)
+          
           if (result) {
             allSlug.push(el);
           }
         });
         setSearchSlug(allSlug);
       } else {
-        const allSlug = [];
-        setSearchSlug(allSlug);
+        setSearchSlug([]);
       }
     }
   }, [searchValue, searchData]);
+  
 
   const openSearch = () => {
     searchHeader.current.classList.add("open-search");

@@ -17,8 +17,8 @@ const fields = {
   name: "Имя",
   phone: "Телефон",
   email: "Email",
-  message: "Сообщение",
-  сompany: "Компания",
+  message: "Комментари",
+  сompany: "Доставка",
 };
 
 const Contact2 = () => {
@@ -27,7 +27,7 @@ const Contact2 = () => {
   const [isSent, setSent] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
-    email: ""
+    phone: "",
   });
 
   const context = useContext(AppContext);
@@ -80,7 +80,7 @@ const totalCount = cart?.reduce((sum, item) => {
 
     // Проверка email на корректность, попробуй ввести что-то без собаки и он заругается
     const isValidEmail = !RegExp(emailRegex).test(formData.email);
-    if (isValidEmail) alert(`Неправильная почта`);
+    // if (isValidEmail) alert(`Неправильная почта`);
 
     // Проверка имени на корректность, в данном случае просто запретил все цифры
     const isValidName = !RegExp(/^[^\d]*$/g).test(formData.name);
@@ -93,7 +93,7 @@ const totalCount = cart?.reduce((sum, item) => {
     
     
     // Завершаем загрузку и закрываем выполнение функции, не вызывая отправление в телеграмм
-    if (isEmpty || isValidEmail || isValidName || isValidPhone ) {
+    if (isEmpty || isValidName || isValidPhone ) {
       setLoad(false);
       return;
     }
@@ -108,7 +108,7 @@ const totalCount = cart?.reduce((sum, item) => {
   try {
     await sendWithTg(formData, cart, totalPrice, totalCount);
     setSent(true);
-    localStorage.removeItem('cart'); // Очистка localStorage после успешной отправки
+    localStorage.removeItem('cart');
     setFormData({
       name: "",
       email: "",
@@ -132,7 +132,7 @@ const totalCount = cart?.reduce((sum, item) => {
           action="#"
         >
           <div className="row g-3">
-            <div className="col-xxl-6 col-xl-6 col-12">
+            <div className="col-xxl-12 col-xl-12 col-12">
               <input
                 type="text"
                 name="name"
@@ -140,36 +140,37 @@ const totalCount = cart?.reduce((sum, item) => {
                 required
               />
             </div>
-            <div className="col-xxl-6 col-xl-6 col-12">
+            {/* <div className="col-xxl-6 col-xl-6 col-12">
               <input
                 type="email"
                 name="email"
                 placeholder="Почта *"
                 required
               />
-            </div>
+            </div> */}
           </div>
           <div className="row g-3">
-            <div className="col-xxl-6 col-xl-6 col-12">
+            <div className="col-xxl-12 col-xl-12 col-12">
               <input
                 type="tel"
                 name="phone"
-                placeholder="Телефон"
+                placeholder="Телефон *"
+                style={{marginBottom: '12px'}}
               />
             </div>
-            <div className="col-xxl-6 col-xl-6 col-12">
+            <div className="col-xxl-12 col-xl-12 col-12">
               <input
                 type="text"
-                name="company"
-                placeholder="Компания"
+                name="message"
+                placeholder="Адрес доставки"
               />
           </div>
           </div>
           <div className="row g-3">
             <div className="col-12">
               <textarea
-                name="message"
-                placeholder="Сообщение"
+                name="company"
+                placeholder="Комментарии"
               ></textarea>
             </div>
           </div>

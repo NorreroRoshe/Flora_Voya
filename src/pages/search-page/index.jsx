@@ -159,10 +159,9 @@ const SideBar = () => {
 
   const router = useRouter();
   const searchHeader = useRef();
-  const searchOpen = useRef();
-  const searchClose = useRef();
   const inputData = useRef();
   const searchParams = useSearchParams();
+  const lastSearchValueRef = useRef(searchValue);
 
   const { data: allProducts, error } = useSWR(
     "../assets/json/allProducts.json",
@@ -187,42 +186,50 @@ const SideBar = () => {
     }, 1000);
     return () => clearTimeout(timer);
   }, []);
-
+  
   useEffect(() => {
     if (searchData && searchData.length) {
       if (searchValue) {
         const allSlug = [];
         searchData.map((el) => {
-          let result = el.title
-            .toLowerCase()
-            .includes(searchValue.toLowerCase());
+          // Проверяем как по title, так и по pro_code
+          const result =
+            el.title.toLowerCase().includes(searchValue.toLowerCase()) ||
+            el.pro_code?.toLowerCase().includes(searchValue.toLowerCase()); // Проверка pro_code (если он есть)
+          
           if (result) {
             allSlug.push(el);
           }
         });
         setSearchSlug(allSlug);
       } else {
-        const allSlug = [];
-        setSearchSlug(allSlug);
+        setSearchSlug([]);
       }
     }
   }, [searchValue, searchData]);
 
+
   useEffect(() => {
     const handler = setTimeout(() => {
+    if (searchValue !== lastSearchValueRef.current) {  // Check if the value changed
+      lastSearchValueRef.current = searchValue;  // Update ref with the latest search value
+
       if (searchValue) {
-        router.replace(`/search-page?SearchQuery=${encodeURIComponent(searchValue)}`);
+        router.replace(
+          `/search-page?SearchQuery=${encodeURIComponent(searchValue)}`,
+          undefined,
+          { scroll: false } // Prevent scroll to top
+        );
       } else {
-        // Если searchValue пустое, можно удалить параметр
-        router.replace('/search-page?SearchQuery=');
+        router.replace('/search-page?SearchQuery=', undefined, { scroll: false });
       }
-    }, 1000); // Задержка в 1000 миллисекунд (1 секунда)
+    }
+  }, 1000);
 
-    return () => {
-      clearTimeout(handler); // Очистка таймера при размонтировании или изменении searchValue
-    };
-  }, [searchValue, router]);
-
+  return () => {
+    clearTimeout(handler); // Clear the timer on unmount or when searchValue changes
+  };
+}, [searchValue]); // Only trigger effect when searchValue changes
   if (error || error2) return <div>Failed to load</div>;
   if (!allProducts || !filters)
     return (
