@@ -19,6 +19,7 @@ const fields = {
   phone: "Телефон",
   email: "Email",
   message: "Комментари",
+  timedel: "Дата доставки",
   сompany: "Доставка",
 };
 
@@ -135,6 +136,7 @@ const totalCount = cart?.reduce((sum, item) => {
       name: "",
       phone: "",
       message: "",
+      timedel: "",
       company: ""
     });
   } catch (error) {
@@ -184,8 +186,16 @@ const totalCount = cart?.reduce((sum, item) => {
                 type="text"
                 name="message"
                 placeholder="Адрес доставки"
+                style={{marginBottom: '12px'}}
               />
-          </div>
+            </div>
+            <div className="col-xxl-12 col-xl-12 col-12">
+              <input
+                type="text"
+                name="timedel"
+                placeholder="Дата доставки"
+              />
+            </div>
           </div>
           <div className="row g-3">
             <div className="col-12">

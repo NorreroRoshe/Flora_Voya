@@ -12,6 +12,7 @@ export const sendWithTg = async (formData, cart, totalPrice, totalCount) => {
   Name: ${formData.name}
   %0AEmail: ${formData.email}
   %0APhone: ${formData.phone}
+  %0ATimeDel: ${formData.timedel}
   %0AMessage: ${formData.message}
   %0AСompany: ${formData.company}
   `;

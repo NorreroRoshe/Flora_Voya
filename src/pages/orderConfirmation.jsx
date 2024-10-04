@@ -200,7 +200,6 @@
 
 // export default OrderConfirmation;
 
-
 import { useEffect, useState, useRef } from 'react';
 import { useRouter } from 'next/router';
 import Head from "next/head";
@@ -208,7 +207,6 @@ import Link from "next/link";
 import ProductLayout from "@/components/common/layout/ProductLayout";
 import { jsPDF } from "jspdf";
 import html2canvas from "html2canvas";
-
 const OrderConfirmation = () => {
   const router = useRouter();
   const [orderData, setOrderData] = useState(null);
@@ -232,7 +230,6 @@ const OrderConfirmation = () => {
       setTotalCount(savedTotalCount);
     } 
   }, [router]);
-
 
   const downloadPDF = () => {
     // Hide the download button
@@ -269,10 +266,6 @@ const OrderConfirmation = () => {
     });
   };
 
-  if (!orderData) {
-    return <p>Нет данных о заказе. Пожалуйста, вернитесь на главную.</p>;
-  }
-
   return (
     <>
       <Head>
@@ -283,74 +276,78 @@ const OrderConfirmation = () => {
       <main>
         <ProductLayout>
           <section className="service__area-7 pt-130">
-            <div className="container">
-              <div className="row">
-                <div className="col-xxl-12">
-                  <div className="service__items-7 animation_service_7" ref={orderRef}>
-                    <div className="service__item-7">
-                      <p className="service__title-7">Заказ успешно оформлен!</p>
-                      <div>Всю информацию мы выслали вам на почту.</div>
-                      <button
-                        className="wc-btn-dark wc-btn-dark1"
-                        style={{ marginTop: '20px' }}
-                        ref={downloadButtonRef}
-                        onClick={downloadPDF} // Add the click handler
-                      >
-                        Скачать лист заказа (.pdf)
-                      </button>
-                      <p style={{ marginTop: '10px', fontSize: '11px' }}>
-                        * Рекомендуем скачать лист заказа, так как данные по заказу удаляться с сайта. В любом случае всю информацтю мы вышлем вам на почту или мессенджеры.
-                      </p>
-                    </div>
+            {orderData ? (
+              <div className="container">
+                <div className="row">
+                  <div className="col-xxl-12">
+                    <div className="service__items-7 animation_service_7" ref={orderRef}>
+                      <div className="service__item-7">
+                        <p className="service__title-7">Заказ успешно оформлен!</p>
+                        <div>Всю информацию мы выслали вам на почту.</div>
+                        <button
+                          className="wc-btn-dark wc-btn-dark1"
+                          style={{ marginTop: '20px' }}
+                          ref={downloadButtonRef}
+                          onClick={downloadPDF}
+                        >
+                          Скачать лист заказа (.pdf)
+                        </button>
+                        <p style={{ marginTop: '10px', fontSize: '11px' }}>
+                          * Рекомендуем скачать лист заказа, так как данные по заказу удаляться с сайта. В любом случае всю информацтю мы вышлем вам на почту или мессенджеры.
+                        </p>
+                      </div>
 
-                    <div className="service__item-7">
-                      <p className="service__title-7">Информация:</p>
-                      <div>
-                        <p>Имя: {orderData?.name}</p>
-                        <p>Телефон: {orderData?.phone}</p>
-                        <p>Дата и время заказа: {orderData?.date}</p>
+                      <div className="service__item-7">
+                        <p className="service__title-7">Информация:</p>
+                        <div>
+                          <p>Имя: {orderData?.name}</p>
+                          <p>Телефон: {orderData?.phone}</p>
+                          <p>Дата и время заказа: {orderData?.date}</p>
+                        </div>
                       </div>
-                    </div>
-                    <div className="service__item-7">
-                      <p className="service__title-7">Доставка:</p>
-                      <div>
-                        <p>Адрес: {orderData?.message}</p>
-                        <p>Дата и время: {orderData?.phone}</p>
+                      <div className="service__item-7">
+                        <p className="service__title-7">Доставка:</p>
+                        <div>
+                          <p>Адрес: {orderData?.message}</p>
+                          <p>Дата и время: {orderData?.timedel}</p>
+                        </div>
                       </div>
-                    </div>
-                    <div className="service__item-7">
-                      <p className="service__title-7">Ваши товары:</p>
-                      <ul>
-                        {cartItems.map((item, index) => (
-                          <li key={index}>
-                            <Link href={`/shop/${item.id}`} style={{ color: '#000', display: 'block' }}>
-                              ● {item.title} - {item.quantity} шт. - {item.price} ₽
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                    <div className="service__item-7">
-                      <p className="service__title-7">Итог:</p>
-                      <div>
-                        <p>Сумма: {totalPrice} ₽</p>
-                        <p>Позиций: {totalCount}</p>
+                      <div className="service__item-7">
+                        <p className="service__title-7">Ваши товары:</p>
+                        <ul>
+                          {cartItems.map((item, index) => (
+                            <li key={index}>
+                              <Link href={`/shop/${item.id}`} style={{ color: '#000', display: 'block' }}>
+                                ● {item.title} - {item.quantity} шт. - {item.price} ₽
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
                       </div>
-                    </div>
-                    <div className="service__item-7">
-                      <p className="service__title-7">Комментарий:</p>
-                      <div>
-                        {orderData?.company ? (
-                          <>{orderData?.company}</>
-                        ) : (
-                          <p style={{ color: 'red' }}>Без комментариев</p>
-                        )}
+                      <div className="service__item-7">
+                        <p className="service__title-7">Итог:</p>
+                        <div>
+                          <p>Сумма: {totalPrice} ₽</p>
+                          <p>Позиций: {totalCount}</p>
+                        </div>
+                      </div>
+                      <div className="service__item-7">
+                        <p className="service__title-7">Комментарий:</p>
+                        <div>
+                          {orderData?.company ? (
+                            <>{orderData?.company}</>
+                          ) : (
+                            <p style={{ color: 'red' }}>Без комментариев</p>
+                          )}
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+            ) : (
+              <p style={{textAlign: 'center', paddingBottom: '30px', fontSize: '17px'}}>Нет данных о заказе. Пожалуйста, вернитесь на главную.</p>
+            )}
           </section>
         </ProductLayout>
       </main>

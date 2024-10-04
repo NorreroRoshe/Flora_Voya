@@ -270,7 +270,7 @@
   }
 
   &__search {
-    position: fixed;
+    position: absolute;
     // width: 450px;
     width: 370px;
     right: 60px;
@@ -292,29 +292,29 @@
       opacity: 1;
       visibility: visible;
       // top: 70px;
-      top: 182px;
+      top: 146px;
       right: 97px;
 
       @media (max-width: 1199px) {
-        right: 110px;
-        top: 105px;
+        right: -8px;
+        top: 38px;
       }
 
       @media (max-width: 991px) {
-        right: 92px;
-        top: 115px;
+        right: -7px;
+        top: 48px;
       }
 
       @media (max-width: 767px) {
-        right: 15px;
-        top: 105px;
+        right: -45px;
+        top: 41px;
       }
 
       @media (max-width: 405px) {
-        right: 5px;
+        right: -48px;
       }
       @media (max-width: 391px) {
-        right: 0px;
+        right: -65px;
       }
 
       // @media #{$md} {
