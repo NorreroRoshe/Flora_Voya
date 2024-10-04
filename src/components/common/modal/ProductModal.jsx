@@ -130,7 +130,21 @@ export default function ProductModal({ setModalShow, product }) {
     return Math.round((100 * partialValue) / totalValue);
   };
 
+  const clearOrderDataIfExists = () => {
+    // Проверяем наличие данных о заказе и удаляем их, если они есть
+    if (localStorage.getItem('orderData')) {
+      localStorage.removeItem('orderData');
+    }
+    if (localStorage.getItem('totalPrice')) {
+      localStorage.removeItem('totalPrice');
+    }
+    if (localStorage.getItem('totalCount')) {
+      localStorage.removeItem('totalCount');
+    }
+  };
+
   const FullProduct = (data) => {
+    // Создаем объект с полной информацией о продукте
     let fullData = {
       id: data.id,
       title: data.title,
@@ -143,6 +157,7 @@ export default function ProductModal({ setModalShow, product }) {
       quantity: count,
     };
   
+    // Проверяем, есть ли уже такой продукт в корзине
     const isProductInCart = rootState.cartData.some(
       (item) =>
         item.id === fullData.id &&
@@ -151,27 +166,47 @@ export default function ProductModal({ setModalShow, product }) {
     );
   
     if (isProductInCart) {
+      // Если продукт уже в корзине, выводим предупреждение
       warningTost("Данная позиция уже в корзине");
     } else {
+      // Если продукт новый, добавляем его в корзину
+  
+      // Обновляем данные корзины в глобальном состоянии (state)
       const updatedCartData = [...rootState.cartData, fullData];
       context.dispatch({
         type: "setCartData",
         value: updatedCartData,
       });
   
+      // Обновляем корзину в localStorage
       if (localStorage.getItem('cart') !== null) {
+        // Если корзина уже есть в localStorage, обновляем её
         const cartItems = JSON.parse(localStorage.getItem('cart'));
         cartItems.push(fullData);
         localStorage.setItem('cart', JSON.stringify(cartItems));
       } else {
+        // Если корзина пустая, создаем её с первым элементом
         const cartItems = [];
         cartItems.push(fullData);
         localStorage.setItem('cart', JSON.stringify(cartItems));
       }
   
+      // Показываем сообщение об успешном добавлении товара в корзину
       successTost("Успешно добавлно в корзину");
+  
+      // Очищаем данные о предыдущем заказе, если они существуют
+      if (localStorage.getItem('orderData')) {
+        localStorage.removeItem('orderData');
+      }
+      if (localStorage.getItem('totalPrice')) {
+        localStorage.removeItem('totalPrice');
+      }
+      if (localStorage.getItem('totalCount')) {
+        localStorage.removeItem('totalCount');
+      }
     }
   };
+  
 
   useEffect(() => {
     if (product.colors && product.colors.length > 0) {
@@ -521,75 +556,46 @@ export default function ProductModal({ setModalShow, product }) {
 
 
 
+
   // const FullProduct = (data) => {
   //   let fullData = {
   //     id: data.id,
   //     title: data.title,
   //     img: data.img,
-  //     price: data.price,
+  //     price: calculatedPrice,
   //     dis_price: data.dis_price,
   //     color: selectedColor,
   //     pro_code: data.pro_code,
   //     size: selectedSize,
   //     quantity: count,
   //   };
-  //   console.log(localStorage.getItem('cart'), 'locCart')
-  //   if (rootState.cartData && rootState.cartData.length) {
-  //     let result = rootState.cartData.find(
-  //       (el) => el.id === fullData.id
-  //     );
-  //     if (result) {
-  //       if (
-  //         JSON.stringify(result.color) === JSON.stringify(fullData.color) &&
-  //         JSON.stringify(result.size) === JSON.stringify(fullData.size)
-  //       ) {
-  //         warningTost("Данная позиция уже в корзине");
-  //       } else {
-  //         context.dispatch({
-  //           type: "setCartData",
-  //           value: [...rootState.cartData, fullData],
-  //         });
-  //         if(localStorage.getItem('cart') !== null) {
-  //           const cartItems = JSON.parse(localStorage.getItem('cart'));
-  //           cartItems.push(fullData)      
-  //           localStorage.setItem('cart', JSON.stringify(cartItems))
-  //         } else {
-  //           const cartItems = [];
-  //           cartItems.push(fullData)      
-  //           localStorage.setItem('cart', JSON.stringify(cartItems))
-  //         }
-  //         successTost("Успешно добавлно в корзину");
-  //       }
-  //     } else {
-  //       context.dispatch({
-  //         type: "setCartData",
-  //         value: [...rootState.cartData, fullData],
-  //       });
-  //       if(localStorage.getItem('cart') !== null) {
-  //         const cartItems = JSON.parse(localStorage.getItem('cart'));
-  //         cartItems.push(fullData)      
-  //         localStorage.setItem('cart', JSON.stringify(cartItems))
-  //       } else {
-  //         const cartItems = [];
-  //         cartItems.push(fullData)      
-  //         localStorage.setItem('cart', JSON.stringify(cartItems))
-  //       }
-  //       successTost("Успешно добавлно в корзину");
-  //     }
+  
+  //   const isProductInCart = rootState.cartData.some(
+  //     (item) =>
+  //       item.id === fullData.id &&
+  //       JSON.stringify(item.color) === JSON.stringify(fullData.color) &&
+  //       JSON.stringify(item.size) === JSON.stringify(fullData.size)
+  //   );
+  
+  //   if (isProductInCart) {
+  //     warningTost("Данная позиция уже в корзине");
   //   } else {
+  //     const updatedCartData = [...rootState.cartData, fullData];
   //     context.dispatch({
   //       type: "setCartData",
-  //       value: [...rootState.cartData, fullData],
+  //       value: updatedCartData,
   //     });
-  //     if(localStorage.getItem('cart') !== null) {
+  
+  //     if (localStorage.getItem('cart') !== null) {
   //       const cartItems = JSON.parse(localStorage.getItem('cart'));
-  //       cartItems.push(fullData)      
-  //       localStorage.setItem('cart', JSON.stringify(cartItems))
+  //       cartItems.push(fullData);
+  //       localStorage.setItem('cart', JSON.stringify(cartItems));
   //     } else {
   //       const cartItems = [];
-  //       cartItems.push(fullData)      
-  //       localStorage.setItem('cart', JSON.stringify(cartItems))
+  //       cartItems.push(fullData);
+  //       localStorage.setItem('cart', JSON.stringify(cartItems));
   //     }
+  
   //     successTost("Успешно добавлно в корзину");
   //   }
   // };

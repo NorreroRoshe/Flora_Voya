@@ -5,6 +5,7 @@ import { sendWithTg } from "./form.actions";
 // import ArrowBlack from "../../../public/assets/imgs/icon/arrow-black.png";
 import Image from "next/image";
 import AppContext from "@/components/AppContext";
+import { useRouter } from 'next/router';
 import { useContext } from "react";
 
 // P.S. сгенерировал chatGPT
@@ -30,6 +31,7 @@ const Contact2 = () => {
     phone: "",
   });
 
+  const router = useRouter();
   const context = useContext(AppContext);
   const { rootState } = context;
 
@@ -106,16 +108,35 @@ const totalCount = cart?.reduce((sum, item) => {
   // };
 
   try {
+    // await sendWithTg(formData, cart, totalPrice, totalCount);
+    // setSent(true);
+    // localStorage.removeItem('cart');
+    // setFormData({
+    //   name: "",
+    //   email: "",
+    //   phone: "",
+    //   company: "",
+    //   message: ""
+    // });
     await sendWithTg(formData, cart, totalPrice, totalCount);
     setSent(true);
+
+    const currentDateTime = new Date().toLocaleString();
+
+    localStorage.setItem('orderData', JSON.stringify({ ...formData, date: currentDateTime }));
+    localStorage.setItem('cartData', JSON.stringify(cart));
+    localStorage.setItem('totalPrice', totalPrice);
+    localStorage.setItem('totalCount', totalCount);
+
+    router.push('/orderConfirmation');
+
     localStorage.removeItem('cart');
     setFormData({
       name: "",
-      email: "",
       phone: "",
-      company: "",
-      message: ""
-    }); // Очистка формы после отправки
+      message: "",
+      company: ""
+    });
   } catch (error) {
     alert("Что-то пошло не так, попробуйте отправить позже");
   } finally {

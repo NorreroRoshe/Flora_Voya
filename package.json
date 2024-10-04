@@ -17,6 +17,7 @@
     "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
     "gsap": "^3.11.5",
+    "html2pdf.js": "^0.10.2",
     "jquery": "^3.6.4",
     "moment": "^2.29.4",
     "next": "13.2.4",

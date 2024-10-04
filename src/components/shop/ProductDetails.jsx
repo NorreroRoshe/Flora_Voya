@@ -146,6 +146,7 @@ const ProductDetails = ({ details }) => {
   };
   
   const FullProduct = (data) => {
+    // Создаем объект с полной информацией о продукте
     let fullData = {
       id: data.id,
       title: data.title,
@@ -158,6 +159,7 @@ const ProductDetails = ({ details }) => {
       quantity: count,
     };
   
+    // Проверяем, есть ли уже такой продукт в корзине
     const isProductInCart = rootState.cartData.some(
       (item) =>
         item.id === fullData.id &&
@@ -166,28 +168,45 @@ const ProductDetails = ({ details }) => {
     );
   
     if (isProductInCart) {
+      // Если продукт уже в корзине, выводим предупреждение
       warningTost("Данная позиция уже в корзине");
     } else {
+      // Обновляем данные корзины в глобальном состоянии (state)
       const updatedCartData = [...rootState.cartData, fullData];
       context.dispatch({
         type: "setCartData",
         value: updatedCartData,
       });
   
+      // Обновляем корзину в localStorage
       if (localStorage.getItem('cart') !== null) {
+        // Если корзина уже есть в localStorage, обновляем её
         const cartItems = JSON.parse(localStorage.getItem('cart'));
         cartItems.push(fullData);
         localStorage.setItem('cart', JSON.stringify(cartItems));
       } else {
+        // Если корзина пустая, создаем её с первым элементом
         const cartItems = [];
         cartItems.push(fullData);
         localStorage.setItem('cart', JSON.stringify(cartItems));
       }
   
-      successTost("Успешно добавлно в корзину");
+      // Показываем сообщение об успешном добавлении товара в корзину
+      successTost("Успешно добавлено в корзину");
+  
+      // Очищаем данные о предыдущем заказе, если они существуют
+      if (localStorage.getItem('orderData')) {
+        localStorage.removeItem('orderData');
+      }
+      if (localStorage.getItem('totalPrice')) {
+        localStorage.removeItem('totalPrice');
+      }
+      if (localStorage.getItem('totalCount')) {
+        localStorage.removeItem('totalCount');
+      }
     }
   };
-
+  
 
   React.useEffect(() => {
     const storedCartData = localStorage.getItem("cartData");
@@ -548,3 +567,50 @@ const ProductDetails = ({ details }) => {
 };
 
 export default ProductDetails;
+
+
+
+
+
+// const FullProduct = (data) => {
+//   let fullData = {
+//     id: data.id,
+//     title: data.title,
+//     img: data.img,
+//     price: calculatedPrice,
+//     dis_price: data.dis_price,
+//     color: selectedColor,
+//     pro_code: data.pro_code,
+//     size: selectedSize,
+//     quantity: count,
+//   };
+
+//   const isProductInCart = rootState.cartData.some(
+//     (item) =>
+//       item.id === fullData.id &&
+//       JSON.stringify(item.color) === JSON.stringify(fullData.color) &&
+//       JSON.stringify(item.size) === JSON.stringify(fullData.size)
+//   );
+
+//   if (isProductInCart) {
+//     warningTost("Данная позиция уже в корзине");
+//   } else {
+//     const updatedCartData = [...rootState.cartData, fullData];
+//     context.dispatch({
+//       type: "setCartData",
+//       value: updatedCartData,
+//     });
+
+//     if (localStorage.getItem('cart') !== null) {
+//       const cartItems = JSON.parse(localStorage.getItem('cart'));
+//       cartItems.push(fullData);
+//       localStorage.setItem('cart', JSON.stringify(cartItems));
+//     } else {
+//       const cartItems = [];
+//       cartItems.push(fullData);
+//       localStorage.setItem('cart', JSON.stringify(cartItems));
+//     }
+
+//     successTost("Успешно добавлно в корзину");
+//   }
+// };

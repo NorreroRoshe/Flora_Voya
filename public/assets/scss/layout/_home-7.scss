@@ -692,9 +692,12 @@
 
 .service {
   &__area-7 {
-    background-color: #F9F9F9;
+    // background-color: #F9F9F9;
+    background-color: #fff;
     padding-bottom: 50px;
     position: relative;
+    border-top: 1px solid var(--white-6);
+    border-bottom: 1px solid var(--white-6);
 
     @media #{$lg} {
       padding-bottom: 0;
@@ -1172,4 +1175,12 @@
     background-color: var(--d-black-2);
   }
 
+}
+
+
+
+.dbdnsd {
+  @media(max-width: 767px) {
+    display: none;
+  }
 }
