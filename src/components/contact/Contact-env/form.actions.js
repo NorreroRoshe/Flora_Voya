@@ -116,7 +116,7 @@ export const sendWithTg = async (formData, cart, totalPrice, totalCount) => {
     cartItems: JSON.stringify(cart.map(item => ({
       id: item.id,
       title: item.title,
-      img: item.img, // Если вам нужно изображение
+      img: item.img,
       price: item.price,
       color: item.color,
       pro_code: item.pro_code,
@@ -128,7 +128,7 @@ export const sendWithTg = async (formData, cart, totalPrice, totalCount) => {
   });
   
   // Создаем URL с параметрами
-  const url = `http://localhost:3000/orderConfirmationBySP?${params.toString()}`;
+  const url = `https://voya-flax.vercel.app//orderConfirmationBySP?${params.toString()}`;
   
   // Новое сообщение с URL
   const urlmes = `Пользователь отправил заказ: 
