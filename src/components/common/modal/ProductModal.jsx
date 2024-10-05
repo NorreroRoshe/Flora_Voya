@@ -74,23 +74,6 @@ export default function ProductModal({ setModalShow, product }) {
       theme: "light",
     });
   };
-  // const sizeSelect = (data) => {
-  //   let realData = data.toLowerCase();
-  //   if (selectedSize.includes(realData)) {
-  //     let result = selectedSize.filter((el) => el !== realData);
-  //     dispatch({
-  //       type: "setSelectedSize",
-  //       value: result,
-  //     });
-  //   } else {
-  //     let result = [...selectedSize];
-  //     result.push(realData);
-  //     dispatch({
-  //       type: "setSelectedSize",
-  //       value: result,
-  //     });
-  //   }
-  // };
 
   const sizeSelect = (data) => {
     let realData = data.toLowerCase();
@@ -130,20 +113,25 @@ export default function ProductModal({ setModalShow, product }) {
     return Math.round((100 * partialValue) / totalValue);
   };
 
-  const clearOrderDataIfExists = () => {
-    // Проверяем наличие данных о заказе и удаляем их, если они есть
-    if (localStorage.getItem('orderData')) {
-      localStorage.removeItem('orderData');
-    }
-    if (localStorage.getItem('totalPrice')) {
-      localStorage.removeItem('totalPrice');
-    }
-    if (localStorage.getItem('totalCount')) {
-      localStorage.removeItem('totalCount');
-    }
-  };
+  // const clearOrderDataIfExists = () => {
+  //   // Проверяем наличие данных о заказе и удаляем их, если они есть
+  //   if (localStorage.getItem('orderData')) {
+  //     localStorage.removeItem('orderData');
+  //   }
+  //   if (localStorage.getItem('totalPrice')) {
+  //     localStorage.removeItem('totalPrice');
+  //   }
+  //   if (localStorage.getItem('totalCount')) {
+  //     localStorage.removeItem('totalCount');
+  //   }
+  // };
 
   const FullProduct = (data) => {
+
+    localStorage.removeItem('orderData');
+    localStorage.removeItem('totalPrice');
+    localStorage.removeItem('totalCount');
+    localStorage.removeItem('cartData');
     // Создаем объект с полной информацией о продукте
     let fullData = {
       id: data.id,
@@ -157,14 +145,16 @@ export default function ProductModal({ setModalShow, product }) {
       quantity: count,
     };
   
+    const cartItems = localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : [];
+
     // Проверяем, есть ли уже такой продукт в корзине
-    const isProductInCart = rootState.cartData.some(
+    const isProductInCart = cartItems.some(
       (item) =>
         item.id === fullData.id &&
         JSON.stringify(item.color) === JSON.stringify(fullData.color) &&
         JSON.stringify(item.size) === JSON.stringify(fullData.size)
     );
-  
+
     if (isProductInCart) {
       // Если продукт уже в корзине, выводим предупреждение
       warningTost("Данная позиция уже в корзине");

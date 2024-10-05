@@ -159,8 +159,10 @@ const ProductDetails = ({ details }) => {
       quantity: count,
     };
   
+    const cartItems = localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : [];
+
     // Проверяем, есть ли уже такой продукт в корзине
-    const isProductInCart = rootState.cartData.some(
+    const isProductInCart = cartItems.some(
       (item) =>
         item.id === fullData.id &&
         JSON.stringify(item.color) === JSON.stringify(fullData.color) &&

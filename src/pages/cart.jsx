@@ -63,6 +63,7 @@ export default function Cart() {
   //   });
   //   router.push("/checkout");
   // };
+  
   const calculateTotalPrice = () => {
     if (typeof window !== "undefined") { // Проверяем, что код выполняется на клиенте
       const cartData = JSON.parse(localStorage.getItem('cart')) || [];
