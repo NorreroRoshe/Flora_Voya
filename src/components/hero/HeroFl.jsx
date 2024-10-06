@@ -6,7 +6,7 @@ import Circle01 from "../../../public/assets/imgs/woocomerce/circle-1.png";
 import HeroPrev from "../../../public/assets/imgs/woocomerce/hero-prev.png";
 import HeroRight from "../../../public/assets/imgs/woocomerce/hero-right.png";
 
-const Hero = ({ advertising }) => {
+const HeroFl = ({ advertising }) => {
   const [isMobile, setIsMobile] = useState(false);
 
   
@@ -64,7 +64,7 @@ const Hero = ({ advertising }) => {
               return (
                 <SwiperSlide key={el.id}>
                   <div
-                    className="woocomerce__hero-item"
+                    className="woocomerce__hero-item woocomerce__hero-asdqw"
                     style={{
                       backgroundImage: `url(/assets/imgs/${
                         isMobile ? el.imgMob : el.img
@@ -105,4 +105,4 @@ const Hero = ({ advertising }) => {
   );
 };
 
-export default Hero;
+export default HeroFl;

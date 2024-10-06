@@ -12,6 +12,7 @@ export { default as ScrollSmootherComponents } from "./common/ScrollSmootherComp
 // Home Page
 export { default as Header } from "./header/Header";
 export { default as Hero } from "./hero/Hero";
+export { default as HeroFl } from "./hero/HeroFl";
 export { default as Herosubs } from "./hero/Herosubs";
 
 export { default as Feature } from "./feature/Feature";

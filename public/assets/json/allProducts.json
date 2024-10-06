@@ -388,7 +388,7 @@
     },
     {
       "id": "98",
-      "title": "Фиолетовые розы (25, 50, 75, 100)",
+      "title": "Фиолетовые розы (25, 50, 75, 101)",
       "nalichie": "1",
       "img": "colshoper/roses/PURPLEROSES255075100/1.jpg",
       "hover_img": "colshoper/roses/PURPLEROSES255075100/2.jpg",
@@ -403,7 +403,7 @@
           "link": "/shop/98"
         }
       ],
-      "price": "10599.00",
+      "price": "480.00",
       "bouquets": "букеты",
       "category": "Букеты",
       "povod": "симпатия",
@@ -432,12 +432,12 @@
         "25",
         "50",
         "75",
-        "100"
+        "101"
       ]
     },
     {
       "id": "99",
-      "title": "Синие розы (25, 50, 75, 100)",
+      "title": "Синие розы (25, 50, 75, 101)",
       "nalichie": "1",
       "img": "colshoper/roses/BLUEROSES255075100/1.jpg",
       "hover_img": "colshoper/roses/BLUEROSES255075100/2.jpg",
@@ -452,7 +452,7 @@
           "link": "/shop/99"
         }
       ],
-      "price": "10599.00",
+      "price": "480.00",
       "bouquets": "букеты",
       "category": "Букеты",
       "povod": "симпатия",
@@ -481,7 +481,7 @@
         "25",
         "50",
         "75",
-        "100"
+        "101"
       ]
     },
     {
@@ -911,12 +911,12 @@
         "25",
         "50",
         "75",
-        "100"
+        "101"
       ]
     },
     {
       "id": "110",
-      "title": "Красные розы с красной лентой (25, 50, 75, 100)",
+      "title": "Красные розы с красной лентой (25, 50, 75, 101)",
       "nalichie": "1",
       "img": "colshoper/BOUQUETS/REDROSESWITHREDRIBBON255075100/1.jpg",
       "hover_img": "colshoper/BOUQUETS/REDROSESWITHREDRIBBON255075100/2.jpg",
@@ -931,7 +931,7 @@
           "link": "/shop/110"
         }
       ],
-      "price": "10499.00",
+      "price": "480.00",
       "bouquets": "букеты",
       "category": "Букеты",
       "povod": "симпатия",
@@ -958,7 +958,7 @@
         "25",
         "50",
         "75",
-        "100"
+        "101"
       ]
     },
     {
@@ -1136,7 +1136,7 @@
     },
     {
       "id": "115",
-      "title": "Романтичный букет в форме сердца (75, 100)",
+      "title": "Романтичный букет в форме сердца (75, 101)",
       "nalichie": "1",
       "img": "colshoper/BOUQUETS/ROMANTICHEARTSHAPEDBOUQUET/1.jpg",
       "hover_img": "colshoper/BOUQUETS/ROMANTICHEARTSHAPEDBOUQUET/2.jpg",
@@ -1178,12 +1178,12 @@
       },
       "size": [
         "75",
-        "100"
+        "101"
       ]
     },
     {
       "id": "116",
-      "title": "Красные розы на длинном стебле (25, 50, 75, 100)",
+      "title": "Красные розы на длинном стебле (25, 50, 75, 101)",
       "nalichie": "1",
       "img": "colshoper/BOUQUETS/LONGSTEMMEDREDROSES255075100/1.jpg",
       "hover_img": "colshoper/BOUQUETS/LONGSTEMMEDREDROSES255075100/2.jpg",
@@ -1198,7 +1198,7 @@
           "link": "/shop/116"
         }
       ],
-      "price": "14199.00",
+      "price": "569.00",
       "bouquets": "букеты",
       "category": "Букеты",
       "povod": "симпатия",
@@ -1230,7 +1230,7 @@
         "25",
         "50",
         "75",
-        "100"
+        "101"
       ]
     },
     {
@@ -1778,7 +1778,7 @@
     },
     {
       "id": "130",
-      "title": "Букет синих роз в черной упаковочной бумаге (25, 50, 75, 100)",
+      "title": "Букет синих роз в черной упаковочной бумаге (25, 50, 75, 101)",
       "nalichie": "1",
       "img": "colshoper/BOUQUETS/BOUQUETOFBLUEROSESINBLACKPACKAGINGPAPER255075100/1.jpg",
       "hover_img": "colshoper/BOUQUETS/BOUQUETOFBLUEROSESINBLACKPACKAGINGPAPER255075100/2.jpg",
@@ -1793,7 +1793,7 @@
           "link": "/shop/130"
         }
       ],
-      "price": "12699.00",
+      "price": "519.00",
       "bouquets": "букеты",
       "category": "Букеты",
       "povod": "симпатия",
@@ -1820,12 +1820,12 @@
         "25",
         "50",
         "75",
-        "100"
+        "101"
       ]
     },
     {
       "id": "131",
-      "title": "Букет фиолетовых роз в розовой упаковочной бумаге (25, 50, 75, 100)",
+      "title": "Букет фиолетовых роз в розовой упаковочной бумаге (25, 50, 75, 101)",
       "nalichie": "1",
       "img": "colshoper/BOUQUETS/BOUQUET OFPURPLEROSESINPINKPACKAGINGPAPER255075100/1.jpg",
       "hover_img": "colshoper/BOUQUETS/BOUQUET OFPURPLEROSESINPINKPACKAGINGPAPER255075100/2.jpg",
@@ -1840,7 +1840,7 @@
           "link": "/shop/131"
         }
       ],
-      "price": "12699.00",
+      "price": "480.00",
       "bouquets": "букеты",
       "category": "Букеты",
       "povod": "симпатия",
@@ -1869,12 +1869,12 @@
         "25",
         "50",
         "75",
-        "100"
+        "101"
       ]
     },
     {
       "id": "132",
-      "title": "Белые розы с белой лентой (25, 50, 75, 100)",
+      "title": "Белые розы с белой лентой (25, 50, 75, 101)",
       "nalichie": "1",
       "img": "colshoper/BOUQUETS/WHITEROSESWITHWHITERIBBON255075100/1.jpg",
       "hover_img": "colshoper/BOUQUETS/WHITEROSESWITHWHITERIBBON255075100/2.jpg",
@@ -1889,7 +1889,7 @@
           "link": "132"
         }
       ],
-      "price": "10199.00",
+      "price": "480.00",
       "bouquets": "букеты",
       "category": "Букеты",
       "povod": "симпатия",
@@ -1918,12 +1918,12 @@
         "25",
         "50",
         "75",
-        "100"
+        "101"
       ]
     },
     {
       "id": "133",
-      "title": "Букет красных роз в черной упаковочной бумаге (25, 50, 75, 100)",
+      "title": "Букет красных роз в черной упаковочной бумаге (25, 50, 75, 101)",
       "nalichie": "1",
       "img": "colshoper/BOUQUETS/BOUQUETOFREDROSESINBLACKPACKAGINGPAPER255075100/1.jpg",
       "hover_img": "colshoper/BOUQUETS/BOUQUETOFREDROSESINBLACKPACKAGINGPAPER255075100/2.jpg",
@@ -1938,7 +1938,7 @@
           "link": "/shop/133"
         }
       ],
-      "price": "11399.00",
+      "price": "480.00",
       "bouquets": "букеты",
       "category": "Букеты",
       "povod": "симпатия",
@@ -1966,12 +1966,12 @@
         "25",
         "50",
         "75",
-        "100"
+        "101"
       ]
     },
     {
       "id": "134",
-      "title": "Букет розовых роз в розовой упаковочной бумаге (25, 50, 75, 100)",
+      "title": "Букет розовых роз в розовой упаковочной бумаге (25, 50, 75, 101)",
       "nalichie": "1",
       "img": "colshoper/BOUQUETS/BOUQUETOFPINKROSESINPINKPACKAGINGPAPER255075100/1.jpg",
       "hover_img": "colshoper/BOUQUETS/BOUQUETOFPINKROSESINPINKPACKAGINGPAPER255075100/2.jpg",
@@ -1986,7 +1986,7 @@
           "link": "/shop/134"
         }
       ],
-      "price": "11399.00",
+      "price": "480.00",
       "bouquets": "букеты",
       "category": "Букеты",
       "povod": "симпатия",
@@ -2014,12 +2014,12 @@
         "25",
         "50",
         "75",
-        "100"
+        "101"
       ]
     },
     {
       "id": "135",
-      "title": "Букет белых роз в бело-золотой упаковочной бумаге (25, 50, 75, 100)",
+      "title": "Букет белых роз в бело-золотой упаковочной бумаге (25, 50, 75, 101)",
       "nalichie": "1",
       "img": "colshoper/BOUQUETS/BOUQUET OFWHITEROSESINWHITEGOLDPACKAGINGPAPER255075100/1.jpg",
       "hover_img": "colshoper/BOUQUETS/BOUQUET OFWHITEROSESINWHITEGOLDPACKAGINGPAPER255075100/2.jpg",
@@ -2034,7 +2034,7 @@
           "link": "135"
         }
       ],
-      "price": "11399.00",
+      "price": "480.00",
       "bouquets": "букеты",
       "category": "Букеты",
       "povod": "симпатия",
@@ -2062,7 +2062,7 @@
         "25",
         "50",
         "75",
-        "100"
+        "101"
       ]
     },
     {

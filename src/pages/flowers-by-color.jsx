@@ -9,7 +9,7 @@ import {
   Preloader,
   ScrollSmootherComponents,
   Header,
-  Hero,
+  HeroFl,
   Feature,
   Banner1,
   Banner2,
@@ -299,7 +299,7 @@ const Index = () => {
             <div id="smooth-content">
               <ProductLayout white='black'>
 
-                <Hero advertising={heroAdd} />
+                <HeroFl advertising={heroAdd} />
           
                 <div className="container g-0 pt-30 pb-110">
 

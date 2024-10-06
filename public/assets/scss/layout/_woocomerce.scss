@@ -450,55 +450,27 @@
       @media (max-width: 767px) {
         height: 131vw;
       }
-
-      // @media #{$xxl} {
-      //   padding-top: 240px;
-      // }
-
-      // @media #{$xl} {
-      //   padding-top: 180px;
-      //   padding-bottom: 50px;
-      // }
-
-      // @media #{$lg} {
-      //   height: unset;
-      //   padding-top: 130px;
-      //   padding-bottom: 50px;
-      // }
-
-      // @media #{$md} {
-      //   height: unset;
-      //   padding-top: 200px;
-      //   padding-bottom: 50px;
-
-      //   &::before {
-      //     content: "";
-      //     position: absolute;
-      //     left: 0;
-      //     top: 0;
-      //     height: 100%;
-      //     width: 100%;
-      //     background: rgba(0, 0, 0, 0.7);
-      //   }
-      // }
-
-      // @media #{$sm} {
-      //   padding: 190px 10px 150px;
-      //   height: unset;
-      //   background-size: cover;
-      //   background-position: center center;
-
-      //   &::before {
-      //     content: "";
-      //     position: absolute;
-      //     left: 0;
-      //     top: 0;
-      //     height: 100%;
-      //     width: 100%;
-      //     background: rgba(0, 0, 0, 0.7);
-      //   }
-      // }
     }
+    
+
+    &-asdqw {
+      background-image: url("/assets/imgs/woocomerce/wocomerce-1.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 15vw;
+      // height: 501px;
+      // padding: 0 50px;
+      // padding-top: 322px;
+      position: relative;
+
+      @media (max-width: 767px) {
+        // height: 131vw;
+        height: 50vh;
+        background-position: center center;
+        background-size: cover;
+      }
+    }
+    
     &-htitle {
       font-weight: 700;
       font-size: 100px;
