@@ -258,7 +258,7 @@ const Index = () => {
   const newProduct = allNewProduct;
 
   const heroAdd = allAdd.hero_advertising;
-  // if select section
+  
   let bodyBanner1 = [];
   let bodyBanner2 = [];
   allAdd.body_advertising.map((el) => {
@@ -311,42 +311,49 @@ const Index = () => {
               <ProductLayout white='black'>
 
                 <Hero advertising={heroAdd} />
+
                 <Feature
                   featured={featured}
                   headerTitle={"САМЫЕ ПОПУЛЯРНЫЕ"}
                   routeName="featured"
                 />
 
-                
-              <ShopCollections />
 
-              <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12 pb-0" 
-              // style={{marginTop: '100px'}}
-              >
-                <Image
-                  className='dny'
-                  priority
-                  style={{width: '100%', maxHeight: '555px', height: '100%'}}
-                  src={aaa}
-                  alt="Image"
-                  />
+                <div className="about__area-8 woocomerce-padding col-xxl-12 col-xl-12 col-lg-12 col-md-12 pb-0">
+                  <p className="woocomerce__feature-title sqevwfbeg">КАТЕГОРИИ МАГАЗИНА</p>
+                  {/* <h2 className="sec-sub-title qual-text-head title-anim">категории &nbsp; &nbsp; магазина</h2> */}
+                </div>
+                <div className='scwfevwb'>
+                  <div>
+                    <Banner2 banner={banner2Add} />
+                  </div>
+                  <div className='evdwfb'>
+                    <Banner1 banner={banner1Add} />
+                  </div>
+                </div>
+
+                <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12 pb-0"
+                // style={{marginTop: '100px'}}
+                >
                   <Image
-                  className='dby'
-                  priority
-                  style={{width: '100%', maxHeight: '794px', height: '100%'}}
-                  src={aaaqw}
-                  alt="Image"
-                  />
-              </div>
+                    className='dny'
+                    priority
+                    style={{width: '100%', maxHeight: '555px', height: '100%'}}
+                    src={aaa}
+                    alt="Image"
+                    />
+                    <Image
+                    className='dby'
+                    priority
+                    style={{width: '100%', maxHeight: '794px', height: '100%', marginTop: '35px'}}
+                    src={aaaqw}
+                    alt="Image"
+                    />
+                </div>
 
 
-              <div className="about__area-8 woocomerce-padding col-xxl-12 col-xl-12 col-lg-12 col-md-12 pb-0">
-                <h2 className="sec-sub-title qual-text-head title-anim">категории &nbsp; &nbsp; магазина</h2>
-              </div>
-              <div style={{marginBottom: '100px'}}>
-                <Banner2 banner={banner2Add} />
-              </div>
-              {/* <Banner1 banner={banner1Add} /> */}
+
+              <ShopCollections />
 
               {/* <Category categories={categories} /> */}
               <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12 pb-0" 
@@ -355,7 +362,7 @@ const Index = () => {
                 <Image
                   className='dny'
                   priority
-                  style={{width: '100%', maxHeight: '489px', height: '100%'}}
+                  style={{width: '100%', maxHeight: '489px', height: '100%', marginTop: '35px'}}
                   src={asaa}
                   alt="Image"
                   />

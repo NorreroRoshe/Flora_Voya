@@ -39,7 +39,7 @@ const collections = [
     title: "Романтическая коллекция"
   },
   // {
-    // "rosesbouquets": true,
+  //   "rosesbouquets": true,
   //   href: "/collections/",
   //   imageSrc: vasekomp,
   //   title: "Вазовые композиции"
@@ -73,11 +73,12 @@ const ShopCollections = () => {
       <section className="shopify-section index-section VEQRBEFG">
         <div className="page-width">  
           <div className="section-header">
-            <h2 className="section-header__title">Коллекции магазина</h2>
+            <p className="woocomerce__feature-title sqevwfbeg">КАТЕГОРИЯ БУКЕТОВ</p>
+            {/* <h2 className="section-header__title">Коллекции магазина</h2> */}
           </div>
           <div className="grid grid--uniform">
             {collections.map((collection, index) => (
-              <div className="grid__item small--one-half medium-up--one-quarter" key={index}>
+              <div className="grid__item small--one-half medium-up--one-quarter defrb" key={index}>
                 <a href={collection.href} className="collection-item collection-item--overlaid-box aos-init aos-animate" data-aos="row-of-4">
                   <div className="image-wrap">
                     <div className="collection-image collection-image--square lazyloaded" style={{ backgroundPosition: 'center center', backgroundImage: `url(${collection.imageSrc.src})` }}>

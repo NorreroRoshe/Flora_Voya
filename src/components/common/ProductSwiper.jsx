@@ -16,11 +16,11 @@ const ProductSwiper = ({ featured }) => {
         }}
         breakpoints={{
           320: {
-            slidesPerView: 1,
+            slidesPerView: 2,
             spaceBetween: 10,
           },
           480: {
-            slidesPerView: 1,
+            slidesPerView: 2,
             spaceBetween: 10,
           },
           640: {
@@ -28,11 +28,11 @@ const ProductSwiper = ({ featured }) => {
             spaceBetween: 20,
           },
           991: {
-            slidesPerView: 3,
+            slidesPerView: 4,
             spaceBetween: 20,
           },
           1200: {
-            slidesPerView: 4,
+            slidesPerView: 6,
             spaceBetween: 20,
           },
         }}
@@ -40,7 +40,7 @@ const ProductSwiper = ({ featured }) => {
         {featured.map((el, i) => {
           return (
             <SwiperSlide key={i}>
-              <ProductCard el={el} />
+              <ProductCard dopfont='dopfontawdefvd' dopclass='dopclassawdefvd' el={el} />
             </SwiperSlide>
           );
         })}

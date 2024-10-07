@@ -6,11 +6,12 @@ import Circle01 from "../../../public/assets/imgs/woocomerce/circle-1.png";
 import HeroPrev from "../../../public/assets/imgs/woocomerce/hero-prev.png";
 import HeroRight from "../../../public/assets/imgs/woocomerce/hero-right.png";
 
+
+
 const Hero = ({ advertising }) => {
+
   const [isMobile, setIsMobile] = useState(false);
 
-  
-  
   useEffect(() => {
   const handleResize = () => {
     setIsMobile(window.innerWidth < 767);

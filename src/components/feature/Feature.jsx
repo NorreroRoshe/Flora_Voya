@@ -7,7 +7,7 @@ const Feature = ({ featured, headerTitle, routeName }) => {
     <>
       <div className="woocomerce__feature woocomerce-padding wc_feature_products">
         <div className="woocomerce__feature-top">
-          <p className="woocomerce__feature-title">{headerTitle}</p>
+          <p className="woocomerce__feature-title defrgbnrth">{headerTitle}</p>
           <div className="woocomerce__feature-rightwrapper">
             <Link
               className="woocomerce__feature-viewall"

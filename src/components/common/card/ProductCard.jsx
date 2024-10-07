@@ -5,7 +5,7 @@ import ProductModal from "../modal/ProductModal";
 import AppContext from "@/components/AppContext";
 import { toast } from "react-toastify";
 
-const ProductCard = ({ el }) => {
+const ProductCard = ({ dopfont, dopclass, el }) => {
   const [modalShow, setModalShow] = useState(false);
   const context = useContext(AppContext);
 
@@ -93,7 +93,7 @@ const ProductCard = ({ el }) => {
       <div className="woocomerce__feature-product">
         <div className="woocomerce__feature-thumb">
           <Link href={`/shop/${el.id}`}>
-            <div className="img-box">
+            <div className={`img-box ${dopclass}`}>
               <Image
                 priority
                 width={440}
@@ -186,7 +186,7 @@ const ProductCard = ({ el }) => {
           <div className="woocomerce__feature-titlewraper">
             <Link
               href={`/shop/${el.id}`}
-              className="woocomerce__feature-producttitle fevdrfbg"
+              className={`woocomerce__feature-producttitle fevdrfbg ${dopfont}`}
             >
               {el.title}
             </Link>

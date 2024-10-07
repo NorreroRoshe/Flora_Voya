@@ -687,6 +687,10 @@
         flex-wrap: wrap;
         flex-direction: column;
       }
+
+      @media (max-width: 767px) {
+        align-items: start;
+      }
     }
 
     &-viewall {
@@ -1229,7 +1233,11 @@
       }
 
       @media #{$sm} {
-        height: 300px;
+        height: 225px;
+      }
+
+      @media (max-width: 450px) {
+        height: 165px;
       }
 
       img {
@@ -1256,6 +1264,9 @@
       z-index: 2;
       @media (max-width: 500px) {
         font-size: 20px !important;
+      }
+      @media (max-width: 450px) {
+        font-size: 17px !important;
       }
     }
     // update v0.3 full
@@ -2288,6 +2299,9 @@ ul.mega-menu-2.woocomerce-megamenu {
   @media (max-width: 500px) {
     font-size: 25px;
   }
+  @media (max-width: 450px) {
+    font-size: 22px;
+  }
 }
 
 .wqfevrf {
@@ -2396,4 +2410,44 @@ ul.mega-menu-2.woocomerce-megamenu {
   @media (max-width: 430px) {
     max-width: 150px;
   }
+}
+
+.dopclassawdefvd {
+  height: 305px !important;
+  @media (max-width: 480px) {
+    height: 198px !important;
+  }
+}
+
+.dopfontawdefvd {
+  font-size: 15px;
+}
+
+.evdwfb {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  @media (max-width: 767px) {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+}
+
+.scwfevwb {
+  display: flex;
+  flex-direction: column;
+  @media(max-width: 767px) {
+    flex-direction: column-reverse;
+  }
+}
+
+.sqevwfbeg {
+  color: #000;
+  display: flex;
+  justify-content: start;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.defrgbnrth {
+  margin-bottom: 30px;
 }

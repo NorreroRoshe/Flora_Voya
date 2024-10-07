@@ -56,6 +56,13 @@
       "sub_title": "Незабываемые",
       "section": "2",
       "img": "catImg/2.jpg"
+    },
+    {
+      "id": "405",
+      "title": "Дизайнерские букеты",
+      "sub_title": "Незабываемые",
+      "section": "1",
+      "img": "catImg/5.png"
     }
   ]
 }

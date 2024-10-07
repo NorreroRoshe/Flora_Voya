@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Banner1 = ({ banner }) => {
+  console.log(banner,'bannerbanner');
+
   return (
     <>
       {banner && banner.length && (
@@ -13,7 +15,7 @@ const Banner1 = ({ banner }) => {
                   priority
                   width={1235}
                   height={611}
-                  src={`/assets/imgs/${banner[0].img}`}
+                  src={`/assets/imgs/${banner[2].img}`}
                   alt="Image"
                   // data-speed="auto"
                 />
@@ -21,10 +23,10 @@ const Banner1 = ({ banner }) => {
 
               <div className="woocomerce__exclusive-content align-left">
                 <span className="woocomerce__exclusive-subtitle title-anim">
-                  {banner[0].sub_title}
+                  {banner[2].sub_title}
                 </span>
                 <h2 className="title-anim title-animsadfg">
-                  {banner[0].title}
+                  {banner[2].title}
                 </h2>
                 {/* <div className="woocomerce__exclusive-btnwraper wc_btn_wrapper">
                   <Link

@@ -1769,9 +1769,9 @@ main {
     }
 
     &-6 {
-      @media #{$sm} {
-        margin-bottom: 40px;
-      }
+      // @media #{$sm} {
+      //   margin-bottom: 40px;
+      // }
 
       @media #{$md} {
         margin-bottom: 50px;
@@ -2347,11 +2347,16 @@ main {
   @media(max-width: 767px) {
     display: flex;
   }
+  @media(max-width: 450px) {
+    flex-direction: column;
+    gap: 12px;
+  }
 }
 
 .asddwq {
   @media(max-width: 767px) {
     padding-bottom: 0;
+    padding-top: 50px !important;
   }
 }
 
@@ -2376,5 +2381,31 @@ main {
 .aesfjvaewm {
   @media(max-width: 767px) {
     text-align: center;
+  }
+}
+
+.ewghtr {
+  @media(max-width: 450px) {
+    padding-top: 12px;
+    border-top: 1px solid #667;
+  }
+}
+
+.wqsedwss {
+  @media(max-width: 450px) {
+    padding-bottom: 12px;
+  }
+}
+
+.cqwqwcqw {
+  @media(max-width: 450px) {
+    border-top: 1px solid #667;
+  }
+}
+
+.dbdnfff {
+  display: block;
+  @media(max-width: 450px) {
+    display: block;
   }
 }
