@@ -8,14 +8,16 @@
       "hover_img": "colshoper/basket/THEREDJUNGLE/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "красный"
       ],
-      "colors": [{
-        "name": "красный",
-        "link": "/shop/89"
-      }
+      "colors": [
+        {
+          "name": "красный",
+          "link": "/shop/89"
+        }
       ],
       "price": "22290.00",
       "collections": "цветочные корзины",
@@ -28,7 +30,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA089",
       "imgs": [
         "colshoper/basket/THEREDJUNGLE/1.jpg"
       ],
@@ -51,10 +53,11 @@
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/90"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/90"
+        }
       ],
       "price": "28299.00",
       "collections": "цветочные корзины",
@@ -67,7 +70,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA090",
       "imgs": [
         "colshoper/basket/MONEYBASKET/1.jpg"
       ],
@@ -86,14 +89,16 @@
       "hover_img": "colshoper/basket/BLOOMINGBLUEBASKET/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/91"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/91"
+        }
       ],
       "price": "20199.00",
       "collections": "цветочные корзины",
@@ -107,7 +112,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA091",
       "imgs": [
         "colshoper/basket/BLOOMINGBLUEBASKET/1.jpg"
       ],
@@ -126,14 +131,16 @@
       "hover_img": "colshoper/basket/FLUFFYBASKET/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/92"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/92"
+        }
       ],
       "price": "24990.00",
       "collections": "цветочные корзины",
@@ -146,7 +153,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA092",
       "imgs": [
         "colshoper/basket/FLUFFYBASKET/1.jpg"
       ],
@@ -165,14 +172,16 @@
       "hover_img": "colshoper/basket/SUNBASKET/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "желтый"
       ],
-      "colors": [{
-        "name": "желтый",
-        "link": "/shop/93"
-      }
+      "colors": [
+        {
+          "name": "желтый",
+          "link": "/shop/93"
+        }
       ],
       "price": "12899.00",
       "collections": "цветочные корзины",
@@ -185,7 +194,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA093",
       "imgs": [
         "colshoper/basket/SUNBASKET/1.jpg"
       ],
@@ -206,14 +215,16 @@
       "hover_img": "colshoper/basket/DREAMBASKET/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/94"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/94"
+        }
       ],
       "price": "34299.00",
       "collections": "цветочные корзины",
@@ -227,7 +238,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA094",
       "imgs": [
         "colshoper/basket/DREAMBASKET/1.jpg",
         "colshoper/basket/DREAMBASKET/2.jpg"
@@ -247,14 +258,16 @@
       "hover_img": "colshoper/CORSAGE/PINKCORSAGE/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "розовый"
       ],
-      "colors": [{
-        "name": "розовый",
-        "link": "/shop/95"
-      }
+      "colors": [
+        {
+          "name": "розовый",
+          "link": "/shop/95"
+        }
       ],
       "price": "2199.00",
       "collections": "корсажи",
@@ -267,7 +280,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA095",
       "imgs": [
         "colshoper/CORSAGE/PINKCORSAGE/1.jpg",
         "colshoper/CORSAGE/PINKCORSAGE/2.jpg"
@@ -287,14 +300,16 @@
       "hover_img": "colshoper/roses/PINKBOXWITHREDROSESILOVEYOU/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "красный"
       ],
-      "colors": [{
-        "name": "красный",
-        "link": "/shop/96"
-      }
+      "colors": [
+        {
+          "name": "красный",
+          "link": "/shop/96"
+        }
       ],
       "price": "13990.00",
       "collections": "боксы",
@@ -309,7 +324,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA096",
       "imgs": [
         "colshoper/roses/PINKBOXWITHREDROSESILOVEYOU/1.jpg",
         "colshoper/roses/PINKBOXWITHREDROSESILOVEYOU/2.jpg",
@@ -331,14 +346,16 @@
       "hover_img": "colshoper/roses/BLACKHEARTBOXWITHREDROSES/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "красный"
       ],
-      "colors": [{
-        "name": "красный",
-        "link": "/shop/97"
-      }
+      "colors": [
+        {
+          "name": "красный",
+          "link": "/shop/97"
+        }
       ],
       "price": "10599.00",
       "collections": "боксы",
@@ -353,7 +370,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA097",
       "imgs": [
         "colshoper/roses/BLACKHEARTBOXWITHREDROSES/1.jpg",
         "colshoper/roses/BLACKHEARTBOXWITHREDROSES/2.jpg",
@@ -371,7 +388,7 @@
     },
     {
       "id": "98",
-      "title": "Фиолетовые розы (25, 50, 75, 100)",
+      "title": "Фиолетовые розы (25, 50, 75, 101)",
       "nalichie": "1",
       "img": "colshoper/roses/PURPLEROSES255075100/1.jpg",
       "hover_img": "colshoper/roses/PURPLEROSES255075100/2.jpg",
@@ -380,13 +397,15 @@
       "color": [
         "фиолетовый"
       ],
-      "colors": [{
-        "name": "фиолетовый",
-        "link": "/shop/98"
-      }
+      "colors": [
+        {
+          "name": "фиолетовый",
+          "link": "/shop/98"
+        }
       ],
-      "price": "10599.00",
+      "price": "480.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -399,7 +418,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA098",
       "imgs": [
         "colshoper/roses/PURPLEROSES255075100/1.jpg",
         "colshoper/roses/PURPLEROSES255075100/2.jpg",
@@ -413,12 +432,12 @@
         "25",
         "50",
         "75",
-        "100"
+        "101"
       ]
     },
     {
       "id": "99",
-      "title": "Синие розы (25, 50, 75, 100)",
+      "title": "Синие розы (25, 50, 75, 101)",
       "nalichie": "1",
       "img": "colshoper/roses/BLUEROSES255075100/1.jpg",
       "hover_img": "colshoper/roses/BLUEROSES255075100/2.jpg",
@@ -427,13 +446,15 @@
       "color": [
         "синий"
       ],
-      "colors": [{
-        "name": "синий",
-        "link": "/shop/99"
-      }
+      "colors": [
+        {
+          "name": "синий",
+          "link": "/shop/99"
+        }
       ],
-      "price": "10599.00",
+      "price": "480.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -446,7 +467,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA099",
       "imgs": [
         "colshoper/roses/BLUEROSES255075100/1.jpg",
         "colshoper/roses/BLUEROSES255075100/2.jpg",
@@ -460,7 +481,7 @@
         "25",
         "50",
         "75",
-        "100"
+        "101"
       ]
     },
     {
@@ -474,13 +495,15 @@
       "color": [
         "розовый"
       ],
-      "colors": [{
-        "name": "розовый",
-        "link": "/shop/100"
-      }
+      "colors": [
+        {
+          "name": "розовый",
+          "link": "/shop/100"
+        }
       ],
       "price": "9699.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -493,7 +516,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0100",
       "imgs": [
         "colshoper/roses/PINKBAG/1.jpg",
         "colshoper/roses/PINKBAG/2.jpg"
@@ -516,13 +539,15 @@
       "color": [
         "оранжевый"
       ],
-      "colors": [{
-        "name": "оранжевый",
-        "link": "/shop/101"
-      }
+      "colors": [
+        {
+          "name": "оранжевый",
+          "link": "/shop/101"
+        }
       ],
       "price": "10990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -533,7 +558,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0101",
       "imgs": [
         "colshoper/roses/DAVIDAUSTIN/1.jpg",
         "colshoper/roses/DAVIDAUSTIN/2.jpg"
@@ -556,13 +581,15 @@
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/102"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/102"
+        }
       ],
       "price": "11999.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -573,7 +600,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0102",
       "imgs": [
         "colshoper/BOUQUETS/VALENTINESBOUQUET/1.jpg"
       ],
@@ -595,13 +622,15 @@
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/103"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/103"
+        }
       ],
       "price": "8399.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -612,7 +641,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0103",
       "imgs": [
         "colshoper/BOUQUETS/SUMMERDAYS/1.jpg",
         "colshoper/BOUQUETS/SUMMERDAYS/2.jpg"
@@ -635,13 +664,15 @@
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/104"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/104"
+        }
       ],
       "price": "14599.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -652,7 +683,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0104",
       "imgs": [
         "colshoper/BOUQUETS/CLOUDBOUQUET/1.jpg",
         "colshoper/BOUQUETS/CLOUDBOUQUET/2.jpg",
@@ -676,13 +707,15 @@
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/105"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/105"
+        }
       ],
       "price": "8399.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -693,7 +726,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0105",
       "imgs": [
         "colshoper/BOUQUETS/SUNNY/1.jpg",
         "colshoper/BOUQUETS/SUNNY/2.jpg"
@@ -716,13 +749,15 @@
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/106"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/106"
+        }
       ],
       "price": "11199.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -733,7 +768,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0106",
       "imgs": [
         "colshoper/BOUQUETS/SUMMERBREEZE/1.jpg",
         "colshoper/BOUQUETS/SUMMERBREEZE/2.jpg"
@@ -756,13 +791,15 @@
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/107"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/107"
+        }
       ],
       "price": "8399.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -773,7 +810,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0107",
       "imgs": [
         "colshoper/BOUQUETS/VANILLASKY/1.jpg",
         "colshoper/BOUQUETS/VANILLASKY/2.jpg"
@@ -796,13 +833,15 @@
       "color": [
         "розовый"
       ],
-      "colors": [{
-        "name": "розовый",
-        "link": "/shop/108"
-      }
+      "colors": [
+        {
+          "name": "розовый",
+          "link": "/shop/108"
+        }
       ],
       "price": "5699.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -813,7 +852,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0108",
       "imgs": [
         "colshoper/BOUQUETS/GERBERALEMONADE/1.jpg",
         "colshoper/BOUQUETS/GERBERALEMONADE/2.jpg"
@@ -836,13 +875,15 @@
       "color": [
         "розовый"
       ],
-      "colors": [{
-        "name": "розовый",
-        "link": "/shop/109"
-      }
+      "colors": [
+        {
+          "name": "розовый",
+          "link": "/shop/109"
+        }
       ],
       "price": "32990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -854,7 +895,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0109",
       "imgs": [
         "colshoper/BOUQUETS/PEONIES/1.jpg",
         "colshoper/BOUQUETS/PEONIES/2.jpg",
@@ -870,12 +911,12 @@
         "25",
         "50",
         "75",
-        "100"
+        "101"
       ]
     },
-      {
+    {
       "id": "110",
-      "title": "Красные розы с красной лентой (25, 50, 75, 100)",
+      "title": "Красные розы с красной лентой (25, 50, 75, 101)",
       "nalichie": "1",
       "img": "colshoper/BOUQUETS/REDROSESWITHREDRIBBON255075100/1.jpg",
       "hover_img": "colshoper/BOUQUETS/REDROSESWITHREDRIBBON255075100/2.jpg",
@@ -884,13 +925,15 @@
       "color": [
         "красный"
       ],
-      "colors": [{
-        "name": "красный",
-        "link": "/shop/110"
-      }
+      "colors": [
+        {
+          "name": "красный",
+          "link": "/shop/110"
+        }
       ],
-      "price": "10499.00",
+      "price": "480.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -902,7 +945,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0110",
       "imgs": [
         "colshoper/BOUQUETS/REDROSESWITHREDRIBBON255075100/1.jpg",
         "colshoper/BOUQUETS/REDROSESWITHREDRIBBON255075100/2.jpg",
@@ -915,7 +958,7 @@
         "25",
         "50",
         "75",
-        "100"
+        "101"
       ]
     },
     {
@@ -929,13 +972,15 @@
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/111"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/111"
+        }
       ],
       "price": "6699.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -946,7 +991,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0111",
       "imgs": [
         "colshoper/BOUQUETS/YELLOWTULIPSWITHGREENERY/1.jpg",
         "colshoper/BOUQUETS/YELLOWTULIPSWITHGREENERY/2.jpg"
@@ -969,13 +1014,15 @@
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/112"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/112"
+        }
       ],
       "price": "10999.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -986,7 +1033,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0112",
       "imgs": [
         "colshoper/BOUQUETS/SOFTPINK/1.jpg",
         "colshoper/BOUQUETS/SOFTPINK/2.jpg",
@@ -1010,13 +1057,15 @@
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/113"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/113"
+        }
       ],
       "price": "6199.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1027,7 +1076,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0113",
       "imgs": [
         "colshoper/BOUQUETS/YELLOWGERBERADAISIES/1.jpg"
       ],
@@ -1049,13 +1098,15 @@
       "color": [
         "желтый"
       ],
-      "colors": [{
-        "name": "желтый",
-        "link": "/shop/114"
-      }
+      "colors": [
+        {
+          "name": "желтый",
+          "link": "/shop/114"
+        }
       ],
       "price": "10199.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1068,7 +1119,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0114",
       "imgs": [
         "colshoper/BOUQUETS/BRIGHTENLOVEYELLOWROSESBOUQUET/1.jpg",
         "colshoper/BOUQUETS/BRIGHTENLOVEYELLOWROSESBOUQUET/2.jpg",
@@ -1085,7 +1136,7 @@
     },
     {
       "id": "115",
-      "title": "Романтичный букет в форме сердца (75, 100)",
+      "title": "Романтичный букет в форме сердца (75, 101)",
       "nalichie": "1",
       "img": "colshoper/BOUQUETS/ROMANTICHEARTSHAPEDBOUQUET/1.jpg",
       "hover_img": "colshoper/BOUQUETS/ROMANTICHEARTSHAPEDBOUQUET/2.jpg",
@@ -1094,13 +1145,15 @@
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/115"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/115"
+        }
       ],
       "price": "44499.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1114,7 +1167,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0115",
       "imgs": [
         "colshoper/BOUQUETS/ROMANTICHEARTSHAPEDBOUQUET/1.jpg",
         "colshoper/BOUQUETS/ROMANTICHEARTSHAPEDBOUQUET/2.jpg",
@@ -1125,12 +1178,12 @@
       },
       "size": [
         "75",
-        "100"
+        "101"
       ]
     },
     {
       "id": "116",
-      "title": "Красные розы на длинном стебле (25, 50, 75, 100)",
+      "title": "Красные розы на длинном стебле (25, 50, 75, 101)",
       "nalichie": "1",
       "img": "colshoper/BOUQUETS/LONGSTEMMEDREDROSES255075100/1.jpg",
       "hover_img": "colshoper/BOUQUETS/LONGSTEMMEDREDROSES255075100/2.jpg",
@@ -1139,13 +1192,15 @@
       "color": [
         "красный"
       ],
-      "colors": [{
-        "name": "красный",
-        "link": "/shop/116"
-      }
+      "colors": [
+        {
+          "name": "красный",
+          "link": "/shop/116"
+        }
       ],
-      "price": "14199.00",
+      "price": "569.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1158,7 +1213,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0116",
       "imgs": [
         "colshoper/BOUQUETS/LONGSTEMMEDREDROSES255075100/1.jpg",
         "colshoper/BOUQUETS/LONGSTEMMEDREDROSES255075100/2.jpg",
@@ -1175,7 +1230,7 @@
         "25",
         "50",
         "75",
-        "100"
+        "101"
       ]
     },
     {
@@ -1189,13 +1244,15 @@
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/117"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/117"
+        }
       ],
       "price": "7899.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1206,7 +1263,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0117",
       "imgs": [
         "colshoper/BOUQUETS/PRETTYFLOWERBOUQUET/1.jpg",
         "colshoper/BOUQUETS/PRETTYFLOWERBOUQUET/2.jpg"
@@ -1229,13 +1286,15 @@
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/118"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/118"
+        }
       ],
       "price": "7499.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1246,7 +1305,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0118",
       "imgs": [
         "colshoper/BOUQUETS/FIRSTLOVE/1.jpg"
       ],
@@ -1268,13 +1327,15 @@
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/119"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/119"
+        }
       ],
       "price": "11999.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1285,7 +1346,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0119",
       "imgs": [
         "colshoper/BOUQUETS/SUMMERMOODBOUQUET/1.jpg"
       ],
@@ -1307,13 +1368,15 @@
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/120"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/120"
+        }
       ],
       "price": "9299.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1324,7 +1387,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0120",
       "imgs": [
         "colshoper/BOUQUETS/MIXOFHYDRANGEAS/1.jpg",
         "colshoper/BOUQUETS/MIXOFHYDRANGEAS/2.jpg"
@@ -1347,13 +1410,15 @@
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/121"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/121"
+        }
       ],
       "price": "13199.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1364,7 +1429,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0121",
       "imgs": [
         "colshoper/BOUQUETS/PINKBOUQUETWITHCALLAS/1.jpg"
       ],
@@ -1386,13 +1451,15 @@
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/122"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/122"
+        }
       ],
       "price": "13199.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1404,7 +1471,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0122",
       "imgs": [
         "colshoper/BOUQUETS/ORGANICBOUQUET/1.jpg"
       ],
@@ -1426,13 +1493,15 @@
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/123"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/123"
+        }
       ],
       "price": "8399.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1444,7 +1513,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0123",
       "imgs": [
         "colshoper/BOUQUETS/STANDUPTRIBUTEBOUQUET/1.jpg"
       ],
@@ -1466,13 +1535,15 @@
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/124"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/124"
+        }
       ],
       "price": "7990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1483,7 +1554,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0124",
       "imgs": [
         "colshoper/BOUQUETS/BLUEBERRY/1.jpg"
       ],
@@ -1505,13 +1576,15 @@
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/125"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/125"
+        }
       ],
       "price": "10199.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1522,7 +1595,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0125",
       "imgs": [
         "colshoper/BOUQUETS/MELODY/1.jpg",
         "colshoper/BOUQUETS/MELODY/2.jpg"
@@ -1545,13 +1618,15 @@
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/126"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/126"
+        }
       ],
       "price": "10199.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1562,7 +1637,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0126",
       "imgs": [
         "colshoper/BOUQUETS/LEMONADE/1.jpg"
       ],
@@ -1584,13 +1659,15 @@
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/127"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/127"
+        }
       ],
       "price": "7499.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1601,7 +1678,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0127",
       "imgs": [
         "colshoper/BOUQUETS/NEWYORK/1.jpg",
         "colshoper/BOUQUETS/NEWYORK/2.jpg"
@@ -1624,13 +1701,15 @@
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/128"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/128"
+        }
       ],
       "price": "8399.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1641,7 +1720,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0128",
       "imgs": [
         "colshoper/BOUQUETS/DOLPHIN/1.jpg",
         "colshoper/BOUQUETS/DOLPHIN/2.jpg",
@@ -1667,13 +1746,15 @@
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/129"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/129"
+        }
       ],
       "price": "10199.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1684,7 +1765,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0129",
       "imgs": [
         "colshoper/BOUQUETS/ROSEPETALS/1.jpg"
       ],
@@ -1697,7 +1778,7 @@
     },
     {
       "id": "130",
-      "title": "Букет синих роз в черной упаковочной бумаге (25, 50, 75, 100)",
+      "title": "Букет синих роз в черной упаковочной бумаге (25, 50, 75, 101)",
       "nalichie": "1",
       "img": "colshoper/BOUQUETS/BOUQUETOFBLUEROSESINBLACKPACKAGINGPAPER255075100/1.jpg",
       "hover_img": "colshoper/BOUQUETS/BOUQUETOFBLUEROSESINBLACKPACKAGINGPAPER255075100/2.jpg",
@@ -1706,13 +1787,15 @@
       "color": [
         "синий"
       ],
-      "colors": [{
-        "name": "синий",
-        "link": "/shop/130"
-      }
+      "colors": [
+        {
+          "name": "синий",
+          "link": "/shop/130"
+        }
       ],
-      "price": "12699.00",
+      "price": "519.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1724,7 +1807,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0130",
       "imgs": [
         "colshoper/BOUQUETS/BOUQUETOFBLUEROSESINBLACKPACKAGINGPAPER255075100/1.jpg",
         "colshoper/BOUQUETS/BOUQUETOFBLUEROSESINBLACKPACKAGINGPAPER255075100/2.jpg",
@@ -1737,12 +1820,12 @@
         "25",
         "50",
         "75",
-        "100"
+        "101"
       ]
     },
     {
       "id": "131",
-      "title": "Букет фиолетовых роз в розовой упаковочной бумаге (25, 50, 75, 100)",
+      "title": "Букет фиолетовых роз в розовой упаковочной бумаге (25, 50, 75, 101)",
       "nalichie": "1",
       "img": "colshoper/BOUQUETS/BOUQUET OFPURPLEROSESINPINKPACKAGINGPAPER255075100/1.jpg",
       "hover_img": "colshoper/BOUQUETS/BOUQUET OFPURPLEROSESINPINKPACKAGINGPAPER255075100/2.jpg",
@@ -1751,13 +1834,15 @@
       "color": [
         "фиолетовый"
       ],
-      "colors": [{
-        "name": "фиолетовый",
-        "link": "/shop/131"
-      }
+      "colors": [
+        {
+          "name": "фиолетовый",
+          "link": "/shop/131"
+        }
       ],
-      "price": "12699.00",
+      "price": "480.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1770,7 +1855,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0131",
       "imgs": [
         "colshoper/BOUQUETS/BOUQUET OFPURPLEROSESINPINKPACKAGINGPAPER255075100/1.jpg",
         "colshoper/BOUQUETS/BOUQUET OFPURPLEROSESINPINKPACKAGINGPAPER255075100/2.jpg",
@@ -1784,12 +1869,12 @@
         "25",
         "50",
         "75",
-        "100"
+        "101"
       ]
     },
     {
       "id": "132",
-      "title": "Белые розы с белой лентой (25, 50, 75, 100)",
+      "title": "Белые розы с белой лентой (25, 50, 75, 101)",
       "nalichie": "1",
       "img": "colshoper/BOUQUETS/WHITEROSESWITHWHITERIBBON255075100/1.jpg",
       "hover_img": "colshoper/BOUQUETS/WHITEROSESWITHWHITERIBBON255075100/2.jpg",
@@ -1804,8 +1889,9 @@
           "link": "132"
         }
       ],
-      "price": "10199.00",
+      "price": "480.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1818,7 +1904,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0132",
       "imgs": [
         "colshoper/BOUQUETS/WHITEROSESWITHWHITERIBBON255075100/1.jpg",
         "colshoper/BOUQUETS/WHITEROSESWITHWHITERIBBON255075100/2.jpg",
@@ -1832,12 +1918,12 @@
         "25",
         "50",
         "75",
-        "100"
+        "101"
       ]
     },
     {
       "id": "133",
-      "title": "Букет красных роз в черной упаковочной бумаге (25, 50, 75, 100)",
+      "title": "Букет красных роз в черной упаковочной бумаге (25, 50, 75, 101)",
       "nalichie": "1",
       "img": "colshoper/BOUQUETS/BOUQUETOFREDROSESINBLACKPACKAGINGPAPER255075100/1.jpg",
       "hover_img": "colshoper/BOUQUETS/BOUQUETOFREDROSESINBLACKPACKAGINGPAPER255075100/2.jpg",
@@ -1846,13 +1932,15 @@
       "color": [
         "красный"
       ],
-      "colors": [{
-        "name": "красный",
-        "link": "/shop/133"
-      }
+      "colors": [
+        {
+          "name": "красный",
+          "link": "/shop/133"
+        }
       ],
-      "price": "11399.00",
+      "price": "480.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1865,7 +1953,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0133",
       "imgs": [
         "colshoper/BOUQUETS/BOUQUETOFREDROSESINBLACKPACKAGINGPAPER255075100/1.jpg",
         "colshoper/BOUQUETS/BOUQUETOFREDROSESINBLACKPACKAGINGPAPER255075100/2.jpg",
@@ -1878,12 +1966,12 @@
         "25",
         "50",
         "75",
-        "100"
+        "101"
       ]
     },
     {
       "id": "134",
-      "title": "Букет розовых роз в розовой упаковочной бумаге (25, 50, 75, 100)",
+      "title": "Букет розовых роз в розовой упаковочной бумаге (25, 50, 75, 101)",
       "nalichie": "1",
       "img": "colshoper/BOUQUETS/BOUQUETOFPINKROSESINPINKPACKAGINGPAPER255075100/1.jpg",
       "hover_img": "colshoper/BOUQUETS/BOUQUETOFPINKROSESINPINKPACKAGINGPAPER255075100/2.jpg",
@@ -1892,13 +1980,15 @@
       "color": [
         "розовый"
       ],
-      "colors": [{
-        "name": "розовый",
-        "link": "/shop/134"
-      }
+      "colors": [
+        {
+          "name": "розовый",
+          "link": "/shop/134"
+        }
       ],
-      "price": "11399.00",
+      "price": "480.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1911,7 +2001,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0134",
       "imgs": [
         "colshoper/BOUQUETS/BOUQUETOFPINKROSESINPINKPACKAGINGPAPER255075100/1.jpg",
         "colshoper/BOUQUETS/BOUQUETOFPINKROSESINPINKPACKAGINGPAPER255075100/2.jpg",
@@ -1924,12 +2014,12 @@
         "25",
         "50",
         "75",
-        "100"
+        "101"
       ]
     },
     {
       "id": "135",
-      "title": "Букет белых роз в бело-золотой упаковочной бумаге (25, 50, 75, 100)",
+      "title": "Букет белых роз в бело-золотой упаковочной бумаге (25, 50, 75, 101)",
       "nalichie": "1",
       "img": "colshoper/BOUQUETS/BOUQUET OFWHITEROSESINWHITEGOLDPACKAGINGPAPER255075100/1.jpg",
       "hover_img": "colshoper/BOUQUETS/BOUQUET OFWHITEROSESINWHITEGOLDPACKAGINGPAPER255075100/2.jpg",
@@ -1944,8 +2034,9 @@
           "link": "135"
         }
       ],
-      "price": "11399.00",
+      "price": "480.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "rating": "1",
       "popularity": true,
@@ -1958,7 +2049,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0135",
       "imgs": [
         "colshoper/BOUQUETS/BOUQUET OFWHITEROSESINWHITEGOLDPACKAGINGPAPER255075100/1.jpg",
         "colshoper/BOUQUETS/BOUQUET OFWHITEROSESINWHITEGOLDPACKAGINGPAPER255075100/2.jpg",
@@ -1971,7 +2062,7 @@
         "25",
         "50",
         "75",
-        "100"
+        "101"
       ]
     },
     {
@@ -1982,6 +2073,7 @@
       "hover_img": "colshoper/BOUQUETS/CLEARBAGWITHWHITEROSESANDPANDATOY/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "белый"
@@ -2004,7 +2096,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0136",
       "imgs": [
         "colshoper/BOUQUETS/CLEARBAGWITHWHITEROSESANDPANDATOY/1.jpg",
         "colshoper/BOUQUETS/CLEARBAGWITHWHITEROSESANDPANDATOY/2.jpg",
@@ -2025,14 +2117,16 @@
       "hover_img": "colshoper/box/50shades/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/137"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/137"
+        }
       ],
       "price": "23300.00",
       "collections": "боксы",
@@ -2046,7 +2140,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0137",
       "imgs": [
         "colshoper/box/50shades/1.jpg"
       ],
@@ -2067,14 +2161,16 @@
       "hover_img": "colshoper/box/ALICEINWONDERLAND/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/138"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/138"
+        }
       ],
       "price": "11899.00",
       "collections": "боксы",
@@ -2087,7 +2183,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0138",
       "imgs": [
         "colshoper/box/ALICEINWONDERLAND/1.jpg",
         "colshoper/box/ALICEINWONDERLAND/2.jpg",
@@ -2109,14 +2205,16 @@
       "hover_img": "colshoper/box/LAVENDERFIELD/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/139"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/139"
+        }
       ],
       "price": "23790.00",
       "collections": "боксы",
@@ -2130,7 +2228,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0139",
       "imgs": [
         "colshoper/box/LAVENDERFIELD/1.jpg"
       ],
@@ -2149,14 +2247,16 @@
       "hover_img": "colshoper/box/WHITEMIX/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/140"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/140"
+        }
       ],
       "price": "10199.00",
       "collections": "боксы",
@@ -2169,7 +2269,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0140",
       "imgs": [
         "colshoper/box/WHITEMIX/1.jpg",
         "colshoper/box/WHITEMIX/2.jpg",
@@ -2191,14 +2291,16 @@
       "hover_img": "colshoper/box/LOVEBLOSSOMS/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/141"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/141"
+        }
       ],
       "price": "16199.00",
       "collections": "боксы",
@@ -2211,7 +2313,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0141",
       "imgs": [
         "colshoper/box/LOVEBLOSSOMS/1.jpg",
         "colshoper/box/LOVEBLOSSOMS/2.jpg",
@@ -2233,14 +2335,16 @@
       "hover_img": "colshoper/box/MAGICBOX/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/142"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/142"
+        }
       ],
       "price": "8299.00",
       "collections": "боксы",
@@ -2253,7 +2357,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0142",
       "imgs": [
         "colshoper/box/MAGICBOX/1.jpg"
       ],
@@ -2273,14 +2377,16 @@
       "hover_img": "colshoper/box/WONDERLAND/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/143"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/143"
+        }
       ],
       "price": "16199.00",
       "collections": "боксы",
@@ -2293,7 +2399,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0143",
       "imgs": [
         "colshoper/box/WONDERLAND/1.jpg",
         "colshoper/box/WONDERLAND/2.jpg"
@@ -2314,14 +2420,16 @@
       "hover_img": "colshoper/box/PARADISEBOX/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/144"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/144"
+        }
       ],
       "price": "26399.00",
       "collections": "боксы",
@@ -2335,7 +2443,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0144",
       "imgs": [
         "colshoper/box/PARADISEBOX/1.jpg"
       ],
@@ -2354,14 +2462,16 @@
       "hover_img": "colshoper/box/BLACKVELVETBOX/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/145"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/145"
+        }
       ],
       "price": "14499.00",
       "collections": "боксы",
@@ -2374,7 +2484,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0145",
       "imgs": [
         "colshoper/box/BLACKVELVETBOX/1.jpg"
       ],
@@ -2393,14 +2503,16 @@
       "hover_img": "colshoper/box/TITANICBOX/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/146"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/146"
+        }
       ],
       "price": "48990.00",
       "collections": "боксы",
@@ -2414,7 +2526,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0146",
       "imgs": [
         "colshoper/box/TITANICBOX/1.jpg"
       ],
@@ -2433,14 +2545,16 @@
       "hover_img": "colshoper/box/SWEETLIFE/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/147"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/147"
+        }
       ],
       "price": "10199.00",
       "collections": "боксы",
@@ -2454,7 +2568,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0147",
       "imgs": [
         "colshoper/box/SWEETLIFE/1.jpg",
         "colshoper/box/SWEETLIFE/2.jpg",
@@ -2477,14 +2591,16 @@
       "hover_img": "colshoper/box/BUSINESSWOMAN/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/148"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/148"
+        }
       ],
       "price": "16790.00",
       "collections": "боксы",
@@ -2499,7 +2615,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0148",
       "imgs": [
         "colshoper/box/BUSINESSWOMAN/1.jpg",
         "colshoper/box/BUSINESSWOMAN/2.jpg",
@@ -2523,14 +2639,16 @@
       "hover_img": "colshoper/box/PRETTYINPINK/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "розовый"
       ],
-      "colors": [{
-        "name": "розовый",
-        "link": "/shop/149"
-      }
+      "colors": [
+        {
+          "name": "розовый",
+          "link": "/shop/149"
+        }
       ],
       "price": "12290.00",
       "collections": "боксы",
@@ -2543,7 +2661,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0149",
       "imgs": [
         "colshoper/box/PRETTYINPINK/1.jpg",
         "colshoper/box/PRETTYINPINK/2.jpg"
@@ -2563,14 +2681,16 @@
       "hover_img": "colshoper/box/WELCOMEBABYBOYFLOWERS/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/150"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/150"
+        }
       ],
       "price": "9599.00",
       "collections": "боксы",
@@ -2583,7 +2703,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0150",
       "imgs": [
         "colshoper/box/WELCOMEBABYBOYFLOWERS/1.jpg",
         "colshoper/box/WELCOMEBABYBOYFLOWERS/2.jpg",
@@ -2605,14 +2725,16 @@
       "hover_img": "colshoper/box/SWEETLOVE/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/151"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/151"
+        }
       ],
       "price": "11899.00",
       "collections": "боксы",
@@ -2626,7 +2748,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0151",
       "imgs": [
         "colshoper/box/SWEETLOVE/1.jpg"
       ],
@@ -2646,14 +2768,16 @@
       "hover_img": "colshoper/box/BARBIEBOUQUET/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/152"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/152"
+        }
       ],
       "price": "18899.00",
       "collections": "боксы",
@@ -2667,7 +2791,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0152",
       "imgs": [
         "colshoper/box/BARBIEBOUQUET/1.jpg",
         "colshoper/box/BARBIEBOUQUET/2.jpg",
@@ -2689,14 +2813,16 @@
       "hover_img": "colshoper/box/LOVELYPINK/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "розовый"
       ],
-      "colors": [{
-        "name": "розовый",
-        "link": "/shop/153"
-      }
+      "colors": [
+        {
+          "name": "розовый",
+          "link": "/shop/153"
+        }
       ],
       "price": "14499.00",
       "collections": "боксы",
@@ -2710,7 +2836,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0153",
       "imgs": [
         "colshoper/box/LOVELYPINK/1.jpg"
       ],
@@ -2729,14 +2855,16 @@
       "hover_img": "colshoper/box/PURPLEICECREAM/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/154"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/154"
+        }
       ],
       "price": "15799.00",
       "collections": "боксы",
@@ -2749,7 +2877,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0154",
       "imgs": [
         "colshoper/box/PURPLEICECREAM/1.jpg",
         "colshoper/box/PURPLEICECREAM/2.jpg"
@@ -2769,14 +2897,16 @@
       "hover_img": "colshoper/box/CUTEBEARBOX/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/155"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/155"
+        }
       ],
       "price": "14990.00",
       "collections": "боксы",
@@ -2789,7 +2919,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0155",
       "imgs": [
         "colshoper/box/CUTEBEARBOX/1.jpg"
       ],
@@ -2809,14 +2939,16 @@
       "hover_img": "colshoper/box/EXOTICBOX/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/156"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/156"
+        }
       ],
       "price": "10499.00",
       "collections": "боксы",
@@ -2829,7 +2961,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0156",
       "imgs": [
         "colshoper/box/EXOTICBOX/1.jpg",
         "colshoper/box/EXOTICBOX/2.jpg",
@@ -2850,14 +2982,16 @@
       "hover_img": "colshoper/box/ARIELLE/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "красный"
       ],
-      "colors": [{
-        "name": "красный",
-        "link": "/shop/157"
-      }
+      "colors": [
+        {
+          "name": "красный",
+          "link": "/shop/157"
+        }
       ],
       "price": "10499.00",
       "collections": "боксы",
@@ -2872,7 +3006,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0157",
       "imgs": [
         "colshoper/box/ARIELLE/1.jpg",
         "colshoper/box/ARIELLE/2.jpg"
@@ -2893,14 +3027,16 @@
       "hover_img": "colshoper/box/MARSHMALLOW/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/158"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/158"
+        }
       ],
       "price": "26299.00",
       "collections": "боксы",
@@ -2913,7 +3049,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0158",
       "imgs": [
         "colshoper/box/MARSHMALLOW/1.jpg"
       ],
@@ -2933,14 +3069,16 @@
       "hover_img": "colshoper/box/BOXFORMOM/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/159"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/159"
+        }
       ],
       "price": "9699.00",
       "collections": "боксы",
@@ -2954,7 +3092,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0159",
       "imgs": [
         "colshoper/box/BOXFORMOM/1.jpg"
       ],
@@ -2974,6 +3112,7 @@
       "hover_img": "colshoper/box/RAFFAELLO/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "белый"
@@ -2996,7 +3135,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0160",
       "imgs": [
         "colshoper/box/RAFFAELLO/1.jpg"
       ],
@@ -3015,14 +3154,16 @@
       "hover_img": "colshoper/box/CASUALBAG/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/161"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/161"
+        }
       ],
       "price": "8399.00",
       "collections": "боксы",
@@ -3036,7 +3177,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0161",
       "imgs": [
         "colshoper/box/CASUALBAG/1.jpg",
         "colshoper/box/CASUALBAG/2.jpg"
@@ -3057,14 +3198,16 @@
       "hover_img": "colshoper/box/STYLISHHEART/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/162"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/162"
+        }
       ],
       "price": "11499.00",
       "collections": "боксы",
@@ -3077,7 +3220,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0162",
       "imgs": [
         "colshoper/box/STYLISHHEART/1.jpg"
       ],
@@ -3097,14 +3240,16 @@
       "hover_img": "colshoper/box/NORTHERNLIGHTS/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/163"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/163"
+        }
       ],
       "price": "10199.00",
       "collections": "боксы",
@@ -3117,7 +3262,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0163",
       "imgs": [
         "colshoper/box/NORTHERNLIGHTS/1.jpg"
       ],
@@ -3136,14 +3281,16 @@
       "hover_img": "colshoper/box/JELLYBOX/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/164"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/164"
+        }
       ],
       "price": "13199.00",
       "collections": "боксы",
@@ -3156,7 +3303,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0164",
       "imgs": [
         "colshoper/box/JELLYBOX/1.jpg"
       ],
@@ -3175,14 +3322,16 @@
       "hover_img": "colshoper/box/CUPID/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "красный"
       ],
-      "colors": [{
-        "name": "красный",
-        "link": "/shop/165"
-      }
+      "colors": [
+        {
+          "name": "красный",
+          "link": "/shop/165"
+        }
       ],
       "price": "18499.00",
       "collections": "боксы",
@@ -3197,7 +3346,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0165",
       "imgs": [
         "colshoper/box/CUPID/1.jpg",
         "colshoper/box/CUPID/2.jpg",
@@ -3219,14 +3368,16 @@
       "hover_img": "colshoper/box/NEON/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/166"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/166"
+        }
       ],
       "price": "8299.00",
       "collections": "боксы",
@@ -3239,7 +3390,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0166",
       "imgs": [
         "colshoper/box/NEON/1.jpg"
       ],
@@ -3259,14 +3410,16 @@
       "hover_img": "colshoper/box/FLOWERFAIRY/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/167"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/167"
+        }
       ],
       "price": "13199.00",
       "collections": "боксы",
@@ -3279,7 +3432,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0167",
       "imgs": [
         "colshoper/box/FLOWERFAIRY/1.jpg"
       ],
@@ -3299,14 +3452,16 @@
       "hover_img": "colshoper/box/LANDOFDREAMS/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "синий"
       ],
-      "colors": [{
-        "name": "синий",
-        "link": "/shop/168"
-      }
+      "colors": [
+        {
+          "name": "синий",
+          "link": "/shop/168"
+        }
       ],
       "price": "17599.00",
       "collections": "боксы",
@@ -3319,7 +3474,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0168",
       "imgs": [
         "colshoper/box/LANDOFDREAMS/1.jpg",
         "colshoper/box/LANDOFDREAMS/2.jpg"
@@ -3340,14 +3495,16 @@
       "hover_img": "colshoper/box/PEACHTREE/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/169"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/169"
+        }
       ],
       "price": "10500.00",
       "collections": "боксы",
@@ -3360,7 +3517,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0169",
       "imgs": [
         "colshoper/box/PEACHTREE/1.jpg"
       ],
@@ -3382,14 +3539,16 @@
       "hover_img": "colshoper/box/LARGEREDBAGHEARTWITHREDROSES/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "красный"
       ],
-      "colors": [{
-        "name": "красный",
-        "link": "/shop/170"
-      }
+      "colors": [
+        {
+          "name": "красный",
+          "link": "/shop/170"
+        }
       ],
       "price": "21999.00",
       "collections": "боксы",
@@ -3404,7 +3563,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0170",
       "imgs": [
         "colshoper/box/LARGEREDBAGHEARTWITHREDROSES/1.jpg",
         "colshoper/box/LARGEREDBAGHEARTWITHREDROSES/2.jpg",
@@ -3426,14 +3585,16 @@
       "hover_img": "colshoper/box/LARGEPINKBAGHEARTWITHPINKADNWHITEROSES/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/171"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/171"
+        }
       ],
       "price": "21999.00",
       "collections": "боксы",
@@ -3448,7 +3609,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0171",
       "imgs": [
         "colshoper/box/LARGEPINKBAGHEARTWITHPINKADNWHITEROSES/1.jpg",
         "colshoper/box/LARGEPINKBAGHEARTWITHPINKADNWHITEROSES/2.jpg",
@@ -3470,14 +3631,16 @@
       "hover_img": "colshoper/box/BLACKBOXWITHBLUEROSESILOVEYOU/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "синий"
       ],
-      "colors": [{
-        "name": "синий",
-        "link": "/shop/172"
-      }
+      "colors": [
+        {
+          "name": "синий",
+          "link": "/shop/172"
+        }
       ],
       "price": "13990.00",
       "collections": "боксы",
@@ -3492,7 +3655,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0172",
       "imgs": [
         "colshoper/box/BLACKBOXWITHBLUEROSESILOVEYOU/1.jpg",
         "colshoper/box/BLACKBOXWITHBLUEROSESILOVEYOU/2.jpg",
@@ -3514,14 +3677,16 @@
       "hover_img": "colshoper/box/PINKBOXWITHPINKROSESILOVEYOU/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "розовый"
       ],
-      "colors": [{
-        "name": "розовый",
-        "link": "/shop/173"
-      }
+      "colors": [
+        {
+          "name": "розовый",
+          "link": "/shop/173"
+        }
       ],
       "price": "13990.00",
       "collections": "боксы",
@@ -3536,7 +3701,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0173",
       "imgs": [
         "colshoper/box/PINKBOXWITHPINKROSESILOVEYOU/1.jpg",
         "colshoper/box/PINKBOXWITHPINKROSESILOVEYOU/2.jpg",
@@ -3558,14 +3723,16 @@
       "hover_img": "colshoper/box/BLACKBOXWITHREDROSESILOVEYOU/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "красный"
       ],
-      "colors": [{
-        "name": "красный",
-        "link": "/shop/174"
-      }
+      "colors": [
+        {
+          "name": "красный",
+          "link": "/shop/174"
+        }
       ],
       "price": "13990.00",
       "collections": "боксы",
@@ -3580,7 +3747,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0174",
       "imgs": [
         "colshoper/box/BLACKBOXWITHREDROSESILOVEYOU/1.jpg",
         "colshoper/box/BLACKBOXWITHREDROSESILOVEYOU/2.jpg",
@@ -3602,14 +3769,16 @@
       "hover_img": "colshoper/box/LARGEBLACKBAGHEARTWITHBLUEANDWHITEROSES/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/175"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/175"
+        }
       ],
       "price": "13990.00",
       "collections": "боксы",
@@ -3624,7 +3793,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0175",
       "imgs": [
         "colshoper/box/LARGEBLACKBAGHEARTWITHBLUEANDWHITEROSES/1.jpg",
         "colshoper/box/LARGEBLACKBAGHEARTWITHBLUEANDWHITEROSES/2.jpg",
@@ -3646,14 +3815,16 @@
       "hover_img": "colshoper/box/PURPLESECRETFLOWERBOXWITHPURPLEROSESANDCANDY/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "фиолетовый"
       ],
-      "colors": [{
-        "name": "фиолетовый",
-        "link": "/shop/176"
-      }
+      "colors": [
+        {
+          "name": "фиолетовый",
+          "link": "/shop/176"
+        }
       ],
       "price": "13990.00",
       "collections": "боксы",
@@ -3668,7 +3839,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0176",
       "imgs": [
         "colshoper/box/PURPLESECRETFLOWERBOXWITHPURPLEROSESANDCANDY/1.jpg",
         "colshoper/box/PURPLESECRETFLOWERBOXWITHPURPLEROSESANDCANDY/2.jpg",
@@ -3690,14 +3861,16 @@
       "hover_img": "colshoper/box/WHITEHEARTFLOWBOXWITHWHITEROSESGREENERYANDMACAROONS/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/177"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/177"
+        }
       ],
       "price": "10199.00",
       "collections": "боксы",
@@ -3711,7 +3884,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0177",
       "imgs": [
         "colshoper/box/WHITEHEARTFLOWBOXWITHWHITEROSESGREENERYANDMACAROONS/1.jpg",
         "colshoper/box/WHITEHEARTFLOWBOXWITHWHITEROSESGREENERYANDMACAROONS/2.jpg"
@@ -3734,14 +3907,16 @@
       "hover_img": "colshoper/box/REDSECRETFLOWERBOXWITHREDROSESANDCANDY/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "красный"
       ],
-      "colors": [{
-        "name": "красный",
-        "link": "/shop/178"
-      }
+      "colors": [
+        {
+          "name": "красный",
+          "link": "/shop/178"
+        }
       ],
       "price": "13990.00",
       "collections": "боксы",
@@ -3756,7 +3931,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0178",
       "imgs": [
         "colshoper/box/REDSECRETFLOWERBOXWITHREDROSESANDCANDY/1.jpg",
         "colshoper/box/REDSECRETFLOWERBOXWITHREDROSESANDCANDY/2.jpg",
@@ -3778,14 +3953,16 @@
       "hover_img": "colshoper/box/PINKSECRETFLOWERBOXWITHPINKROSESANDCANDY/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "розовый"
       ],
-      "colors": [{
-        "name": "розовый",
-        "link": "/shop/179"
-      }
+      "colors": [
+        {
+          "name": "розовый",
+          "link": "/shop/179"
+        }
       ],
       "price": "13990.00",
       "collections": "боксы",
@@ -3800,7 +3977,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0179",
       "imgs": [
         "colshoper/box/PINKSECRETFLOWERBOXWITHPINKROSESANDCANDY/1.jpg",
         "colshoper/box/PINKSECRETFLOWERBOXWITHPINKROSESANDCANDY/2.jpg",
@@ -3886,7 +4063,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0180",
       "imgs": [
         "flowerimg/HYDRANGEA/CloudWhite/1.jpg",
         "flowerimg/HYDRANGEA/CloudWhite/2.jpg",
@@ -3973,7 +4150,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0181",
       "imgs": [
         "flowerimg/HYDRANGEA/BabyBlue/1.jpg",
         "flowerimg/HYDRANGEA/BabyBlue/2.jpg",
@@ -4062,7 +4239,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0182",
       "imgs": [
         "flowerimg/HYDRANGEA/CherryCrush/1.jpg",
         "flowerimg/HYDRANGEA/CherryCrush/2.jpg",
@@ -4147,7 +4324,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0183",
       "imgs": [
         "flowerimg/HYDRANGEA/PalePlum/1.jpg",
         "flowerimg/HYDRANGEA/PalePlum/2.jpg",
@@ -4235,7 +4412,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0184",
       "imgs": [
         "flowerimg/HYDRANGEA/PinkKnickers/1.jpg",
         "flowerimg/HYDRANGEA/PinkKnickers/2.jpg",
@@ -4323,7 +4500,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0185",
       "imgs": [
         "flowerimg/HYDRANGEA/Pistachio/1.jpg",
         "flowerimg/HYDRANGEA/Pistachio/2.jpg",
@@ -4408,7 +4585,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0186",
       "imgs": [
         "flowerimg/HYDRANGEA/RedCarpet/1.jpg",
         "flowerimg/HYDRANGEA/RedCarpet/2.jpg",
@@ -4491,7 +4668,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0187",
       "imgs": [
         "flowerimg/HYDRANGEA/SkyBlue/1.jpg",
         "flowerimg/HYDRANGEA/SkyBlue/2.jpg",
@@ -4576,7 +4753,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0188",
       "imgs": [
         "flowerimg/HYDRANGEA/VelvetNoir/1.jpg",
         "flowerimg/HYDRANGEA/VelvetNoir/2.jpg",
@@ -4625,6 +4802,7 @@
       ],
       "price": "9950.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "diameter": "30 см",
       "rating": "1",
@@ -4635,7 +4813,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0201",
       "imgs": [
         "flowerimg/Bouqet/sprayRoseBouqet/HotPink/Classic/1.jpg",
         "flowerimg/Bouqet/sprayRoseBouqet/HotPink/Classic/2.jpg",
@@ -4733,7 +4911,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0202",
       "imgs": [
         "flowerimg/Peony/malinoviy/1.jpg",
         "flowerimg/Peony/malinoviy/2.jpg",
@@ -4743,7 +4921,11 @@
         "flowerimg/Peony/malinoviy/6.jpg"
       ],
       "size": [
-        "1 комплект"
+        "11 шт.",
+        "21 шт.",
+        "31 шт.",
+        "51 шт.",
+        "101 шт."
       ]
     },
     {
@@ -4821,7 +5003,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0203",
       "imgs": [
         "flowerimg/Rose/PinkMondial/1.jpg",
         "flowerimg/Rose/PinkMondial/2.jpg"
@@ -4899,7 +5081,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0204",
       "imgs": [
         "flowerimg/Peony/primrose/1.jpg",
         "flowerimg/Peony/primrose/2.jpg",
@@ -4908,7 +5090,11 @@
         "flowerimg/Peony/primrose/5.jpg"
       ],
       "size": [
-        "1 комплект"
+        "11 шт.",
+        "21 шт.",
+        "31 шт.",
+        "51 шт.",
+        "101 шт."
       ]
     },
     {
@@ -4951,6 +5137,7 @@
       ],
       "price": "19370.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "superbouquets": true,
       "mostPopular": "самые популярные",
       "diameter": "43,18 см",
@@ -4962,7 +5149,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0205",
       "imgs": [
         "flowerimg/Bouqet/superbuqPink001/Large/1.jpg",
         "flowerimg/Bouqet/superbuqPink001/Large/2.jpg",
@@ -5012,7 +5199,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0206",
       "imgs": [
         "flowerimg/FRINGEdTULIP/CoralCrush/1.jpg",
         "flowerimg/FRINGEdTULIP/CoralCrush/1.jpg",
@@ -5064,6 +5251,7 @@
       ],
       "price": "10799.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "поднять настроение",
       "diameter": "30 см",
       "rating": "1",
@@ -5074,7 +5262,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0207",
       "imgs": [
         "flowerimg/Bouqet/sprayRoseBouqet/Pink/Classic/1.jpg",
         "flowerimg/Bouqet/sprayRoseBouqet/Pink/Classic/2.jpg",
@@ -5140,7 +5328,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0208",
       "imgs": [
         "flowerimg/DoubleTulip/LilacNymph/1.jpg",
         "flowerimg/DoubleTulip/LilacNymph/2.jpg",
@@ -5196,7 +5384,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0209",
       "imgs": [
         "flowerimg/Hyacinth/Amethyst/1.jpg",
         "flowerimg/Hyacinth/Amethyst/2.jpg"
@@ -5280,7 +5468,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0210",
       "imgs": [
         "flowerimg/Rose/MemoryLane/1.jpg",
         "flowerimg/Rose/MemoryLane/2.jpg",
@@ -5350,7 +5538,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0211",
       "imgs": [
         "flowerimg/DutchTulip/LilacLust/1.jpg",
         "flowerimg/DutchTulip/LilacLust/2.jpg",
@@ -5421,7 +5609,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0212",
       "imgs": [
         "flowerimg/Ranunculus/SchiaparelliPink/1.jpg",
         "flowerimg/Ranunculus/SchiaparelliPink/2.jpg"
@@ -5486,7 +5674,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0213",
       "imgs": [
         "flowerimg/DutchTulip/Violacious/1.jpg",
         "flowerimg/DutchTulip/Violacious/2.jpg",
@@ -5553,7 +5741,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0214",
       "imgs": [
         "flowerimg/Anemon/CERISE/1.jpg"
       ],
@@ -5611,7 +5799,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0215",
       "imgs": [
         "flowerimg/Snapdragon/LavenderPink/1.jpg",
         "flowerimg/Snapdragon/LavenderPink/2.jpg",
@@ -5679,7 +5867,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0216",
       "imgs": [
         "flowerimg/DoubleTulip/SirenPink/1.jpg",
         "flowerimg/DoubleTulip/SirenPink/2.jpg",
@@ -5744,7 +5932,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0217",
       "imgs": [
         "flowerimg/Snapdragon/CottonCandy/1.jpg",
         "flowerimg/Snapdragon/CottonCandy/2.jpg",
@@ -5817,7 +6005,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0218",
       "imgs": [
         "flowerimg/Ranunculus/Chiffon/1.jpg",
         "flowerimg/Ranunculus/Chiffon/2.jpg"
@@ -5867,7 +6055,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0219",
       "imgs": [
         "flowerimg/ParrotTulip/Mint/1.jpg",
         "flowerimg/ParrotTulip/Mint/2.jpg",
@@ -5934,7 +6122,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0220",
       "imgs": [
         "flowerimg/CallaLily/ModernWhite/1.jpg",
         "flowerimg/CallaLily/ModernWhite/2.jpg",
@@ -5986,6 +6174,7 @@
       ],
       "price": "17300.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "superbouquets": true,
       "mostPopular": "самые популярные",
       "diameter": "43 см",
@@ -5997,7 +6186,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0221",
       "imgs": [
         "flowerimg/Bouqet/superbuqIvory001/Large/1.jpg",
         "flowerimg/Bouqet/superbuqIvory001/Large/2.jpg",
@@ -6046,6 +6235,7 @@
       ],
       "price": "9950.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "diameter": "30 см",
       "rating": "1",
       "popularity": true,
@@ -6055,7 +6245,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0222",
       "imgs": [
         "flowerimg/Bouqet/sprayRoseBouqet/Ivory/Classic/1.jpg",
         "flowerimg/Bouqet/sprayRoseBouqet/Ivory/Classic/2.jpg",
@@ -6141,7 +6331,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0223",
       "imgs": [
         "flowerimg/Rose/RedNaomi/1.jpg",
         "flowerimg/Rose/RedNaomi/2.jpg",
@@ -6166,10 +6356,11 @@
       "submit_date": "2024-04-22",
       "category": "Открытки",
       "delivery": "доставим сегодня",
-      "colors": [{
-        "name": "0",
-        "link": "/shop/224"
-      }
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/224"
+        }
       ],
       "price": "780.00",
       "collections": "Открытки",
@@ -6181,7 +6372,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0224",
       "imgs": [
         "flowerimg/postcard/1.jpg"
       ],
@@ -6244,7 +6435,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0225",
       "imgs": [
         "flowerimg/Anemon/LIPSTICkRED/1.jpg",
         "flowerimg/Anemon/LIPSTICkRED/2.jpg",
@@ -6296,7 +6487,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0226",
       "imgs": [
         "flowerimg/ParrotTulip/Rococo/1.jpg",
         "flowerimg/ParrotTulip/Rococo/2.jpg",
@@ -6342,7 +6533,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0227",
       "imgs": [
         "flowerimg/FRINGEdTULIP/LemonSherbet/1.jpg",
         "flowerimg/FRINGEdTULIP/LemonSherbet/2.jpg"
@@ -6407,7 +6598,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0228",
       "imgs": [
         "flowerimg/DutchTulip/Canary/1.jpg",
         "flowerimg/DutchTulip/Canary/2.jpg",
@@ -6479,7 +6670,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0229",
       "imgs": [
         "flowerimg/Ranunculus/Goldfinch/1.jpg",
         "flowerimg/Ranunculus/Goldfinch/2.jpg"
@@ -6539,7 +6730,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0230",
       "imgs": [
         "flowerimg/FREESIA/Sunkissed/1.jpg"
       ],
@@ -6602,7 +6793,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0231",
       "imgs": [
         "flowerimg/GERBERaDAISY/Sunshine/1.jpg",
         "flowerimg/GERBERaDAISY/Sunshine/2.jpg",
@@ -6667,7 +6858,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0232",
       "imgs": [
         "flowerimg/LONgSTEmLILY/SaltarelloApricot/1.jpg"
       ],
@@ -6751,7 +6942,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0233",
       "imgs": [
         "flowerimg/Rose/YellowPenny/1.jpg",
         "flowerimg/Rose/YellowPenny/2.jpg"
@@ -6797,7 +6988,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0234",
       "imgs": [
         "flowerimg/Roselily/WindsorWhite/1.jpg"
       ],
@@ -6826,6 +7017,7 @@
       ],
       "price": "373.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "rating": "5",
       "height": "26 см",
       "popularity": false,
@@ -6835,7 +7027,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0235",
       "imgs": [
         "flowerimg/Bouqet/IVORyMONDIAlROSEsBOUQUET/31/1.jpg",
         "flowerimg/Bouqet/IVORyMONDIAlROSEsBOUQUET/31/2.jpg"
@@ -6899,7 +7091,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0236",
       "imgs": [
         "flowerimg/DutchTulip/WhiteHot/1.jpg",
         "flowerimg/DutchTulip/WhiteHot/2.jpg",
@@ -6931,6 +7123,7 @@
       ],
       "price": "373.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "rating": "5",
       "height": "26 см",
       "popularity": false,
@@ -6940,7 +7133,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0237",
       "imgs": [
         "flowerimg/Bouqet/IVORyMONDIAlROSEsBOUQUET/21/1.jpg",
         "flowerimg/Bouqet/IVORyMONDIAlROSEsBOUQUET/21/2.jpg"
@@ -6994,7 +7187,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0238",
       "imgs": [
         "flowerimg/Hyacinth/CreamPuff/1.jpg",
         "flowerimg/Hyacinth/CreamPuff/2.jpg"
@@ -7038,6 +7231,7 @@
       ],
       "price": "11990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "rating": "5",
       "diameter": "30 см",
       "popularity": false,
@@ -7047,7 +7241,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0239",
       "imgs": [
         "flowerimg/Bouqet/HAUTePINkBOUQUET/Classic/1.jpg",
         "flowerimg/Bouqet/HAUTePINkBOUQUET/Classic/2.jpg",
@@ -7133,7 +7327,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0240",
       "imgs": [
         "flowerimg/Lisianthus/PowderWhite/1.jpg"
       ],
@@ -7197,7 +7391,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0241",
       "imgs": [
         "flowerimg/Anemon/PETAlWHITE/1.jpg",
         "flowerimg/Anemon/PETAlWHITE/2.jpg",
@@ -7231,6 +7425,7 @@
           "link": "/shop/234"
         }
       ],
+      "price": "450.00",
       "collections": "Розалилии",
       "rating": "5",
       "popularity": false,
@@ -7240,7 +7435,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0242",
       "imgs": [
         "flowerimg/Roselily/VictorianPink/1.jpg",
         "flowerimg/Roselily/VictorianPink/2.jpg",
@@ -7311,7 +7506,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0243",
       "imgs": [
         "flowerimg/Ranunculus/BalletSlippers/1.jpg",
         "flowerimg/Ranunculus/BalletSlippers/2.jpg"
@@ -7376,7 +7571,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0244",
       "imgs": [
         "flowerimg/DutchTulip/FrenchKiss/1.jpg",
         "flowerimg/DutchTulip/FrenchKiss/2.jpg",
@@ -7419,6 +7614,7 @@
       ],
       "price": "373.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "rating": "5",
       "popularity": false,
       "diameter": "8 см.",
@@ -7429,7 +7625,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0245",
       "imgs": [
         "flowerimg/Bouqet/RoseVaseSet/Ivory/1.jpg",
         "flowerimg/Bouqet/RoseVaseSet/Ivory/2.jpg",
@@ -7492,6 +7688,7 @@
       ],
       "price": "19990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "height": "65 см.",
       "rating": "5",
       "popularity": false,
@@ -7501,7 +7698,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0246",
       "imgs": [
         "flowerimg/Bouqet/51ROSES/Ivory/1.jpg",
         "flowerimg/Bouqet/51ROSES/Ivory/2.jpg",
@@ -7586,7 +7783,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0247",
       "imgs": [
         "flowerimg/Rose/ALaMode/1.jpg",
         "flowerimg/Rose/ALaMode/2.jpg"
@@ -7654,7 +7851,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0248",
       "imgs": [
         "flowerimg/DoubleTulip/Tart/1.jpg",
         "flowerimg/DoubleTulip/Tart/2.jpg",
@@ -7706,7 +7903,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0249",
       "imgs": [
         "flowerimg/ParrotTulip/PinkMarvel/1.jpg"
       ],
@@ -7775,7 +7972,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0250",
       "imgs": [
         "flowerimg/Ranunculus/BlackRaspberry/1.jpg",
         "flowerimg/Ranunculus/BlackRaspberry/2.jpg",
@@ -7841,7 +8038,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0251",
       "imgs": [
         "flowerimg/CallaLily/Midnight/1.jpg",
         "flowerimg/CallaLily/Midnight/2.jpg",
@@ -7907,7 +8104,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0252",
       "imgs": [
         "flowerimg/Anemon/BORDEAUX/1.jpg"
       ],
@@ -7960,7 +8157,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0253",
       "imgs": [
         "flowerimg/DELPHINIUM/Periwinkle/1.jpg",
         "flowerimg/DELPHINIUM/Periwinkle/2.jpg",
@@ -8026,7 +8223,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0254",
       "imgs": [
         "flowerimg/Anemon/VIOLEtDUSK/1.jpg"
       ],
@@ -8091,6 +8288,7 @@
       ],
       "price": "12790.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "diameter": "30 см",
       "rating": "5",
       "popularity": false,
@@ -8100,7 +8298,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0255",
       "imgs": [
         "flowerimg/Bouqet/BouquetRoses/Red/1.jpg",
         "flowerimg/Bouqet/BouquetRoses/Red/2.jpg"
@@ -8154,7 +8352,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0256",
       "imgs": [
         "flowerimg/Hyacinth/Twilight/1.jpg",
         "flowerimg/Hyacinth/Twilight/2.jpg"
@@ -8218,7 +8416,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0257",
       "imgs": [
         "flowerimg/Anemon/INDIGO/1.jpg"
       ],
@@ -8271,7 +8469,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0258",
       "imgs": [
         "flowerimg/DELPHINIUM/GrapePunch/1.jpg",
         "flowerimg/DELPHINIUM/GrapePunch/2.jpg"
@@ -8338,6 +8536,7 @@
       ],
       "price": "11990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "diameter": "30 см",
       "rating": "5",
       "popularity": false,
@@ -8347,7 +8546,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0259",
       "imgs": [
         "flowerimg/Bouqet/BouquetRoses/Ivory/1.jpg",
         "flowerimg/Bouqet/BouquetRoses/Ivory/2.jpg"
@@ -8411,7 +8610,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0260",
       "imgs": [
         "flowerimg/DoubleTulip/Scarlet/1.jpg",
         "flowerimg/DoubleTulip/Scarlet/2.jpg",
@@ -8444,6 +8643,7 @@
       ],
       "price": "373.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "rating": "5",
       "popularity": false,
       "featured": false,
@@ -8452,7 +8652,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0261",
       "imgs": [
         "flowerimg/Bouqet/REdMONDIAlROSEsBOUQUET/31/1.jpg",
         "flowerimg/Bouqet/REdMONDIAlROSEsBOUQUET/31/2.jpg"
@@ -8511,7 +8711,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0262",
       "imgs": [
         "flowerimg/HYPERICUM/Rouge/1.jpg",
         "flowerimg/HYPERICUM/Rouge/2.jpg",
@@ -8603,7 +8803,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0263",
       "imgs": [
         "flowerimg/CARNATION/CandyCane/1.jpg",
         "flowerimg/CARNATION/CandyCane/2.jpg",
@@ -8694,7 +8894,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0264",
       "imgs": [
         "flowerimg/CARNATION/LipLocked/1.jpg",
         "flowerimg/CARNATION/LipLocked/2.jpg",
@@ -8756,7 +8956,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0265",
       "imgs": [
         "flowerimg/sprayRose/Alabaster/1.jpg",
         "flowerimg/sprayRose/Alabaster/2.jpg"
@@ -8820,6 +9020,7 @@
       ],
       "price": "42900.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "height": "65 см.",
       "rating": "5",
       "popularity": false,
@@ -8829,7 +9030,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0266",
       "imgs": [
         "flowerimg/Bouqet/101ROSES/Ivory/1.jpg",
         "flowerimg/Bouqet/101ROSES/Ivory/2.jpg",
@@ -8880,6 +9081,7 @@
       ],
       "price": "18500.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "superbouquets": true,
       "mostPopular": "самые популярные",
       "diameter": "43,18 см",
@@ -8891,7 +9093,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0267",
       "imgs": [
         "flowerimg/Bouqet/superbuqRed001/Large/1.jpg",
         "flowerimg/Bouqet/superbuqRed001/Large/2.jpg",
@@ -8965,7 +9167,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0268",
       "imgs": [
         "flowerimg/Ranunculus/RedVelvet/1.jpg",
         "flowerimg/Ranunculus/RedVelvet/2.jpg"
@@ -9025,7 +9227,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0269",
       "imgs": [
         "flowerimg/HYPERICUM/MintGreen/1.jpg",
         "flowerimg/HYPERICUM/MintGreen/2.jpg"
@@ -9115,7 +9317,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0270",
       "imgs": [
         "flowerimg/CARNATION/RedHot/1.jpg",
         "flowerimg/CARNATION/RedHot/2.jpg",
@@ -9183,6 +9385,7 @@
       ],
       "price": "11990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "diameter": "30 см",
       "rating": "5",
       "popularity": false,
@@ -9192,7 +9395,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0271",
       "imgs": [
         "flowerimg/Bouqet/BouquetRoses/Pink/1.jpg",
         "flowerimg/Bouqet/BouquetRoses/Pink/2.jpg"
@@ -9258,6 +9461,7 @@
       ],
       "price": "11990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "diameter": "30 см",
       "rating": "5",
       "popularity": false,
@@ -9267,7 +9471,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0272",
       "imgs": [
         "flowerimg/Bouqet/BouquetRoses/Sunset/1.jpg",
         "flowerimg/Bouqet/BouquetRoses/Sunset/2.jpg"
@@ -9326,7 +9530,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0273",
       "imgs": [
         "flowerimg/HYPERICUM/WinterWhite/1.jpg",
         "flowerimg/HYPERICUM/WinterWhite/2.jpg",
@@ -9397,7 +9601,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0274",
       "imgs": [
         "flowerimg/Ranunculus/IndianSummer/1.jpg",
         "flowerimg/Ranunculus/IndianSummer/2.jpg"
@@ -9452,7 +9656,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0275",
       "imgs": [
         "flowerimg/DELPHINIUM/Marshmallow/1.jpg",
         "flowerimg/DELPHINIUM/Marshmallow/2.jpg"
@@ -9517,7 +9721,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0276",
       "imgs": [
         "flowerimg/GERBERaDAISY/PowderPuff/1.jpg",
         "flowerimg/GERBERaDAISY/PowderPuff/2.jpg",
@@ -9607,7 +9811,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0277",
       "imgs": [
         "flowerimg/CARNATION/WarmSand/1.jpg",
         "flowerimg/CARNATION/WarmSand/2.jpg",
@@ -9693,7 +9897,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0278",
       "imgs": [
         "flowerimg/Rose/PeachAvalanche/1.jpg",
         "flowerimg/Rose/PeachAvalanche/2.jpg"
@@ -9781,7 +9985,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0279",
       "imgs": [
         "flowerimg/Rose/TequilaSunrise/1.jpg",
         "flowerimg/Rose/TequilaSunrise/2.jpg",
@@ -9845,7 +10049,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0280",
       "imgs": [
         "flowerimg/Snapdragon/Honey/1.jpg",
         "flowerimg/Snapdragon/Honey/2.jpg",
@@ -9913,7 +10117,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0281",
       "imgs": [
         "flowerimg/DutchTulip/Persimmon/1.jpg",
         "flowerimg/DutchTulip/Persimmon/2.jpg"
@@ -9980,6 +10184,7 @@
       ],
       "price": "11990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "diameter": "30 см",
       "rating": "5",
       "popularity": false,
@@ -9989,7 +10194,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0282",
       "imgs": [
         "flowerimg/Bouqet/BouquetRoses/HotPink/1.jpg",
         "flowerimg/Bouqet/BouquetRoses/HotPink/2.jpg"
@@ -10053,7 +10258,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0283",
       "imgs": [
         "flowerimg/DoubleTulip/Palomino/1.jpg",
         "flowerimg/DoubleTulip/Palomino/2.jpg",
@@ -10130,7 +10335,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0284",
       "imgs": [
         "flowerimg/Peony/flamingo/1.jpg",
         "flowerimg/Peony/flamingo/2.jpg",
@@ -10140,7 +10345,11 @@
         "flowerimg/Peony/flamingo/6.jpg"
       ],
       "size": [
-        "1 комплект"
+        "11 шт.",
+        "21 шт.",
+        "31 шт.",
+        "51 шт.",
+        "101 шт."
       ]
     },
     {
@@ -10198,7 +10407,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0285",
       "imgs": [
         "flowerimg/DoubleTulip/Fandango/1.jpg",
         "flowerimg/DoubleTulip/Fandango/2.jpg",
@@ -10284,7 +10493,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0286",
       "imgs": [
         "flowerimg/Lisianthus/PinkChiffon/1.jpg",
         "flowerimg/Lisianthus/PinkChiffon/2.jpg"
@@ -10349,7 +10558,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0287",
       "imgs": [
         "flowerimg/CallaLily/BlushingBride/1.jpg",
         "flowerimg/CallaLily/BlushingBride/2.jpg",
@@ -10405,7 +10614,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0288",
       "imgs": [
         "flowerimg/Hyacinth/Mademoiselle/1.jpg",
         "flowerimg/Hyacinth/Mademoiselle/2.jpg",
@@ -10470,7 +10679,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0289",
       "imgs": [
         "flowerimg/GERBERaDAISY/LittleKiss/1.jpg",
         "flowerimg/GERBERaDAISY/LittleKiss/2.jpg",
@@ -10536,7 +10745,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0290",
       "imgs": [
         "flowerimg/LONgSTEmLILY/SorbonnePink/1.jpg",
         "flowerimg/LONgSTEmLILY/SorbonnePink/2.jpg",
@@ -10592,7 +10801,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0291",
       "imgs": [
         "flowerimg/DELPHINIUM/DustyLilac/1.jpg",
         "flowerimg/DELPHINIUM/DustyLilac/2.jpg"
@@ -10652,7 +10861,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0292",
       "imgs": [
         "flowerimg/FREESIA/Mauve/1.jpg",
         "flowerimg/FREESIA/Mauve/2.jpg"
@@ -10701,6 +10910,7 @@
       ],
       "price": "17259.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "superbouquets": true,
       "mostPopular": "самые популярные",
       "diameter": "43 см.",
@@ -10712,7 +10922,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0293",
       "imgs": [
         "flowerimg/Bouqet/superbuqLilac001/Large/1.jpg",
         "flowerimg/Bouqet/superbuqLilac001/Large/2.jpg",
@@ -10798,7 +11008,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0294",
       "imgs": [
         "flowerimg/Lisianthus/PurpleHeart/1.jpg"
       ],
@@ -10862,7 +11072,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0295",
       "imgs": [
         "flowerimg/VANDaCUtORCHID/Amethyst/1.jpg",
         "flowerimg/VANDaCUtORCHID/Amethyst/2.jpg"
@@ -10946,7 +11156,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0296",
       "imgs": [
         "flowerimg/Lisianthus/BlackPearl/1.jpg"
       ],
@@ -11010,7 +11220,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0297",
       "imgs": [
         "flowerimg/GERBERaDAISY/HotLips/1.jpg",
         "flowerimg/GERBERaDAISY/HotLips/2.jpg"
@@ -11076,6 +11286,7 @@
       ],
       "price": "11990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "diameter": "30 см",
       "rating": "5",
       "popularity": false,
@@ -11085,7 +11296,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0298",
       "imgs": [
         "flowerimg/Bouqet/BouquetRoses/Lilac/1.jpg",
         "flowerimg/Bouqet/BouquetRoses/Lilac/2.jpg"
@@ -11144,7 +11355,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0299",
       "imgs": [
         "flowerimg/sprayRose/PinkPunch/1.jpg"
       ],
@@ -11209,7 +11420,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0300",
       "imgs": [
         "flowerimg/ANTHURIUM/Daybreak/1.jpg",
         "flowerimg/ANTHURIUM/Daybreak/2.jpg",
@@ -11299,7 +11510,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0301",
       "imgs": [
         "flowerimg/CARNATION/AntiquePink/1.jpg",
         "flowerimg/CARNATION/AntiquePink/2.jpg"
@@ -11389,7 +11600,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0302",
       "imgs": [
         "flowerimg/CARNATION/RapberryRipple/1.jpg",
         "flowerimg/CARNATION/RapberryRipple/2.jpg",
@@ -11439,6 +11650,7 @@
       ],
       "price": "318000.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "height": "26 см.",
       "rating": "5",
       "popularity": false,
@@ -11448,7 +11660,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0303",
       "imgs": [
         "flowerimg/Bouqet/1001ROSES/Pink/1.jpg",
         "flowerimg/Bouqet/51ROSES/PinkMondialRose.jpg"
@@ -11502,7 +11714,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0304",
       "imgs": [
         "flowerimg/PHALAENOPSIsCUtORCHID/Magenta/1.jpg"
       ],
@@ -11565,7 +11777,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0305",
       "imgs": [
         "flowerimg/LONgSTEmLILY/FirstBlush/1.jpg"
       ],
@@ -11628,7 +11840,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0306",
       "imgs": [
         "flowerimg/ANTHURIUM/SandyLane/1.jpg",
         "flowerimg/ANTHURIUM/SandyLane/2.jpg",
@@ -11688,7 +11900,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0307",
       "imgs": [
         "flowerimg/sprayRose/PinkLace/1.jpg",
         "flowerimg/sprayRose/PinkLace/2.jpg",
@@ -11776,7 +11988,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0308",
       "imgs": [
         "flowerimg/Lisianthus/Apricot/1.jpg"
       ],
@@ -11865,7 +12077,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0309",
       "imgs": [
         "flowerimg/CARNATION/PinkLemonade/1.jpg",
         "flowerimg/CARNATION/PinkLemonade/2.jpg"
@@ -11925,7 +12137,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0310",
       "imgs": [
         "flowerimg/Snapdragon/SnazzyWhite/1.jpg",
         "flowerimg/Snapdragon/SnazzyWhite/2.jpg",
@@ -11987,7 +12199,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0311",
       "imgs": [
         "flowerimg/FREESIA/BabyPowder/1.jpg",
         "flowerimg/FREESIA/BabyPowder/2.jpg",
@@ -12072,7 +12284,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0312",
       "imgs": [
         "flowerimg/Lisianthus/Starlight/1.jpg"
       ],
@@ -12131,7 +12343,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0313",
       "imgs": [
         "flowerimg/sprayRose/Butterscotch/1.jpg"
       ],
@@ -12197,7 +12409,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0314",
       "imgs": [
         "flowerimg/CallaLily/SunnySideUp/1.jpg"
       ],
@@ -12286,7 +12498,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0315",
       "imgs": [
         "flowerimg/CARNATION/TangerineTang/1.jpg",
         "flowerimg/CARNATION/TangerineTang/2.jpg",
@@ -12373,7 +12585,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0316",
       "imgs": [
         "flowerimg/Rose/FreeSpirit/1.jpg",
         "flowerimg/Rose/FreeSpirit/2.jpg",
@@ -12444,7 +12656,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0317",
       "imgs": [
         "flowerimg/CallaLily/BurntAmber.jpg/1.jpg",
         "flowerimg/CallaLily/BurntAmber.jpg/2.jpg",
@@ -12512,7 +12724,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0318",
       "imgs": [
         "flowerimg/GERBERaDAISY/AtomicTangerine/1.jpg"
       ],
@@ -12595,7 +12807,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0319",
       "imgs": [
         "flowerimg/Rose/OrangeNaranga/1.jpg",
         "flowerimg/Rose/OrangeNaranga/2.jpg"
@@ -12658,7 +12870,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0320",
       "imgs": [
         "flowerimg/sprayRose/CherryRed/1.jpg"
       ],
@@ -12724,7 +12936,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0321",
       "imgs": [
         "flowerimg/GERBERaDAISY/CrimsonTide/1.jpg"
       ],
@@ -12786,7 +12998,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0322",
       "imgs": [
         "flowerimg/ANTHURIUM/RedStiletto/1.jpg",
         "flowerimg/ANTHURIUM/RedStiletto/2.jpg",
@@ -12876,7 +13088,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0323",
       "imgs": [
         "flowerimg/CARNATION/FieryPink/1.jpg",
         "flowerimg/CARNATION/FieryPink/2.jpg",
@@ -12942,7 +13154,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0324",
       "imgs": [
         "flowerimg/LONgSTEmLILY/Valentino/1.jpg",
         "flowerimg/LONgSTEmLILY/Valentino/2.jpg"
@@ -13027,7 +13239,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0325",
       "imgs": [
         "flowerimg/Lisianthus/FandangoPink/1.jpg",
         "flowerimg/Lisianthus/FandangoPink/2.jpg"
@@ -13087,7 +13299,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0326",
       "imgs": [
         "flowerimg/FREESIA/PinkKiss/1.jpg"
       ],
@@ -13130,7 +13342,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0327",
       "imgs": [
         "flowerimg/Hypsofily/GhostWhite/1.jpg"
       ],
@@ -13192,7 +13404,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0328",
       "imgs": [
         "flowerimg/ANTHURIUM/TuttiFrutti/1.jpg",
         "flowerimg/ANTHURIUM/TuttiFrutti/2.jpg",
@@ -13239,6 +13451,7 @@
       ],
       "price": "309000.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "height": "26 см.",
       "rating": "5",
       "popularity": false,
@@ -13248,7 +13461,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0329",
       "imgs": [
         "flowerimg/Bouqet/1001ROSES/Ivory/1.jpg",
         "flowerimg/Bouqet/51ROSES/IvoryMondialRose.jpg"
@@ -13332,7 +13545,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0330",
       "imgs": [
         "flowerimg/Rose/IvoryMondial/1.jpg",
         "flowerimg/Rose/IvoryMondial/2.jpg"
@@ -13399,7 +13612,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0331",
       "imgs": [
         "flowerimg/ANTHURIUM/PerfectMoment/1.jpg",
         "flowerimg/ANTHURIUM/PerfectMoment/2.jpg",
@@ -13489,7 +13702,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0332",
       "imgs": [
         "flowerimg/CARNATION/CottonPuff/1.jpg",
         "flowerimg/CARNATION/CottonPuff/2.jpg",
@@ -13535,7 +13748,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0333",
       "imgs": [
         "flowerimg/ArumLily/WhiteDove/1.jpg"
       ],
@@ -13580,7 +13793,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0334",
       "imgs": [
         "flowerimg/Hypsofily/LavenderKiss/1.jpg"
       ],
@@ -13633,7 +13846,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0335",
       "imgs": [
         "flowerimg/PHALAENOPSIsCUtORCHID/AmaranthPink/1.jpg"
       ],
@@ -13696,7 +13909,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0336",
       "imgs": [
         "flowerimg/CallaLily/Mauve/1.jpg"
       ],
@@ -13760,7 +13973,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0337",
       "imgs": [
         "flowerimg/VANDaCUtORCHID/MagicPink/1.jpg",
         "flowerimg/VANDaCUtORCHID/MagicPink/2.jpg"
@@ -13844,7 +14057,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0338",
       "imgs": [
         "flowerimg/Lisianthus/BlueViolet/1.jpg"
       ],
@@ -13888,7 +14101,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0339",
       "imgs": [
         "flowerimg/Iris/Blue/1.jpg"
       ],
@@ -13972,7 +14185,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0340",
       "imgs": [
         "flowerimg/Lisianthus/RoyalPurple/1.jpg",
         "flowerimg/Lisianthus/RoyalPurple/2.jpg"
@@ -14037,7 +14250,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0341",
       "imgs": [
         "flowerimg/VANDaCUtORCHID/LilacDust/1.jpg",
         "flowerimg/VANDaCUtORCHID/LilacDust/2.jpg"
@@ -14101,7 +14314,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0342",
       "imgs": [
         "flowerimg/VANDaCUtORCHID/DelftBlue/1.jpg",
         "flowerimg/VANDaCUtORCHID/DelftBlue/2.jpg"
@@ -14129,6 +14342,7 @@
           "link": "/shop/"
         }
       ],
+      "price": "450.00",
       "collections": "Калины",
       "rating": "5",
       "height": "31 см",
@@ -14139,7 +14353,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0343",
       "imgs": [
         "flowerimg/Kalina/LimeCordial/1.jpg",
         "flowerimg/Kalina/LimeCordial/2.jpg",
@@ -14227,7 +14441,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0344",
       "imgs": [
         "flowerimg/Lisianthus/Chartreuse/1.jpg"
       ],
@@ -14271,7 +14485,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0345",
       "imgs": [
         "flowerimg/Iris/Sunshine/1.jpg"
       ],
@@ -14335,7 +14549,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0346",
       "imgs": [
         "flowerimg/LONgSTEmLILY/CloudNine/1.jpg"
       ],
@@ -14394,7 +14608,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0347",
       "imgs": [
         "flowerimg/FREESIA/SunsetOrange/1.jpg"
       ],
@@ -14482,7 +14696,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0348",
       "imgs": [
         "flowerimg/CARNATION/Rhubarb/1.jpg",
         "flowerimg/CARNATION/Rhubarb/2.jpg",
@@ -14550,7 +14764,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0349",
       "imgs": [
         "flowerimg/LONgSTEmLILY/MamboRed/1.jpg"
       ],
@@ -14579,6 +14793,7 @@
       ],
       "price": "373.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "rating": "5",
       "popularity": false,
       "featured": false,
@@ -14587,7 +14802,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0350",
       "imgs": [
         "flowerimg/Bouqet/REdMONDIAlROSEsBOUQUET/21/1.jpg",
         "flowerimg/Bouqet/REdMONDIAlROSEsBOUQUET/21/2.jpg"
@@ -14633,6 +14848,7 @@
       ],
       "price": "355750.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "height": "26 см.",
       "rating": "5",
       "popularity": false,
@@ -14642,7 +14858,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0351",
       "imgs": [
         "flowerimg/Bouqet/1001ROSES/Red/1.jpg",
         "flowerimg/Bouqet/51ROSES/RedNaomi.jpg"
@@ -14701,7 +14917,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0352",
       "imgs": [
         "flowerimg/HYPERICUM/Chocolate/1.jpg",
         "flowerimg/HYPERICUM/Chocolate/2.jpg",
@@ -14762,7 +14978,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0353",
       "imgs": [
         "flowerimg/HYPERICUM/InthePink/1.jpg"
       ],
@@ -14825,7 +15041,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0354",
       "imgs": [
         "flowerimg/ANTHURIUM/LilyGreen/1.jpg",
         "flowerimg/ANTHURIUM/LilyGreen/2.jpg",
@@ -14863,7 +15079,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0355",
       "imgs": [
         "flowerimg/FERnFOLIAGE/Green/1.jpg"
       ],
@@ -14926,7 +15142,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0356",
       "imgs": [
         "flowerimg/VANDaCUtORCHID/Alabaster/1.jpg",
         "flowerimg/VANDaCUtORCHID/Alabaster/2.jpg"
@@ -14975,7 +15191,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0357",
       "imgs": [
         "flowerimg/CYMBIDIUmCUtORCHID/PowderWhite/1.jpg"
       ],
@@ -15028,7 +15244,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0358",
       "imgs": [
         "flowerimg/PHALAENOPSIsCUtORCHID/SnowWhite/1.jpg"
       ],
@@ -15081,7 +15297,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0359",
       "imgs": [
         "flowerimg/PHALAENOPSIsCUtORCHID/Buttermilk/1.jpg"
       ],
@@ -15130,7 +15346,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0360",
       "imgs": [
         "flowerimg/CYMBIDIUmCUtORCHID/Midori/1.jpg"
       ],
@@ -15189,7 +15405,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0361",
       "imgs": [
         "flowerimg/Snapdragon/PowderPink/1.jpg",
         "flowerimg/Snapdragon/PowderPink/2.jpg"
@@ -15236,7 +15452,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0362",
       "imgs": [
         "flowerimg/ArumLily/GreenGoddess/1.jpg",
         "flowerimg/ArumLily/GreenGoddess/2.jpg",
@@ -15300,6 +15516,7 @@
       ],
       "price": "19990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "height": "65 см.",
       "rating": "5",
       "popularity": false,
@@ -15309,7 +15526,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0363",
       "imgs": [
         "flowerimg/Bouqet/51ROSES/Pink/1.jpg",
         "flowerimg/Bouqet/51ROSES/Pink/2.jpg",
@@ -15359,6 +15576,7 @@
       ],
       "price": "25370.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "superbouquets": true,
       "mostPopular": "самые популярные",
       "diameter": "43,18 см",
@@ -15370,7 +15588,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0364",
       "imgs": [
         "flowerimg/Bouqet/superbuqPink001/Extraordinary/1.jpg",
         "flowerimg/Bouqet/superbuqPink001/Extraordinary/2.jpg",
@@ -15420,6 +15638,7 @@
       ],
       "price": "22795.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "superbouquets": true,
       "mostPopular": "самые популярные",
       "diameter": "43 см.",
@@ -15431,7 +15650,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0365",
       "imgs": [
         "flowerimg/Bouqet/superbuqLilac001/Extraordinary/1.jpg"
       ],
@@ -15479,6 +15698,7 @@
       ],
       "price": "22800.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "superbouquets": true,
       "mostPopular": "самые популярные",
       "diameter": "43 см",
@@ -15490,7 +15710,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0366",
       "imgs": [
         "flowerimg/Bouqet/superbuqIvory001/Extraordinary/1.jpg",
         "flowerimg/Bouqet/superbuqIvory001/Extraordinary/2.jpg",
@@ -15540,6 +15760,7 @@
       ],
       "price": "24500.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "superbouquets": true,
       "mostPopular": "самые популярные",
       "diameter": "43,18 см",
@@ -15551,7 +15772,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0367",
       "imgs": [
         "flowerimg/Bouqet/superbuqRed001/Extraordinary/1.jpg",
         "flowerimg/Bouqet/superbuqRed001/Extraordinary/2.jpg"
@@ -15595,6 +15816,7 @@
       ],
       "price": "15990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "поднять настроение",
       "diameter": "30 см",
       "rating": "1",
@@ -15605,7 +15827,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0368",
       "imgs": [
         "flowerimg/Bouqet/sprayRoseBouqet/Pink/Large/1.jpg",
         "flowerimg/Bouqet/sprayRoseBouqet/Pink/Large/2.jpg"
@@ -15651,6 +15873,7 @@
       ],
       "price": "14690.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "povod": "симпатия",
       "diameter": "30 см",
       "rating": "1",
@@ -15661,7 +15884,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0369",
       "imgs": [
         "flowerimg/Bouqet/sprayRoseBouqet/HotPink/Large/1.jpg",
         "flowerimg/Bouqet/sprayRoseBouqet/HotPink/Large/2.jpg"
@@ -15727,6 +15950,7 @@
       ],
       "price": "16650.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "diameter": "30 см",
       "rating": "1",
       "popularity": true,
@@ -15736,7 +15960,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0370",
       "imgs": [
         "flowerimg/Bouqet/sprayRoseBouqet/Ivory/Large/1.jpg",
         "flowerimg/Bouqet/sprayRoseBouqet/Ivory/Large/2.jpg"
@@ -15765,6 +15989,7 @@
       ],
       "price": "980.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "rating": "5",
       "height": "17-22 см",
       "popularity": false,
@@ -15774,7 +15999,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0371",
       "imgs": [
         "flowerimg/Bouqet/PRIMROSePEONyBOUQUET/12/1.jpg",
         "flowerimg/Bouqet/PRIMROSePEONyBOUQUET/12/2.jpg",
@@ -15819,6 +16044,7 @@
       ],
       "price": "17199.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "rating": "5",
       "diameter": "30 см",
       "popularity": false,
@@ -15828,7 +16054,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0372",
       "imgs": [
         "flowerimg/Bouqet/HAUTePINkBOUQUET/Large/1.jpg",
         "flowerimg/Bouqet/HAUTePINkBOUQUET/Large/2.jpg"
@@ -15857,6 +16083,7 @@
       ],
       "price": "980.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "rating": "5",
       "height": "17-22 см",
       "popularity": false,
@@ -15866,7 +16093,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0373",
       "imgs": [
         "flowerimg/Bouqet/PRIMROSePEONyBOUQUET/11/1.jpg",
         "flowerimg/Bouqet/PRIMROSePEONyBOUQUET/11/2.jpg",
@@ -15907,6 +16134,7 @@
       ],
       "price": "46700.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "rating": "5",
       "popularity": false,
       "diameter": "8 см.",
@@ -15917,7 +16145,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0374",
       "imgs": [
         "flowerimg/Bouqet/RoseVaseSet/Pink/1.jpg",
         "flowerimg/Bouqet/RoseVaseSet/PinkMondialRose.jpg",
@@ -15957,6 +16185,7 @@
       ],
       "price": "46700.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "rating": "5",
       "popularity": false,
       "diameter": "8 см.",
@@ -15967,7 +16196,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0375",
       "imgs": [
         "flowerimg/Bouqet/RoseVaseSet/Red/1.jpg",
         "flowerimg/Bouqet/RoseVaseSet/RedNaomi.jpg"
@@ -16028,6 +16257,7 @@
       ],
       "price": "19990.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "height": "65 см.",
       "rating": "5",
       "popularity": false,
@@ -16037,7 +16267,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0376",
       "imgs": [
         "flowerimg/Bouqet/51ROSES/Red/1.jpg",
         "flowerimg/Bouqet/51ROSES/Red/2.jpg",
@@ -16100,6 +16330,7 @@
       ],
       "price": "42900.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "height": "65 см.",
       "rating": "5",
       "popularity": false,
@@ -16109,7 +16340,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0377",
       "imgs": [
         "flowerimg/Bouqet/101ROSES/Pink/2.jpg",
         "flowerimg/Bouqet/101ROSES/Pink/1.jpg",
@@ -16171,6 +16402,7 @@
       ],
       "price": "42900.00",
       "bouquets": "букеты",
+      "category": "Букеты",
       "height": "65 см.",
       "rating": "5",
       "popularity": false,
@@ -16180,7 +16412,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0378",
       "imgs": [
         "flowerimg/Bouqet/101ROSES/Red/2.jpg",
         "flowerimg/Bouqet/101ROSES/Red/1.jpg",
@@ -16230,7 +16462,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0379",
       "imgs": [
         "flowerimg/CYMBIDIUmCUtORCHID/PowderWhite/1.jpg"
       ],
@@ -16293,7 +16525,7 @@
       "trendy": true,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0380",
       "imgs": [
         "flowerimg/VANDaCUtORCHID/StrawberrySprinkles/1.jpg"
       ],
@@ -16367,7 +16599,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0381",
       "imgs": [
         "flowerimg/Peony/AngelCheeks/1.jpg",
         "flowerimg/Peony/AngelCheeks/2.jpg",
@@ -16375,7 +16607,11 @@
         "flowerimg/Peony/AngelCheeks/4.jpg"
       ],
       "size": [
-        "1 комплект"
+        "11 шт.",
+        "21 шт.",
+        "31 шт.",
+        "51 шт.",
+        "101 шт."
       ]
     },
     {
@@ -16444,7 +16680,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0382",
       "imgs": [
         "flowerimg/Peony/Boudoir/1.jpg",
         "flowerimg/Peony/Boudoir/2.jpg",
@@ -16454,7 +16690,11 @@
         "flowerimg/Peony/Boudoir/6.jpg"
       ],
       "size": [
-        "1 комплект"
+        "11 шт.",
+        "21 шт.",
+        "31 шт.",
+        "51 шт.",
+        "101 шт."
       ]
     },
     {
@@ -16523,7 +16763,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0383",
       "imgs": [
         "flowerimg/Peony/Carnival/1.jpg",
         "flowerimg/Peony/Carnival/2.jpg",
@@ -16531,7 +16771,11 @@
         "flowerimg/Peony/Carnival/4.jpg"
       ],
       "size": [
-        "1 комплект"
+        "11 шт.",
+        "21 шт.",
+        "31 шт.",
+        "51 шт.",
+        "101 шт."
       ]
     },
     {
@@ -16600,7 +16844,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0384",
       "imgs": [
         "flowerimg/Peony/CottonCloud/1.jpg",
         "flowerimg/Peony/CottonCloud/2.jpg",
@@ -16608,7 +16852,11 @@
         "flowerimg/Peony/CottonCloud/4.jpg"
       ],
       "size": [
-        "1 комплект"
+        "11 шт.",
+        "21 шт.",
+        "31 шт.",
+        "51 шт.",
+        "101 шт."
       ]
     },
     {
@@ -16677,7 +16925,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0385",
       "imgs": [
         "flowerimg/Peony/LilDarling/1.jpg",
         "flowerimg/Peony/LilDarling/2.jpg",
@@ -16685,7 +16933,11 @@
         "flowerimg/Peony/LilDarling/4.jpg"
       ],
       "size": [
-        "1 комплект"
+        "11 шт.",
+        "21 шт.",
+        "31 шт.",
+        "51 шт.",
+        "101 шт."
       ]
     },
     {
@@ -16696,10 +16948,12 @@
       "hover_img": "flowerimg/dengi/15/1.jpg",
       "submit_date": "2024-04-22",
       "category": "Денежные букеты",
-      "colors": [{
-        "name": "0",
-        "link": "/shop/386"
-      }
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/386"
+        }
       ],
       "price": "2571.00",
       "rating": "4",
@@ -16710,7 +16964,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0386",
       "imgs": [
         "flowerimg/dengi/15/1.jpg"
       ],
@@ -16729,10 +16983,12 @@
       "hover_img": "flowerimg/dengi/30/2.jpg",
       "submit_date": "2024-04-22",
       "category": "Денежные букеты",
-      "colors": [{
-        "name": "0",
-        "link": "/shop/387"
-      }
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/387"
+        }
       ],
       "price": "5140.00",
       "rating": "4",
@@ -16743,7 +16999,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0387",
       "imgs": [
         "flowerimg/dengi/30/1.jpg",
         "flowerimg/dengi/30/2.jpg"
@@ -16763,10 +17019,12 @@
       "hover_img": "flowerimg/dengi/50/2.jpg",
       "submit_date": "2024-04-22",
       "category": "Денежные букеты",
-      "colors": [{
-        "name": "0",
-        "link": "/shop/388"
-      }
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/388"
+        }
       ],
       "price": "6500.00",
       "rating": "4",
@@ -16777,7 +17035,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0388",
       "imgs": [
         "flowerimg/dengi/50/1.jpg",
         "flowerimg/dengi/50/2.jpg",
@@ -16798,10 +17056,12 @@
       "hover_img": "flowerimg/dengi/100/2.jpg",
       "submit_date": "2024-04-22",
       "category": "Денежные букеты",
-      "colors": [{
-        "name": "0",
-        "link": "/shop/389"
-      }
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/389"
+        }
       ],
       "price": "11950.00",
       "rating": "4",
@@ -16812,7 +17072,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0389",
       "imgs": [
         "flowerimg/dengi/100/1.jpg",
         "flowerimg/dengi/100/2.jpg",
@@ -16833,10 +17093,12 @@
       "hover_img": "flowerimg/dengi/heartBouquet/30/1.jpg",
       "submit_date": "2024-04-22",
       "category": "Денежные букеты",
-      "colors": [{
-        "name": "0",
-        "link": "/shop/390"
-      }
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/390"
+        }
       ],
       "price": "6450.00",
       "rating": "4",
@@ -16847,7 +17109,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0390",
       "imgs": [
         "flowerimg/dengi/heartBouquet/30/1.jpg"
       ],
@@ -16866,10 +17128,12 @@
       "hover_img": "flowerimg/dengi/heartBouquet/50/2.jpg",
       "submit_date": "2024-04-22",
       "category": "Денежные букеты",
-      "colors": [{
-        "name": "0",
-        "link": "/shop/391"
-      }
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/391"
+        }
       ],
       "price": "8565.00",
       "rating": "4",
@@ -16880,7 +17144,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0391",
       "imgs": [
         "flowerimg/dengi/heartBouquet/50/1.jpg",
         "flowerimg/dengi/heartBouquet/50/2.jpg"
@@ -16900,10 +17164,12 @@
       "hover_img": "flowerimg/dengi/heartBouquet/100/1.jpg",
       "submit_date": "2024-04-22",
       "category": "Денежные букеты",
-      "colors": [{
-        "name": "0",
-        "link": "/shop/392"
-      }
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/392"
+        }
       ],
       "price": "13210.00",
       "rating": "4",
@@ -16914,7 +17180,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0392",
       "imgs": [
         "flowerimg/dengi/heartBouquet/100/1.jpg"
       ],
@@ -16933,10 +17199,12 @@
       "hover_img": "flowerimg/dengi/deluxe/100/2.jpg",
       "submit_date": "2024-04-22",
       "category": "Денежные букеты",
-      "colors": [{
-        "name": "0",
-        "link": "/shop/393"
-      }
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/393"
+        }
       ],
       "price": "14598.00",
       "rating": "4",
@@ -16947,7 +17215,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0393",
       "imgs": [
         "flowerimg/dengi/deluxe/100/1.jpg",
         "flowerimg/dengi/deluxe/100/2.jpg"
@@ -16967,10 +17235,12 @@
       "hover_img": "flowerimg/dengi/150/2.jpg",
       "submit_date": "2024-04-22",
       "category": "Денежные букеты",
-      "colors": [{
-        "name": "0",
-        "link": "/shop/394"
-      }
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/394"
+        }
       ],
       "price": "18541.00",
       "rating": "4",
@@ -16981,7 +17251,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0394",
       "imgs": [
         "flowerimg/dengi/150/1.jpg",
         "flowerimg/dengi/150/2.jpg",
@@ -17003,10 +17273,12 @@
       "hover_img": "flowerimg/dengi/200/2.jpg",
       "submit_date": "2024-04-22",
       "category": "Денежные букеты",
-      "colors": [{
-        "name": "0",
-        "link": "/shop/395"
-      }
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/395"
+        }
       ],
       "price": "22568.00",
       "rating": "4",
@@ -17017,7 +17289,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0395",
       "imgs": [
         "flowerimg/dengi/200/1.jpg",
         "flowerimg/dengi/200/2.jpg",
@@ -17039,10 +17311,12 @@
       "hover_img": "flowerimg/dengi/300/2.jpg",
       "submit_date": "2024-04-22",
       "category": "Денежные букеты",
-      "colors": [{
-        "name": "0",
-        "link": "/shop/396"
-      }
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/396"
+        }
       ],
       "price": "30580.00",
       "rating": "4",
@@ -17053,7 +17327,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0396",
       "imgs": [
         "flowerimg/dengi/300/1.jpg",
         "flowerimg/dengi/300/2.jpg",
@@ -17075,10 +17349,12 @@
       "hover_img": "flowerimg/dengi/500/2.jpg",
       "submit_date": "2024-04-22",
       "category": "Денежные букеты",
-      "colors": [{
-        "name": "0",
-        "link": "/shop/397"
-      }
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/397"
+        }
       ],
       "price": "45824.00",
       "rating": "4",
@@ -17089,7 +17365,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0397",
       "imgs": [
         "flowerimg/dengi/500/1.jpg",
         "flowerimg/dengi/500/2.jpg"
@@ -17109,10 +17385,12 @@
       "hover_img": "flowerimg/dengi/standing/10/2.jpg",
       "submit_date": "2024-04-22",
       "category": "Денежные букеты",
-      "colors": [{
-        "name": "0",
-        "link": "/shop/398"
-      }
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/398"
+        }
       ],
       "price": "1500.00",
       "rating": "4",
@@ -17123,7 +17401,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0398",
       "imgs": [
         "flowerimg/dengi/standing/10/1.jpg",
         "flowerimg/dengi/standing/10/2.jpg",
@@ -17144,10 +17422,12 @@
       "hover_img": "flowerimg/dengi/standing/15/2.jpg",
       "submit_date": "2024-04-22",
       "category": "Денежные букеты",
-      "colors": [{
-        "name": "0",
-        "link": "/shop/399"
-      }
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/399"
+        }
       ],
       "price": "1850.00",
       "rating": "4",
@@ -17158,7 +17438,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0399",
       "imgs": [
         "flowerimg/dengi/standing/15/1.jpg",
         "flowerimg/dengi/standing/15/2.jpg"
@@ -17178,10 +17458,12 @@
       "hover_img": "flowerimg/dengi/standing/30/2.jpg",
       "submit_date": "2024-04-22",
       "category": "Денежные букеты",
-      "colors": [{
-        "name": "0",
-        "link": "/shop/400"
-      }
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/400"
+        }
       ],
       "price": "3210.00",
       "rating": "4",
@@ -17192,7 +17474,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0400",
       "imgs": [
         "flowerimg/dengi/standing/30/1.jpg",
         "flowerimg/dengi/standing/30/2.jpg",
@@ -17213,10 +17495,12 @@
       "hover_img": "flowerimg/dengi/standing/50/2.jpg",
       "submit_date": "2024-04-22",
       "category": "Денежные букеты",
-      "colors": [{
-        "name": "0",
-        "link": "/shop/401"
-      }
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/401"
+        }
       ],
       "price": "6580.00",
       "rating": "4",
@@ -17227,7 +17511,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0401",
       "imgs": [
         "flowerimg/dengi/standing/50/1.jpg",
         "flowerimg/dengi/standing/50/2.jpg",
@@ -17249,10 +17533,12 @@
       "hover_img": "flowerimg/dengi/standing/100/2.jpg",
       "submit_date": "2024-04-22",
       "category": "Денежные букеты",
-      "colors": [{
-        "name": "0",
-        "link": "/shop/402"
-      }
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/402"
+        }
       ],
       "price": "12860.00",
       "rating": "4",
@@ -17263,7 +17549,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0402",
       "imgs": [
         "flowerimg/dengi/standing/100/1.jpg",
         "flowerimg/dengi/standing/100/2.jpg",
@@ -17284,10 +17570,12 @@
       "hover_img": "flowerimg/dengi/80/2.jpg",
       "submit_date": "2024-04-22",
       "category": "Денежные букеты",
-      "colors": [{
-        "name": "0",
-        "link": "/shop/403"
-      }
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/403"
+        }
       ],
       "price": "9054  .00",
       "rating": "4",
@@ -17298,7 +17586,7 @@
       "trendy": false,
       "man": false,
       "woman": true,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA0403",
       "imgs": [
         "flowerimg/dengi/80/1.jpg",
         "flowerimg/dengi/80/2.jpg",
@@ -17306,11 +17594,12 @@
       ],
       "description": {
         "text": "Цена за букет указан только за сборку самого букета в том числе упаковочного материала, но не за сами купюры!",
-      "size": [
-        "1 комплект"
-      ]
+        "size": [
+          "1 комплект"
+        ]
       }
-    },{
+    },
+    {
       "id": "86",
       "title": "Белый корсаж",
       "nalichie": "1",
@@ -17318,6 +17607,7 @@
       "hover_img": "colshoper/CORSAGE/WHITECORSAGE/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "белый"
@@ -17339,7 +17629,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA086",
       "imgs": [
         "colshoper/CORSAGE/WHITECORSAGE/1.jpg",
         "colshoper/CORSAGE/WHITECORSAGE/2.jpg"
@@ -17359,14 +17649,16 @@
       "hover_img": "colshoper/CORSAGE/THE80SCORSAGE/1.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "разноцветный"
       ],
-      "colors": [{
-        "name": "разноцветный",
-        "link": "/shop/87"
-      }
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/87"
+        }
       ],
       "price": "2199.00",
       "collections": "корсажи",
@@ -17379,7 +17671,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA087",
       "imgs": [
         "colshoper/CORSAGE/THE80SCORSAGE/1.jpg"
       ],
@@ -17398,6 +17690,7 @@
       "hover_img": "colshoper/CORSAGE/ELEGANTCORSAGE/2.jpg",
       "submit_date": "2024-04-22",
       "bouquets": "букеты",
+      "category": "Букеты",
       "delivery": "доставим сегодня",
       "color": [
         "белый"
@@ -17405,7 +17698,7 @@
       "colors": [
         {
           "name": "белый",
-          "link": "Э"
+          "link": "88"
         }
       ],
       "price": "2199.00",
@@ -17419,7 +17712,7 @@
       "trendy": false,
       "man": false,
       "woman": false,
-      "pro_code": "#BGG09455",
+      "pro_code": "#VA088",
       "imgs": [
         "colshoper/CORSAGE/ELEGANTCORSAGE/1.jpg",
         "colshoper/CORSAGE/ELEGANTCORSAGE/2.jpg",
