@@ -51,6 +51,9 @@ const StartupAgencyFooter = () => {
                       <Link href="/About-us">О компании</Link>
                     </li>
                     <li>
+                      <Link href="/deliverys">Доставка</Link>
+                    </li>
+                    <li>
                       <Link href="/portfolio">Каталог</Link>
                     </li>
                     <li>
@@ -74,6 +77,9 @@ const StartupAgencyFooter = () => {
                       </li>
                       <li>
                         <Link href="/About-us">О компании</Link>
+                      </li>
+                      <li>
+                        <Link href="/deliverys">Доставка</Link>
                       </li>
                       <li>
                         <Link href="/portfolio">Каталог</Link>
