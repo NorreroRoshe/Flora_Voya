@@ -427,15 +427,15 @@ export default function ProductModal({ setModalShow, product }) {
                       </span>
                     )} */}
                     
-                    <span className="woocomerce__single-discountprice">
+                    <span className="woocomerce__single-discountprice wercwe">
                       
-                      <div className="woocomerce__single-discountprice dfgdfb">
-                        {product.nalichie === "0" && (
+                      {product.nalichie === "0" && (
+                        <div className="woocomerce__single-discountprice dfgdfb">
                           <span className="woocomerce__single-discountprice werfegfb">
                             нет в наличии
                           </span>
-                        )}
-                      </div>
+                        </div>
+                      )}
                       {Math.round(calculatedPrice)} ₽
                       {selectedSize.length === 0 && (
                         <span className="woocomerce__single-discountprice avewrehtryh">
