@@ -19,6 +19,7 @@ export { default as Feature } from "./feature/Feature";
 export { default as AllWithFilter } from "./feature/AllWithFilter";
 export { default as Banner1 } from "./banner/Banner1";
 export { default as Banner2 } from "./banner/Banner2";
+export { default as Banner3 } from "./banner/Banner3";
 export { default as Category } from "./category/Category";
 export { default as ShopCollections } from "./category/ShopCollections1";
 export { default as VideoBanner } from "./banner/VideoBanner";

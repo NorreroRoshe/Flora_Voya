@@ -928,15 +928,15 @@
 }
 
 .collection-item {
-    position: relative;
-    display: block;
-    margin-bottom: 17px;
-    overflow: hidden;
+  position: relative;
+  display: block;
+  // margin-bottom: 17px;
+  overflow: hidden;
 }
 
 .collection-item {
   @media (min-width: 769px) {
-    margin-bottom: 22px;
+    // margin-bottom: 22px;
   }
 }
 
@@ -972,7 +972,7 @@
 
 .collection-item__title--overlaid, .collection-item__title--overlaid-box {
   display: block;
-  position: absolute;
+  // position: absolute;
   left: 10px;
   right: 10px;
 }
@@ -985,10 +985,13 @@
   bottom: 0;
   width: 100%;
   left: 0;
+  margin-bottom: 17px;
+  margin-top: 5px;
 }
 
 .collection-item__title {
   @media (min-width: 769px) {
+    margin-bottom: 22px;
     font-size: 16px;
   }
   @media (max-width: 435px) {

@@ -297,8 +297,8 @@ const SideFilter = ({ allData, allFilter }) => {
   const [isLoading, setIsLoading] = useState(true); // Добавляем состояние загрузки
   const [currentPage, setCurrentPage] = useState(1);
   const [value, setValue] = useState('');
-  const countPerPage = 21;
-
+  const [countPerPage, setCountPerPage] = useState(21); // Изначальное значение для ширины > 1000px
+  
   const {
     selectedColor,
     selectedPrice,
@@ -311,7 +311,7 @@ const SideFilter = ({ allData, allFilter }) => {
   } = productFilter;
 
   console.log(productFilter, 'productFilter')
-
+  
   const filterAll = () => {
     setCurrentPage(1);
     dispatch({
@@ -325,12 +325,12 @@ const SideFilter = ({ allData, allFilter }) => {
         selectedSort,
         selectedPrice,
         selectedCategory
-      ),
-    });
+        ),
+      });
   };
-
+  
   let [filterData, setDataValue] = useState([]);
-
+  
   // Обновляем filterData и выключаем isLoading, когда изменяется showData
   useEffect(() => {
     setIsLoading(true);
@@ -339,23 +339,44 @@ const SideFilter = ({ allData, allFilter }) => {
     setDataValue(showData.slice(from, to));
     setIsLoading(false);
   }, [showData, currentPage]);
-
+  
   const updatePage = (p) => {
     setCurrentPage(p);
-
+    
     window.scrollTo({
       top: 0,
       behavior: 'smooth',
     });
   };
-
+  
   useEffect(() => {
     dispatch({
       type: "setShowData",
       value: allData,
     });
   }, [allData]);
-  return (
+  
+    
+    useEffect(() => {
+      const handleResize = () => {
+        if (window.innerWidth > 1000) {
+          setCountPerPage(21);
+        } else {
+          setCountPerPage(20);
+        }
+      };
+  
+      // Устанавливаем начальное значение при монтировании компонента
+      handleResize();
+  
+      // Добавляем слушателя на изменение размера окна
+      window.addEventListener('resize', handleResize);
+  
+      // Убираем слушателя при размонтировании компонента
+      return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
+    return (
     <>
       <div className="woocomerce__filtering woocomerce-paddingss">
         <div className="row gapapap">

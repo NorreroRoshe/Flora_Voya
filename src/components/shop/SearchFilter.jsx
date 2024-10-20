@@ -39,22 +39,22 @@ const reducer = (state, action) => {
       return { ...state, selectedCollections: action.value };
     case "setSelectedRating":
       return { ...state, selectedRating: action.value };
-    case "setSelectedSort":
-      return { ...state, selectedSort: action.value };
-    case "setShowData":
-      return { ...state, showData: action.value };
-    default:
+      case "setSelectedSort":
+        return { ...state, selectedSort: action.value };
+        case "setShowData":
+          return { ...state, showData: action.value };
+          default:
       return state;
-  }
-};
-
+    }
+  };
+  
 const SearchFilter = ({ allData, searchValue, allFilter }) => {
   const [openMobile, setOpenMobile] = useState(false);
   const [productFilter, dispatch] = useReducer(reducer, initialState);
   const [isLoading, setIsLoading] = useState(true); // Добавляем состояние загрузки
   const [currentPage, setCurrentPage] = useState(1);
   const [value, setValue] = useState('');
-  const countPerPage = 20;
+  const [countPerPage, setCountPerPage] = useState(21); // Изначальное значение для ширины > 1000px
 
   const {
     selectedColor,
@@ -117,6 +117,26 @@ const SearchFilter = ({ allData, searchValue, allFilter }) => {
   }, [allData]);
 
   console.log(productFilter, 'productFilter')
+
+  
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 1000) {
+        setCountPerPage(21);
+      } else {
+        setCountPerPage(20);
+      }
+    };
+
+    // Устанавливаем начальное значение при монтировании компонента
+    handleResize();
+
+    // Добавляем слушателя на изменение размера окна
+    window.addEventListener('resize', handleResize);
+
+    // Убираем слушателя при размонтировании компонента
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   return (
     <>

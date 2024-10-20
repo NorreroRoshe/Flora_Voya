@@ -114,7 +114,6 @@ const Header = ({ option }) => {
           <li className="ascqewad">
             <Link className='uphead' href={"/flowers-by-color"}>#Цветы по цветам</Link>
           </li>
-
         </ul>
       </div>
     </div>
@@ -245,7 +244,7 @@ const Header = ({ option }) => {
                   </ul>
                 </li>
                 
-                <li>
+                {/* <li>
                   <Link href={"/delivery/доставим сегодня"}>Экспресс-доставка</Link>
                   <ul className="main-dropdown">
                     <li>
@@ -255,9 +254,9 @@ const Header = ({ option }) => {
                       <Link href={"/delivery/доставим завтра"}>Доставка завтра</Link>
                     </li>
                   </ul>
-                </li>
-                <li style={{zIndex: 2}}>
-                  <Link href={"/vazi/Денежные букеты"}>Денежные &nbsp; &nbsp; букеты</Link>
+                </li> */}
+                {/* <li style={{zIndex: 2}}>
+                  <Link href={"/vazi/Денежные букеты"}>Денежные &nbsp; &nbsp; букеты</Link> */}
                   {/* <ul className="mega-menu-2 menu-head" style={{left: '90px', width: '500px', display: 'flex', justifyContent: 'space-between'}}>
                     <li>
                       <span style={{color: 'white', fontSize: '19px', padding: '10px', textDecoration: 'underline', cursor: 'default'}} href=''>Категории</span> 
@@ -294,9 +293,12 @@ const Header = ({ option }) => {
                       </ul>
                     </li>
                   </ul> */}
-                </li>
+                {/* </li> */}
                 <li style={{zIndex: 2}}>
                   <Link href={"/flowers-by-category"}>Цветочное &nbsp; &nbsp; разнообразие</Link>
+                </li>
+                <li style={{zIndex: 2}}>
+                  <Link href={"/flowers-by-color"}>Цветы &nbsp; &nbsp; по &nbsp; &nbsp; цветам</Link>
                 </li>
                 <li style={{zIndex: 2}}>
                   <Link href={"/bouquets/букеты"}>Все &nbsp; &nbsp; букеты</Link>

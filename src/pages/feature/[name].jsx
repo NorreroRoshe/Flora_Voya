@@ -19,7 +19,7 @@ export default function AllFeature() {
         case 'boxes':
           return 'Боксы';
         case 'designbouquets':
-          return 'Дизайнерские букеты';
+          return 'Дизайнерские';
         case 'rosesbouquets':
           return 'Букеты с розами';
         case 'premium':

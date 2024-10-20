@@ -51,10 +51,31 @@ const ProductDetails = ({ details }) => {
   const { count, selectedSize, selectedColor, warning, wishlistData } =
   modalData;
 
+  
+  // const priceSize = Number(selectedSize[0]?.replace(/\D/g, ''));
+  const priceSize = (() => {
+    if (selectedSize[0] === "маленький") return 1;
+    if (selectedSize[0] === "средний") return 1.5;
+    if (selectedSize[0] === "большой") return 2;
+    if (selectedSize[0] === "классический (30 см)") return 1;
+    if (selectedSize[0] === "большой (40 см)") return 1.5;
+    if (selectedSize[0] === "большой (43 см.)") return 1;
+    if (selectedSize[0] === "экстра (53 см.)") return 1.5;
 
-  const priceSize = Number(selectedSize[0]?.replace(/\D/g, ''));
+    // Если не "маленький", "средний" или "большой", вернем результат обработки регуляркой
+    return Number(selectedSize[0]?.replace(/\D/g, '')) || 1; 
+  })();
 
-
+  const text1 = details?.description?.text || '';
+  const text2 = details?.description?.text1 || '';
+  const fullText = text1 + '\n\n' + text2; // Добавляем два переноса строки
+    const wordCount = fullText.split(/\s+/).filter(Boolean).length; // Подсчет слов
+  
+    const [isExpanded, setIsExpanded] = useState(false); // Состояние для управления отображением
+  
+    const toggleExpand = () => {
+      setIsExpanded(!isExpanded); // Переключение состояния
+    };
 
 
   const [tab, setTab] = useState(1);
@@ -226,29 +247,58 @@ const ProductDetails = ({ details }) => {
     
   
   React.useEffect(() => {
-    if (details?.colors && details.colors.length > 0) {
-      dispatch({
-        type: "setSelectedColor",
-        value: [details.colors[0].name.toLowerCase()],
+    // if (details?.colors && details?.colors.length > 0) {
+    //   dispatch({
+    //     type: "setSelectedColor",
+    //     value: [details?.colors[0].name.toLowerCase()],
+    //   });
+    // } else {
+    //   dispatch({
+    //     type: "setSelectedColor",
+    //     value: [],
+    //   });
+    // }
+    // dispatch({
+    //   type: "setSelectedSize",
+    //   value: [],
+    // });
+
+
+    // Проверяем, если есть доступные цвета
+    if (details?.colors && details?.colors.length > 0) {
+      // Ищем цвет, у которого link соответствует id продукта
+      const matchedColor = details.colors.find(color => {
+        const colorId = color.link.replace('/shop/', ''); // Извлекаем id из link
+        return colorId === details.id.toString(); // Сравниваем id с цветом
       });
+
+      // Если найден цвет, устанавливаем его в selectedColor
+      if (matchedColor) {
+        dispatch({
+          type: "setSelectedColor",
+          value: [matchedColor.name.toLowerCase()],
+        });
+      } else {
+        // Если совпадений нет, сбрасываем выбранный цвет
+        dispatch({
+          type: "setSelectedColor",
+          value: [],
+        });
+      }
     } else {
+      // Если цветов нет, сбрасываем выбранный цвет
       dispatch({
         type: "setSelectedColor",
         value: [],
       });
     }
-    dispatch({
-      type: "setSelectedSize",
-      value: [],
-    });
-
 
 
      // На случай если хотим чтобы цвет тоже был 0
-     if (details?.size && details.size.length > 0) {
+     if (details?.size && details?.size.length > 0) {
       dispatch({
         type: "setSelectedSize",
-        value: [details.size[0].toLowerCase()],
+        value: [details?.size[0].toLowerCase()],
       });
     } else {
       dispatch({
@@ -261,14 +311,27 @@ const ProductDetails = ({ details }) => {
 
 
   }, [details?.colors
-    // ,details.size
+    // ,details?.size
     ]);
 
-    const calculatedPrice = details.dis_price 
-    ? Math.floor(details.dis_price) * (priceSize > 0 ? priceSize : 1)
-    : Math.floor(details.price) * (priceSize > 0 ? priceSize : 1);
+    const calculatedPrice = details?.dis_price 
+    ? Math.floor(details?.dis_price) * (priceSize > 0 ? priceSize : 1)
+    : Math.floor(details?.price) * (priceSize > 0 ? priceSize : 1);
 
     console.log(details?.colors?.[0].name === "0", 'details,details')
+
+  
+  if (details?.nalichie === "0") {
+    return (
+    <section className="woocomerce__single sec-plr-50 ebrentbrwve">
+      <div className="woocomerce__single-wrapper">
+        <div className="woocomerce__single-left">
+          Такой позиции не существует!
+        </div>
+      </div>
+    </section>
+  )}
+
   return (
     <>
       {details && Object.keys(details).length ? (
@@ -278,11 +341,11 @@ const ProductDetails = ({ details }) => {
               <div className="woocomerce__single-left">
                 <div
                   className={` product_imgs ${
-                    details.imgs?.length === 1 ? "wfegbrwafsc" : "woocomerce__single-productview"
+                    details?.imgs?.length === 1 ? "wfegbrwafsc" : "woocomerce__single-productview"
                   }`}
                 >
-                  {details.imgs?.length >= 2 && 
-                    details.imgs
+                  {details?.imgs?.length >= 2 && 
+                    details?.imgs
                     ?.slice() // Создаем копию массива
                     .reverse() // Инвертируем порядок элементов
                     .map((el, i) => (
@@ -293,11 +356,11 @@ const ProductDetails = ({ details }) => {
                         style={{ height: "auto" }}
                         src={`/assets/imgs/${el}`}
                         alt="single-1"
-                        className={`dfdsdas ${details.imgs?.length === 1 ? "wfegbrwafscvqecwqs" : ""}`}
+                        className={`dfdsdas ${details?.imgs?.length === 1 ? "wfegbrwafscvqecwqs" : ""}`}
                       />
                     ))
                   }
-                  {details.imgs?.map((el, i) => (
+                  {details?.imgs?.map((el, i) => (
                     <Image
                       key={i + "details"}
                       width={520}
@@ -306,7 +369,7 @@ const ProductDetails = ({ details }) => {
                       src={`/assets/imgs/${el}`}
                       alt="single-1"
                       className={`dfdsdsceqvwas ${
-                        details.imgs?.length === 1 ? "wfegbrwafscvqecwqs" : ""
+                        details?.imgs?.length === 1 ? "wfegbrwafscvqecwqs" : ""
                       }`}
                     />
                   ))}
@@ -326,40 +389,40 @@ const ProductDetails = ({ details }) => {
                   </li>
                   {/* <li>
                     <Link href={"#"}>
-                      {details.category}{" "}
+                      {details?.category}{" "}
                       <i className="fa-solid fa-chevron-right"></i>
                     </Link>
                   </li> */}
                   {/* <li>
-                    <Link href={"#"}>{details.title}</Link>
+                    <Link href={"#"}>{details?.title}</Link>
                   </li> */}
                 </ul>
                 <div className="woocomerce__single-content">
                   <h2 className="woocomerce__single-title"
                   // style={{marginTop: '20px'}}
-                  >{details.title}</h2>
+                  >{details?.title}</h2>
                   <div className="woocomerce__single-pricelist">
                   {/* <span className="woocomerce__single-discountprice">
-                    {details.dis_price ? Math.floor(details.dis_price) : Math.floor(details.price)} ₽
+                    {details?.dis_price ? Math.floor(details?.dis_price) : Math.floor(details?.price)} ₽
                   </span> */}
                     <span className="woocomerce__single-originalprice">
-                      {details.dis_price ? " ₽" + details.price : ""}
+                      {details?.dis_price ? " ₽" + details?.price : ""}
                     </span>
                     <span className="woocomerce__single-discount">
-                      {details.dis_price
-                        ? percentage(details.dis_price, details.price) +
+                      {details?.dis_price
+                        ? percentage(details?.dis_price, details?.price) +
                           "%" +
                           " OFF"
                         : ""}
                     </span>
                   </div>
-                  {details.reviews && details.reviews.length ? (
+                  {details?.reviews && details?.reviews.length ? (
                     <div className="woocomerce__single-review">
                       <div className="woocomerce__single-star" id="rating_star">
-                        {star(details.reviews)}
+                        {star(details?.reviews)}
                       </div>
                       <span className="woocomerce__single-reviewcount">
-                        ({details.reviews.length} Reviews)
+                        ({details?.reviews.length} Reviews)
                       </span>
                     </div>
                   ) : (
@@ -370,22 +433,64 @@ const ProductDetails = ({ details }) => {
                     width={520}
                     height={685}
                     style={{ height: "auto", width: '100%', marginBottom: '15px', marginTop : '15px' }}
-                    src={`/assets/imgs/${details.imgs?.[0]}`}
+                    src={`/assets/imgs/${details?.imgs?.[0]}`}
                     alt="single-1"
                     className={`dfdsdas ${
-                      details.imgs?.length === 1 ? "wfegbrwafscvqecwqs" : ""
+                      details?.imgs?.length === 1 ? "wfegbrwafscvqecwqs" : ""
                     }`}
                   />
-                  {details.description && (
+                  {details?.description && (
                     <div>
-                      <p className="woocomerce__single-discription">
-                        {details.description?.text}
-                      </p>
-                      <p className="woocomerce__single-discription">
-                        {details.description?.text1}
-                      </p>
+                      {/* {details?.description.text && (
+                        <p className="woocomerce__single-discription">
+                          {details?.description?.text}
+                        </p>
+                      )}
+                      {details?.description.text1 && (
+                        <p className="woocomerce__single-discription">
+                          {details?.description?.text1}
+                        </p>
+                      )} */}
+                      {wordCount > 35 ? (
+                        <p className="woocomerce__single-discription">
+                          {isExpanded ? (
+                            <>
+                            {text1}
+                              {text2 ? (
+                                <>
+                                  <br />
+                                  <br />
+                                  {text2}
+                                </>
+                              ) : null}
+                              <span onClick={toggleExpand} style={{ cursor: 'pointer', color: 'grey' }}>
+                                &nbsp;...<span
+                                 style={{ marginLeft: '2px' }}
+                                >скрыть</span>
+                              </span>
+                            </>
+                          ) : (
+                            <>
+                              {text1.split(/\s+/).slice(0, 35).join(' ')}
+                              {/* &nbsp; */}
+                              &nbsp;...
+                              <span onClick={toggleExpand} style={{ cursor: 'pointer', color: 'grey', marginLeft: '2px' }}>
+                                развернуть
+                              </span>
+                            </>
+                          )}
+                        </p>
+                      ) : (
+                        <p className="woocomerce__single-discription">
+                          {text1}
+                          <br />
+                          <br />
+                          {text2}
+                        </p>
+                      )}
+
                       <ul className="woocomerce__single-features">
-                        {details.description?.featured?.map((el, i) => (
+                        {details?.description?.featured?.map((el, i) => (
                           <li key={i + "details"}>
                             <Image
                               width={25}
@@ -400,17 +505,25 @@ const ProductDetails = ({ details }) => {
                     </div>
                   )}
                     
+                  {details?.nalichie === "0" && (
+                    <div className="woocomerce__single-discountprice wewvfwdwqdvwe">
+                      <span className="woocomerce__single-discountprice werfegfb">
+                        нет в наличии
+                      </span>
+                    </div>
+                  )}
+                  
                   <span className="woocomerce__single-discountprice">
-                    {calculatedPrice} ₽
+                    {Math.round(calculatedPrice)} ₽
                     {selectedSize.length === 0 && (
-                      <span className="woocomerce__single-discountprice">
+                      <span className="woocomerce__single-discountprice avewrehtryh">
                         &nbsp;за шт.
                       </span>
                     )}
                   </span>
 
                   <div className="woocomerce__single-varitions">
-                    {details.size?.[0] !== "1 комплект" && (
+                    {details?.size?.[0] !== "1 комплект" && (
                       <>
                         <div className="woocomerce__single-stitle">
                           Доступные размеры*
@@ -419,7 +532,7 @@ const ProductDetails = ({ details }) => {
                           className="woocomerce__single-sizelist"
                           style={{ marginTop: "20px" }}
                         >
-                          {details.size?.map((el, i) => (
+                          {details?.size?.map((el, i) => (
                             <li
                               className={
                                 selectedSize.includes(el.toLowerCase())
@@ -442,13 +555,13 @@ const ProductDetails = ({ details }) => {
                         )}
                       </>
                     )}
-                    {details.colors?.[0].name !== "0" && (
+                    {details?.colors?.[0].name !== "0" && (
                       <div style={{ marginTop: "30px" }}>
                         <div className="woocomerce__single-stitle">
                           Доступные цвета*
                         </div>
                         <ul className="woocomerce__single-sizelist" style={{ marginTop: "20px" }}>
-                          {details.colors?.map((color, i) => (
+                          {details?.colors?.map((color, i) => (
                             color.img ? (
                               <li
                                 className={
@@ -498,7 +611,7 @@ const ProductDetails = ({ details }) => {
                         Добавьте подходящую вазу
                       </div>
                       <ul className="woocomerce__single-sizelist" style={{ marginTop: "20px" }}>
-                        {details.vase?.map((color, i) => (
+                        {details?.vase?.map((color, i) => (
                           <li
                             className={
                               selectedColor.includes(color.name.toLowerCase())
@@ -521,40 +634,42 @@ const ProductDetails = ({ details }) => {
                       )}
                     </div> */}
                     {/* <p className="woocomerce__single-sku">
-                      SKU: {details.pro_code}
+                      SKU: {details?.pro_code}
                     </p> */}
                   </div>
-                  <div className="woocomerce__single-buttons">
-                    <div className="woocomerce__single-incrementwrap2">
-                      <button
-                        className="woocomerce__single-cart2 pointer_cursor"
-                        onClick={() =>
-                          selectedColor.length && selectedSize.length
-                            ? FullProduct(details)
-                            : (warningTost("Пожалуйста выберите размер"),
-                              dispatch({
-                                type: "setWarning",
-                                value: true,
-                              }))
-                        }
-                      >
-                        <Image
-                          width={25}
-                          height={22}
-                          src="/assets/imgs/woocomerce/cart.png"
-                          alt="cart"
-                        />
-                        В корзину
-                      </button>
+                  {details?.nalichie !== "0" && (
+                    <div className="woocomerce__single-buttons">
+                      <div className="woocomerce__single-incrementwrap2">
+                        <button
+                          className="woocomerce__single-cart2 pointer_cursor"
+                          onClick={() =>
+                            selectedColor.length && selectedSize.length
+                              ? FullProduct(details)
+                              : (warningTost("Пожалуйста выберите размер"),
+                                dispatch({
+                                  type: "setWarning",
+                                  value: true,
+                                }))
+                          }
+                        >
+                          <Image
+                            width={25}
+                            height={22}
+                            src="/assets/imgs/woocomerce/cart.png"
+                            alt="cart"
+                          />
+                          В корзину
+                        </button>
+                      </div>
                     </div>
-                  </div>
+                  )}
                 </div>
               </div>
             </div>
           </section>
-          {details.related_product && details.related_product.length ? (
+          {details?.related_product && details?.related_product.length ? (
             <Feature
-              featured={details.related_product}
+              featured={details?.related_product}
               headerTitle={"Related"}
             />
           ) : (

@@ -45,8 +45,19 @@ export default function ProductModal({ setModalShow, product }) {
   const [modalData, dispatch] = useReducer(reducer, initialState);
   const { count, selectedSize, selectedColor, warning, wishlistData } =
     modalData;
-
-  const priceSize = Number(selectedSize[0]?.replace(/\D/g, ''));
+    
+  // const priceSize = Number(selectedSize[0]?.replace(/\D/g, ''));
+  const priceSize = (() => {
+    if (selectedSize[0] === "маленький") return 1;
+    if (selectedSize[0] === "средний") return 1.5;
+    if (selectedSize[0] === "большой") return 2;
+    if (selectedSize[0] === "классический (30 см)") return 1;
+    if (selectedSize[0] === "большой (40 см)") return 1.5;
+    if (selectedSize[0] === "большой (43 см.)") return 1;
+    if (selectedSize[0] === "экстра (53 см.)") return 1.5;
+    // Если не "маленький", "средний" или "большой", вернем результат обработки регуляркой
+    return Number(selectedSize[0]?.replace(/\D/g, '')) || 1; 
+  })();
 
   const [isWideScreen, setIsWideScreen] = useState(false);
 
@@ -199,21 +210,50 @@ export default function ProductModal({ setModalShow, product }) {
   
 
   useEffect(() => {
-    if (product.colors && product.colors.length > 0) {
-      dispatch({
-        type: "setSelectedColor",
-        value: [product.colors[0].name.toLowerCase()],
+    // if (product.colors && product.colors.length > 0) {
+    //   dispatch({
+    //     type: "setSelectedColor",
+    //     value: [product.colors[0].name.toLowerCase()],
+    //   });
+    // } else {
+    //   dispatch({
+    //     type: "setSelectedColor",
+    //     value: [],
+    //   });
+    // }
+    // dispatch({
+    //   type: "setSelectedSize",
+    //   value: [],
+    // });
+    
+    // Проверяем, если есть доступные цвета
+    if (product?.colors && product?.colors.length > 0) {
+      // Ищем цвет, у которого link соответствует id продукта
+      const matchedColor = product.colors.find(color => {
+        const colorId = color.link.replace('/shop/', ''); // Извлекаем id из link
+        return colorId === product.id.toString(); // Сравниваем id с цветом
       });
-    } else {
-      dispatch({
-        type: "setSelectedColor",
-        value: [],
-      });
-    }
-    dispatch({
-      type: "setSelectedSize",
-      value: [],
-    });
+
+      // Если найден цвет, устанавливаем его в selectedColor
+      if (matchedColor) {
+        dispatch({
+          type: "setSelectedColor",
+          value: [matchedColor.name.toLowerCase()],
+        });
+      } else {
+        // Если совпадений нет, сбрасываем выбранный цвет
+        dispatch({
+          type: "setSelectedColor",
+          value: [],
+        });
+      }
+      } else {
+        // Если цветов нет, сбрасываем выбранный цвет
+        dispatch({
+          type: "setSelectedColor",
+          value: [],
+        });
+      }
 
 
 
@@ -254,6 +294,28 @@ export default function ProductModal({ setModalShow, product }) {
     ? Math.floor(product.dis_price) * (priceSize > 0 ? priceSize : 1)
     : Math.floor(product.price) * (priceSize > 0 ? priceSize : 1);
 
+    if (product.nalichie === "0") {
+      return (
+        <Modal
+        show={true}
+        onHide={() => setModalShow(false)}
+        size="xl"
+        style={{ paddingLeft: "0px" }}
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton></Modal.Header>
+        <Modal.Body>
+          <section className="woocomerce__single sec-plr-50 ebrentbrwve">
+            <div className="woocomerce__single-wrapper">
+              <div className="woocomerce__single-left">
+                Такой позиции не существует!
+              </div>
+            </div>
+          </section>
+        </Modal.Body>
+      </Modal>
+    )}
 
   return (
     <>
@@ -338,14 +400,14 @@ export default function ProductModal({ setModalShow, product }) {
                       </Link>
                     </div> */}
                   </div>
-                  <div className="woocomerce__feature-category qewrtfeg ewweq">
+                  {/* <div className="woocomerce__feature-category qewrtfeg ewweq">
                     <Link
                       className="woocomerce__feature-categorytitle drfeg"
                       href={`/delivery/${product.delivery}`}
                     >
                       {product.delivery}
                     </Link>
-                  </div>
+                  </div> */}
                   <div className="woocomerce__single-pricelist">
                     {/* {product.dis_price ? (
                       <>
@@ -366,22 +428,31 @@ export default function ProductModal({ setModalShow, product }) {
                     )} */}
                     
                     <span className="woocomerce__single-discountprice">
-                      {calculatedPrice} ₽
+                      
+                      <div className="woocomerce__single-discountprice dfgdfb">
+                        {product.nalichie === "0" && (
+                          <span className="woocomerce__single-discountprice werfegfb">
+                            нет в наличии
+                          </span>
+                        )}
+                      </div>
+                      {Math.round(calculatedPrice)} ₽
                       {selectedSize.length === 0 && (
-                        <span className="woocomerce__single-discountprice">
+                        <span className="woocomerce__single-discountprice avewrehtryh">
                           &nbsp;за шт.
                         </span>
                       )}
                     </span>
 
-                    <div className="woocomerce__feature-category qewrtfeg ewweqsa">
+
+                    {/* <div className="woocomerce__feature-category qewrtfeg ewweqsa">
                       <Link
                         className="woocomerce__feature-categorytitle drfeg"
                         href={`/delivery/${product.delivery}`}
                       >
                         {product.delivery}
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="woocomerce__single-varitions">
                     {product.size?.[0] !== "1 комплект" && (
@@ -510,30 +581,32 @@ export default function ProductModal({ setModalShow, product }) {
                       SKU: {product.pro_code}
                     </p> */}
                   </div>
-                  <div className="woocomerce__single-buttons">
-                    <div className="woocomerce__single-incrementwrap2">
-                      <button
-                        className="woocomerce__single-cart2 pointer_cursor"
-                        onClick={() =>
-                          selectedColor.length && selectedSize.length
-                            ? FullProduct(product)
-                            : (warningTost("Пожалуйста выберите размер"),
-                              dispatch({
-                                type: "setWarning",
-                                value: true,
-                              }))
-                        }
-                      >
-                        <Image
-                          width={25}
-                          height={22}
-                          src="/assets/imgs/woocomerce/cart.png"
-                          alt="cart"
-                        />
-                        В корзину
-                      </button>
+                  {product.nalichie !== "0" && (
+                    <div className="woocomerce__single-buttons">
+                      <div className="woocomerce__single-incrementwrap2">
+                        <button
+                          className="woocomerce__single-cart2 pointer_cursor"
+                          onClick={() =>
+                            selectedColor.length && selectedSize.length
+                              ? FullProduct(product)
+                              : (warningTost("Пожалуйста выберите размер"),
+                                dispatch({
+                                  type: "setWarning",
+                                  value: true,
+                                }))
+                          }
+                        >
+                          <Image
+                            width={25}
+                            height={22}
+                            src="/assets/imgs/woocomerce/cart.png"
+                            alt="cart"
+                          />
+                          В корзину
+                        </button>
+                      </div>
                     </div>
-                  </div>
+                  )}
                 </div>
               </div>
             </div>

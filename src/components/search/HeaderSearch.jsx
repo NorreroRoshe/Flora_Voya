@@ -104,24 +104,26 @@ export default function HeaderSearch({ allData }) {
           <div id="search-value">
             {searchSlug && searchSlug.length
               ? searchSlug.slice(0, 3).map((el, i) => (
-                  <div
-                    className="sacvrbdg pointer_cursor"
-                    key={i + "search"}
-                    onClick={() => {
-                      navigate(el.id);
-                      closeSearch();
-                    }}
-                  >
-                    <img
-                      src={`/assets/imgs/${el.img}`}
-                      className="efwrget"
-                      alt={el.title}
-                    />
-                    <div className="sacvrbdgwe">
-                      <p className="search-name qevdf">{el.title}</p>
-                      <p className="search-name qevdf">{Math.round(el.price)} ₽</p>
+                  el.nalichie !== '0' && (
+                    <div
+                      className="sacvrbdg pointer_cursor"
+                      key={i + "search"}
+                      onClick={() => {
+                        navigate(el.id);
+                        closeSearch();
+                      }}
+                    >
+                      <img
+                        src={`/assets/imgs/${el.img}`}
+                        className="efwrget"
+                        alt={el.title}
+                      />
+                      <div className="sacvrbdgwe">
+                        <p className="search-name qevdf">{el.title}</p>
+                        <p className="search-name qevdf">{Math.round(el.price)} ₽</p>
+                      </div>
                     </div>
-                  </div>
+                  )
                 ))
               : ""}
           </div>

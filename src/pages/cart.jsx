@@ -23,7 +23,7 @@ export default function Cart() {
 
   const [totalPrice, setTotalPrice] = useState(0);
   const [totalCount, setTotalCount] = useState(0);
-  
+
   useEffect(() => {
     if (rootState) {
       let allSubTotal = [];
@@ -63,7 +63,7 @@ export default function Cart() {
   //   });
   //   router.push("/checkout");
   // };
-  
+
   const calculateTotalPrice = () => {
     if (typeof window !== "undefined") { // Проверяем, что код выполняется на клиенте
       const cartData = JSON.parse(localStorage.getItem('cart')) || [];
@@ -85,7 +85,7 @@ export default function Cart() {
       }
     }
   };
-  
+
   useEffect(() => {
     calculateTotalPrice(); // Initial calculation
 
@@ -95,7 +95,7 @@ export default function Cart() {
 
     return () => clearInterval(intervalId); // Cleanup interval on component unmount
   }, []);
-  
+
   if (error) return <div>Failed to load</div>;
   if (!data) return <Preloader />;
   return (
@@ -107,37 +107,37 @@ export default function Cart() {
               <div className="woocomerce__cart-left cartleft">
                 <div className="woocomerce__cart-content">
                   <div className="contact__text"><div className="contact__info">
-                <h3 className="pcf-social-h3">Контакты </h3>
-                <ul style={{marginBottom: '60px'}}>
-                  <li style={{display: 'flex', gap: '10px'}}>
-                    Телефон: <a href="tel:79999902020">+7 ( 999 ) 990 - 2020</a>
-                  </li>
-                  <li style={{display: 'flex', gap: '10px'}}>
-                    <span>Почта:</span>
-                    <div>
-                      <a href="mailto:norikas995@gmail.com" style={{display: 'block'}}>
-                        norikas995@gmail.com
-                      </a>
-                      <a href="mailto:norikas95@mail.ru" style={{display: 'block'}}>
-                        norikas95@mail.ru
-                      </a>
-                    </div>
-                  </li>
-                </ul>
-                <h3 className="pcf-social-h3">Пишите нам в  </h3>
-                <ul className="pcf-social-ul">
-                  {/* <li className="pcf-social-li">
+                    <h3 className="pcf-social-h3">Контакты </h3>
+                    <ul style={{ marginBottom: '60px' }}>
+                      <li style={{ display: 'flex', gap: '10px' }}>
+                        Телефон: <a href="tel:79999902020">+7 ( 999 ) 990 - 2020</a>
+                      </li>
+                      <li style={{ display: 'flex', gap: '10px' }}>
+                        <span>Почта:</span>
+                        <div>
+                          <a href="mailto:voya-floristica@mail.ru" style={{ display: 'block' }}>
+                            voya-floristica@mail.ru
+                          </a>
+                          <a href="mailto:voya-floristica@mail.ru" style={{ display: 'block' }}>
+                            voya-floristica@mail.ru
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                    <h3 className="pcf-social-h3">Пишите нам в  </h3>
+                    <ul className="pcf-social-ul">
+                      {/* <li className="pcf-social-li">
                     <a className="pcf-social-a" href="https://www.instagram.com/chucknorrikk?igsh=MTlhdnkzNmRnOGNnYg==">insagram</a>
                   </li> */}
-                  <li>
-                    <a className="pcf-social-a" href="https://t.me/Norikyujka">TeleGram</a>
-                  </li>
-                  <li>
-                    <a className="pcf-social-a" href="https://api.whatsapp.com/send?phone=79999902020">WhatsApp</a>
-                  </li>
-                </ul>
-              </div>
-              </div>
+                      <li>
+                        <a className="pcf-social-a" href="https://t.me/Norikyujka">TeleGram</a>
+                      </li>
+                      <li>
+                        <a className="pcf-social-a" href="https://api.whatsapp.com/send?phone=79999902020">WhatsApp</a>
+                      </li>
+                    </ul>
+                  </div>
+                  </div>
                 </div>
               </div>
               <div className="woocomerce__cart-right cart-right1">
@@ -159,12 +159,12 @@ export default function Cart() {
                       <li></li>
                     </ul>
                   ) : (
-                      <div>
-                      </div>
+                    <div>
+                    </div>
                   )}
                   {JSON.parse(localStorage.getItem('cart')) && JSON.parse(localStorage.getItem('cart')).length ? (
                     JSON.parse(localStorage.getItem('cart')).map((el, i) => (
-                      <CartContent  key={i + "cart"} el={el} context={context} />
+                      <CartContent key={i + "cart"} el={el} context={context} />
                     ))
                   ) : (
                     <div>
@@ -177,20 +177,20 @@ export default function Cart() {
                     </div>
                   )}
 
-                    {JSON.parse(localStorage.getItem('cart')) && JSON.parse(localStorage.getItem('cart')).length ? (
-                      <>
-                        <p style={{textAlign: 'end', marginRight: '15px', color: '#000', fontSize: '20px'}}>Общее количество: {totalCount} позиций</p>
-                        <p style={{textAlign: 'end', marginRight: '15px', color: '#000', fontSize: '20px'}}>Итог: {totalPrice} ₽</p>
-                      </>
-                    ) : (
-                        <div>
-                        </div>
-                    )}
-                  </div>
                   {JSON.parse(localStorage.getItem('cart')) && JSON.parse(localStorage.getItem('cart')).length ? (
-                    <Contact1Zakaz contact={contact} />
-                    ) : ( '' 
+                    <>
+                      <p style={{ textAlign: 'end', marginRight: '15px', color: '#000', fontSize: '20px' }}>Общее количество: {totalCount} позиций</p>
+                      <p style={{ textAlign: 'end', marginRight: '15px', color: '#000', fontSize: '20px' }}>Итог: {totalPrice} ₽</p>
+                    </>
+                  ) : (
+                    <div>
+                    </div>
                   )}
+                </div>
+                {JSON.parse(localStorage.getItem('cart')) && JSON.parse(localStorage.getItem('cart')).length ? (
+                  <Contact1Zakaz contact={contact} />
+                ) : (''
+                )}
               </div>
             </div>
           </div>

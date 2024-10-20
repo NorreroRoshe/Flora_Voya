@@ -149,7 +149,7 @@ const Canvas = ({ ofCanvasArea }) => {
                       </li>
                     </ul>
                   </li>
-                  <li>
+                  {/* <li>
                     <div className="header_title d-flex">
                       <Link href={"/shop/full"}>Экспресс-доставка</Link>
                       <div className="accordian-btn">
@@ -173,12 +173,12 @@ const Canvas = ({ ofCanvasArea }) => {
                         <Link href={"/доставим%20завтра"}>Доставим&nbsp;завтра</Link>
                       </li>
                     </ul>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <div className="header_title">
                       <Link href={"/vazi/Денежные%20букеты"}>Денежные&nbsp;букеты</Link>
                     </div>
-                  </li>
+                  </li> */}
                   <li>
                     <div className="header_title">
                       <Link href={"/flowers-by-category"}>Цветочное&nbsp;разнообразие</Link>

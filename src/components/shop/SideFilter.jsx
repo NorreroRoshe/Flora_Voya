@@ -54,7 +54,8 @@ const SideFilter = ({ allData, allFilter }) => {
   const [isLoading, setIsLoading] = useState(true); // Добавляем состояние загрузки
   const [currentPage, setCurrentPage] = useState(1);
   const [value, setValue] = useState('');
-  const countPerPage = 21;
+  const [countPerPage, setCountPerPage] = useState(21); // Изначальное значение для ширины > 1000px
+
 
   const {
     selectedColor,
@@ -113,7 +114,28 @@ const SideFilter = ({ allData, allFilter }) => {
     });
   }, [allData]);
 
-  console.log(productFilter, 'productFilter')
+
+  
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 1000) {
+        setCountPerPage(21);
+      } else {
+        setCountPerPage(20);
+      }
+    };
+
+    // Устанавливаем начальное значение при монтировании компонента
+    handleResize();
+
+    // Добавляем слушателя на изменение размера окна
+    window.addEventListener('resize', handleResize);
+
+    // Убираем слушателя при размонтировании компонента
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  console.log(filterData, 'filterData')
 
   return (
     <>

@@ -5,7 +5,7 @@ import ProductModal from "../modal/ProductModal";
 import AppContext from "@/components/AppContext";
 import { toast } from "react-toastify";
 
-const ProductCard = ({ dopfont, dopclass, el }) => {
+const NetVNalichiiProductCard = ({ dopfont, dopclass, el }) => {
   const [modalShow, setModalShow] = useState(false);
   const context = useContext(AppContext);
 
@@ -87,10 +87,6 @@ const ProductCard = ({ dopfont, dopclass, el }) => {
       successTost("SuccessFully add to wishlist");
     }
   };
-
-  if (el.nalichie === "0") {
-    return null;
-  }
 
   return (
     <>
@@ -223,4 +219,4 @@ const ProductCard = ({ dopfont, dopclass, el }) => {
   );
 };
 
-export default ProductCard;
+export default NetVNalichiiProductCard;

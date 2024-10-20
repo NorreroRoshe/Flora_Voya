@@ -7,6 +7,7 @@
       "sub_title": "Starts from",
       "img": "woocomerce/exclusive/Group29.jpg",
       "imgMob": "woocomerce/exclusive/Group36.jpg",
+      "link": "category/Цветы",
       "price": "65.89"
     },
     {
@@ -16,6 +17,7 @@
       "sub_title": "Starts from",
       "img": "woocomerce/exclusive/Group27.jpg",
       "imgMob": "woocomerce/exclusive/Group35.png",
+      "link": "bouquets/букеты",
       "price": "65.89"
     },
     {
@@ -25,6 +27,7 @@
       "sub_title": "Starts from",
       "img": "woocomerce/exclusive/Group28.jpg",
       "imgMob": "woocomerce/exclusive/Group37.jpg",
+      "link": "delivery/доставим%20сегодня",
       "price": "65.89"
     }
   ],
@@ -62,6 +65,13 @@
       "title": "Дизайнерские букеты",
       "sub_title": "Незабываемые",
       "section": "1",
+      "img": "catImg/5.png"
+    },
+    {
+      "id": "405",
+      "title": "Дизайнерские букеты",
+      "sub_title": "Незабываемые",
+      "section": "2",
       "img": "catImg/5.png"
     }
   ]

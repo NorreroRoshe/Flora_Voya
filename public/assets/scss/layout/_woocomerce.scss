@@ -1105,23 +1105,28 @@
       }
 
       &.item2 {
-        flex-basis: 68%;
+        // flex-basis: 68%;
+        flex-basis: 50%;
         text-align: left;
 
         @media #{$xxl} {
-          flex-basis: 60%;
+          // flex-basis: 60%;
+          flex-basis: 50%;
         }
 
         @media #{$xl} {
-          flex-basis: 60%;
+          // flex-basis: 60%;
+          flex-basis: 50%;
         }
 
         @media #{$lg} {
-          flex-basis: 60%;
+          // flex-basis: 60%;
+          flex-basis: 50%;
         }
 
         @media #{$md} {
-          flex-basis: 55%;
+          // flex-basis: 55%;
+          flex-basis: 50%;
         }
 
         @media #{$sm} {
@@ -1156,23 +1161,28 @@
       }
 
       &.item3 {
-        flex-basis: 32%;
+        // flex-basis: 32%;
+        flex-basis: 50%;
         text-align: left;
 
         @media #{$xxl} {
-          flex-basis: 40%;
+          // flex-basis: 40%;
+          flex-basis: 50%;
         }
 
         @media #{$xl} {
-          flex-basis: 40%;
+          // flex-basis: 40%;
+          flex-basis: 50%;
         }
 
         @media #{$lg} {
-          flex-basis: 40%;
+          // flex-basis: 40%;
+          flex-basis: 50%;
         }
 
         @media #{$md} {
-          flex-basis: 45%;
+          // flex-basis: 45%;
+          flex-basis: 50%;
         }
 
         @media #{$sm} {
@@ -2425,7 +2435,7 @@ ul.mega-menu-2.woocomerce-megamenu {
 
 .evdwfb {
   margin-top: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
   @media (max-width: 767px) {
     margin-top: 0px;
     margin-bottom: 20px;

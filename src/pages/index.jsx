@@ -14,6 +14,7 @@ import {
   ShopCollections,
   Banner1,
   Banner2,
+  Banner3,
   AllWithFilter,
   Category,
   VideoBanner,
@@ -325,10 +326,11 @@ const Index = () => {
                 </div>
                 <div className='scwfevwb'>
                   <div>
-                    <Banner2 banner={banner2Add} />
+                    {/* <Banner2 banner={banner2Add} /> */}
+                    <Banner3 banner={banner2Add} />
                   </div>
                   <div className='evdwfb'>
-                    <Banner1 banner={banner1Add} />
+                    {/* <Banner1 banner={banner1Add} /> */}
                   </div>
                 </div>
 

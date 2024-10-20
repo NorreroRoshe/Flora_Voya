@@ -37,12 +37,12 @@ const Contact1 = ({ contact }) => {
       <section className="contact__area-6">
         <div className="container g-0 pb-110">
           {/* <span className="line-3"></span> */}
-          <div className="row pt-80" style={{justifyContent: 'center'}}>
+          <div className="row pt-80" style={{ justifyContent: 'center' }}>
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
               <div className="sec-title-wrapper">
-                <h2 className="pf-title sec-title-2"> Контакты &nbsp; 
-                {/* 🌷 */}
-                💐</h2>
+                <h2 className="pf-title sec-title-2"> Контакты &nbsp;
+                  {/* 🌷 */}
+                  💐</h2>
               </div>
             </div>
             {/* <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
@@ -63,40 +63,37 @@ const Contact1 = ({ contact }) => {
                   Cвяжитесь с нами !
                 </h3>
                 <ul>
-                <li style={{display: 'flex', gap: '10px'}}>
-                  Телефон: <a href="tel:79999902020">+7 ( 999 ) 990 - 2020</a>
-                </li>
-                <li style={{display: 'flex', gap: '10px'}}>
-                  <span>Почта:</span>
-                  <div>
-                    <a href="mailto:norikas995@gmail.com" style={{display: 'block'}}>
-                      norikas995@gmail.com
-                    </a>
-                    <a href="mailto:norikas95@mail.ru" style={{display: 'block'}}>
-                      norikas95@mail.ru
-                    </a>
-                  </div>
-                </li>
-                {/* <li>
+                  <li style={{ display: 'flex', gap: '10px' }}>
+                    Телефон: <a href="tel:79999902020">+7 ( 999 ) 990 - 2020</a>
+                  </li>
+                  <li style={{ display: 'flex', gap: '10px' }}>
+                    <span>Почта:</span>
+                    <div>
+                      <a href="mailto:voya-floristica@mail.ru" style={{ display: 'block' }}>
+                        voya-floristica@mail.ru
+                      </a>
+                    </div>
+                  </li>
+                  {/* <li>
                   <span>
                     230 Norman Street Moscow-City, <br /> QC (USA) H8R 1A1
                   </span>
                 </li> */}
                 </ul>
-              {/* <div className="pcf-social"> */}
+                {/* <div className="pcf-social"> */}
                 <h3 className="pcf-social-h3">Пишите нам в  </h3>
                 <ul className="pcf-social-ul">
                   {/* <li className="pcf-social-li">
                     <a className="pcf-social-a" href="https://www.instagram.com/chucknorrikk?igsh=MTlhdnkzNmRnOGNnYg==">insagram</a>
                   </li> */}
                   <li>
-                    <a className="pcf-social-a" href="https://t.me/Norikyujka">TeleGram</a>
+                    <a className="pcf-social-a" href="https://t.me/Voya_Floristica">TeleGram</a>
                   </li>
                   <li>
                     <a className="pcf-social-a" href="https://api.whatsapp.com/send?phone=79999902020">WhatsApp</a>
                   </li>
                 </ul>
-              {/* </div> */}
+                {/* </div> */}
               </div>
             </div>
             <Contact2 />

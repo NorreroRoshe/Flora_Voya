@@ -263,9 +263,10 @@ const Index = () => {
           
                 <div className="container g-0 pt-30 pb-110">
 
-                <div style={{margin: '30px 25px 20px', paddingBottom: '30px'}}><p style={{textAlign: 'center'}}>
-                  Найдите цветок для любого настроения. От романтичных красных роз до нежных белоснежных лилий - цветок для любого случая и получателя. Не знаете, с чего начать? Взгляните на наше цветочное разнообразие ниже.
-                  </p></div>
+                  <div style={{margin: '30px 25px 20px', paddingBottom: '30px'}}><p style={{textAlign: 'center'}}>
+                    Найдите цветок для любого настроения. От романтичных красных роз до нежных белоснежных лилий - цветок для любого случая и получателя. Не знаете, с чего начать? Взгляните на наше цветочное разнообразие ниже.
+                    </p>
+                  </div>
 
 
 
@@ -546,25 +547,25 @@ const Index = () => {
                     <div className="col-xxl-4 col-xl-4 col-lg-4 wnol ">
                       <article className="blog__item">
                         <div className="blog__img-wrapper">
-                          <Link href="/collections/Гебера Дейзи">
+                          <Link href="/collections/Гербера Дейзи">
                               <Image
                                 priority
                                 style={{ width: "100%", height: "100%" }}
                                 className="image-box__item"
                                 src={GERBERaDAISY}
-                                alt="Гебера"
+                                alt="Гербера"
                               />
                           </Link>
                         </div>
                         <h5 className='text-center mb-2 mt-1'>
-                          Гебера дейзи
+                          Гербера дейзи
                         </h5>
                         <span className="blog__btn">
-                          Символ радости и оптимизма, гебера дейзи с их яркими и солнечными лепестками придают букету жизнерадостность и веселье. Идеально подходят для поднятия настроения и создания позитивной атмосферы.
+                          Символ радости и оптимизма, гербера дейзи с их яркими и солнечными лепестками придают букету жизнерадостность и веселье. Идеально подходят для поднятия настроения и создания позитивной атмосферы.
                         </span>
                       </article>
                     </div>
-                    <div className="col-xxl-4 col-xl-4 col-lg-4 wnol ">
+                    {/* <div className="col-xxl-4 col-xl-4 col-lg-4 wnol ">
                       <article className="blog__item">
                         <div className="blog__img-wrapper">
                           <Link href="/collections/Гиациты">
@@ -584,7 +585,7 @@ const Index = () => {
                           Гиацинты — символ возвышенности и вдохновения. Их насыщенный аромат и изысканные оттенки создают атмосферу уюта и гармонии, наполняя пространство магией весны.
                         </span>
                       </article>
-                    </div>
+                    </div> */}
                     <div className="col-xxl-4 col-xl-4 col-lg-4 wnol ">
                       <article className="blog__item">
                         <div className="blog__img-wrapper">

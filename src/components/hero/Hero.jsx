@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { Autoplay, EffectFade, Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Circle01 from "../../../public/assets/imgs/woocomerce/circle-1.png";
@@ -64,14 +65,16 @@ const Hero = ({ advertising }) => {
               console.log(el.img,'el.imgMob')
               return (
                 <SwiperSlide key={el.id}>
-                  <div
+                  <Link
+                    href={el?.link}
                     className="woocomerce__hero-item"
                     style={{
+                      display: 'block',
                       backgroundImage: `url(/assets/imgs/${
                         isMobile ? el.imgMob : el.img
                       })`,
                     }}
-                  ></div>
+                  ></Link>
                 </SwiperSlide>
               );
             })}

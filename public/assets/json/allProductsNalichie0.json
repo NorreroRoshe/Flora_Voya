@@ -1,0 +1,2489 @@
+{
+  "products": [
+    {
+      "id": "100",
+      "title": "Розовая сумка",
+      "price": "9699.00",
+      "nalichie": "0",
+      "img": "colshoper/roses/PINKBAG/1.jpg",
+      "hover_img": "colshoper/roses/PINKBAG/2.jpg",
+      "submit_date": "2024-04-22",
+      "delivery": "доставим сегодня",
+      "color": [
+        "розовый"
+      ],
+      "colors": [
+        {
+          "name": "розовый",
+          "link": "/shop/100"
+        }
+      ],
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "rosesbouquets": true,
+      "romanticcollection": true,
+      "premium": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0100",
+      "imgs": [
+        "colshoper/roses/PINKBAG/1.jpg",
+        "colshoper/roses/PINKBAG/2.jpg"
+      ],
+      "description": {
+        "text": "Откройте для себя чистую элегантность с нашей Розовой сумкой, украшенной 25 захватывающими дух розовыми розами, созданными для того, чтобы запечатлеть суть красоты и изящества. Каждая роза тщательно отобрана и с любовью размещена в прозрачной сумке, добавляя нотку современной изысканности к вечной классике."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "90",
+      "title": "Денежная корзина",
+      "price": "28299.00",
+      "nalichie": "0",
+      "img": "colshoper/basket/MONEYBASKET/1.jpg",
+      "hover_img": "colshoper/basket/MONEYBASKET/1.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Денежные букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/90"
+        }
+      ],
+      "collections": "цветочные корзины",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA090",
+      "imgs": [
+        "colshoper/basket/MONEYBASKET/1.jpg"
+      ],
+      "description": {
+        "text": "Представляем «Денежную корзину», роскошный и уникальный подарок, который сочетает в себе очарование валюты с красотой природы. Эта роскошная композиция представляет собой щедрую корзину, украшенную настоящими 100-долларовыми купюрами, окруженную изысканными розовыми розами, пышной зеленью и цветками гортензии. Это заявление о расточительности и признательности. Независимо от того,где вы находитесь, «Денежная корзина» станет незабываемым жестом, демонстрирующим вашу щедрость и вдумчивость."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "95",
+      "title": "Розовый корсаж",
+      "price": "2199.00",
+      "nalichie": "0",
+      "img": "colshoper/CORSAGE/PINKCORSAGE/1.jpg",
+      "hover_img": "colshoper/CORSAGE/PINKCORSAGE/2.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "розовый"
+      ],
+      "colors": [
+        {
+          "name": "розовый",
+          "link": "/shop/95"
+        }
+      ],
+      "collections": "корсажи",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA095",
+      "imgs": [
+        "colshoper/CORSAGE/PINKCORSAGE/1.jpg",
+        "colshoper/CORSAGE/PINKCORSAGE/2.jpg"
+      ],
+      "description": {
+        "text": "Поднимите свой особый случай с помощью нашего очаровательного корсажа, нежного аксессуара, который передает красоту розовых и персиковых роз, дополненных пышной зеленью. Розовые розы символизируют благодарность, восхищение и счастье, в то время как персиковые розы привносят элемент искренности и признательности. Вместе они создают палитру мягких и восхитительных оттенков. Пышная зелень добавляет нотку естественной красоты корсажу. Этот корсаж — прекрасный выбор для различных особых случаев, включая свадьбы, выпускные вечера, официальные мероприятия или в качестве аксессуара для празднования знаменательных моментов."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "97",
+      "title": "Черная коробка-сердце с красными розами",
+      "price": "10599.00",
+      "nalichie": "0",
+      "img": "colshoper/roses/BLACKHEARTBOXWITHREDROSES/1.jpg",
+      "hover_img": "colshoper/roses/BLACKHEARTBOXWITHREDROSES/2.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "красный"
+      ],
+      "colors": [
+        {
+          "name": "красный",
+          "link": "/shop/97"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "romanticcollection": true,
+      "rosesbouquets": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA097",
+      "imgs": [
+        "colshoper/roses/BLACKHEARTBOXWITHREDROSES/1.jpg",
+        "colshoper/roses/BLACKHEARTBOXWITHREDROSES/2.jpg",
+        "colshoper/roses/BLACKHEARTBOXWITHREDROSES/3.jpg",
+        "colshoper/roses/BLACKHEARTBOXWITHREDROSES/4.jpg"
+      ],
+      "description": {
+        "text": "Представляем нашу эксклюзивную черную коробку в форме сердца с красными розами, изысканный и элегантный выбор. Эта изысканная композиция сочетает в себе вечную красоту красных роз с гладкой черной коробкой в ​​форме сердца, создавая потрясающий визуальный эффект. Контраст цветов и форм добавляет нотку романтики и роскоши вашему сердечному жесту. Удивите своего любимого человека этим уникальным выражением любви. Закажите сейчас, чтобы зарезервировать эту прекрасную композицию на ваш праздник!"
+      },
+      "size": [
+        "маленький",
+        "средний",
+        "большой"
+      ]
+    },
+    {
+      "id": "96",
+      "title": "Розовая коробка с красными розами «я люблю тебя»",
+      "price": "13990.00",
+      "nalichie": "0",
+      "img": "colshoper/roses/PINKBOXWITHREDROSESILOVEYOU/1.jpg",
+      "hover_img": "colshoper/roses/PINKBOXWITHREDROSESILOVEYOU/2.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "красный"
+      ],
+      "colors": [
+        {
+          "name": "красный",
+          "link": "/shop/96"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "rosesbouquets": true,
+      "romanticcollection": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA096",
+      "imgs": [
+        "colshoper/roses/PINKBOXWITHREDROSESILOVEYOU/1.jpg",
+        "colshoper/roses/PINKBOXWITHREDROSESILOVEYOU/2.jpg",
+        "colshoper/roses/PINKBOXWITHREDROSESILOVEYOU/3.jpg"
+      ],
+      "description": {
+        "text": "Добавьте немного романтики в отношения с помощью нашей розовой коробки, украшенной красивой цветочной надписью «Я ЛЮБЛЮ ТЕБЯ».",
+        "text1": "Тщательно подобранные цветы создают потрясающий визуальный образ, который говорит о многом. Удивите своего особенного человека этим искренним жестом. Закажите сейчас, чтобы обеспечить ей романтический и запоминающийся день. Если у вас есть какие-либо вопросы или вам нужна помощь, свяжитесь с нами по телефону +7(999)990-2020. Сделайте свою историю любви незабываемой с помощью нашей розовой коробкой с красными розами."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "136",
+      "title": "Прозрачная сумка с белыми розами и игрушечной пандой",
+      "price": "11899.00",
+      "nalichie": "0",
+      "img": "colshoper/BOUQUETS/CLEARBAGWITHWHITEROSESANDPANDATOY/1.jpg",
+      "hover_img": "colshoper/BOUQUETS/CLEARBAGWITHWHITEROSESANDPANDATOY/2.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "белый"
+      ],
+      "colors": [
+        {
+          "name": "белый",
+          "link": "136"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "rosesbouquets": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0136",
+      "imgs": [
+        "colshoper/BOUQUETS/CLEARBAGWITHWHITEROSESANDPANDATOY/1.jpg",
+        "colshoper/BOUQUETS/CLEARBAGWITHWHITEROSESANDPANDATOY/2.jpg",
+        "colshoper/BOUQUETS/CLEARBAGWITHWHITEROSESANDPANDATOY/3.jpg"
+      ],
+      "description": {
+        "text": "Удивите своего особенного человека этим восхитительным и трогательным жестом. Закажите сейчас, чтобы обеспечить памятное празднование."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "147",
+      "title": "Сладкая жизнь",
+      "price": "10199.00",
+      "nalichie": "0",
+      "img": "colshoper/box/SWEETLIFE/1.jpg",
+      "hover_img": "colshoper/box/SWEETLIFE/2.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/147"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "featured": false,
+      "romanticcollection": true,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0147",
+      "imgs": [
+        "colshoper/box/SWEETLIFE/1.jpg",
+        "colshoper/box/SWEETLIFE/2.jpg",
+        "colshoper/box/SWEETLIFE/3.jpg"
+      ],
+      "description": {
+        "text": "Побалуйте себя идеальным сочетанием романтики и сладости с нашей коробкой-сердечком, включающей белые, розовые и зеленые розы вместе с восхитительным печеньем-макарон. Эта восхитительная композиция сочетает в себе элегантность разноцветных роз с восхитительным вкусом макарун. Коробка в форме сердца добавит нотку романтики вашему жесту, сделав его идеальным подарком. Удивите любимого человека этим восхитительным и сладким сочетанием. Закажите сейчас, чтобы обеспечить памятный праздник. По любым вопросам или за помощью обращайтесь к нам по телефону +7(999)990-2020"
+      },
+      "size": [
+        "маленький",
+        "средний",
+        "большой"
+      ]
+    },
+    {
+      "id": "148",
+      "title": "Бизнес-вуман",
+      "price": "16790.00",
+      "nalichie": "0",
+      "img": "colshoper/box/BUSINESSWOMAN/1.jpg",
+      "hover_img": "colshoper/box/BUSINESSWOMAN/2.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/148"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "rosesbouquets": true,
+      "premium": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0148",
+      "imgs": [
+        "colshoper/box/BUSINESSWOMAN/1.jpg",
+        "colshoper/box/BUSINESSWOMAN/2.jpg",
+        "colshoper/box/BUSINESSWOMAN/3.jpg",
+        "colshoper/box/BUSINESSWOMAN/4.jpg"
+      ],
+      "description": {
+        "text": "Откройте для себя нашу уникальную <Композицию из денег и цветов в милой коробке> - восхитительное сочетание процветания и красоты. Эта очаровательная коробка представляет собой смесь элегантных белых и розовых роз, ароматной белой маттиолы, свежих гвоздик и пышной зелени. Рядом вы найдете аккуратно размещенные денежные элементы, символизирующие изобилие и удачу. Будь то продуманный подарок или личное прикосновение позитива, эта композиция объединяет лучшее из обоих миров в одной милой коробке."
+      },
+      "size": [
+        "50$",
+        "100$",
+        "150$"
+      ]
+    },
+    {
+      "id": "155",
+      "title": "Милая коробка с медвежонком",
+      "price": "14990.00",
+      "nalichie": "0",
+      "img": "colshoper/box/CUTEBEARBOX/1.jpg",
+      "hover_img": "colshoper/box/CUTEBEARBOX/1.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/155"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0155",
+      "imgs": [
+        "colshoper/box/CUTEBEARBOX/1.jpg"
+      ],
+      "description": {
+        "text": "Переосмысление дарения подарков с помощью <Милой коробки с медвежонком> - нежно-розовая цветочная элегантность и очаровательный плюшевый мишка.",
+        "text1": "Эта тщательно подобранная композиция может похвастаться восхитительным сочетанием нежных гортензий, элегантных роз, ароматных садовых роз и очаровательных гвоздик, все это в стильной нежно-розовой коробке."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "156",
+      "title": "Экзотическая коробка",
+      "price": "10499.00",
+      "nalichie": "0",
+      "img": "colshoper/box/EXOTICBOX/1.jpg",
+      "hover_img": "colshoper/box/EXOTICBOX/2.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/156"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0156",
+      "imgs": [
+        "colshoper/box/EXOTICBOX/1.jpg",
+        "colshoper/box/EXOTICBOX/2.jpg",
+        "colshoper/box/EXOTICBOX/3.jpg"
+      ],
+      "description": {
+        "text": "Эта пленительная композиция включает букет экзотических тропических цветов, пышные зеленые листья и сочные бананы, создавая яркий всплеск цветов и текстур, который идеально подходит для украшения интерьера, мероприятий или в качестве сердечного подарка."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "157",
+      "title": "Ариэль",
+      "price": "10499.00",
+      "nalichie": "0",
+      "img": "colshoper/box/ARIELLE/1.jpg",
+      "hover_img": "colshoper/box/ARIELLE/2.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "красный"
+      ],
+      "colors": [
+        {
+          "name": "красный",
+          "link": "/shop/157"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "rosesbouquets": true,
+      "romanticcollection": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0157",
+      "imgs": [
+        "colshoper/box/ARIELLE/1.jpg",
+        "colshoper/box/ARIELLE/2.jpg"
+      ],
+      "description": {
+        "text": "Поднимите свои эмоции с помощью «Ариэль» — вечного трибьюта в романтике.",
+        "text1": "Представляем нашу очаровательную композицию «Ариэль», шедевр, созданный для празднования вечной романтики. Этот потрясающий ансамбль состоит из 16 страстных красных роз, каждая из которых украшена нежным жемчугом, элегантно представленных в прозрачной коробке. «Ариэль» — это больше, чем просто букет; это символ глубокой любви и изысканности, что делает его идеальным выбором для особых случаев или выражения вашей привязанности."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "161",
+      "title": "Повседневная сумка",
+      "price": "8399.00",
+      "nalichie": "0",
+      "img": "colshoper/box/CASUALBAG/1.jpg",
+      "hover_img": "colshoper/box/CASUALBAG/2.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/161"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "premium": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0161",
+      "imgs": [
+        "colshoper/box/CASUALBAG/1.jpg",
+        "colshoper/box/CASUALBAG/2.jpg"
+      ],
+      "description": {
+        "text": "Поднимите повседневный шик с помощью Повседневной сумки - 25 красных и желтых тюльпанов в потрясающей прозрачной сумке с оранжевым бантом.",
+        "text1": "Этот восхитительный ансамбль демонстрирует 25 ярких красных и желтых тюльпанов, элегантно представленных в красивой прозрачной сумке, украшенной стильным оранжевым бантом."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "162",
+      "title": "Стильное сердце",
+      "price": "11499.00",
+      "nalichie": "0",
+      "img": "colshoper/box/STYLISHHEART/1.jpg",
+      "hover_img": "colshoper/box/STYLISHHEART/1.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/162"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0162",
+      "imgs": [
+        "colshoper/box/STYLISHHEART/1.jpg"
+      ],
+      "description": {
+        "text": "«Стильное сердце» — сочетание элегантности и драмы.",
+        "text1": "Этот пленительный ансамбль представляет собой сочетание белых роз, черных роз, ранункулюсов и гортензий. Контрастные цвета и текстуры создают потрясающий визуальный шедевр, который идеально подходит для смелого заявления или выражения уникальных эмоций."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "168",
+      "title": "Страна мечты",
+      "price": "17599.00",
+      "nalichie": "0",
+      "img": "colshoper/box/LANDOFDREAMS/1.jpg",
+      "hover_img": "colshoper/box/LANDOFDREAMS/2.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "синий"
+      ],
+      "colors": [
+        {
+          "name": "синий",
+          "link": "/shop/168"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0168",
+      "imgs": [
+        "colshoper/box/LANDOFDREAMS/1.jpg",
+        "colshoper/box/LANDOFDREAMS/2.jpg"
+      ],
+      "description": {
+        "text": "Отправьтесь в причудливое путешествие в «Страну грез» с нашим очаровательным букетом, творением, которое сочетает в себе мечтательную красоту синих роз, гортензий и гвоздик, а также чистоту белых роз, гортензий и гвоздик, все это элегантно расположено в синей коробке. Этот восхитительный букет также включает очаровательного вязаного медведя ручной работы и пышную зелень. Синие розы, гортензии и гвоздики вызывают чувство таинственности и очарования, в то время как белые розы, гортензии и гвоздики символизируют чистоту и новые начинания.",
+        "text1": "Синяя коробка добавляет нотку причудливости, а вязаный медведь ручной работы вносит элемент очарования и игривости. Зелень дополняет букет естественным и освежающим штрихом. Этот букет идеально подходит для самых разных случаев: от дней рождения и праздников до моментов, когда вы хотите создать чарующую и сказочную атмосферу."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "170",
+      "title": "Большая красная сумка/сердце с красными розами",
+      "price": "21999.00",
+      "nalichie": "0",
+      "img": "colshoper/box/LARGEREDBAGHEARTWITHREDROSES/1.jpg",
+      "hover_img": "colshoper/box/LARGEREDBAGHEARTWITHREDROSES/2.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "красный"
+      ],
+      "colors": [
+        {
+          "name": "красный",
+          "link": "/shop/170"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "romanticcollection": true,
+      "rosesbouquets": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0170",
+      "imgs": [
+        "colshoper/box/LARGEREDBAGHEARTWITHREDROSES/1.jpg",
+        "colshoper/box/LARGEREDBAGHEARTWITHREDROSES/2.jpg",
+        "colshoper/box/LARGEREDBAGHEARTWITHREDROSES/3.jpg"
+      ],
+      "description": {
+        "text": "Сделайте грандиозное и романтическое заявление с помощью нашей большой красной сумки, наполненной потрясающими красными розами.",
+        "text1": "Большой размер сумки добавляет элемент неожиданности и восторга к вашему жесту любви. Удивите своего особенного человека этим необычным подарком, который обязательно оставит неизгладимое впечатление. По любым вопросам или за помощью обращайтесь к нам по телефону +7(999)990-2020. Поднимите свое выражение любви с помощью нашей большой красной сумки и красных роз."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "171",
+      "title": "Большая розовая сумка/сердце с розовыми и белыми розами",
+      "price": "21999.00",
+      "nalichie": "0",
+      "img": "colshoper/box/LARGEPINKBAGHEARTWITHPINKADNWHITEROSES/1.jpg",
+      "hover_img": "colshoper/box/LARGEPINKBAGHEARTWITHPINKADNWHITEROSES/2.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/171"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "rosesbouquets": true,
+      "featured": false,
+      "romanticcollection": true,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0171",
+      "imgs": [
+        "colshoper/box/LARGEPINKBAGHEARTWITHPINKADNWHITEROSES/1.jpg",
+        "colshoper/box/LARGEPINKBAGHEARTWITHPINKADNWHITEROSES/2.jpg",
+        "colshoper/box/LARGEPINKBAGHEARTWITHPINKADNWHITEROSES/3.jpg"
+      ],
+      "description": {
+        "text": "Добавьте румянца любви с помощью нашей большой розовой сумки, наполненной прекрасными розовыми розами.",
+        "text1": "Большой размер сумки добавляет нотку величия к вашему жесту привязанности. Удивите своего особенного человека этим незабываемым подарком, который говорит с сердцем. Закажите сейчас, чтобы обеспечить незабываемый День святого Валентина. По любым вопросам или за помощью обращайтесь к нам по телефону +7(999)990-2020. Поднимите свое выражение любви с помощью нашей большой розовой сумки с розовыми розами."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "172",
+      "title": "Черная коробка с синими розами «я люблю тебя»",
+      "price": "13990.00",
+      "nalichie": "0",
+      "img": "colshoper/box/BLACKBOXWITHBLUEROSESILOVEYOU/1.jpg",
+      "hover_img": "colshoper/box/BLACKBOXWITHBLUEROSESILOVEYOU/2.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "синий"
+      ],
+      "colors": [
+        {
+          "name": "синий",
+          "link": "/shop/172"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "rosesbouquets": true,
+      "featured": false,
+      "romanticcollection": true,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0172",
+      "imgs": [
+        "colshoper/box/BLACKBOXWITHBLUEROSESILOVEYOU/1.jpg",
+        "colshoper/box/BLACKBOXWITHBLUEROSESILOVEYOU/2.jpg",
+        "colshoper/box/BLACKBOXWITHBLUEROSESILOVEYOU/3.jpg"
+      ],
+      "description": {
+        "text": "Выразите свою любовь необычным способом с помощью нашей черной коробки, в которой есть потрясающие синие розы и душевная надпись «Я ЛЮБЛЮ ТЕБЯ».",
+        "text1": "Сообщение «Я ЛЮБЛЮ ТЕБЯ» добавляет индивидуальный штрих, делая его идеальным подарком для второй половинки. Надпись «Я ЛЮБЛЮ ТЕБЯ» добавляет индивидуальный штрих, чтобы выразить вашу привязанность. Удивите своего особенного человека этим уникальным и значимым жестом. Закажите сейчас, чтобы обеспечить себе незабываемое празднование. По любым вопросам или за помощью обращайтесь к нам по телефону +7(999)990-2020. Сделайте свою любовь вечной с помощью нашей черной коробки и синих роз."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "173",
+      "title": "Розовая коробка с розовыми розами «я люблю тебя»",
+      "price": "13990.00",
+      "nalichie": "0",
+      "img": "colshoper/box/PINKBOXWITHPINKROSESILOVEYOU/1.jpg",
+      "hover_img": "colshoper/box/PINKBOXWITHPINKROSESILOVEYOU/2.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "розовый"
+      ],
+      "colors": [
+        {
+          "name": "розовый",
+          "link": "/shop/173"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "rosesbouquets": true,
+      "romanticcollection": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0173",
+      "imgs": [
+        "colshoper/box/PINKBOXWITHPINKROSESILOVEYOU/1.jpg",
+        "colshoper/box/PINKBOXWITHPINKROSESILOVEYOU/2.jpg",
+        "colshoper/box/PINKBOXWITHPINKROSESILOVEYOU/3.jpg"
+      ],
+      "description": {
+        "text": "Побалуйте себя романтическим блаженством с нашей розовой коробкой, украшенной розовыми розами и любящей надписью «Я ЛЮБЛЮ ТЕБЯ».",
+        "text1": "Сообщение «Я ЛЮБЛЮ ТЕБЯ» добавляет индивидуальный штрих, делая его идеальным подарком для второй половинки. Удивите своего особенного человека этим очаровательным и романтическим жестом. Закажите сейчас, чтобы обеспечить себе незабываемое празднование. По любым вопросам или за помощью обращайтесь к нам по телефону +7(999)990-2020. Сделайте свою историю любви незабываемой с помощью нашей розовой коробкой с розовыми розами."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "174",
+      "title": "Черная коробка с красными розами «я люблю тебя»",
+      "price": "13990.00",
+      "nalichie": "0",
+      "img": "colshoper/box/BLACKBOXWITHREDROSESILOVEYOU/1.jpg",
+      "hover_img": "colshoper/box/BLACKBOXWITHREDROSESILOVEYOU/2.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "красный"
+      ],
+      "colors": [
+        {
+          "name": "красный",
+          "link": "/shop/174"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "rosesbouquets": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "romanticcollection": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0174",
+      "imgs": [
+        "colshoper/box/BLACKBOXWITHREDROSESILOVEYOU/1.jpg",
+        "colshoper/box/BLACKBOXWITHREDROSESILOVEYOU/2.jpg",
+        "colshoper/box/BLACKBOXWITHREDROSESILOVEYOU/3.jpg"
+      ],
+      "description": {
+        "text": "Сделайте смелое признание в любви с помощью нашей черной коробки, украшенной красными розами и сердечной надписью «Я ЛЮБЛЮ ТЕБЯ».",
+        "text1": "Сообщение «Я ЛЮБЛЮ ТЕБЯ» добавляет индивидуальный штрих, делая его идеальным подарком для второй половинки. Удивите своего особенного человека этим незабываемым и страстным жестом. Закажите сейчас, чтобы обеспечить памятное празднование. По любым вопросам или за помощью обращайтесь к нам по телефону +7(999)990-2020. Сделайте свою историю любви незабываемой с помощью нашей черной коробки с красными розами."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "175",
+      "title": "Большая черная сумка/сердце с синими и белыми розами",
+      "price": "13990.00",
+      "nalichie": "0",
+      "img": "colshoper/box/LARGEBLACKBAGHEARTWITHBLUEANDWHITEROSES/1.jpg",
+      "hover_img": "colshoper/box/LARGEBLACKBAGHEARTWITHBLUEANDWHITEROSES/2.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/175"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "rosesbouquets": true,
+      "romanticcollection": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0175",
+      "imgs": [
+        "colshoper/box/LARGEBLACKBAGHEARTWITHBLUEANDWHITEROSES/1.jpg",
+        "colshoper/box/LARGEBLACKBAGHEARTWITHBLUEANDWHITEROSES/2.jpg",
+        "colshoper/box/LARGEBLACKBAGHEARTWITHBLUEANDWHITEROSES/3.jpg"
+      ],
+      "description": {
+        "text": "Создайте драматичный и запоминающийся праздник с нашей большой черной сумкой, наполненной пленительной смесью синих и белых роз.",
+        "text1": "Эта тщательно отобранная уникальная композиция, сочетает в себе интенсивность синих роз с чистотой белых роз, и все это в стильной черной сумке в форме сердца. Контрастные цвета создают визуально ошеломляющий и эмоционально резонансный подарок. Удивите своего особенного человека этим смелым и уникальным жестом. Закажите сейчас, чтобы обеспечить памятный праздник. По любым вопросам или за помощью обращайтесь к нам по телефону +7(999)990-2020. Поднимите свое выражение любви на новый уровень с нашей большой черной сумкой и синими и белыми розами."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "176",
+      "title": "Фиолетовая секретная цветочная коробка с фиолетовыми розами и конфетами",
+      "price": "13990.00",
+      "nalichie": "0",
+      "img": "colshoper/box/PURPLESECRETFLOWERBOXWITHPURPLEROSESANDCANDY/1.jpg",
+      "hover_img": "colshoper/box/PURPLESECRETFLOWERBOXWITHPURPLEROSESANDCANDY/2.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "фиолетовый"
+      ],
+      "colors": [
+        {
+          "name": "фиолетовый",
+          "link": "/shop/176"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "rosesbouquets": true,
+      "romanticcollection": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0176",
+      "imgs": [
+        "colshoper/box/PURPLESECRETFLOWERBOXWITHPURPLEROSESANDCANDY/1.jpg",
+        "colshoper/box/PURPLESECRETFLOWERBOXWITHPURPLEROSESANDCANDY/2.jpg",
+        "colshoper/box/PURPLESECRETFLOWERBOXWITHPURPLEROSESANDCANDY/3.jpg"
+      ],
+      "description": {
+        "text": "Раскройте страсть своей любви с помощью нашей секретной фиолетовой цветочной коробки , очаровательным подарком собранным с любовью в нашем цветочном магазине на Новой риге и в Москве",
+        "text1": "Эта очаровательная коробка, собранная с заботой, скрывает в себе подборку прекрасных цветов разных оттенков фиолетового, символизирующих восхищение и очарование. В сочетании с восхитительными конфетами этот подарок обязательно порадует чувства. Удивите своего особенного человека этим мистическим и милым жестом. Закажите сейчас, чтобы обеспечить себе незабываемое празднование. По любым вопросам или за помощью обращайтесь к нам по телефону +7 (999) 990-2020. Сделайте свой дцень по-настоящему особенным с нашей коробкой с секретами с розами и конфетами."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "177",
+      "title": "Белая цветочная коробка в форме сердца с белыми розами, зеленью и макарунами",
+      "price": "10199.00",
+      "nalichie": "0",
+      "img": "colshoper/box/WHITEHEARTFLOWBOXWITHWHITEROSESGREENERYANDMACAROONS/1.jpg",
+      "hover_img": "colshoper/box/WHITEHEARTFLOWBOXWITHWHITEROSESGREENERYANDMACAROONS/2.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/177"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "rosesbouquets": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0177",
+      "imgs": [
+        "colshoper/box/WHITEHEARTFLOWBOXWITHWHITEROSESGREENERYANDMACAROONS/1.jpg",
+        "colshoper/box/WHITEHEARTFLOWBOXWITHWHITEROSESGREENERYANDMACAROONS/2.jpg"
+      ],
+      "description": {
+        "text": "Поднимите свой праздник на новый уровень с нашей коробкой цветов.",
+        "text1": "Добавление восхитительных макарунов добавляет сладкий штрих к общему впечатлению. Удивите своего особенного человека этим символом чистой любви и элегантности. Закажите сейчас, чтобы обеспечить себе незабываемое празднование. По любым вопросам или за помощью обращайтесь к нам по телефону +7 (999) 990-2020."
+      },
+      "size": [
+        "маленький",
+        "средний",
+        "большой"
+      ]
+    },
+    {
+      "id": "178",
+      "title": "Красная секретная цветочная коробка с красными розами и конфетами",
+      "price": "13990.00",
+      "nalichie": "0",
+      "img": "colshoper/box/REDSECRETFLOWERBOXWITHREDROSESANDCANDY/1.jpg",
+      "hover_img": "colshoper/box/REDSECRETFLOWERBOXWITHREDROSESANDCANDY/2.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "красный"
+      ],
+      "colors": [
+        {
+          "name": "красный",
+          "link": "/shop/178"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "rosesbouquets": true,
+      "romanticcollection": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0178",
+      "imgs": [
+        "colshoper/box/REDSECRETFLOWERBOXWITHREDROSESANDCANDY/1.jpg",
+        "colshoper/box/REDSECRETFLOWERBOXWITHREDROSESANDCANDY/2.jpg",
+        "colshoper/box/REDSECRETFLOWERBOXWITHREDROSESANDCANDY/3.jpg"
+      ],
+      "description": {
+        "text": "Раскройте страсть своей любви с помощью нашей секретной красной цветочной коробки , очаровательным подарком на День святого Валентина, собранным с любовью в нашем цветочном магазине на Новой риге и в Москве",
+        "text1": "Эта секретная цветочная коробка наполнена потрясающими красными розами, символизирующими глубокую любовь и страсть.В сочетании с восхитительными конфетами этот подарок обязательно подсластит праздник. Удивите своего особенного человека этим романтическим и милым жестом. Закажите сейчас, чтобы обеспечить себе незабываемое празднование. По любым вопросам или за помощью обращайтесь к нам по телефону +7 (999) 990-2020. Сделайте свой День святого Валентина по-настоящему особенным с нашей коробкой с секретами с розами и конфетами."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "179",
+      "title": "Секретная цветочная розовая коробка с розовыми розами и конфетами",
+      "price": "13990.00",
+      "nalichie": "0",
+      "img": "colshoper/box/PINKSECRETFLOWERBOXWITHPINKROSESANDCANDY/1.jpg",
+      "hover_img": "colshoper/box/PINKSECRETFLOWERBOXWITHPINKROSESANDCANDY/2.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "розовый"
+      ],
+      "colors": [
+        {
+          "name": "розовый",
+          "link": "/shop/179"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "rosesbouquets": true,
+      "romanticcollection": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0179",
+      "imgs": [
+        "colshoper/box/PINKSECRETFLOWERBOXWITHPINKROSESANDCANDY/1.jpg",
+        "colshoper/box/PINKSECRETFLOWERBOXWITHPINKROSESANDCANDY/2.jpg",
+        "colshoper/box/PINKSECRETFLOWERBOXWITHPINKROSESANDCANDY/3.jpg"
+      ],
+      "description": {
+        "text": "Погрузитесь в сладкую романтику с нашей коробкой с секретами , очаровательным подарком на День святого Валентина, собранным с любовью в нашем цветочном магазине на Новой риге и в Москве",
+        "text1": "Эта секретная цветочная коробка наполнена очаровательными розовыми розами, символизирующими изящество и восхищение. В сочетании с восхитительными конфетами этот подарок обязательно подсластит праздник. Удивите своего особенного человека этим романтическим и восхитительным жестом. Закажите сейчас, чтобы обеспечить себе незабываемое празднование. По любым вопросам или за помощью обращайтесь к нам по телефону +7 (999) 990-2020. Сделайте свой День святого Валентина по-настоящему особенным с нашей коробкой с секретами с розами и конфетами."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "209",
+      "title": "Аметистовый гиацинт",
+      "price": "780.00",
+      "nalichie": "0",
+      "img": "flowerimg/Hyacinth/Amethyst/1.jpg",
+      "hover_img": "flowerimg/Hyacinth/Amethyst/2.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Цветы",
+      "delivery": "доставим сегодня",
+      "color": [
+        "фиолетовый"
+      ],
+      "colors": [
+        {
+          "name": "Аметистовый",
+          "img": "flowerimg/Hyacinth/Amethyst.jpg",
+          "link": "/shop/209"
+        },
+        {
+          "name": "Мадмуазель",
+          "img": "flowerimg/Hyacinth/mademoiselle.jpg",
+          "link": "/shop/288"
+        },
+        {
+          "name": "Крем-слоеный",
+          "img": "flowerimg/Hyacinth/creampuff.jpg",
+          "link": "/shop/238"
+        },
+        {
+          "name": "Сумеречный",
+          "img": "flowerimg/Hyacinth/twilight.jpg",
+          "link": "/shop/256"
+        }
+      ],
+      "collections": "Гиациты",
+      "height": "14 см",
+      "rating": "1",
+      "popularity": true,
+      "featured": false,
+      "new": false,
+      "top_selling": false,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0209",
+      "imgs": [
+        "flowerimg/Hyacinth/Amethyst/1.jpg",
+        "flowerimg/Hyacinth/Amethyst/2.jpg"
+      ],
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "238",
+      "title": "Крем-слоеный белый гиацинт",
+      "price": "780.00",
+      "nalichie": "0",
+      "img": "flowerimg/Hyacinth/CreamPuff/1.jpg",
+      "hover_img": "flowerimg/Hyacinth/CreamPuff/2.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Цветы",
+      "delivery": "доставим сегодня",
+      "color": [
+        "белый"
+      ],
+      "colors": [
+        {
+          "name": "Крем-слоеный",
+          "img": "flowerimg/Hyacinth/creampuff.jpg",
+          "link": "/shop/238"
+        },
+        {
+          "name": "Аметистовый",
+          "img": "flowerimg/Hyacinth/Amethyst.jpg",
+          "link": "/shop/209"
+        },
+        {
+          "name": "Мадмуазель",
+          "img": "flowerimg/Hyacinth/mademoiselle.jpg",
+          "link": "/shop/288"
+        },
+        {
+          "name": "Сумеречный",
+          "img": "flowerimg/Hyacinth/twilight.jpg",
+          "link": "/shop/256"
+        }
+      ],
+      "collections": "Гиациты",
+      "height": "14 см",
+      "rating": "1",
+      "popularity": true,
+      "featured": false,
+      "new": false,
+      "top_selling": false,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0238",
+      "imgs": [
+        "flowerimg/Hyacinth/CreamPuff/1.jpg",
+        "flowerimg/Hyacinth/CreamPuff/2.jpg"
+      ],
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "256",
+      "title": "Сумеречный гиацинт",
+      "price": "780.00",
+      "nalichie": "0",
+      "img": "flowerimg/Hyacinth/Twilight/1.jpg",
+      "hover_img": "flowerimg/Hyacinth/Twilight/2.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Цветы",
+      "delivery": "доставим сегодня",
+      "color": [
+        "синий"
+      ],
+      "colors": [
+        {
+          "name": "Сумеречный",
+          "img": "flowerimg/Hyacinth/twilight.jpg",
+          "link": "/shop/256"
+        },
+        {
+          "name": "Крем-слоеный",
+          "img": "flowerimg/Hyacinth/creampuff.jpg",
+          "link": "/shop/238"
+        },
+        {
+          "name": "Аметистовый",
+          "img": "flowerimg/Hyacinth/Amethyst.jpg",
+          "link": "/shop/209"
+        },
+        {
+          "name": "Мадмуазель",
+          "img": "flowerimg/Hyacinth/mademoiselle.jpg",
+          "link": "/shop/288"
+        }
+      ],
+      "collections": "Гиациты",
+      "height": "14 см",
+      "rating": "1",
+      "popularity": true,
+      "featured": false,
+      "new": false,
+      "top_selling": false,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0256",
+      "imgs": [
+        "flowerimg/Hyacinth/Twilight/1.jpg",
+        "flowerimg/Hyacinth/Twilight/2.jpg"
+      ],
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "288",
+      "title": "Мадмуазель гиацинт",
+      "price": "780.00",
+      "nalichie": "0",
+      "img": "flowerimg/Hyacinth/Mademoiselle/1.jpg",
+      "hover_img": "flowerimg/Hyacinth/Mademoiselle/2.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Цветы",
+      "delivery": "доставим сегодня",
+      "color": [
+        "розовый"
+      ],
+      "colors": [
+        {
+          "name": "Мадмуазель",
+          "img": "flowerimg/Hyacinth/mademoiselle.jpg",
+          "link": "/shop/288"
+        },
+        {
+          "name": "Аметистовый",
+          "img": "flowerimg/Hyacinth/Amethyst.jpg",
+          "link": "/shop/209"
+        },
+        {
+          "name": "Крем-слоеный",
+          "img": "flowerimg/Hyacinth/creampuff.jpg",
+          "link": "/shop/238"
+        },
+        {
+          "name": "Сумеречный",
+          "img": "flowerimg/Hyacinth/twilight.jpg",
+          "link": "/shop/256"
+        }
+      ],
+      "collections": "Гиациты",
+      "height": "14 см",
+      "rating": "1",
+      "popularity": true,
+      "featured": false,
+      "new": false,
+      "top_selling": false,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0288",
+      "imgs": [
+        "flowerimg/Hyacinth/Mademoiselle/1.jpg",
+        "flowerimg/Hyacinth/Mademoiselle/2.jpg",
+        "flowerimg/Hyacinth/Mademoiselle/3.jpg"
+      ],
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "343",
+      "title": "Калина лаймовый кордиал",
+      "price": "450.00",
+      "nalichie": "0",
+      "img": "flowerimg/Kalina/LimeCordial/1.jpg",
+      "hover_img": "flowerimg/Kalina/LimeCordial/2.jpg",
+      "submit_date": "2023-05-10",
+      "category": "Цветы",
+      "delivery": "доставим сегодня",
+      "color": [
+        "зеленый"
+      ],
+      "colors": [
+        {
+          "name": "Лаймовый кордиал",
+          "img": "flowerimg/Kalina/LimeCordial.jpg",
+          "link": "/shop/"
+        }
+      ],
+      "collections": "Калины",
+      "rating": "5",
+      "height": "31 см",
+      "popularity": false,
+      "featured": false,
+      "new": false,
+      "top_selling": false,
+      "trendy": true,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0343",
+      "imgs": [
+        "flowerimg/Kalina/LimeCordial/1.jpg",
+        "flowerimg/Kalina/LimeCordial/2.jpg",
+        "flowerimg/Kalina/LimeCordial/3.jpg",
+        "flowerimg/Kalina/LimeCordial/4.jpg"
+      ],
+      "size": [
+        "11 шт.",
+        "21 шт.",
+        "31 шт."
+      ]
+    },
+    {
+      "id": "355",
+      "title": "Листва папоротника",
+      "price": "373.00",
+      "nalichie": "0",
+      "img": "flowerimg/FERnFOLIAGE/Green/1.jpg",
+      "hover_img": "flowerimg/FERnFOLIAGE/Green/1.jpg",
+      "submit_date": "2023-05-10",
+      "category": "Цветы",
+      "delivery": "доставим сегодня",
+      "color": [
+        "зеленый"
+      ],
+      "colors": [
+        {
+          "name": "Зеленый",
+          "img": "flowerimg/FERnFOLIAGE/Green.jpg",
+          "link": "/shop/"
+        }
+      ],
+      "collections": "Папоротники",
+      "rating": "5",
+      "popularity": false,
+      "featured": false,
+      "new": false,
+      "top_selling": false,
+      "trendy": true,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0355",
+      "imgs": [
+        "flowerimg/FERnFOLIAGE/Green/1.jpg"
+      ],
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "386",
+      "title": "Небольшой денежный букет (15 купюр)",
+      "price": "2571.00",
+      "nalichie": "0",
+      "img": "flowerimg/dengi/15/1.jpg",
+      "hover_img": "flowerimg/dengi/15/1.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Денежные букеты",
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/386"
+        }
+      ],
+      "rating": "4",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0386",
+      "imgs": [
+        "flowerimg/dengi/15/1.jpg"
+      ],
+      "description": {
+        "text": "Цена за букет указан только за сборку самого букета в том числе упаковочного материала, но не за сами купюры!"
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "387",
+      "title": "Маленький денежный букет (30 купюр)",
+      "price": "5140.00",
+      "nalichie": "0",
+      "img": "flowerimg/dengi/30/1.jpg",
+      "hover_img": "flowerimg/dengi/30/2.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Денежные букеты",
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/387"
+        }
+      ],
+      "rating": "4",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0387",
+      "imgs": [
+        "flowerimg/dengi/30/1.jpg",
+        "flowerimg/dengi/30/2.jpg"
+      ],
+      "description": {
+        "text": "Цена за букет указан только за сборку самого букета в том числе упаковочного материала, но не за сами купюры!"
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "388",
+      "title": "Средний денежный букет (50 купюр)",
+      "price": "6500.00",
+      "nalichie": "0",
+      "img": "flowerimg/dengi/50/1.jpg",
+      "hover_img": "flowerimg/dengi/50/2.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Денежные букеты",
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/388"
+        }
+      ],
+      "rating": "4",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0388",
+      "imgs": [
+        "flowerimg/dengi/50/1.jpg",
+        "flowerimg/dengi/50/2.jpg",
+        "flowerimg/dengi/50/3.jpg"
+      ],
+      "description": {
+        "text": "Цена за букет указан только за сборку самого букета в том числе упаковочного материала, но не за сами купюры!"
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "389",
+      "title": "Большой денежный букет (100 купюр)",
+      "price": "11950.00",
+      "nalichie": "0",
+      "img": "flowerimg/dengi/100/1.jpg",
+      "hover_img": "flowerimg/dengi/100/2.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Денежные букеты",
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/389"
+        }
+      ],
+      "rating": "4",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0389",
+      "imgs": [
+        "flowerimg/dengi/100/1.jpg",
+        "flowerimg/dengi/100/2.jpg",
+        "flowerimg/dengi/100/3.jpg"
+      ],
+      "description": {
+        "text": "Цена за букет указан только за сборку самого букета в том числе упаковочного материала, но не за сами купюры!"
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "390",
+      "title": "Денежный букет в форме сердца - маленький (30 купюр)",
+      "price": "6450.00",
+      "nalichie": "0",
+      "img": "flowerimg/dengi/heartBouquet/30/1.jpg",
+      "hover_img": "flowerimg/dengi/heartBouquet/30/1.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Денежные букеты",
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/390"
+        }
+      ],
+      "rating": "4",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0390",
+      "imgs": [
+        "flowerimg/dengi/heartBouquet/30/1.jpg"
+      ],
+      "description": {
+        "text": "Цена за букет указан только за сборку самого букета в том числе упаковочного материала, но не за сами купюры!"
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "391",
+      "title": "Денежный букет в форме сердца - средний (50 купюр)",
+      "price": "8565.00",
+      "nalichie": "0",
+      "img": "flowerimg/dengi/heartBouquet/50/1.jpg",
+      "hover_img": "flowerimg/dengi/heartBouquet/50/2.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Денежные букеты",
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/391"
+        }
+      ],
+      "rating": "4",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0391",
+      "imgs": [
+        "flowerimg/dengi/heartBouquet/50/1.jpg",
+        "flowerimg/dengi/heartBouquet/50/2.jpg"
+      ],
+      "description": {
+        "text": "Цена за букет указан только за сборку самого букета в том числе упаковочного материала, но не за сами купюры!"
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "392",
+      "title": "Денежный букет в форме сердца - большой (100 купюр)",
+      "price": "13210.00",
+      "nalichie": "0",
+      "img": "flowerimg/dengi/heartBouquet/100/1.jpg",
+      "hover_img": "flowerimg/dengi/heartBouquet/100/1.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Денежные букеты",
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/392"
+        }
+      ],
+      "rating": "4",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0392",
+      "imgs": [
+        "flowerimg/dengi/heartBouquet/100/1.jpg"
+      ],
+      "description": {
+        "text": "Цена за букет указан только за сборку самого букета в том числе упаковочного материала, но не за сами купюры!"
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "393",
+      "title": "Большой денежный букет - делюкс (100 купюр)",
+      "price": "14598.00",
+      "nalichie": "0",
+      "img": "flowerimg/dengi/deluxe/100/1.jpg",
+      "hover_img": "flowerimg/dengi/deluxe/100/2.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Денежные букеты",
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/393"
+        }
+      ],
+      "rating": "4",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0393",
+      "imgs": [
+        "flowerimg/dengi/deluxe/100/1.jpg",
+        "flowerimg/dengi/deluxe/100/2.jpg"
+      ],
+      "description": {
+        "text": "Цена за букет указан только за сборку самого букета в том числе упаковочного материала, но не за сами купюры!"
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "394",
+      "title": "Премиальный денежный букет - (150 купюр)",
+      "price": "18541.00",
+      "nalichie": "0",
+      "img": "flowerimg/dengi/150/1.jpg",
+      "hover_img": "flowerimg/dengi/150/2.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Денежные букеты",
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/394"
+        }
+      ],
+      "rating": "4",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0394",
+      "imgs": [
+        "flowerimg/dengi/150/1.jpg",
+        "flowerimg/dengi/150/2.jpg",
+        "flowerimg/dengi/150/3.jpg",
+        "flowerimg/dengi/150/4.jpg"
+      ],
+      "description": {
+        "text": "Цена за букет указан только за сборку самого букета в том числе упаковочного материала, но не за сами купюры!"
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "395",
+      "title": "Люксовый денежный букет - (200 купюр)",
+      "price": "22568.00",
+      "nalichie": "0",
+      "img": "flowerimg/dengi/200/1.jpg",
+      "hover_img": "flowerimg/dengi/200/2.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Денежные букеты",
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/395"
+        }
+      ],
+      "rating": "4",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0395",
+      "imgs": [
+        "flowerimg/dengi/200/1.jpg",
+        "flowerimg/dengi/200/2.jpg",
+        "flowerimg/dengi/200/3.jpg",
+        "flowerimg/dengi/200/4.jpg"
+      ],
+      "description": {
+        "text": "Цена за букет указан только за сборку самого букета в том числе упаковочного материала, но не за сами купюры!"
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "396",
+      "title": "Денежный букет лардж - (300 купюр)",
+      "price": "30580.00",
+      "nalichie": "0",
+      "img": "flowerimg/dengi/300/1.jpg",
+      "hover_img": "flowerimg/dengi/300/2.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Денежные букеты",
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/396"
+        }
+      ],
+      "rating": "4",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0396",
+      "imgs": [
+        "flowerimg/dengi/300/1.jpg",
+        "flowerimg/dengi/300/2.jpg",
+        "flowerimg/dengi/300/3.jpg",
+        "flowerimg/dengi/300/4.jpg"
+      ],
+      "description": {
+        "text": "Цена за букет указан только за сборку самого букета в том числе упаковочного материала, но не за сами купюры!"
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "397",
+      "title": "Денежный букет вегас - (500 купюр)",
+      "price": "45824.00",
+      "nalichie": "0",
+      "img": "flowerimg/dengi/500/1.jpg",
+      "hover_img": "flowerimg/dengi/500/2.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Денежные букеты",
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/397"
+        }
+      ],
+      "rating": "4",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0397",
+      "imgs": [
+        "flowerimg/dengi/500/1.jpg",
+        "flowerimg/dengi/500/2.jpg"
+      ],
+      "description": {
+        "text": "Цена за букет указан только за сборку самого букета в том числе упаковочного материала, но не за сами купюры!"
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "398",
+      "title": "Стоячий денежный букет - маленький (10 купюр)",
+      "price": "1500.00",
+      "nalichie": "0",
+      "img": "flowerimg/dengi/standing/10/1.jpg",
+      "hover_img": "flowerimg/dengi/standing/10/2.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Денежные букеты",
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/398"
+        }
+      ],
+      "rating": "4",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0398",
+      "imgs": [
+        "flowerimg/dengi/standing/10/1.jpg",
+        "flowerimg/dengi/standing/10/2.jpg",
+        "flowerimg/dengi/standing/10/3.jpg"
+      ],
+      "description": {
+        "text": "Цена за букет указан только за сборку самого букета в том числе упаковочного материала, но не за сами купюры!"
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "399",
+      "title": "Стоячий денежный букет (15 купюр)",
+      "price": "1850.00",
+      "nalichie": "0",
+      "img": "flowerimg/dengi/standing/15/1.jpg",
+      "hover_img": "flowerimg/dengi/standing/15/2.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Денежные букеты",
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/399"
+        }
+      ],
+      "rating": "4",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0399",
+      "imgs": [
+        "flowerimg/dengi/standing/15/1.jpg",
+        "flowerimg/dengi/standing/15/2.jpg"
+      ],
+      "description": {
+        "text": "Цена за букет указан только за сборку самого букета в том числе упаковочного материала, но не за сами купюры!"
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "400",
+      "title": "Стоячий денежный букет - средний (30 купюр)",
+      "price": "3210.00",
+      "nalichie": "0",
+      "img": "flowerimg/dengi/standing/30/1.jpg",
+      "hover_img": "flowerimg/dengi/standing/30/2.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Денежные букеты",
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/400"
+        }
+      ],
+      "rating": "4",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0400",
+      "imgs": [
+        "flowerimg/dengi/standing/30/1.jpg",
+        "flowerimg/dengi/standing/30/2.jpg",
+        "flowerimg/dengi/standing/30/3.jpg"
+      ],
+      "description": {
+        "text": "Цена за букет указан только за сборку самого букета в том числе упаковочного материала, но не за сами купюры!"
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "401",
+      "title": "Стоячий денежный букет - большой (50 купюр)",
+      "price": "6580.00",
+      "nalichie": "0",
+      "img": "flowerimg/dengi/standing/50/1.jpg",
+      "hover_img": "flowerimg/dengi/standing/50/2.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Денежные букеты",
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/401"
+        }
+      ],
+      "rating": "4",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0401",
+      "imgs": [
+        "flowerimg/dengi/standing/50/1.jpg",
+        "flowerimg/dengi/standing/50/2.jpg",
+        "flowerimg/dengi/standing/50/3.jpg",
+        "flowerimg/dengi/standing/50/4.jpg"
+      ],
+      "description": {
+        "text": "Цена за букет указан только за сборку самого букета в том числе упаковочного материала, но не за сами купюры!"
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "402",
+      "title": "Стоячий денежный букет - лардж (100 купюр)",
+      "price": "12860.00",
+      "nalichie": "0",
+      "img": "flowerimg/dengi/standing/100/1.jpg",
+      "hover_img": "flowerimg/dengi/standing/100/2.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Денежные букеты",
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/402"
+        }
+      ],
+      "rating": "4",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0402",
+      "imgs": [
+        "flowerimg/dengi/standing/100/1.jpg",
+        "flowerimg/dengi/standing/100/2.jpg",
+        "flowerimg/dengi/standing/100/3.jpg"
+      ],
+      "description": {
+        "text": "Цена за букет указан только за сборку самого букета в том числе упаковочного материала, но не за сами купюры!"
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "403",
+      "title": "Денежный букет - (80 купюр)",
+      "price": "9054.00",
+      "nalichie": "0",
+      "img": "flowerimg/dengi/80/1.jpg",
+      "hover_img": "flowerimg/dengi/80/2.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Денежные букеты",
+      "delivery": "доставим сегодня",
+      "colors": [
+        {
+          "name": "0",
+          "link": "/shop/403"
+        }
+      ],
+      "rating": "4",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0403",
+      "imgs": [
+        "flowerimg/dengi/80/1.jpg",
+        "flowerimg/dengi/80/2.jpg",
+        "flowerimg/dengi/80/3.jpg"
+      ],
+      "description": {
+        "text": "Цена за букет указан только за сборку самого букета в том числе упаковочного материала, но не за сами купюры!",
+        "size": [
+          "1 комплект"
+        ]
+      }
+    },
+    {
+      "id": "86",
+      "title": "Белый корсаж",
+      "price": "2199.00",
+      "nalichie": "0",
+      "img": "colshoper/CORSAGE/WHITECORSAGE/1.jpg",
+      "hover_img": "colshoper/CORSAGE/WHITECORSAGE/2.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "белый"
+      ],
+      "colors": [
+        {
+          "name": "белый",
+          "link": "Б"
+        }
+      ],
+      "collections": "корсажи",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA086",
+      "imgs": [
+        "colshoper/CORSAGE/WHITECORSAGE/1.jpg",
+        "colshoper/CORSAGE/WHITECORSAGE/2.jpg"
+      ],
+      "description": {
+        "text": "Украсьте свой особый случай нашим изысканным белым корсажем, нежным аксессуаром, который сочетает в себе вечную красоту белых роз, гвоздик, гортензий и пышной зелени. Белые розы, известные своим символизмом чистоты и любви, занимают центральное место, добавляя корсажу изящества. Гвоздики с их взъерошенными лепестками символизируют очарование и восхищение. Гортензии создают пышный и объемный фон, а зелень связывает корсаж с естественной красотой. Этот корсаж идеально подходит для различных особых случаев, включая свадьбы, выпускные вечера, официальные мероприятия или в качестве аксессуара для празднования ваших уникальных моментов."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "87",
+      "title": "Корсаж 80-х",
+      "price": "2199.00",
+      "nalichie": "0",
+      "img": "colshoper/CORSAGE/THE80SCORSAGE/1.jpg",
+      "hover_img": "colshoper/CORSAGE/THE80SCORSAGE/1.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/87"
+        }
+      ],
+      "collections": "корсажи",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA087",
+      "imgs": [
+        "colshoper/CORSAGE/THE80SCORSAGE/1.jpg"
+      ],
+      "description": {
+        "text": "Этот корсаж представляет собой игривое сочетание желтых и розовых весенних роз, смелых красных роз, элегантных лилий и пышной зелени, идеально передающих дух той знаковой эпохи."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "88",
+      "title": "Элегантный корсаж",
+      "price": "2199.00",
+      "nalichie": "0",
+      "img": "colshoper/CORSAGE/ELEGANTCORSAGE/1.jpg",
+      "hover_img": "colshoper/CORSAGE/ELEGANTCORSAGE/2.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "белый"
+      ],
+      "colors": [
+        {
+          "name": "белый",
+          "link": "Э"
+        }
+      ],
+      "collections": "корсажи",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA088",
+      "imgs": [
+        "colshoper/CORSAGE/ELEGANTCORSAGE/1.jpg",
+        "colshoper/CORSAGE/ELEGANTCORSAGE/2.jpg",
+        "colshoper/CORSAGE/ELEGANTCORSAGE/3.jpg",
+        "colshoper/CORSAGE/ELEGANTCORSAGE/4.jpg"
+      ],
+      "description": {
+        "text": "Улучшите свой элегантный внешний вид с помощью нашего изысканного элегантного корсажа, изысканного аксессуара, украшенного вечной красотой белых роз, гвоздик, гортензий и пышной зелени. Белые розы, известные своей символикой чистоты и любви, привносят в корсаж атмосферу изящества и элегантности. Гвоздики с их взъерошенными лепестками символизируют очарование и восхищение, добавляя нотку утонченности. Гортензии создают пышный и объемный фон, в то время как зелень связывает корсаж с естественной красотой. Этот корсаж — идеальный выбор для различных особых случаев, включая свадьбы, выпускные вечера, официальные мероприятия или любые мероприятия, где вы хотите излучать элегантность и изящество."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "152",
+      "title": "Букет барби",
+      "price": "18899.00",
+      "nalichie": "0",
+      "img": "colshoper/box/BARBIEBOUQUET/1.jpg",
+      "hover_img": "colshoper/box/BARBIEBOUQUET/2.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/152"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "premium": true,
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0152",
+      "imgs": [
+        "colshoper/box/BARBIEBOUQUET/1.jpg",
+        "colshoper/box/BARBIEBOUQUET/2.jpg",
+        "colshoper/box/BARBIEBOUQUET/3.jpg",
+        "colshoper/box/BARBIEBOUQUET/4.jpg"
+      ],
+      "description": {
+        "text": "Эта потрясающая композиция демонстрирует пленительное сочетание стазиса, гортензий, множества роз, нежных гвоздик и тщательно подобранного ассортимента свежей зелени. Поднимите любой случай с этим шикарным и модным букетом, который излучает элегантность и стиль, что делает его идеальным выбором для тех, кто ищет нотку роскоши."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "164",
+      "title": "Коробка с желе",
+      "price": "13199.00",
+      "nalichie": "0",
+      "img": "colshoper/box/JELLYBOX/1.jpg",
+      "hover_img": "colshoper/box/JELLYBOX/1.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/164"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0164",
+      "imgs": [
+        "colshoper/box/JELLYBOX/1.jpg"
+      ],
+      "description": {
+        "text": "Коробка с желе - сладкая симфония роз и гортензии, сладкий и очаровательный подарок, который идеально подходит для выражения любви, признательности или празднования любого особого случая."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Синие розы (25, 50, 75, 101)",
+      "price": "395.00",
+      "nalichie": "0",
+      "img": "colshoper/roses/BLUEROSES255075100/1.jpg",
+      "hover_img": "colshoper/roses/BLUEROSES255075100/2.jpg",
+      "submit_date": "2024-04-22",
+      "delivery": "доставим сегодня",
+      "color": [
+        "синий"
+      ],
+      "colors": [
+        {
+          "name": "синий",
+          "link": "/shop/99"
+        }
+      ],
+      "bouquets": "букеты",
+      "collections": "Розы",
+      "category": "Букеты",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "rosesbouquets": true,
+      "romanticcollection": true,
+      "featured": false,
+      "new": true,
+      "premium": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA099",
+      "imgs": [
+        "colshoper/roses/BLUEROSES255075100/1.jpg",
+        "colshoper/roses/BLUEROSES255075100/2.jpg",
+        "colshoper/roses/BLUEROSES255075100/3.jpg",
+        "colshoper/roses/BLUEROSES255075100/4.jpg"
+      ],
+      "description": {
+        "text": "Эти синие розы, доступные в количестве 25, 50, 75 или 100, символизируют тайну, интригу и необычность. Каждая роза тщательно отбирается, чтобы гарантировать свежесть и яркий цвет. Удивите своего особенного человека этим нетрадиционным и пленительным выражением любви. Выберите размер букета и закажите сейчас."
+      },
+      "size": [
+        "25",
+        "50",
+        "75",
+        "101"
+      ]
+    },
+    {
+      "id": "130",
+      "title": "Букет синих роз в черной упаковочной бумаге (25, 50, 75, 101)",
+      "price": "395.00",
+      "nalichie": "0",
+      "img": "colshoper/BOUQUETS/BOUQUETOFBLUEROSESINBLACKPACKAGINGPAPER255075100/1.jpg",
+      "hover_img": "colshoper/BOUQUETS/BOUQUETOFBLUEROSESINBLACKPACKAGINGPAPER255075100/2.jpg",
+      "submit_date": "2024-04-22",
+      "delivery": "доставим сегодня",
+      "color": [
+        "синий"
+      ],
+      "colors": [
+        {
+          "name": "синий",
+          "link": "/shop/130"
+        }
+      ],
+      "bouquets": "букеты",
+      "collections": "Розы",
+      "category": "Букеты",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "designbouquets": true,
+      "rosesbouquets": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0130",
+      "imgs": [
+        "colshoper/BOUQUETS/BOUQUETOFBLUEROSESINBLACKPACKAGINGPAPER255075100/1.jpg",
+        "colshoper/BOUQUETS/BOUQUETOFBLUEROSESINBLACKPACKAGINGPAPER255075100/2.jpg",
+        "colshoper/BOUQUETS/BOUQUETOFBLUEROSESINBLACKPACKAGINGPAPER255075100/3.jpg"
+      ],
+      "description": {
+        "text": "Упаковочная бумага добавляет нотку простоты и очарования букету, делая его идеальным выражением любви. Удивите своего особенного человека этим уникальным элегантным жестом. Закажите сейчас, чтобы обеспечить себе памятное празднование."
+      },
+      "size": [
+        "25",
+        "50",
+        "75",
+        "101"
+      ]
+    },
+    {
+      "id": "131",
+      "title": "Букет фиолетовых роз в розовой упаковочной бумаге (25, 50, 75, 101)",
+      "price": "395.00",
+      "nalichie": "0",
+      "img": "colshoper/BOUQUETS/BOUQUET OFPURPLEROSESINPINKPACKAGINGPAPER255075100/1.jpg",
+      "hover_img": "colshoper/BOUQUETS/BOUQUET OFPURPLEROSESINPINKPACKAGINGPAPER255075100/2.jpg",
+      "submit_date": "2024-04-22",
+      "delivery": "доставим сегодня",
+      "color": [
+        "фиолетовый"
+      ],
+      "colors": [
+        {
+          "name": "фиолетовый",
+          "link": "/shop/131"
+        }
+      ],
+      "bouquets": "букеты",
+      "collections": "Розы",
+      "category": "Букеты",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "designbouquets": true,
+      "romanticcollection": true,
+      "rosesbouquets": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0131",
+      "imgs": [
+        "colshoper/BOUQUETS/BOUQUET OFPURPLEROSESINPINKPACKAGINGPAPER255075100/1.jpg",
+        "colshoper/BOUQUETS/BOUQUET OFPURPLEROSESINPINKPACKAGINGPAPER255075100/2.jpg",
+        "colshoper/BOUQUETS/BOUQUET OFPURPLEROSESINPINKPACKAGINGPAPER255075100/3.jpg"
+      ],
+      "description": {
+        "text": "Откройте для себя непреходящее очарование нашего букета фиолетовых роз, заботливо завернутого в упаковочную бумагу для уникального элегантного штриха.",
+        "text1": "Упаковочная бумага добавляет нотку простоты, позволяя яркому цвету роз сиять. Удивите своего особенного человека этим уникальным очаровательным жестом."
+      },
+      "size": [
+        "25",
+        "50",
+        "75",
+        "101"
+      ]
+    },
+    {
+      "id": "98",
+      "title": "Фиолетовые розы (25, 50, 75, 101)",
+      "price": "395.00",
+      "nalichie": "1",
+      "img": "colshoper/roses/PURPLEROSES255075100/1.jpg",
+      "hover_img": "colshoper/roses/PURPLEROSES255075100/2.jpg",
+      "submit_date": "2024-04-22",
+      "delivery": "доставим сегодня",
+      "color": [
+        "фиолетовый"
+      ],
+      "colors": [
+        {
+          "name": "фиолетовый",
+          "link": "/shop/98"
+        }
+      ],
+      "bouquets": "букеты",
+      "collections": "Розы",
+      "category": "Букеты",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "rosesbouquets": true,
+      "premium": true,
+      "romanticcollection": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA098",
+      "imgs": [
+        "colshoper/roses/PURPLEROSES255075100/1.jpg",
+        "colshoper/roses/PURPLEROSES255075100/2.jpg",
+        "colshoper/roses/PURPLEROSES255075100/3.jpg",
+        "colshoper/roses/PURPLEROSES255075100/4.jpg"
+      ],
+      "description": {
+        "text": "Эти фиолетовые розы, доступные в количестве 25, 50, 75 или 100, символизируют очарование, таинственность и элегантность. Каждая роза тщательно отбирается по насыщенному цвету и свежести, создавая букет, который источает романтику. Удивите своего любимого человека этим королевским и романтическим жестом."
+      },
+      "size": [
+        "25",
+        "50",
+        "75",
+        "101"
+      ]
+    },
+    {
+      "id": "92",
+      "title": "Пушистая корзина",
+      "price": "24990.00",
+      "nalichie": "0",
+      "img": "colshoper/basket/FLUFFYBASKET/1.jpg",
+      "hover_img": "colshoper/basket/FLUFFYBASKET/1.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/92"
+        }
+      ],
+      "collections": "цветочные корзины",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA092",
+      "imgs": [
+        "colshoper/basket/FLUFFYBASKET/1.jpg"
+      ],
+      "description": {
+        "text": "Ощутите элегантность с Пушистой корзиной - очаровательным сочетанием синих гортензий и розовых пионов. Побалуйте себя вневременной красотой Пушистой корзины, потрясающей композиции, которая гармонично сочетает нежные синие гортензии и нежно-розовые пионы. Этот изысканный ансамбль излучает атмосферу элегантности, которая одновременно очаровательна и вневременна. Синие и розовые тона идеально дополняют друг друга, создавая гармоничное сочетание сладких и романтичных оттенков."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    }
+  ]
+}
