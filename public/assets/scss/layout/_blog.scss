@@ -815,13 +815,13 @@
     height: 340px;
   }
 
-  @media #{$md} {
-    height: auto;
-  }
-
-  @media #{$sm} {
-    height: auto;
-  }
+  //@media #{$md} {
+  //  height: auto;
+  //}
+  //
+  //@media #{$sm} {
+  //  height: auto;
+  //}
 
   // update v0.2 
   img {
