@@ -29,11 +29,11 @@ const About = () => {
   const [mode, setMode] = React.useState("dark");
   useEffect(() => {
     if (typeof window !== "undefined") {
-      if (mode == "dark") {
-        document.querySelector("body").classList.add("dark");
-      } else {
-        document.querySelector("body").classList.remove("dark");
-      }
+      // if (mode == "dark") {
+      //   document.querySelector("body").classList.add("dark");
+      // } else {
+      //   document.querySelector("body").classList.remove("dark");
+      // }
       let tHero = gsap.context(() => {
         // $(".btn-hover").on("mouseenter", function (e) {
         //   var x = e.pageX - $(this).offset().left;
@@ -110,61 +110,61 @@ const About = () => {
         });
         let splitTitleLines = gsap.utils.toArray(".title-anim");
 
-        splitTitleLines.forEach((splitTextLine) => {
-          const tl = gsap.timeline({
-            scrollTrigger: {
-              trigger: splitTextLine,
-              start: "top 90%",
-              end: "bottom 60%",
-              scrub: false,
-              markers: false,
-              toggleActions: "play none none none",
-            },
-          });
+        // splitTitleLines.forEach((splitTextLine) => {
+        //   const tl = gsap.timeline({
+        //     scrollTrigger: {
+        //       trigger: splitTextLine,
+        //       start: "top 90%",
+        //       end: "bottom 60%",
+        //       scrub: false,
+        //       markers: false,
+        //       toggleActions: "play none none none",
+        //     },
+        //   });
 
-          // const itemSplitted = new SplitText(splitTextLine, {
-          //   type: "words, lines",
-          // });
-          gsap.set(splitTextLine, { perspective: 400 });
-          itemSplitted.split({ type: "lines" });
-          tl.from(itemSplitted.lines, {
-            duration: 1,
-            delay: 0.3,
-            opacity: 0,
-            rotationX: -80,
-            force3D: true,
-            transformOrigin: "top center -50",
-            stagger: 0.1,
-          });
-        });
-        let splitTextLines = gsap.utils.toArray(".text-anim p");
+        //   // const itemSplitted = new SplitText(splitTextLine, {
+        //   //   type: "words, lines",
+        //   // });
+        //   gsap.set(splitTextLine, { perspective: 400 });
+        //   itemSplitted.split({ type: "lines" });
+        //   tl.from(itemSplitted.lines, {
+        //     duration: 1,
+        //     delay: 0.3,
+        //     opacity: 0,
+        //     rotationX: -80,
+        //     force3D: true,
+        //     transformOrigin: "top center -50",
+        //     stagger: 0.1,
+        //   });
+        // });
+        // let splitTextLines = gsap.utils.toArray(".text-anim p");
 
-        splitTextLines.forEach((splitTextLine) => {
-          const tl = gsap.timeline({
-            scrollTrigger: {
-              trigger: splitTextLine,
-              start: "top 90%",
-              duration: 2,
-              end: "bottom 60%",
-              scrub: false,
-              markers: false,
-              toggleActions: "play none none none",
-            },
-          });
+        // splitTextLines.forEach((splitTextLine) => {
+        //   const tl = gsap.timeline({
+        //     scrollTrigger: {
+        //       trigger: splitTextLine,
+        //       start: "top 90%",
+        //       duration: 2,
+        //       end: "bottom 60%",
+        //       scrub: false,
+        //       markers: false,
+        //       toggleActions: "play none none none",
+        //     },
+        //   });
 
-          const itemSplitted = new SplitText(splitTextLine, { type: "lines" });
-          gsap.set(splitTextLine, { perspective: 400 });
-          itemSplitted.split({ type: "lines" });
-          tl.from(itemSplitted.lines, {
-            duration: 1,
-            delay: 0.5,
-            opacity: 0,
-            rotationX: -80,
-            force3D: true,
-            transformOrigin: "top center -50",
-            stagger: 0.1,
-          });
-        });
+        //   const itemSplitted = new SplitText(splitTextLine, { type: "lines" });
+        //   gsap.set(splitTextLine, { perspective: 400 });
+        //   itemSplitted.split({ type: "lines" });
+        //   tl.from(itemSplitted.lines, {
+        //     duration: 1,
+        //     delay: 0.5,
+        //     opacity: 0,
+        //     rotationX: -80,
+        //     force3D: true,
+        //     transformOrigin: "top center -50",
+        //     stagger: 0.1,
+        //   });
+        // });
       });
       return () => tHero.revert();
     }
@@ -191,7 +191,7 @@ const About = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
-        <ProductLayout white='white'>
+        <ProductLayout>
 
           <AboutHeros />
           <AboutStandardsHero />

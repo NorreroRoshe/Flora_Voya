@@ -2398,7 +2398,7 @@
       "id": "98",
       "title": "Фиолетовые розы (25, 50, 75, 101)",
       "price": "395.00",
-      "nalichie": "1",
+      "nalichie": "0",
       "img": "colshoper/roses/PURPLEROSES255075100/1.jpg",
       "hover_img": "colshoper/roses/PURPLEROSES255075100/2.jpg",
       "submit_date": "2024-04-22",
@@ -2480,6 +2480,1369 @@
       ],
       "description": {
         "text": "Ощутите элегантность с Пушистой корзиной - очаровательным сочетанием синих гортензий и розовых пионов. Побалуйте себя вневременной красотой Пушистой корзины, потрясающей композиции, которая гармонично сочетает нежные синие гортензии и нежно-розовые пионы. Этот изысканный ансамбль излучает атмосферу элегантности, которая одновременно очаровательна и вневременна. Синие и розовые тона идеально дополняют друг друга, создавая гармоничное сочетание сладких и романтичных оттенков."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "374",
+      "title": "Сет ваз с розами - розовая мондиаль (33 шт.)",
+      "price": "12490.00",
+      "nalichie": "0",
+      "img": "flowerimg/Bouqet/RoseVaseSet/Pink/1.jpg",
+      "hover_img": "flowerimg/Bouqet/RoseVaseSet/PinkMondialRose.jpg",
+      "submit_date": "2023-05-10",
+      "delivery": "доставим сегодня",
+      "color": [
+        "розовый"
+      ],
+      "colors": [
+        {
+          "name": "Роза Мондиаль Цвета Слоновой Кости",
+          "img": "flowerimg/Bouqet/51ROSES/IvoryMondialRose.jpg",
+          "link": "/shop/245"
+        },
+        {
+          "name": "Розовая Роза Мондиаль",
+          "img": "flowerimg/Bouqet/RoseVaseSet/PinkMondialRose.jpg",
+          "link": "/shop/374"
+        },
+        {
+          "name": "Красная Роза Наоми",
+          "img": "flowerimg/Bouqet/RoseVaseSet/RedNaomi.jpg",
+          "link": "/shop/375"
+        }
+      ],
+      "bouquets": "букеты",
+      "collections": "Розы",
+      "category": "Букеты",
+      "rosesbouquets": true,
+      "rating": "5",
+      "popularity": false,
+      "diameter": "8 см.",
+      "height": "18 см.",
+      "featured": false,
+      "new": false,
+      "top_selling": false,
+      "trendy": true,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0374",
+      "imgs": [
+        "flowerimg/Bouqet/RoseVaseSet/Pink/1.jpg",
+        "flowerimg/Bouqet/RoseVaseSet/PinkMondialRose.jpg",
+        "flowerimg/Bouqet/RoseVaseSet/Pink/2.jpg"
+      ],
+      "description": {
+        "text": "Создайте атмосферу утончённой роскоши с помощью нашего сета ваз.Идеальный выбор для стильного декора или подарка."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "375",
+      "title": "Сет ваз с розами - красная наоми (33 шт.)",
+      "price": "12490.00",
+      "nalichie": "0",
+      "img": "flowerimg/Bouqet/RoseVaseSet/Red/1.jpg",
+      "hover_img": "flowerimg/Bouqet/RoseVaseSet/RedNaomi.jpg",
+      "submit_date": "2023-05-10",
+      "delivery": "доставим сегодня",
+      "color": [
+        "красный"
+      ],
+      "colors": [
+        {
+          "name": "Роза Мондиаль Цвета Слоновой Кости",
+          "img": "flowerimg/Bouqet/51ROSES/IvoryMondialRose.jpg",
+          "link": "/shop/245"
+        },
+        {
+          "name": "Розовая Роза Мондиаль",
+          "img": "flowerimg/Bouqet/RoseVaseSet/PinkMondialRose.jpg",
+          "link": "/shop/374"
+        },
+        {
+          "name": "Красная Роза Наоми",
+          "img": "flowerimg/Bouqet/RoseVaseSet/RedNaomi.jpg",
+          "link": "/shop/375"
+        }
+      ],
+      "bouquets": "букеты",
+      "collections": "Розы",
+      "category": "Букеты",
+      "rosesbouquets": true,
+      "rating": "5",
+      "popularity": false,
+      "diameter": "8 см.",
+      "height": "18 см.",
+      "featured": false,
+      "new": false,
+      "top_selling": false,
+      "trendy": true,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0375",
+      "imgs": [
+        "flowerimg/Bouqet/RoseVaseSet/Red/1.jpg",
+        "flowerimg/Bouqet/RoseVaseSet/RedNaomi.jpg"
+      ],
+      "description": {
+        "text": "Создайте атмосферу утончённой роскоши с помощью нашего сета ваз. Идеальный выбор для стильного декора или подарка."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "245",
+      "title": "Сет ваз - айвори шарм",
+      "price": "12490.00",
+      "nalichie": "0",
+      "img": "flowerimg/Bouqet/RoseVaseSet/Ivory/1.jpg",
+      "hover_img": "flowerimg/Bouqet/RoseVaseSet/IvoryMondialRose.jpg",
+      "submit_date": "2023-05-10",
+      "delivery": "доставим сегодня",
+      "color": [
+        "белый"
+      ],
+      "colors": [
+        {
+          "name": "Роза Мондиаль Цвета Слоновой Кости",
+          "img": "flowerimg/Bouqet/51ROSES/IvoryMondialRose.jpg",
+          "link": "/shop/245"
+        },
+        {
+          "name": "Розовая Роза Мондиаль",
+          "img": "flowerimg/Bouqet/RoseVaseSet/PinkMondialRose.jpg",
+          "link": "/shop/374"
+        },
+        {
+          "name": "Красная Роза Наоми",
+          "img": "flowerimg/Bouqet/RoseVaseSet/RedNaomi.jpg",
+          "link": "/shop/375"
+        }
+      ],
+      "bouquets": "букеты",
+      "collections": "Розы",
+      "category": "Букеты",
+      "rosesbouquets": true,
+      "rating": "5",
+      "popularity": false,
+      "diameter": "8 см.",
+      "height": "18 см.",
+      "featured": false,
+      "new": false,
+      "top_selling": false,
+      "trendy": true,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0245",
+      "imgs": [
+        "flowerimg/Bouqet/RoseVaseSet/Ivory/1.jpg",
+        "flowerimg/Bouqet/RoseVaseSet/IvoryMondialRose.jpg"
+      ],
+      "description": {
+        "text": "Создайте атмосферу утончённой роскоши с помощью нашего сета ваз Айвори шарм». Нежные розы сорта Айвори Мондиаль, с их благородными кремовыми лепестками, искусно расставлены в изящных вазах, создавая безупречную композицию, которая подчеркивает изящество и чистоту этих восхитительных цветов. Идеальный выбор для стильного декора или подарка."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "206",
+      "title": "Тюльпан корал краш с бахромой",
+      "price": "350.00",
+      "nalichie": "0",
+      "img": "flowerimg/FRINGEdTULIP/CoralCrush/1.jpg",
+      "hover_img": "flowerimg/FRINGEdTULIP/CoralCrush/2.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Цветы",
+      "delivery": "доставим сегодня",
+      "color": [
+        "розовый"
+      ],
+      "colors": [
+        {
+          "name": "Корал Краш",
+          "img": "flowerimg/FRINGEdTULIP/CoralCrush.jpg",
+          "link": "/shop/206"
+        },
+        {
+          "name": "Лимонный Щербет",
+          "img": "flowerimg/FRINGEdTULIP/LemonSherbet.jpg",
+          "link": "/shop/227"
+        }
+      ],
+      "collections": "Тюльпаны",
+      "height": "35 см",
+      "rating": "2",
+      "popularity": false,
+      "featured": false,
+      "new": false,
+      "top_selling": false,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0206",
+      "imgs": [
+        "flowerimg/FRINGEdTULIP/CoralCrush/1.jpg",
+        "flowerimg/FRINGEdTULIP/CoralCrush/1.jpg",
+        "flowerimg/FRINGEdTULIP/CoralCrush/2.jpg",
+        "flowerimg/FRINGEdTULIP/CoralCrush/3.jpg",
+        "flowerimg/FRINGEdTULIP/CoralCrush/4.jpg",
+        "flowerimg/FRINGEdTULIP/CoralCrush/5.jpg",
+        "flowerimg/FRINGEdTULIP/CoralCrush/6.jpg",
+        "flowerimg/FRINGEdTULIP/CoralCrush/7.jpg",
+        "flowerimg/FRINGEdTULIP/CoralCrush/8.jpg"
+      ],
+      "description": {
+        "text": "Тюльпаны — это воплощение весенней свежести и элегантности. Их гладкие лепестки и яркие, насыщенные оттенки символизируют начало нового сезона и надежду. Тюльпаны прекрасно подходят для создания как лаконичных, так и более объемных композиций, наполняя пространство радостью и гармонией."
+      },
+      "size": [
+        "25 шт.",
+        "51 шт."
+      ]
+    },
+    {
+      "id": "227",
+      "title": "Тюльпан лимонный шербет с бахромой",
+      "price": "350.00",
+      "nalichie": "0",
+      "img": "flowerimg/FRINGEdTULIP/LemonSherbet/1.jpg",
+      "hover_img": "flowerimg/FRINGEdTULIP/LemonSherbet/2.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Цветы",
+      "delivery": "доставим сегодня",
+      "color": [
+        "желтый"
+      ],
+      "colors": [
+        {
+          "name": "Корал Краш",
+          "img": "flowerimg/FRINGEdTULIP/CoralCrush.jpg",
+          "link": "/shop/206"
+        },
+        {
+          "name": "Лимонный Щербет",
+          "img": "flowerimg/FRINGEdTULIP/LemonSherbet.jpg",
+          "link": "/shop/227"
+        }
+      ],
+      "collections": "Тюльпаны",
+      "height": "35 см",
+      "rating": "2",
+      "popularity": false,
+      "featured": false,
+      "new": false,
+      "top_selling": false,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0227",
+      "imgs": [
+        "flowerimg/FRINGEdTULIP/LemonSherbet/1.jpg",
+        "flowerimg/FRINGEdTULIP/LemonSherbet/2.jpg"
+      ],
+      "description": {
+        "text": "Тюльпаны — это воплощение весенней свежести и элегантности. Их гладкие лепестки и яркие, насыщенные оттенки символизируют начало нового сезона и надежду. Тюльпаны прекрасно подходят для создания как лаконичных, так и более объемных композиций, наполняя пространство радостью и гармонией."
+      },
+      "size": [
+        "25 шт.",
+        "51 шт."
+      ]
+    },
+    {
+      "id": "219",
+      "title": "Мятный попугайный тюльпан",
+      "price": "280.00",
+      "nalichie": "0",
+      "img": "flowerimg/ParrotTulip/Mint/1.jpg",
+      "hover_img": "flowerimg/ParrotTulip/Mint/2.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Цветы",
+      "delivery": "доставим сегодня",
+      "color": [
+        "зеленый"
+      ],
+      "colors": [
+        {
+          "name": "Мятный",
+          "img": "flowerimg/ParrotTulip/Mint.jpg",
+          "link": "/shop/219"
+        },
+        {
+          "name": "Розовый Марвел",
+          "img": "flowerimg/ParrotTulip/PinkMarvel.jpg",
+          "link": "/shop/249"
+        },
+        {
+          "name": "Рококо",
+          "img": "flowerimg/ParrotTulip/Rococo.jpg",
+          "link": "/shop/226"
+        }
+      ],
+      "collections": "Тюльпаны",
+      "height": "35 см",
+      "rating": "5",
+      "popularity": false,
+      "featured": false,
+      "new": true,
+      "top_selling": false,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0219",
+      "imgs": [
+        "flowerimg/ParrotTulip/Mint/1.jpg",
+        "flowerimg/ParrotTulip/Mint/2.jpg",
+        "flowerimg/ParrotTulip/Mint/3.jpg",
+        "flowerimg/ParrotTulip/Mint/4.jpg"
+      ],
+      "description": {
+        "text": "Тюльпаны — это воплощение весенней свежести и элегантности. Их гладкие лепестки и яркие, насыщенные оттенки символизируют начало нового сезона и надежду. Тюльпаны прекрасно подходят для создания как лаконичных, так и более объемных композиций, наполняя пространство радостью и гармонией."
+      },
+      "size": [
+        "25 шт.",
+        "51 шт."
+      ]
+    },
+    {
+      "id": "249",
+      "title": "Розовый попугайный тюльпан marvel",
+      "price": "280.00",
+      "nalichie": "0",
+      "img": "flowerimg/ParrotTulip/PinkMarvel/1.jpg",
+      "hover_img": "flowerimg/ParrotTulip/PinkMarvel/1.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Цветы",
+      "delivery": "доставим сегодня",
+      "color": [
+        "розовый"
+      ],
+      "colors": [
+        {
+          "name": "Мятный",
+          "img": "flowerimg/ParrotTulip/Mint.jpg",
+          "link": "/shop/219"
+        },
+        {
+          "name": "Розовый Марвел",
+          "img": "flowerimg/ParrotTulip/PinkMarvel.jpg",
+          "link": "/shop/249"
+        },
+        {
+          "name": "Рококо",
+          "img": "flowerimg/ParrotTulip/Rococo.jpg",
+          "link": "/shop/226"
+        }
+      ],
+      "collections": "Тюльпаны",
+      "height": "35 см",
+      "rating": "5",
+      "popularity": false,
+      "featured": false,
+      "new": true,
+      "top_selling": false,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0249",
+      "imgs": [
+        "flowerimg/ParrotTulip/PinkMarvel/1.jpg"
+      ],
+      "description": {
+        "text": "Тюльпаны — это воплощение весенней свежести и элегантности. Их гладкие лепестки и яркие, насыщенные оттенки символизируют начало нового сезона и надежду. Тюльпаны прекрасно подходят для создания как лаконичных, так и более объемных композиций, наполняя пространство радостью и гармонией."
+      },
+      "size": [
+        "25 шт.",
+        "51 шт."
+      ]
+    },
+    {
+      "id": "226",
+      "title": "Рококо попугайный тюльпан",
+      "price": "280.00",
+      "nalichie": "0",
+      "img": "flowerimg/ParrotTulip/Rococo/1.jpg",
+      "hover_img": "flowerimg/ParrotTulip/Rococo/2.jpg",
+      "submit_date": "2024-04-22",
+      "category": "Цветы",
+      "delivery": "доставим сегодня",
+      "color": [
+        "красный"
+      ],
+      "colors": [
+        {
+          "name": "Мятный",
+          "img": "flowerimg/ParrotTulip/Mint.jpg",
+          "link": "/shop/219"
+        },
+        {
+          "name": "Розовый Марвел",
+          "img": "flowerimg/ParrotTulip/PinkMarvel.jpg",
+          "link": "/shop/249"
+        },
+        {
+          "name": "Рококо",
+          "img": "flowerimg/ParrotTulip/Rococo.jpg",
+          "link": "/shop/226"
+        }
+      ],
+      "collections": "Тюльпаны",
+      "height": "35 см",
+      "rating": "5",
+      "popularity": false,
+      "featured": false,
+      "new": true,
+      "top_selling": false,
+      "trendy": false,
+      "man": false,
+      "woman": true,
+      "pro_code": "#VA0226",
+      "imgs": [
+        "flowerimg/ParrotTulip/Rococo/1.jpg",
+        "flowerimg/ParrotTulip/Rococo/2.jpg",
+        "flowerimg/ParrotTulip/Rococo/3.jpg"
+      ],
+      "description": {
+        "text": "Тюльпаны — это воплощение весенней свежести и элегантности. Их гладкие лепестки и яркие, насыщенные оттенки символизируют начало нового сезона и надежду. Тюльпаны прекрасно подходят для создания как лаконичных, так и более объемных композиций, наполняя пространство радостью и гармонией."
+      },
+      "size": [
+        "25 шт.",
+        "51 шт."
+      ]
+    },
+    {
+      "id": "128",
+      "title": "Синяя мечта",
+      "price": "8399.00",
+      "nalichie": "0",
+      "img": "colshoper/BOUQUETS/DOLPHIN/1.jpg",
+      "hover_img": "colshoper/BOUQUETS/DOLPHIN/2.jpg",
+      "submit_date": "2024-04-22",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/128"
+        }
+      ],
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "designbouquets": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0128",
+      "imgs": [
+        "colshoper/BOUQUETS/DOLPHIN/1.jpg",
+        "colshoper/BOUQUETS/DOLPHIN/2.jpg",
+        "colshoper/BOUQUETS/DOLPHIN/3.jpg",
+        "colshoper/BOUQUETS/DOLPHIN/4.jpg",
+        "colshoper/BOUQUETS/DOLPHIN/5.jpg"
+      ],
+      "description": {
+        "text": "Синяя мечта - это букет, который погружает в безмятежную красоту океана. Эта композиция вдохновлена побережьем и сочетает успокаивающие оттенки синих роз, гортензий и гвоздик, подчеркнутые пышной зеленью и эвкалиптом. Синие розы, гортензии и гвоздики вызывают в памяти цвета океана, создавая атмосферу спокойствия и умиротворения. Пышная зелень и эвкалипт придают естественный и освежающий штрих, усиливая прибрежное ощущение букета. Этот шедевр идеально подходит для пляжных свадеб, праздников на берегу моря и моментов, когда вы хотите привнести атмосферу океана в свои мероприятия."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "127",
+      "title": "Свет ночного города",
+      "price": "7499.00",
+      "nalichie": "0",
+      "img": "colshoper/BOUQUETS/NEWYORK/1.jpg",
+      "hover_img": "colshoper/BOUQUETS/NEWYORK/2.jpg",
+      "submit_date": "2024-04-22",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/127"
+        }
+      ],
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "designbouquets": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0127",
+      "imgs": [
+        "colshoper/BOUQUETS/NEWYORK/1.jpg",
+        "colshoper/BOUQUETS/NEWYORK/2.jpg"
+      ],
+      "description": {
+        "text": "Почувствуйте динамичную атмосферу города, который никогда не спит, с нашей цветочной композицией гармония городского света. Этот восхитительный букет сочетает в себе классические розы, нежные кустовые розы, ароматные матиолы и очаровательные гвоздики, отражая разнообразие и дух ночного города."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "122",
+      "title": "Органическая красота",
+      "price": "13199.00",
+      "nalichie": "0",
+      "img": "colshoper/BOUQUETS/ORGANICBOUQUET/1.jpg",
+      "hover_img": "colshoper/BOUQUETS/ORGANICBOUQUET/1.jpg",
+      "submit_date": "2024-04-22",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/122"
+        }
+      ],
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "designbouquets": true,
+      "premium": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0122",
+      "imgs": [
+        "colshoper/BOUQUETS/ORGANICBOUQUET/1.jpg"
+      ],
+      "description": {
+        "text": "Органическая красота - это изысканный букет, который переносит вас в мир свежести и естественной красоты. Эта уникальная композиция сочетает в себе зеленые гортензии, элегантные розы, экзотические антуриумы, нежную веронику и вневременные гвоздики. Каждый элемент тщательно подобран, создавая гармонию, которая отражает суть органического мира. Поднимите любое событие с естественной элегантностью этого букета, придавая ему особый шарм."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "109",
+      "title": "Букет розовых пион",
+      "price": "1349.00",
+      "nalichie": "0",
+      "img": "colshoper/BOUQUETS/PEONIES/1.jpg",
+      "hover_img": "colshoper/BOUQUETS/PEONIES/2.jpg",
+      "submit_date": "2024-04-22",
+      "delivery": "доставим сегодня",
+      "color": [
+        "розовый"
+      ],
+      "colors": [
+        {
+          "name": "розовый",
+          "link": "/shop/109"
+        }
+      ],
+      "bouquets": "букеты",
+      "collections": "Пионы",
+      "category": "Букеты",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "designbouquets": true,
+      "premium": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0109",
+      "imgs": [
+        "colshoper/BOUQUETS/PEONIES/1.jpg",
+        "colshoper/BOUQUETS/PEONIES/2.jpg",
+        "colshoper/BOUQUETS/PEONIES/3.jpg",
+        "colshoper/BOUQUETS/PEONIES/4.jpg",
+        "colshoper/BOUQUETS/PEONIES/5.jpg",
+        "colshoper/BOUQUETS/PEONIES/6.jpg"
+      ],
+      "description": {
+        "text": "Розовые Пионы — это воплощение элегантности и утонченности. Букет, собранный из нежных и пышных цветов различных оттенков розового, от пастельного до насыщенной фуксии, станет украшением любого события. Пышные слои лепестков создают объем и выразительность, а сладкий аромат наполняет пространство, подчеркивая естественную красоту пионов. Идеальный выбор для свадьбы или в качестве подарка, этот букет придаст моменту особую изысканность."
+      },
+      "size": [
+        "25",
+        "51",
+        "75",
+        "101"
+      ]
+    },
+    {
+      "id": "110",
+      "title": "Букет красных роз с красной лентой на высоком стебле",
+      "price": "395.00",
+      "nalichie": "0",
+      "img": "colshoper/BOUQUETS/REDROSESWITHREDRIBBON255075100/1.jpg",
+      "hover_img": "colshoper/BOUQUETS/REDROSESWITHREDRIBBON255075100/2.jpg",
+      "submit_date": "2024-04-22",
+      "delivery": "доставим сегодня",
+      "color": [
+        "красный"
+      ],
+      "colors": [
+        {
+          "name": "Красный",
+          "img": "flowerimg/Rose/red.jpg",
+          "link": "/shop/110"
+        },
+        {
+          "name": "Желтый",
+          "img": "flowerimg/Rose/yellow.jpg",
+          "link": "/shop/114"
+        },
+        {
+          "name": "Белый",
+          "img": "flowerimg/Rose/ivory.jpg",
+          "link": "/shop/132"
+        }
+      ],
+      "bouquets": "букеты",
+      "collections": "Розы",
+      "category": "Букеты",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "designbouquets": true,
+      "rosesbouquets": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0110",
+      "imgs": [
+        "colshoper/BOUQUETS/REDROSESWITHREDRIBBON255075100/1.jpg",
+        "colshoper/BOUQUETS/REDROSESWITHREDRIBBON255075100/2.jpg",
+        "colshoper/BOUQUETS/REDROSESWITHREDRIBBON255075100/3.jpg"
+      ],
+      "description": {
+        "text": "Красные розы - символ страсти и безупречной любви. В этой композиции представлена классическая красота роз, подчеркнутая элегантной красной лентой. Идеальный подарок для выражения самых глубоких чувств и романтики, этот букет подчеркивает изысканность момента и оставляет неизгладимое впечатление."
+      },
+      "size": [
+        "25",
+        "51",
+        "75",
+        "101"
+      ]
+    },
+    {
+      "id": "132",
+      "title": "Букет белых роз с белой лентой на высоком стебле",
+      "price": "395.00",
+      "nalichie": "0",
+      "img": "colshoper/BOUQUETS/WHITEROSESWITHWHITERIBBON255075100/1.jpg",
+      "hover_img": "colshoper/BOUQUETS/WHITEROSESWITHWHITERIBBON255075100/2.jpg",
+      "submit_date": "2024-04-22",
+      "delivery": "доставим сегодня",
+      "color": [
+        "белый"
+      ],
+      "colors": [
+        {
+          "name": "Красный",
+          "img": "flowerimg/Rose/red.jpg",
+          "link": "/shop/110"
+        },
+        {
+          "name": "Желтый",
+          "img": "flowerimg/Rose/yellow.jpg",
+          "link": "/shop/114"
+        },
+        {
+          "name": "Белый",
+          "img": "flowerimg/Rose/ivory.jpg",
+          "link": "/shop/132"
+        }
+      ],
+      "bouquets": "букеты",
+      "collections": "Розы",
+      "category": "Букеты",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "romanticcollection": true,
+      "designbouquets": true,
+      "rosesbouquets": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0132",
+      "imgs": [
+        "colshoper/BOUQUETS/WHITEROSESWITHWHITERIBBON255075100/1.jpg",
+        "colshoper/BOUQUETS/WHITEROSESWITHWHITERIBBON255075100/2.jpg",
+        "colshoper/BOUQUETS/WHITEROSESWITHWHITERIBBON255075100/3.jpg"
+      ],
+      "description": {
+        "text": "Букет белых роз с белой лентой - это способ выразить вечные чувства с помощью нашего букета белых роз, украшенных элегантной белой лентой. Этот классический и сердечный подарок станет идеальным жестом для любимого человека.",
+        "text1": "Белая лента добавляет нотку утонченности и чистоты к вашему романтическому выражению. Удивите своего особенного человека этим вечным символом любви. Закажите сейчас, чтобы обеспечить незабываемое празднование."
+      },
+      "size": [
+        "25",
+        "51",
+        "75",
+        "101"
+      ]
+    },
+    {
+      "id": "123",
+      "title": "Яркий вдохновитель",
+      "price": "8399.00",
+      "nalichie": "0",
+      "img": "colshoper/BOUQUETS/STANDUPTRIBUTEBOUQUET/1.jpg",
+      "hover_img": "colshoper/BOUQUETS/STANDUPTRIBUTEBOUQUET/1.jpg",
+      "submit_date": "2024-04-22",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/123"
+        }
+      ],
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "designbouquets": true,
+      "premium": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0123",
+      "imgs": [
+        "colshoper/BOUQUETS/STANDUPTRIBUTEBOUQUET/1.jpg"
+      ],
+      "description": {
+        "text": "Яркий вдохновитель — это удивительный букет, который сочетает в себе свежесть красных тюльпанов, очарование гвоздик и естественную красоту зелени. Эта живая композиция привносит в пространство яркие эмоции и положительное настроение, идеально подходя для различных случаев. Позвольте этому букету стать источником вдохновения и радости, добавляя яркие нотки в вашу жизнь."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "106",
+      "title": "Элегантный поцелуй",
+      "price": "11199.00",
+      "nalichie": "0",
+      "img": "colshoper/BOUQUETS/SUMMERBREEZE/1.jpg",
+      "hover_img": "colshoper/BOUQUETS/SUMMERBREEZE/2.jpg",
+      "submit_date": "2024-04-22",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/106"
+        }
+      ],
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "designbouquets": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0106",
+      "imgs": [
+        "colshoper/BOUQUETS/SUMMERBREEZE/1.jpg",
+        "colshoper/BOUQUETS/SUMMERBREEZE/2.jpg"
+      ],
+      "description": {
+        "text": "Этот великолепный букет цветов — изящное сочетание калл и роз в элегантных белых и свежих зеленых тонах. Искусно собранный, он подчеркивает уникальную красоту каждого цветка, а белые розы придают ему классический штрих элегантности. Перевязанный нежной белой лентой, этот букет завершает образ с изысканностью. Элегантный поцелуй идеально подходит для свадеб, годовщин или любого особого случая, когда вы хотите сделать акцент на своей щедрости и утонченности."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "103",
+      "title": "Летние мгновения",
+      "price": "8399.00",
+      "nalichie": "0",
+      "img": "colshoper/BOUQUETS/SUMMERDAYS/1.jpg",
+      "hover_img": "colshoper/BOUQUETS/SUMMERDAYS/2.jpg",
+      "submit_date": "2024-04-22",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/103"
+        }
+      ],
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "designbouquets": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0103",
+      "imgs": [
+        "colshoper/BOUQUETS/SUMMERDAYS/1.jpg",
+        "colshoper/BOUQUETS/SUMMERDAYS/2.jpg"
+      ],
+      "description": {
+        "text": "Этот прекрасный букет — восхитительное сочетание желтых роз и ромашек. Яркие желтые розы символизируют радость, дружбу и новые начинания, а белые ромашки олицетворяют чистоту, невинность и умиротворение. Эта очаровательная композиция создает теплую и гостеприимную атмосферу с веселыми цветами и нежными лепестками. Летние мгновения станут идеальным подарком для любимого человека или прекрасным украшением вашего дома, гарантированно вызывая улыбку на лице каждого."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "119",
+      "title": "Летняя симфония",
+      "price": "11999.00",
+      "nalichie": "0",
+      "img": "colshoper/BOUQUETS/SUMMERMOODBOUQUET/1.jpg",
+      "hover_img": "colshoper/BOUQUETS/SUMMERMOODBOUQUET/1.jpg",
+      "submit_date": "2024-04-22",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/119"
+        }
+      ],
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "designbouquets": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0119",
+      "imgs": [
+        "colshoper/BOUQUETS/SUMMERMOODBOUQUET/1.jpg"
+      ],
+      "description": {
+        "text": "Летняя симфония — это яркий и впечатляющий цветочный букет, представляющий идеальное сочетание желтых роз, розовых гербер и ромашек. Яркие желтые розы великолепно контрастируют с нежно-розовыми герберами, создавая гармонию, которая одновременно радует глаз и восхищает. Нежные ромашки придают этому букету нотку игривости и очарования, делая его идеальным подарком для любого случая. Будь то желание удивить близкого человека или украсить свой дом, этот великолепный букет непременно оставит яркие впечатления. Его свежий аромат и насыщенные цвета создают настоящий праздник для чувств."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "105",
+      "title": "Светлое настроение",
+      "price": "8399.00",
+      "nalichie": "0",
+      "img": "colshoper/BOUQUETS/SUNNY/1.jpg",
+      "hover_img": "colshoper/BOUQUETS/SUNNY/2.jpg",
+      "submit_date": "2024-04-22",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/105"
+        }
+      ],
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "designbouquets": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0105",
+      "imgs": [
+        "colshoper/BOUQUETS/SUNNY/1.jpg",
+        "colshoper/BOUQUETS/SUNNY/2.jpg"
+      ],
+      "description": {
+        "text": "Этот яркий и веселый букет переполнен радостью и красотой. В нем великолепное сочетание желтых гербер, ромашек, белых и желтых роз, а также белых маттиол. Желтые герберы — звезда шоу, их смелые и солнечные лепестки придают композиции яркость. Ромашки добавляют нежный оттенок игривости, в то время как белые розы и маттиолы обеспечивают классический и элегантный контраст. Букет искусно составлен, чтобы подчеркнуть уникальную красоту каждого цветка, создавая динамичную и привлекающую внимание композицию с различными текстурами и формами. Букет идеально подходит для любого случая, когда вы хотите привнести немного света и счастья в чей-то день."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "113",
+      "title": "Букет желтых гербер с зеленью",
+      "price": "6199.00",
+      "nalichie": "0",
+      "img": "colshoper/BOUQUETS/YELLOWGERBERADAISIES/1.jpg",
+      "hover_img": "colshoper/BOUQUETS/YELLOWGERBERADAISIES/1.jpg",
+      "submit_date": "2024-04-22",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/113"
+        }
+      ],
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "designbouquets": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0113",
+      "imgs": [
+        "colshoper/BOUQUETS/YELLOWGERBERADAISIES/1.jpg"
+      ],
+      "description": {
+        "text": "Букет желтых гербер с зеленью — это композиция, наполненная яркостью и энергией. Солнечные желтые герберы в обрамлении свежей зелени создают настроение легкости и радости. Этот букет станет идеальным акцентом для праздничных событий, наполняя пространство светом и теплом."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "111",
+      "title": "Солнечные тюльпаны",
+      "price": "6699.00",
+      "nalichie": "0",
+      "img": "colshoper/BOUQUETS/YELLOWTULIPSWITHGREENERY/1.jpg",
+      "hover_img": "colshoper/BOUQUETS/YELLOWTULIPSWITHGREENERY/2.jpg",
+      "submit_date": "2024-04-22",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/111"
+        }
+      ],
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "designbouquets": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0111",
+      "imgs": [
+        "colshoper/BOUQUETS/YELLOWTULIPSWITHGREENERY/1.jpg",
+        "colshoper/BOUQUETS/YELLOWTULIPSWITHGREENERY/2.jpg"
+      ],
+      "description": {
+        "text": "Солнечные Тюльпаны с зеленью — это отражение света и радости. Этот букет, наполненный яркими желтыми цветами, символизирует тепло и оптимизм, принося солнечное настроение в любое пространство. Идеальный выбор для создания атмосферы радости и легкости."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "159",
+      "title": "Намекающий жест",
+      "price": "9699.00",
+      "nalichie": "0",
+      "img": "colshoper/box/BOXFORMOM/1.jpg",
+      "hover_img": "colshoper/box/BOXFORMOM/1.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/159"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "romanticcollection": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0159",
+      "imgs": [
+        "colshoper/box/BOXFORMOM/1.jpg"
+      ],
+      "description": {
+        "text": "Поднимите настроение своей второй половинке с помощью подарока 'Намекающий жест' — симфонии грации и утонченности.",
+        "text1": "Эта очаровательная композиция искусно передает гармонию и грацию балетного искусства, сочетая белые и розовые кустовые розы, изысканные ранункулюсы, классические розы, утонченные гвоздики и роскошную зелень — все это элегантно оформлено в прозрачной коробке. Намекающий жест олицетворяет утонченность и плавность движений, что делает его идеальным выбором для выражения восхищения, благодарности или любви."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "153",
+      "title": "Розовая улыбка",
+      "price": "14499.00",
+      "nalichie": "0",
+      "img": "colshoper/box/LOVELYPINK/1.jpg",
+      "hover_img": "colshoper/box/LOVELYPINK/1.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "розовый"
+      ],
+      "colors": [
+        {
+          "name": "розовый",
+          "link": "/shop/153"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "featured": false,
+      "romanticcollection": true,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0153",
+      "imgs": [
+        "colshoper/box/LOVELYPINK/1.jpg"
+      ],
+      "description": {
+        "text": "Эта изысканная композиция включает в себя микс розовых роз разных оттенков, скабиозы и лизиантуса, элегантно оформленных в бархатной коробке. Нежные оттенки создают гармоничную палитру, которая привносит атмосферу уюта и радости. Этот букет станет идеальным подарком для любого случая, наполняя пространство теплотой и очарованием. Позвольте этой композиции стать выразительным знаком вашей любви и заботы."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "166",
+      "title": "Цветочная феерия",
+      "price": "11299.00",
+      "nalichie": "0",
+      "img": "colshoper/box/NEON/1.jpg",
+      "hover_img": "colshoper/box/NEON/1.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/166"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0166",
+      "imgs": [
+        "colshoper/box/NEON/1.jpg"
+      ],
+      "description": {
+        "text": "Добавьте элегантности и яркости в ваши особые моменты с нашей цветочной композицией Цветочная феерия».",
+        "text1": "Эта удивительная аранжировка включает пионовидные розы, изысканные хризантемы и классические розы, окруженные роскошной зеленью и нежным эвкалиптом. Сочетание этих цветов создает гармонию ярких оттенков и утонченной красоты, превращая любое событие в незабываемый праздник."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "163",
+      "title": "Сияние цветов",
+      "price": "10199.00",
+      "nalichie": "0",
+      "img": "colshoper/box/NORTHERNLIGHTS/1.jpg",
+      "hover_img": "colshoper/box/NORTHERNLIGHTS/1.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/163"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0163",
+      "imgs": [
+        "colshoper/box/NORTHERNLIGHTS/1.jpg"
+      ],
+      "description": {
+        "text": "Погрузитесь в мир цветочного вдохновения с нашей композицией 'Сияние цветов'. Эта элегантная цветочная аранжировка сочетает в себе пионовидные розы, кустовые розы, зверобой, гвоздику, джинестру и пышную зелень. Пионовидные розы, символизирующие романтику, восхищают своими мягкими лепестками и элегантным видом. Кустовые розы придают композиции изысканность и тонкость, а зелень создает ощущение свежести и гармонии. Эта цветочная симфония станет прекрасным дополнением к любому мероприятию или уютным акцентом в вашем доме."
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "151",
+      "title": "Нежные эмоции",
+      "price": "11899.00",
+      "nalichie": "0",
+      "img": "colshoper/box/SWEETLOVE/1.jpg",
+      "hover_img": "colshoper/box/SWEETLOVE/1.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/151"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "romanticcollection": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0151",
+      "imgs": [
+        "colshoper/box/SWEETLOVE/1.jpg"
+      ],
+      "description": {
+        "text": "Эта великолепная композиция сочетает в себе очарование роз и гвоздик, создавая идеальное выражение сладости и любви. Каждое цветочное выражение наполняет пространство теплом и радостью, делая этот букет замечательным подарком для ваших близких. Идеально подходит для романтических моментов, этот букет станет прекрасным дополнением любого праздника или особого события."
+      },
+      "size": [
+        "маленький",
+        "средний",
+        "большой"
+      ]
+    },
+    {
+      "id": "146",
+      "title": "Титаник бокс",
+      "price": "48990.00",
+      "nalichie": "0",
+      "img": "colshoper/box/TITANICBOX/1.jpg",
+      "hover_img": "colshoper/box/TITANICBOX/1.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/146"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "premium": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0146",
+      "imgs": [
+        "colshoper/box/TITANICBOX/1.jpg"
+      ],
+      "description": {
+        "text": "Гигантская цветочная коробка переполнена обилием великолепных цветов, варьирующихся в оттенках розового и белого. Розовые пионы, орхидеи и великолепные розовые розы затмевают всех своими нежными лепестками и сладким ароматом. Белые и розовые гортензии добавляют взрыв текстуры и объема, в то время как розовый лизиантус и белая маттиола дополняют общую цветовую гамму и придают причудливый штрих. Композиция прекрасно спроектирована и оформлена, что делает ее идеальным центральным элементом для любого случая или праздника. Невозможно не быть очарованным чистой красотой и элегантностью этой потрясающей цветочной композиции. По любым вопросам или за помощью обращайтесь к нам по телефону +7(999)990-2020"
+      },
+      "size": [
+        "1 комплект"
+      ]
+    },
+    {
+      "id": "150",
+      "title": "Это мальчик!",
+      "price": "9599.00",
+      "nalichie": "0",
+      "img": "colshoper/box/WELCOMEBABYBOYFLOWERS/1.jpg",
+      "hover_img": "colshoper/box/WELCOMEBABYBOYFLOWERS/2.jpg",
+      "submit_date": "2024-04-22",
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "delivery": "доставим сегодня",
+      "color": [
+        "разноцветный"
+      ],
+      "colors": [
+        {
+          "name": "разноцветный",
+          "link": "/shop/150"
+        }
+      ],
+      "collections": "боксы",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0150",
+      "imgs": [
+        "colshoper/box/WELCOMEBABYBOYFLOWERS/1.jpg",
+        "colshoper/box/WELCOMEBABYBOYFLOWERS/2.jpg",
+        "colshoper/box/WELCOMEBABYBOYFLOWERS/3.jpg"
+      ],
+      "description": {
+        "text": "Отпразднуйте светлое событие рождения с нашей удивительной цветочной композицией в белых и синих тонах. Эта элегантная композиция идеально подходит для встречи новорожденного мальчика, детского праздника или любого случая, который требует особого внимания и очарования. Каждый элемент был тщательно подобран, чтобы создать гармонию и красоту, что делает этот букет превосходным выбором для вашего торжества."
+      },
+      "size": [
+        "маленький",
+        "средний",
+        "большой"
+      ]
+    },
+    {
+      "id": "101",
+      "title": "Элегантность Дэвида Остина",
+      "price": "10990.00",
+      "nalichie": "0",
+      "img": "colshoper/roses/DAVIDAUSTIN/1.jpg",
+      "hover_img": "colshoper/roses/DAVIDAUSTIN/2.jpg",
+      "submit_date": "2024-04-22",
+      "delivery": "доставим сегодня",
+      "color": [
+        "оранжевый"
+      ],
+      "colors": [
+        {
+          "name": "оранжевый",
+          "link": "/shop/101"
+        }
+      ],
+      "bouquets": "букеты",
+      "category": "Букеты",
+      "povod": "симпатия",
+      "rating": "1",
+      "popularity": true,
+      "rosesbouquets": true,
+      "featured": false,
+      "new": true,
+      "top_selling": true,
+      "trendy": false,
+      "man": false,
+      "woman": false,
+      "pro_code": "#VA0101",
+      "imgs": [
+        "colshoper/roses/DAVIDAUSTIN/1.jpg",
+        "colshoper/roses/DAVIDAUSTIN/2.jpg"
+      ],
+      "description": {
+        "text": "Почувствуйте воплощение утонченности с нашей коллекцией Элегантность Дэвида Остина, представляющей 25 изысканных роз персикового оттенка. Каждая роза в этой композиции олицетворяет вечную красоту и изящество, присущее сортам Дэвида Остина. Эти розы идеально передают суть роскоши и очарования, создавая зрелище, которое невозможно не заметить. Будь то особый случай или жест признательности, Элегантность Дэвида Остина оставит неизгладимое впечатление. Поднимите свой цветочный опыт с пленительным очарованием этой коллекции."
       },
       "size": [
         "1 комплект"

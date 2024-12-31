@@ -103,7 +103,7 @@ const ModernAgencyPortfolio = () => {
           <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
           <Image
             priority
-            style={{width: '100%', maxHeight: '548px'}}
+            style={{width: '100%', height: '100%'}}
             src={asadsa}
             className='dny'
             alt="Image"

@@ -834,17 +834,17 @@
     background-size: cover;
 
     @media (max-width: 1023px) {
-      position: unset;
+      // position: unset;
       width: 100%;
       height: auto;
     }
 
     @media(min-width: 769px) {
-      &:nth-child(1) {
-        transform: translatex(50%) scalex(2);
-        opacity: 0;
-        filter: blur(10px);                 
-    }
+    //   &:nth-child(1) {
+    //     transform: translatex(50%) scalex(2);
+    //     opacity: 0;
+    //     filter: blur(10px);                 
+    // }
       // @media (max-width: 1023px) {
       //   display: none;
       // }
@@ -858,7 +858,7 @@
       filter: blur(10px);
 
       @media (max-width: 1023px) {
-        opacity: 1;
+        opacity: 0;
       }
     }
 
@@ -866,6 +866,9 @@
       transform: translatex(0) scalex(1);
       opacity: 1;
       filter: blur(0);
+      @media (max-width: 1023px) {
+        opacity: 1;
+      }
     }
   }
 
@@ -913,5 +916,11 @@
 .efgwrbetf {
   @media(max-width: 767px) {
     display: none;
+  }
+}
+
+.image-box__item {
+  @media(max-width: 1023px) {
+
   }
 }

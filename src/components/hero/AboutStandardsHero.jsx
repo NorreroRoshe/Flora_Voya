@@ -35,21 +35,21 @@ const AboutStandardsHero = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="hero__about-content">
-                <h1 className="hero-title hero-title-stand animation__word_come">
+                <h1 className="hero-title hero-title-stand">
                   Кто <strong>мы</strong>
                 </h1>
                 <div className="hero__about-info">
                   <div className="hero__about-btn">
                   </div>
-                  <div className="hero__about-text hero__qual1-text title-anim">
+                  <div className="hero__about-text hero__qual1-text">
                     <p>
                       {/* {
                         "Производство светильников и других изделий Nazaretty - процесс сложный, и трудоемкий."
                       } */}
                     </p>
                   </div>
-                  <div className="hero__about-text hero__qual2-text title-anim">
-                    <p>
+                  <div className="hero__qual2-text">
+                    <p style={{color: '#000'}}>
                       {
                         // "Принцып - иднивидуальный подход к созданию каждой модели и каждой коллекции светильников, позволяют воссоздать изящные и уникальные светильники, которые будут служить вам и украшать ваш интерьер не один год."
                         "Встречайте VOYA-NR. Мы гораздо больше, чем просто служба доставки цветов. Рожденная из необходимости предоставить клиентам по всему миру самые лучшие сорта сезонных цветов, мы предлагаем нотку цветочной роскоши в любом случае, будь то особенный день или повседневный. Всегда высочайшего качества, всегда получены и отправлены экологически безопасным способом, и всегда исключительны. Это путь VOYA-NR."

@@ -49,12 +49,16 @@ export default function ProductModal({ setModalShow, product }) {
   // const priceSize = Number(selectedSize[0]?.replace(/\D/g, ''));
   const priceSize = (() => {
     if (selectedSize[0] === "маленький") return 1;
-    if (selectedSize[0] === "средний") return 1.5;
+    if (selectedSize[0] === "средний") return 1.49;
     if (selectedSize[0] === "большой") return 2;
     if (selectedSize[0] === "классический (30 см)") return 1;
-    if (selectedSize[0] === "большой (40 см)") return 1.5;
-    if (selectedSize[0] === "большой (43 см.)") return 1;
-    if (selectedSize[0] === "экстра (53 см.)") return 1.5;
+    if (selectedSize[0] === "большой (40 см)") return 1.49;
+    if (selectedSize[0] === "средний (43 см.)") return 1;
+    if (selectedSize[0] === "большой (63 см.)") return 1.49;
+    if (selectedSize[0] === "экстра (83 см.)") return 1.95;
+    if (selectedSize[0] === "x2") return 2;
+    if (selectedSize[0] === "x3") return 3;
+
     // Если не "маленький", "средний" или "большой", вернем результат обработки регуляркой
     return Number(selectedSize[0]?.replace(/\D/g, '')) || 1; 
   })();
@@ -438,7 +442,7 @@ export default function ProductModal({ setModalShow, product }) {
                       )}
                       {Math.round(calculatedPrice)} ₽
                       {selectedSize.length === 0 && (
-                        <span className="woocomerce__single-discountprice avewrehtryh">
+                        <span className="avewrehtryh">
                           &nbsp;за шт.
                         </span>
                       )}
@@ -490,7 +494,8 @@ export default function ProductModal({ setModalShow, product }) {
                     {product.colors?.[0].name !== "0" && (
                       <div className='swqevwfbe'>
                         <div className="woocomerce__single-stitle">
-                          Доступные цвета*
+                          {/* Доступные цвета* */}
+                          {product?.colors?.[1]?.name === "x2" ? "Размеры букета" : "Доступные цвета*"}
                         </div>
                         <ul className="woocomerce__single-sizelist" style={{ marginTop: "20px" }}>
                           {product.colors?.map((color, i) => (

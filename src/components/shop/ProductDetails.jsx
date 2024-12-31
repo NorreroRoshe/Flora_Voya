@@ -55,12 +55,15 @@ const ProductDetails = ({ details }) => {
   // const priceSize = Number(selectedSize[0]?.replace(/\D/g, ''));
   const priceSize = (() => {
     if (selectedSize[0] === "маленький") return 1;
-    if (selectedSize[0] === "средний") return 1.5;
+    if (selectedSize[0] === "средний") return 1.49;
     if (selectedSize[0] === "большой") return 2;
     if (selectedSize[0] === "классический (30 см)") return 1;
-    if (selectedSize[0] === "большой (40 см)") return 1.5;
-    if (selectedSize[0] === "большой (43 см.)") return 1;
-    if (selectedSize[0] === "экстра (53 см.)") return 1.5;
+    if (selectedSize[0] === "большой (40 см)") return 1.49;
+    if (selectedSize[0] === "средний (43 см.)") return 1;
+    if (selectedSize[0] === "большой (63 см.)") return 1.49;
+    if (selectedSize[0] === "экстра (83 см.)") return 1.95;
+    if (selectedSize[0] === "x2") return 2;
+    if (selectedSize[0] === "x3") return 3;
 
     // Если не "маленький", "средний" или "большой", вернем результат обработки регуляркой
     return Number(selectedSize[0]?.replace(/\D/g, '')) || 1; 
@@ -464,7 +467,8 @@ const ProductDetails = ({ details }) => {
                                 </>
                               ) : null}
                               <span onClick={toggleExpand} style={{ cursor: 'pointer', color: 'grey' }}>
-                                &nbsp;...<span
+                                &nbsp;&nbsp;&nbsp;...
+                                <span
                                  style={{ marginLeft: '2px' }}
                                 >скрыть</span>
                               </span>
@@ -516,7 +520,7 @@ const ProductDetails = ({ details }) => {
                   <span className="woocomerce__single-discountprice">
                     {Math.round(calculatedPrice)} ₽
                     {selectedSize.length === 0 && (
-                      <span className="woocomerce__single-discountprice avewrehtryh">
+                      <span className="avewrehtryh">
                         &nbsp;за шт.
                       </span>
                     )}
@@ -558,7 +562,18 @@ const ProductDetails = ({ details }) => {
                     {details?.colors?.[0].name !== "0" && (
                       <div style={{ marginTop: "30px" }}>
                         <div className="woocomerce__single-stitle">
-                          Доступные цвета*
+                          {/* Доступные цвета* */}
+                          {details?.colors?.[1]?.name === "x2" ? "Размеры букета" : "Доступные цвета*"}
+                          
+                            {/* {
+                                details?.colors?.[0]?.name === "x1" && details?.colors?.[1]?.name === "x2"
+                                  ? "Размеры букета"
+                                  : details?.colors?.[0]?.name === "x1" && details?.colors?.[1]?.name !== "x2"
+                                  ? ""
+                                  : "Доступные цвета*"
+                              } */
+                            }
+
                         </div>
                         <ul className="woocomerce__single-sizelist" style={{ marginTop: "20px" }}>
                           {details?.colors?.map((color, i) => (
