@@ -118,9 +118,9 @@ export default function Cart() {
                           <a href="mailto:voya-floristica@mail.ru" style={{ display: 'block' }}>
                             voya-floristica@mail.ru
                           </a>
-                          <a href="mailto:voya-floristica@mail.ru" style={{ display: 'block' }}>
-                            voya-floristica@mail.ru
-                          </a>
+                          {/*<a href="mailto:voya-floristica@mail.ru" style={{ display: 'block' }}>*/}
+                          {/*  voya-floristica@mail.ru*/}
+                          {/*</a>*/}
                         </div>
                       </li>
                     </ul>
@@ -130,10 +130,10 @@ export default function Cart() {
                     <a className="pcf-social-a" href="https://www.instagram.com/chucknorrikk?igsh=MTlhdnkzNmRnOGNnYg==">insagram</a>
                   </li> */}
                       <li>
-                        <a className="pcf-social-a" href="https://t.me/Norikyujka">TeleGram</a>
+                        <a target='_blank' className="pcf-social-a" href="https://t.me/Voya_Floristica">TeleGram</a>
                       </li>
                       <li>
-                        <a className="pcf-social-a" href="https://api.whatsapp.com/send?phone=79999902020">WhatsApp</a>
+                        <a target='_blank' className="pcf-social-a" href="https://api.whatsapp.com/send?phone=79999902020">WhatsApp</a>
                       </li>
                     </ul>
                   </div>

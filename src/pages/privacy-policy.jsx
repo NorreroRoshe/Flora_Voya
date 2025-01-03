@@ -192,7 +192,7 @@ const About = () => {
       <main>
         <ProductLayout white='white'>
 
-          <PrivatPolDesc />
+          {/*<PrivatPolDesc />*/}
 
         </ProductLayout>
       </main>

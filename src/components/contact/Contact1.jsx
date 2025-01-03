@@ -87,10 +87,10 @@ const Contact1 = ({ contact }) => {
                     <a className="pcf-social-a" href="https://www.instagram.com/chucknorrikk?igsh=MTlhdnkzNmRnOGNnYg==">insagram</a>
                   </li> */}
                   <li>
-                    <a className="pcf-social-a" href="https://t.me/Voya_Floristica">TeleGram</a>
+                    <a target='_blank' className="pcf-social-a" href="https://t.me/Voya_Floristica">TeleGram</a>
                   </li>
                   <li>
-                    <a className="pcf-social-a" href="https://api.whatsapp.com/send?phone=79999902020">WhatsApp</a>
+                    <a target='_blank' className="pcf-social-a" href="https://api.whatsapp.com/send?phone=79999902020">WhatsApp</a>
                   </li>
                 </ul>
                 {/* </div> */}

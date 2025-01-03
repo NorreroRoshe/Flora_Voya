@@ -133,11 +133,11 @@ const StartupAgencyFooter = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link href="#">
-                          <span>
-                            <i className="fa-brands fa-instagram"></i>
-                          </span>
-                        </Link>
+                        {/*<Link href="#">*/}
+                        {/*  <span>*/}
+                        {/*    <i className="fa-brands fa-instagram"></i>*/}
+                        {/*  </span>*/}
+                        {/*</Link>*/}
                       </li>
                     </ul>
                   </div>
@@ -171,26 +171,26 @@ const StartupAgencyFooter = () => {
                       </Link>
                     </li> */}
                     <li>
-                      <Link href="#">
+                      <Link target='_blank' href="https://wa.me/79999902020">
                         <span>
                           <i className="fa-brands fa-telegram"></i>
                         </span>
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link target='_blank' href="https://t.me/Voya_Floristica">
                         <span>
                           <i className="fa-brands fa-whatsapp"></i>
                         </span>
                       </Link>
                     </li>
-                    <li>
-                      <Link href="#">
-                        <span>
-                          <i className="fa-brands fa-instagram"></i>
-                        </span>
-                      </Link>
-                    </li>
+                    {/*<li>*/}
+                    {/*  <Link href="#">*/}
+                    {/*    <span>*/}
+                    {/*      <i className="fa-brands fa-instagram"></i>*/}
+                    {/*    </span>*/}
+                    {/*  </Link>*/}
+                    {/*</li>*/}
                   </ul>
                 </div>
               </div>
@@ -199,19 +199,19 @@ const StartupAgencyFooter = () => {
                   <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-5 asdqwv">
                     <div className="footer__copyright-6">
                       <p className="sadbgkj">
-                        © 2024 | Voya-floristica <br />{" "}
+                        © 2025 | Voya-floristica <br />{" "}
                       </p>
                     </div>
                   </div>
                   <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-7">
                     <div className="footer__nav">
                       <ul className="footer-menu menu-anim">
-                        <li>
-                          <Link href="/privacy-policy">Политика конфеденциальности</Link>
-                        </li>
-                        <li>
-                          <Link href="/public-oferta">Условия пользования</Link>
-                        </li>
+                        {/*<li>*/}
+                        {/*  <Link href="/privacy-policy">Политика конфеденциальности</Link>*/}
+                        {/*</li>*/}
+                        {/*<li>*/}
+                        {/*  <Link href="/public-oferta">Условия пользования</Link>*/}
+                        {/*</li>*/}
                       </ul>
                     </div>
                   </div>
