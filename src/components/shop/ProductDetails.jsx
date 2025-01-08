@@ -390,12 +390,13 @@ const ProductDetails = ({ details }) => {
                       Магазин <i className="fa-solid fa-chevron-right"></i>
                     </Link>
                   </li>
-                  {/* <li>
-                    <Link href={"#"}>
-                      {details?.category}{" "}
+                  <li>
+                    <Link href={`/collections/${details?.collections}`}
+                    >
+                      {details?.collections}{" "}
                       <i className="fa-solid fa-chevron-right"></i>
                     </Link>
-                  </li> */}
+                  </li>
                   {/* <li>
                     <Link href={"#"}>{details?.title}</Link>
                   </li> */}

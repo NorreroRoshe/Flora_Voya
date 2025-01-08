@@ -171,14 +171,14 @@ const StartupAgencyFooter = () => {
                       </Link>
                     </li> */}
                     <li>
-                      <Link target='_blank' href="https://wa.me/79999902020">
+                      <Link target='_blank' href="https://t.me/Voya_Floristica">
                         <span>
                           <i className="fa-brands fa-telegram"></i>
                         </span>
                       </Link>
                     </li>
                     <li>
-                      <Link target='_blank' href="https://t.me/Voya_Floristica">
+                      <Link target='_blank' href="https://wa.me/79999902020">
                         <span>
                           <i className="fa-brands fa-whatsapp"></i>
                         </span>
