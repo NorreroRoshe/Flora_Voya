@@ -79,13 +79,42 @@ const ServiceElementV2 = () => {
                       </div>
                     </Link>
 
-                    <Link href="https://www.instagram.com/voya_floristica">
+                    {/*<Link href="https://www.instagram.com/voya_floristica">*/}
+                    {/*  <div*/}
+                    {/*      className="service__item  animation_home1_service"*/}
+                    {/*      data-service="2"*/}
+                    {/*  >*/}
+                    {/*    <div className="service__text">*/}
+                    {/*      <Image className='wqcdwedfevdfsd' src={inst} alt='InstagramLogo'/>*/}
+                    {/*    </div>*/}
+                    {/*    <div className="service__title-wrapper">*/}
+                    {/*      <h4 className="service__title">*/}
+                    {/*        Instagram*/}
+                    {/*      </h4>*/}
+                    {/*    </div>*/}
+                    {/*    <div className="service__link">*/}
+                    {/*      <p>*/}
+                    {/*        <i className="fa-solid fa-arrow-right"></i>*/}
+                    {/*      </p>*/}
+                    {/*    </div>*/}
+                    {/*  </div>*/}
+                    {/*</Link>*/}
+                    <Link
+                        href="instagram://user?username=voya_floristica"
+                        onClick={(e) => {
+                          // Если приложение Instagram не установлено, перенаправляем в браузер
+                          if (!window.navigator.userAgent.toLowerCase().includes('instagram')) {
+                            e.preventDefault(); // Отменяем действие по умолчанию
+                            window.location.href = 'https://www.instagram.com/voya_floristica/';
+                          }
+                        }}
+                    >
                       <div
-                          className="service__item  animation_home1_service"
+                          className="service__item animation_home1_service"
                           data-service="2"
                       >
                         <div className="service__text">
-                          <Image className='wqcdwedfevdfsd' src={inst} alt='InstagramLogo'/>
+                          <Image className="wqcdwedfevdfsd" src={inst} alt="InstagramLogo" />
                         </div>
                         <div className="service__title-wrapper">
                           <h4 className="service__title">
