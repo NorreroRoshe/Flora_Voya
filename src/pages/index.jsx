@@ -292,7 +292,6 @@ const Index = () => {
   const review = allReview.review;
 
 
-  console.log(featured,'featured')
   return (
     <>
       <Head>

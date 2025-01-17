@@ -1,5 +1,7 @@
 // All Common Components
 
+import ServiceElementV2 from "@/components/service/ServiceElementV2";
+
 export { default as CommonAnimation } from "./common/CommonAnimation";
 export { default as CursorAnimation } from "./common/CursorAnimation";
 export { default as Switcher } from "./common/Switcher";
@@ -90,3 +92,5 @@ export {default as DigitalAgencyDesCTA} from "./cta/DigitalAgencyDesCTA"
 export {default as ForDesDetails} from "./checkout/ForDesDetails"
 export {default as DigitalAgencyCTA} from "./cta/DigitalAgencyCTA"
 export {default as DigitalMarketingService} from "./service/DigitalMarketingService"
+export {default as ServiceElementV2} from "./service/ServiceElementV2"
+
