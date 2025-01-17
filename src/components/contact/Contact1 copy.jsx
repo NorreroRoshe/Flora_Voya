@@ -86,9 +86,9 @@ const Contact1Zakaz = ({ contact }) => {
                 {/* <div className="pcf-social"> */}
                 <h3 className="pcf-social-h3">Пишите нам в  </h3>
                 <ul className="pcf-social-ul">
-                  {/* <li className="pcf-social-li">
-                    <a className="pcf-social-a" href="https://www.instagram.com/chucknorrikk?igsh=MTlhdnkzNmRnOGNnYg==">insagram</a>
-                  </li> */}
+                  <li className="pcf-social-li">
+                    <a className="pcf-social-a" href="https://www.instagram.com/voya_floristica">insagram</a>
+                  </li>
                   <li>
                     <a className="pcf-social-a" href="https://t.me/Norikyujka">TeleGram</a>
                   </li>

@@ -83,20 +83,21 @@ const Contact1 = ({ contact }) => {
                 {/* <div className="pcf-social"> */}
                 <h3 className="pcf-social-h3">Пишите нам в  </h3>
                 <ul className="pcf-social-ul">
-                  {/* <li className="pcf-social-li">
-                    <a className="pcf-social-a" href="https://www.instagram.com/chucknorrikk?igsh=MTlhdnkzNmRnOGNnYg==">insagram</a>
-                  </li> */}
+                  <li className="pcf-social-li">
+                    <a className="pcf-social-a" href="https://www.instagram.com/voya_floristica">Insagram</a>
+                  </li>
                   <li>
                     <a target='_blank' className="pcf-social-a" href="https://t.me/Voya_Floristica">TeleGram</a>
                   </li>
                   <li>
-                    <a target='_blank' className="pcf-social-a" href="https://api.whatsapp.com/send?phone=79999902020">WhatsApp</a>
+                    <a target='_blank' className="pcf-social-a"
+                       href="https://api.whatsapp.com/send?phone=79999902020">WhatsApp</a>
                   </li>
                 </ul>
                 {/* </div> */}
               </div>
             </div>
-            <Contact2 />
+            <Contact2/>
           </div>
         </div>
       </section>

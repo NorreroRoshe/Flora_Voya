@@ -133,11 +133,11 @@ const StartupAgencyFooter = () => {
                         </Link>
                       </li>
                       <li>
-                        {/*<Link href="#">*/}
-                        {/*  <span>*/}
-                        {/*    <i className="fa-brands fa-instagram"></i>*/}
-                        {/*  </span>*/}
-                        {/*</Link>*/}
+                        <Link href="https://www.instagram.com/voya_floristica">
+                          <span>
+                            <i className="fa-brands fa-instagram"></i>
+                          </span>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -184,13 +184,13 @@ const StartupAgencyFooter = () => {
                         </span>
                       </Link>
                     </li>
-                    {/*<li>*/}
-                    {/*  <Link href="#">*/}
-                    {/*    <span>*/}
-                    {/*      <i className="fa-brands fa-instagram"></i>*/}
-                    {/*    </span>*/}
-                    {/*  </Link>*/}
-                    {/*</li>*/}
+                    <li>
+                      <Link href="https://www.instagram.com/voya_floristica">
+                        <span>
+                          <i className="fa-brands fa-instagram"></i>
+                        </span>
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </div>

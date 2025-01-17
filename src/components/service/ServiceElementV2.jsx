@@ -58,7 +58,7 @@ const ServiceElementV2 = () => {
               <div className="row" style={{justifyContent: "center"}}>
                 <div className="col-xxl-8 col-xl-8 col-lg-12 col-md-12">
                   <div className="service__list">
-                  <Link href="/service-details">
+                  <Link href="https://t.me/Voya_Floristica">
                       <div
                           className="service__item animation_home1_service"
                           data-service="1"
@@ -79,7 +79,7 @@ const ServiceElementV2 = () => {
                       </div>
                     </Link>
 
-                    <Link href="/service-details">
+                    <Link href="https://www.instagram.com/voya_floristica">
                       <div
                           className="service__item  animation_home1_service"
                           data-service="2"
@@ -100,7 +100,7 @@ const ServiceElementV2 = () => {
                       </div>
                     </Link>
 
-                    <Link href="/service-details">
+                    <Link href="https://wa.me/79999902020">
                       <div
                           className="service__item  animation_home1_service"
                           data-service="4"
@@ -121,7 +121,7 @@ const ServiceElementV2 = () => {
                       </div>
                     </Link>
 
-                    <Link href="/service-details">
+                    <Link href="https://voya-floristica.ru">
                       <div
                           className="service__item  animation_home1_service"
                           data-service="3"
