@@ -33,7 +33,7 @@ const ServiceV2 = () => {
         </Head>
         <main>
           <div className="has-smooth" id="has_smooth"></div>
-          <ScrollTop />
+          {/*<ScrollTop />*/}
           <div id="smooth-wrapper">
             <div id="smooth-content">
               <ServiceElementV2 />
