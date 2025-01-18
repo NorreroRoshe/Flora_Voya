@@ -21,7 +21,7 @@ const ServiceElementV2 = () => {
               <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5 erwth">
                 <div className="sec-title-wrapper wrap">
                   <div className="woocomerce__header-logow">
-                    <Link href={"/"}>
+                    <Link target='_blank' href={"/"}>
                       <Image
                           priority
                           width={190}
@@ -58,7 +58,7 @@ const ServiceElementV2 = () => {
               <div className="row" style={{justifyContent: "center"}}>
                 <div className="col-xxl-8 col-xl-8 col-lg-12 col-md-12">
                   <div className="service__list">
-                  <Link href="https://t.me/Voya_Floristica">
+                  <Link target='_blank' href="https://t.me/Voya_Floristica">
                       <div
                           className="service__item animation_home1_service"
                           data-service="1"
@@ -79,42 +79,13 @@ const ServiceElementV2 = () => {
                       </div>
                     </Link>
 
-                    {/*<Link href="https://www.instagram.com/voya_floristica">*/}
-                    {/*  <div*/}
-                    {/*      className="service__item  animation_home1_service"*/}
-                    {/*      data-service="2"*/}
-                    {/*  >*/}
-                    {/*    <div className="service__text">*/}
-                    {/*      <Image className='wqcdwedfevdfsd' src={inst} alt='InstagramLogo'/>*/}
-                    {/*    </div>*/}
-                    {/*    <div className="service__title-wrapper">*/}
-                    {/*      <h4 className="service__title">*/}
-                    {/*        Instagram*/}
-                    {/*      </h4>*/}
-                    {/*    </div>*/}
-                    {/*    <div className="service__link">*/}
-                    {/*      <p>*/}
-                    {/*        <i className="fa-solid fa-arrow-right"></i>*/}
-                    {/*      </p>*/}
-                    {/*    </div>*/}
-                    {/*  </div>*/}
-                    {/*</Link>*/}
-                    <Link
-                        href="instagram://user?username=voya_floristica"
-                        onClick={(e) => {
-                          // Если приложение Instagram не установлено, перенаправляем в браузер
-                          if (!window.navigator.userAgent.toLowerCase().includes('instagram')) {
-                            e.preventDefault(); // Отменяем действие по умолчанию
-                            window.location.href = 'https://www.instagram.com/voya_floristica/';
-                          }
-                        }}
-                    >
+                    <Link target='_blank' href="https://www.instagram.com/voya_floristica">
                       <div
-                          className="service__item animation_home1_service"
+                          className="service__item  animation_home1_service"
                           data-service="2"
                       >
                         <div className="service__text">
-                          <Image className="wqcdwedfevdfsd" src={inst} alt="InstagramLogo" />
+                          <Image className='wqcdwedfevdfsd' src={inst} alt='InstagramLogo'/>
                         </div>
                         <div className="service__title-wrapper">
                           <h4 className="service__title">
@@ -129,7 +100,7 @@ const ServiceElementV2 = () => {
                       </div>
                     </Link>
 
-                    <Link href="https://wa.me/79999902020">
+                    <Link target='_blank' href="https://wa.me/79999902020">
                       <div
                           className="service__item  animation_home1_service"
                           data-service="4"
@@ -150,7 +121,7 @@ const ServiceElementV2 = () => {
                       </div>
                     </Link>
 
-                    <Link href="https://voya-floristica.ru">
+                    <Link target='_blank' href="https://voya-floristica.ru">
                       <div
                           className="service__item  animation_home1_service"
                           data-service="3"
