@@ -15,7 +15,7 @@ gsap.registerPlugin(ScrollTrigger);
 const ServiceElementV2 = () => {
   return (
       <>
-        <section className="service__area service-v2 pt-40 pb-150">
+        <section className="service__area service-v2 pt-40 pb-150 wqedfs">
           <div className="container">
             <div className="row ewrtgyuj">
               <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5 erwth">
@@ -49,6 +49,12 @@ const ServiceElementV2 = () => {
                   </p>
                   <p className='dwfegsarf' style={{display: 'block'}}>
                     Премиальный сервис доставки
+                  </p>
+                  <p className='dwfegssaarf'>
+                    {/*<span>Заказать:</span> &nbsp;*/}
+                    <Link href='tel:79999902020' className='csevaarf'>
+                      +7-999-990-20-20
+                    </Link>
                   </p>
                 </div>
               </div>
