@@ -455,7 +455,7 @@ const ProductDetails = ({ details }) => {
                           {details?.description?.text1}
                         </p>
                       )} */}
-                      {wordCount > 35 ? (
+                      {wordCount > 12 ? (
                         <p className="woocomerce__single-discription">
                           {isExpanded ? (
                             <>
@@ -476,7 +476,7 @@ const ProductDetails = ({ details }) => {
                             </>
                           ) : (
                             <>
-                              {text1.split(/\s+/).slice(0, 35).join(' ')}
+                              {text1.split(/\s+/).slice(0, 12).join(' ')}
                               {/* &nbsp; */}
                               &nbsp;...
                               <span onClick={toggleExpand} style={{ cursor: 'pointer', color: 'grey', marginLeft: '2px' }}>

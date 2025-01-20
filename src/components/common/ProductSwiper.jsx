@@ -7,7 +7,7 @@ const ProductSwiper = ({ featured }) => {
     <>
       <Swiper
         modules={[Navigation]}
-        speed={2000}
+        speed={600}
         slidesPerView={4}
         spaceBetween={20}
         navigation={{
