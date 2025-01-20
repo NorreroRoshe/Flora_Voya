@@ -1647,3 +1647,17 @@
 .wqedfs {
   height: 86vh;
 }
+
+.scewretgd {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 8px;
+  right: -32px;
+  @media (max-width: 500px) {
+    top: 3px;
+    right: -13px;
+    width: 18px;
+    height: 18px;
+  }
+}

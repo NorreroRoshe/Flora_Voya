@@ -22,8 +22,8 @@ const ServiceV2 = () => {
   return (
       <>
         <Head>
-          <title>Service V2</title>
-          <meta name="description" content="Service V2 Description" />
+          <title>Все ссылки</title>
+          <meta name="description" content="Все ссылки компании Voya" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link
               rel="icon"
