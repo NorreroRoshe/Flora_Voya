@@ -857,6 +857,12 @@
       opacity: 0;
       filter: blur(10px);
 
+      @media (max-width: 1380px) {
+        transform: none;
+        opacity: 1;
+        filter: none;
+      }
+
       @media (max-width: 1023px) {
         opacity: 0;
       }
