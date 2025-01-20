@@ -54,7 +54,7 @@ const ServiceElementV2 = () => {
                     </svg>
                   </p>
                   <p className='dwfegsarf' style={{display: 'block'}}>
-                    Премиальный сервис доставки
+                    Премиальный сервис доставки цветов
                   </p>
                   <p className='dwfegssaarf'>
                     {/*<span>Заказать:</span> &nbsp;*/}
