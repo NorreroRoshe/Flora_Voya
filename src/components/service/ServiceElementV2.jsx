@@ -8,7 +8,7 @@ import site from "../../../public/assets/imgs/service/1/3.svg";
 import wa from "../../../public/assets/imgs/service/1/4.svg";
 import Image from "next/image";
 import LogoBlack from "../../../public/assets/imgs/logo/logo-black.png";
-import LogoCircle from "../../../public/assets/imgs/logo/logo-black.svg";
+import LogoCircle from "../../../public/assets/imgs/logo/logo-black1.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
