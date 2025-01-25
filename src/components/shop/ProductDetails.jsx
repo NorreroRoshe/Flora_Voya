@@ -391,9 +391,14 @@ const ProductDetails = ({ details }) => {
                     </Link>
                   </li>
                   <li>
-                    <Link href={`/collections/${details?.collections}`}
+                    <Link
+                        href={
+                          details?.collections
+                              ? `/collections/${details.collections}`
+                              : `/bouquets/${details?.bouquets}`
+                        }
                     >
-                      {details?.collections}{" "}
+                      {details?.collections || details?.bouquets}{" "}
                       <i className="fa-solid fa-chevron-right"></i>
                     </Link>
                   </li>
@@ -403,7 +408,7 @@ const ProductDetails = ({ details }) => {
                 </ul>
                 <div className="woocomerce__single-content">
                   <h2 className="woocomerce__single-title"
-                  // style={{marginTop: '20px'}}
+                      // style={{marginTop: '20px'}}
                   >{details?.title}</h2>
                   <div className="woocomerce__single-pricelist">
                   {/* <span className="woocomerce__single-discountprice">
