@@ -1,5 +1,5 @@
 import AppContext from "@/components/AppContext";
-import { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Preloader, CartContent } from "@/components";
 import ProductLayout from "@/components/common/layout/ProductLayout";
 import Image from "next/image";
@@ -8,6 +8,7 @@ import { Button } from "react-bootstrap";
 import Link from "next/link";
 import { Contact1Zakaz } from "@/components";
 import useSWR from "swr";
+import Head from "next/head";
 
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
@@ -100,6 +101,16 @@ export default function Cart() {
   if (!data) return <Preloader />;
   return (
     <>
+      <Head>
+        <title>Корзина заказов</title>
+        <meta name="description" content="Ваша корзина с цветами Voya" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="assets/imgs/logo/favicon.png"
+        />
+      </Head>
       {!loading ? (
         <ProductLayout>
           <div className="woocomerce__cart">

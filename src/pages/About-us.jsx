@@ -186,8 +186,8 @@ const About = () => {
   return (
     <div>
       <Head>
-        <title>Quality Standards</title>
-        <meta name="description" content="About Description" />
+        <title>О компании Voya</title>
+        <meta name="description" content="Мы гораздо больше, чем просто служба доставки цветов" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>

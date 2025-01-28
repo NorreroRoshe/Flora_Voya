@@ -22,7 +22,7 @@ const Faq = () => {
     <div>
       <Head>
         <title>FAQ</title>
-        <meta name="description" content="FAQ Description" />
+        <meta name="description" content="Все вопросы и ответы компании Voya" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>

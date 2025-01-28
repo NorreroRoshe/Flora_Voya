@@ -66,8 +66,8 @@ const OrderConfirmation = () => {
   return (
     <>
       <Head>
-        <title>Order Confirmation</title>
-        <meta name="description" content="OrderConfirmation Description" />
+        <title>Страница заказа</title>
+        <meta name="description" content="Успешно оформленный заказ" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>

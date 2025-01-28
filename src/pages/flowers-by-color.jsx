@@ -288,8 +288,8 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>Home</title>
-        <meta name="description" content="Home Description" />
+        <title>Цветы по цветам</title>
+        <meta name="description" content="В данном разделе вы сможете найти любой оттенок любимого цветка" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>

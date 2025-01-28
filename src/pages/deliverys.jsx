@@ -194,8 +194,8 @@ const [mode, setMode] = React.useState("");
   return (
     <div>
       <Head>
-        <title>VOYA delivery</title>
-        <meta name="description" content="About Description" />
+        <title>VOYA доставка</title>
+        <meta name="description" content="Все о доставке цветов от компании Voya" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>

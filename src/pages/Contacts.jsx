@@ -20,8 +20,8 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Contact</title>
-        <meta name="description" content="Contact Description" />
+        <title>Контакты Voya</title>
+        <meta name="description" content="Заказать букет: +79999902020" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>

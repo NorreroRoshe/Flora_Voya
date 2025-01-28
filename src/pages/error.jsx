@@ -7,7 +7,7 @@ const Error = () => {
     <>
       <Head>
         <title>Error</title>
-        <meta name="description" content="Error Description" />
+        <meta name="description" content="Error" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>

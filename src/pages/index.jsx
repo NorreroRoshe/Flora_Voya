@@ -296,7 +296,7 @@ const Index = () => {
     <>
       <Head>
         <title>Home</title>
-        <meta name="description" content="Home Description" />
+        <meta name="description" content="Главная страница компании Voya" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
